@@ -1,0 +1,275 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"bg", file="zbg036c", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="華乃", size="z1", mode=3, resize=1, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0019", head="kan_z1a", lv=2.3, id=13, sync=0},
+		{"extrans", rule="rule_002r", vague=40},
+		{"bgm", file="bgm08"},
+		{"fgact", ch="華乃", act="おじぎ", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_11161", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「哈啊，这样的话总归算是能画画了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 17,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我们从午后开始就一直在拆硬纸箱，直到现在才总算是准备好了华乃的居住空间。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 19,
+	},
+	block_00002 = {
+		{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1a1110", ex05="kan_z1a0010", face="a0054", head="kan_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1a1110", ex05="kan_z1a0010", face="a0022h", head="kan_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_11162", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「谢谢啦，只有我一个人的话可能连自己的房间都收拾不好呢。你真是太可靠了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 26,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「真高兴华乃能这么说……你看我，平时都没能做些什么像是男友该做的事情」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 29,
+	},
+	block_00004 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0022h", head="kan_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0054h", head="kan_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_11163", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「像是来帮忙做社团的事情就已经起很大作用啦。再多有点自信吧。一直以来都谢谢你哦」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 36,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"被华乃这么坦率地夸奖，我作为男人的自尊心也得到了极大的满足。华乃可是一个，作为恋人不管在什么方面都非常理想的女孩子啊……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 38,
+	},
+	block_00006 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", zoom=120, file="zbg036c", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="華乃", size="z2", mode=3, resize=1, path=":fg/kan/z2/", file="kan_z2b1110", ex05="kan_z2b0010", face="b0023", head="kan_z2b", lv=2.4, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z2", mode=3, path=":fg/kan/z2/", file="kan_z2b1110", ex05="kan_z2b0010", face="b0022", head="kan_z2b", lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_11164", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「那明天以后也都拜托了哦。我想在春假期间把工作室整个都完美地安置好呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 50,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「嗯？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 53,
+	},
+	block_00008 = {
+		{"fg", ch="華乃", size="z2", mode=3, path=":fg/kan/z2/", file="kan_z2b1110", ex05="kan_z2b0010", face="b0054", head="kan_z2b", lv=2.4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_11165", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「在春假期间就拜托你了哦」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 58,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「交，交给我吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 61,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"本来没想到这样的生活每天都会持续，所以听到华乃这么说还吃了一惊。被华乃这么撒着娇地拜托，我也根本没有任何拒绝的余地。要，要作为华乃的男友好好加油了呢！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 63,
+	},
+	block_00011 = {
+		{"fg", ch="華乃", size="z2", mode=3, path=":fg/kan/z2/", file="kan_z2a1110", ex05="kan_z2a0010", face="a0054", head="kan_z2a", lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z2", hoho="h", mode=3, path=":fg/kan/z2/", file="kan_z2a1100", ex05="kan_z2a0000", face="a0019h", head="kan_z2a", lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_11166", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「作为谢礼我会请你吃好多好吃的东西的。还有穿着喜欢的衣服H也是」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 70,
+	},
+	block_00012 = {
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「交给我吧！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 75,
+	},
+	block_00013 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"bg", file="catch02", id=9, lv=9, time=500, path=":cg/"},
+		{"bgm", file="bgm92", loop=0},
+		{"ex", time=6000, func="wait"},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="02_華乃05"},
+		{"text"},
+		linkback = "block_00012",
+		line = 83,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

@@ -1,0 +1,861 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="接下来是粉丝社区时间！"},
+		{"se", file="se鳥チュンチュン3", id=1, loop=1, time=2000},
+		{"bg", time=2000, file="white", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"唔……",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 15,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"阳光以不同于以往的角度从窗外射进屋内，使我想起自己并不是睡在自家的床上。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 17,
+	},
+	block_00002 = {
+		{"bg", speed=120000, rule="008b", time=2000, file="zbg036a", path=":bg/", x2=640, y2=-100, x=-640, y=-100, ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"随即我意识到那个应该被我搂在怀里的人不见了。因为那柔软且充满魅力的触感早已消失。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 21,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"昨天……按照时间来说应该是今天，又或者说几个小时之前，我们还在鱼水之欢直到筋疲力尽。连华乃都说自己已经动不了了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 23,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"华乃是早上起来后恢复了吗。我这边倒是还有些乏力……嘿咻，我懒洋洋地在床上翻了个身。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 25,
+	},
+	block_00005 = {
+		{"se", file="se抱きつく", id=2, vol=50},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"就在这时背后传来了什么东西被压到的声音。好像是有人坐在床边上。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 29,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"至于“那个人”是谁，还没等到我确认……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 31,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10705", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「咦？你醒了？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 36,
+	},
+	block_00008 = {
+		{"se", stop=1, id=1, time=2500},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"bg", speed=6000, file="zev_kan_33_01", path=":ev/ev_kan_33/", x2=-500, y2=-330, x=480, y=110, set="ev_kan_33", ax=1280, ay=720, bx=-640, by=-360},
+		{"ex", time=1500, func="wait"},
+		{"bg", file="ev_kan_33_01", path=":ev/ev_kan_33/", set="ev_kan_33"},
+		{"bgm", file="bgm02"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"回头望去，正是今后共度朝夕的那人……虽然我早有预料，但她大胆的装扮却让我吃了一惊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 50,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「刚醒……就在你过来的几十秒之前。刚想明白这里是哪儿你就过来了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 53,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10706", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「人家明明还想要看看你的睡颜呢。不如来再睡一会儿吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 56,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不用了我已经完全清醒了……都怪你穿成这样子。为什么只穿了件衬衫？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 59,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10707", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「这样比较轻便呀。啊，要喝咖啡吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 62,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「要……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 65,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我直起身子，从她手中接过装着咖啡的马克杯。话说，这不就是……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 67,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「华乃，你莫非……为了营造气氛……特意只穿了一件衬衫吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 70,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10708", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「嗯。我啊，一直很期待起床的早安咖啡环节的。不管是你为我泡还是我来为你泡都可以」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 73,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「那么，那个让你产生期待的作品里，女生只穿了一件衬衫吗」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 76,
+	},
+	block_00018 = {
+		{"bg", sync=0, face="1", file="ev_kan_33_03", time=400, path=":ev/ev_kan_33/", set="ev_kan_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10709", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「你知道——？虽然我也记不起是什么作品了……可能没准是同人志吧。也许是杀区本？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 85,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「刚起床只穿一件衬衣的话，很可能是r18的作品。可我没印象的杀区本都已经相当老了，也许是什么时候买的同人志吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 88,
+	},
+	block_00020 = {
+		{"bg", sync=0, face="1", file="ev_kan_33_01", time=400, path=":ev/ev_kan_33/", set="ev_kan_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10710", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「或许是某部电影让我对早安咖啡留下了深刻的印象？油画什么的里面不也经常会出现只穿着一件衬衣的女性形象吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 93,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"华乃随意地岔开了话题。毕竟穿都穿了，说这些也没啥用就是了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 95,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10711", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「嗯，总之我期待的事情又完成了一件……谢谢。我很感激」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 100,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「哇——这话说的，好像只有你一个人喜欢早安咖啡一样，其实我也很期待的哦。不过咖啡稍微有些太甜了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 103,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10712", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「咦？你不是喜欢甜的东西吗？平时喝的不都是牛奶咖啡吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 106,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「昨昨天甜蜜恩爱了一晚上，所以现在我想喝苦咖啡了……当然，想喝什么味道只是心血来潮啦」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 109,
+	},
+	block_00026 = {
+		{"bg", sync=0, face="1", file="ev_kan_33_03", time=400, path=":ev/ev_kan_33/", set="ev_kan_33"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"手里拿着马克杯的华乃没有伸手戳我的脸，但她还是嗔怪般地露出了可爱的表情。我也不禁笑了出来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 115,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10713", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「还有，两个人一起出发上学也是我的一个小梦想」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 120,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「哎呀，说来确实。可能很少有人会在学生时代有这样的体验」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 123,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10714", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「从爱情旅馆去上学的学生可能也有不少哦？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 126,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「咦，也就是说班里那些看着若无其事的家伙中，实际上昨晚却做了吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 129,
+	},
+	block_00031 = {
+		{"bg", sync=0, face="1", file="ev_kan_33_01", time=400, path=":ev/ev_kan_33/", set="ev_kan_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10715", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「多管闲事。不过倒也确实有可能就是了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 137,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「咦——」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 140,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我自以为比同级的那些家伙更早一步登上了大人的台阶，但可能还是迟了一步。当然，“比一部分人早”这是肯定的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 142,
+	},
+	block_00034 = {
+		{"bg", x=450, y=230, time=500, file="zev_kan_33_01", path=":ev/ev_kan_33/", set="ev_kan_33", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10716", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「但我想，这个年纪就同居的情侣，就算找遍整个年级恐怕也没有第二个了吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 148,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「也是。虽说是无师自通，但我感觉我还是领先了一大截」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 151,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10717", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「等进入大学半年左右，同居的学生情侣可能就会有很多了。与其说他们“同居”，不如说他们自然而然地“住在了一起”」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 154,
+	},
+	block_00037 = {
+		{"bg", sync=0, face="1", file="zev_kan_33_03", time=400, path=":ev/ev_kan_33/", set="ev_kan_33", ax=1280, ay=720, bx=-640, by=-360, x=450, y=230},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10718", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「从情感方面看，虽然都是同居，但我们终究还是要超前一些。对吧，主人？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 159,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「嗯。我会让你幸福的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 162,
+	},
+	block_00039 = {
+		{"bg", sync=0, face="1", file="zev_kan_33_04", time=400, path=":ev/ev_kan_33/", set="ev_kan_33", ax=1280, ay=720, bx=-640, by=-360, x=450, y=230},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"华乃似乎以为我会糊弄过去或者感到害羞，却没想到我会认真回应。差点打翻了手里的咖啡。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 168,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「话说回来“主人”这种称呼，是昨晚的继续吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 171,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10719", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「为什么这么平静啊……你就不能给点反应么……虽然是我自己说出口的，呜呜呜感觉好害羞……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 174,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「嗯。谁叫你要管我叫做主人呢。华乃，稍微过来点……脸凑过来就行了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 177,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10720", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「呜。你真的太冷静了啦」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 180,
+	},
+	block_00044 = {
+		{"bg", sync=0, face="1", file="zev_kan_33_05", time=400, path=":ev/ev_kan_33/", set="ev_kan_33", ax=1280, ay=720, bx=-640, by=-360, x=450, y=230},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"难得华乃满脸通红。我趁她心神不安之时吻了她。她的呼吸急促到超乎我想象。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 186,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这种早安吻，早晚也要习惯的吧。不过，大概一年之后……华乃要回老家一趟。想要将这种新鲜感再保持两年下去啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 188,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"朝夕共度化寻常，长相厮守君莫忘。不过现在还是学生，还是好好享受恋爱时光吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 190,
+	},
+	block_00047 = {
+		{"bg", time=500, file="ev_kan_33_01", path=":ev/ev_kan_33/", set="ev_kan_33"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「话说回来。既然这么重视气氛，那泡咖啡的马克杯就应该选的时髦一点，至少得是纯白色的呀？比如战誓的马克杯」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 195,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10721", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「这不也很有我们的风格吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 198,
+	},
+	block_00049 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="white", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=0, func="wait"},
+		{"bgm", file="bgm01", unlock=1},
+		{"bgm", file="bgm02", unlock=1},
+		{"bgm", file="bgm03", unlock=1},
+		{"bgm", file="bgm04", unlock=1},
+		{"bgm", file="bgm05", unlock=1},
+		{"bgm", file="bgm06", unlock=1},
+		{"bgm", file="bgm07", unlock=1},
+		{"bgm", file="bgm08", unlock=1},
+		{"bgm", file="bgm09", unlock=1},
+		{"bgm", file="bgm10", unlock=1},
+		{"bgm", file="bgm11", unlock=1},
+		{"bgm", file="bgm12", unlock=1},
+		{"bgm", file="bgm13", unlock=1},
+		{"bgm", file="bgm14", unlock=1},
+		{"bgm", file="bgm15", unlock=1},
+		{"bgm", file="bgm16", unlock=1},
+		{"bgm", file="bgm17", unlock=1},
+		{"bgm", file="bgm18", unlock=1},
+		{"bgm", file="bgm19", unlock=1},
+		{"bgm", file="bgm20", unlock=1},
+		{"bgm", file="bgm21", unlock=1},
+		{"bgm", file="bgm22", unlock=1},
+		{"bgm", file="bgm23", unlock=1},
+		{"bgm", file="bgm24", unlock=1},
+		{"bgm", file="bgm25", unlock=1},
+		{"bgm", file="bgm26", unlock=1},
+		{"bgm", file="bgm27", unlock=1},
+		{"bgm", file="bgm28", unlock=1},
+		{"bgm", file="bgm29", unlock=1},
+		{"bgm", file="bgm30", unlock=1},
+		{"bgm", file="bgm31", unlock=1},
+		{"bgm", file="bgm32", unlock=1},
+		{"bgm", file="bgm33", unlock=1},
+		{"bgm", file="bgm34", unlock=1},
+		{"bgm", file="bgm35", unlock=1},
+		{"scene", file="scene09"},
+		{"staffroll", ch="華乃"},
+		{"bg", file="black", path=":bg/", sync=0},
+		{"bg", file="exdlg_kan", cond="g.kan==0", id=1, lv=5, path=":cg/", ax=960, ay=540, bx=-320, by=-180, sync=0},
+		{"extrans", time=250},
+		{"ex", time=20000, func="wait"},
+		{"eval", exp="g.kanend=1"},
+		{"eval", exp="g.kan=1"},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"タイトル"},
+		{"text"},
+		linkback = "block_00048",
+		line = 258,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

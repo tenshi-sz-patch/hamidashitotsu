@@ -1,0 +1,1676 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="咸巧克力迪斯科"},
+		{"bg", speed=120000, time=2000, file="zbg001a", path=":bg/", x2=-640, y2=100, x=640, y=100, ax=1280, ay=720, bx=-640, by=-360},
+		{"bgm", file="bgm06"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"今天是2月14日。今年的这一天是周日。",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 14,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"老实说，我每年都很期待这一天。因为在这一天，我可以享受属于强者的优越。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 16,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"连朋友都没有的我，何谈恋人呢。而这样的我，又如何作为强者呢。答案就是我有妃爱这样一个值得绝对信赖的妹妹，她每年都会给我准备手工巧克力。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 18,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"对妃爱而言，如果被人看见在百货商店或是实体店买名牌巧克力，就可能被误解成是“有男人了”。所以每年她都亲手给我做巧克力。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 20,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"网上有许多每年只能从母亲那里收到巧克力的人。向他们炫耀“我妹妹给我做巧克力了”让我倍感优越。这也不会让我感到空虚，因为这就是事实。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 22,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过因为无法发出图片而被人嘲讽。后来也被认为我只是在口嗨，所以我默默关掉帖子就再也没打开过了。一击脱离，这就是我，一个精通如何网络对线的人。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 24,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我不能真的把图片发到推特上。和妃爱有关系的，即使没有直接联系，也尽量不要上传。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 26,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"毕竟不少明星虽然自身言行谨慎，却常常因为身边人的闲言碎语而招致祸端……为了规避风险，实物就留给自己独自享用吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 28,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"顺带一提，给我巧克力的不只妹妹，还有姐姐。里姐每年也会送我各种各样的巧克力。品质不错，是在千玉站前的百货店里买的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 30,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过每次都要被里姐说“别光从我这里拿啊，去找个会专门给小智准备巧克力的女朋友啊。”弄得我都不想回答她。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 32,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这件每年都会做的事到了今年却下不去手。因为我真的交到女朋友了，因为这事太过荒谬，以至于我都不敢去匿名吹牛了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 34,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我不太清楚诗樱学姐到底重不重视这种节日性的活动。感觉去年的圣诞节我们就很普通的度过了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 36,
+	},
+	block_00012 = {
+		{"bgm", stop=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"msgoff"},
+		{"bg", file="bg002a", path=":bg/", sync=0},
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa1110", ex05="shi_noa0010", face="a0039", head="shi_noa", lv=2.2, id=13, sync=0},
+		{"bg", file="reco", id=9, lv=9, path=":sys/", sync=0},
+		{"extrans"},
+		{"bgm", file="bgm07"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00422", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「和泉老师在问我下周的安排……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 58,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"诗樱学姐看着日历对我说道。日历上密密麻麻地写着学姐和妃爱的日程，这么做也是为了方便照顾我。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 60,
+	},
+	block_00014 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa1110", ex05="shi_noa0010", face="a0001", head="shi_noa", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa1100", ex05="shi_noa0000", face="a0038", head="shi_noa", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00423", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「下周妃爱亲挺忙的。不过因为要开演唱会了，这么忙也合理。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 66,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"和泉家12月的日程排得比其他月份都要满。不只是今年，每年都是这样。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 68,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"里姐也是知道这一点才会去问学姐的安排吧。我现在去趟便利店都要大费周章。而学姐为了照顾我，即使在忙碌的日子里，也会来给我做晚饭。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 70,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「由于妃爱人气极高，临近圣诞节的时间都会被排满工作……24号和25号自不用说，在那前后的周末都需要谨慎行事。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 73,
+	},
+	block_00018 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob1110", ex05="shi_nob0010", face="b0018", head="shi_nob", lv=2.2, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00424", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「嗯我也是，要不是住在一起了，圣诞节那段时间听不到妃爱亲的吐槽，总感觉少了什么呢。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 78,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「妃爱还算好的。锦每天都要直播，圣诞这几天可都是随时临战状态。为了服务我们这些听众。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 81,
+	},
+	block_00020 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob1110", ex05="shi_nob0010", face="b0028", head="shi_nob", lv=2.2, id=13},
+		{"fgact", ch="詩桜", act="おじぎ", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob1100", ex05="shi_nob0000", face="b0019", head="shi_nob", lv=2.2, id=13},
+			},
+			vl02 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob1100", ex05="shi_nob0000", face="b0018", head="shi_nob", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00425", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「吃蛋糕不带上妃爱亲总觉得过意不去。晚上就不吃烧鸡了，吃味增汤加萝卜鰤鱼吧。再只是装饰一下圣诞树吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 89,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「也行。怎么说呢，我们家每年差不多也就这样。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 92,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"其实要是身体能自由行动的话，还想去看看演唱会，毕竟去年就没去成。学姐一定也很想去吧，可现在因为要照顾我去不了。这让我有些惭愧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 94,
+	},
+	block_00023 = {
+		{"msgoff"},
+		{"bg", file="zbg002a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="詩桜", size="z1", mode=3, resize=1, path=":fg/shi/z1/", file="shi_z1b1100", ex05="shi_z1b0000", face="b0002", head="shi_z1b", lv=2.3, id=13, sync=0},
+		{"bg", file="reco", id=9, lv=9, path=":sys/", sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00426", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「……要不，今年的交换礼物也取消吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 104,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「嗯？啊，好……好吧。我现在这个样子，也打不了工……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 107,
+	},
+	block_00025 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b1110", ex05="shi_z1b0010", face="b0032", head="shi_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b1110", ex05="shi_z1b0010", face="b0015", head="shi_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00427", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「作为补偿我准备了试题集。今年的圣诞就来开学习会吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 113,
+	},
+	block_00026 = {
+		{"quake", mode="mw"},
+		{"se", file="seガーン", id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「呜......」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 119,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然我发出了痛苦的惨叫，但诗樱学姐的关怀却温暖了我的心。她是考虑到我如果无法回礼会内心愧疚，所以才这么决定的吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 121,
+	},
+	block_00028 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b1110", ex05="shi_z1b0010", face="b0023", head="shi_z1b", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00428", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「也别在圣诞树上吊袜子了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 126,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「诗樱学姐的袜子，要不当礼物送给我吧，嘿嘿。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 129,
+	},
+	block_00030 = {
+		{"se", file="se物音", id=1},
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a1100", ex05="shi_z1a0000", face="a0003", head="shi_z1a", lv=2.3, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"然后诗樱学姐尝试把参考书塞进袜子里，要是可以的话刚脱下来的就更好了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 135,
+	},
+	block_00031 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"bg", file="bg001a", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"所以说，去年的圣诞节毫无节日氛围可言。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 144,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"要说发生了什么有圣诞氛围的事的话，那就是圣诞老人妃爱从演唱会给我们带回来了许多周边。诗樱学姐开心得都哭出来了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 146,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"圣诞过得冷冷清清，新年则过得红红火火。妃爱是那种重视一年之始的性格，这么做倒也正常。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 148,
+	},
+	block_00034 = {
+		{"bgm", stop=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"msgoff"},
+		{"bg", x=-400, file="zbg002a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="妃愛", size="z1", mode=3, resize=1, path=":fg/hiy/z1/", file="hiy_z1a1000", ex05="hiy_z1a0000", face="a0055", head="hiy_z1a", lv=2.3, id=13, sync=0},
+		{"bg", file="reco", id=9, lv=9, path=":sys/", sync=0},
+		{"extrans"},
+		{"bgm", file="bgm28"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01257", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「元旦没有工作。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 170,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"无视了只能在大扫除里帮忙刷刷碗的我。妃爱和诗樱学姐两个人在精心制作着年菜。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 172,
+	},
+	block_00036 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b1000", ex05="hiy_z1b0000", face="b0022", head="hiy_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b1000", ex05="hiy_z1b0000", face="b0053", head="hiy_z1b", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b1000", ex05="hiy_z1b0000", face="b0055", head="hiy_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01258", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「今年是和泉家动荡的一年。看样子明年家里也会有大变化，必须得认真参拜才行。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 179,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"妃爱年纪不大，却很重视神佛。可能因为其中大概也混杂着对父母的思念吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 181,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"最近我走路可以不拄拐了，也积极地在附近散步。所以妃爱也有意带着我去参加新年初拜。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 183,
+	},
+	block_00039 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b1000", ex05="hiy_z1b0000", face="b0003", head="hiy_z1b", lv=2.3, id=13},
+		{"fgact", ch="妃愛", act="びっくり", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b1000", ex05="hiy_z1b0000", face="b0016", head="hiy_z1b", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b1010", ex05="hiy_z1b0010", face="b0006", head="hiy_z1b", lv=2.3, id=13},
+				{"fgact", ch="妃愛", act="ジャンプ", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01259", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「还要祈祷哥哥再也不会遭遇危险！为了让哥哥早日康复，今年得多捐些香火钱！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 192,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我虽然没资格对妃爱花钱的方式指手画脚，但还是觉得最好别捐太多……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 195,
+	},
+	block_00041 = {
+		{"msgoff"},
+		{"bg", x=400, file="zbg002a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b1110", ex05="shi_z1b0010", face="b0001", head="shi_z1b", lv=2.3, id=13, sync=0},
+		{"bg", file="reco", id=9, lv=9, path=":sys/", sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00429", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「十万日元够了吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 205,
+	},
+	block_00042 = {
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不是，那个……！从捐香火钱的角度来说，这也太多了吧。虽然我也不配指点诗樱学姐花钱的方式……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 210,
+	},
+	block_00043 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b1100", ex05="shi_z1b0000", face="b0016", head="shi_z1b", lv=2.3, id=13},
+		{"fgact", ch="詩桜", act="いいえ", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b1100", ex05="shi_z1b0000", face="b0027", head="shi_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00430", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「我这不是什么香火钱，是初穗金。还要进行保佑出行平安的祈福仪式呢。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 219,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「诗樱学姐意外地虔诚啊……我还以为你是现实主义者呢……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 222,
+	},
+	block_00045 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a1100", ex05="shi_z1a0000", face="a0039", head="shi_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a1100", ex05="shi_z1a0000", face="a0001", head="shi_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00431", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「虔诚的反义词是不是现实主义还有待商榷。不过我也不至于投入全部身家去求神拜佛，也就跟一般人差不多吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 228,
+	},
+	block_00046 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a1110", ex05="shi_z1a0010", face="a0028", head="shi_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a1110", ex05="shi_z1a0010", face="a0023", head="shi_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00432", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「只是不为你做点什么，总感觉寝食难安。要是花十万日元就能排解，那也算是值得的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 234,
+	},
+	block_00047 = {
+		{"fg", ch="妃愛", size="z1", mode=1, path=":fg/hiy/z1/", file="hiy_z1a1010", ex05="hiy_z1a0010", face="a0006", head="hiy_z1a", lv=2.3, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01260", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「完全同意！香火钱我就花个几万吧！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 239,
+	},
+	block_00048 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b1110", ex05="shi_z1b0010", face="b0003", head="shi_z1b", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00433", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「我也捐几万吧。就不到六位数了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 244,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这对我们家附近的神社来说，真是新年的开门红……看这势头，我妹妹和恋人还会去弄很多护身符。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 246,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"据说我们家附近的神社还会保佑学业，即将面临考试的我还是得好好去拜一拜，和他们搞好关系。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 248,
+	},
+	block_00051 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"msgoff"},
+		{"bg", file="bg002c", path=":bg/", sync=0},
+		{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0300", ex05="mir_noa0000", face="a0054", head="mir_noa", x=-380, lv=2.2, id=7, sync=0},
+		{"fg", ch="詩桜", size="no", hoho="h", mode=3, resize=1, path=":fg/shi/no/", file="shi_noa1100", ex05="shi_noa0000", face="a0053h", head="shi_noa", x=0, lv=2.2, id=13, sync=0},
+		{"fg", ch="妃愛", size="no", hoho="h", mode=3, resize=1, path=":fg/hiy/no/", file="hiy_noa1000", ex05="hiy_noa0000", face="a0053h", head="hiy_noa", x=380, lv=2.2, id=8, sync=0},
+		{"bg", file="reco", id=9, lv=9, path=":sys/", sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"另外她们两个做的年菜连里姐也赞不绝口。里姐吃饱喝足后，决定元旦也住我们家了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 265,
+	},
+	block_00052 = {
+		{"bgm", stop=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"bg", file="zbg001a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360},
+		{"bgm", file="bgm04"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"综上，很难说清楚，诗樱学姐到底关不关心这些节日。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 278,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过一年重要的节日要说起来，也就是新年、圣诞和情人节这些了吧。但不管怎么说，情人节是男女之间重要的活动之一。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 280,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"考虑到白情人节的回礼，今天不送我巧克力也是完全可能的。必须避免过高的期望，这样即使没有收到，我也不至于哭出来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 282,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"而我的恋人，此刻正在为我做午饭。今天妃爱要工作到夜晚，家里就只有两人和一狗……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 284,
+	},
+	block_00056 = {
+		{"se", file="seドア(室内開き)", id=1},
+		{"bg", time=500, file="bg001a", path=":bg/"},
+		{"fg", ch="詩桜", size="no", mx=-40, mode=3, path=":fg/shi/no/", file="shi_nob1100", ex05="shi_nob0000", face="b0022", head="shi_nob", lv=2.2, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00434", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「久等了。来吃午饭吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 297,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"诗樱学姐一开门，那独具特色充满食欲的香气就飘了过来。我一下子就明白今天中午吃什么了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 299,
+	},
+	block_00058 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="rule_001", wait=250, file="black", path=":bg/", vague=40},
+		{"bg", x=640, y=-100, rule="rule_001", vague=40, file="zbg002a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360},
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"呼呜。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 309,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"搞不好诗樱学姐是认真的，所以我尽量避免发出奇怪的声音。但这个，还是有点。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 311,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"今天的午饭是咖喱。那味道在二楼都闻得出来。大多数日本人，闻到这个味道都会食欲大开吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 313,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我还记得学姐做的咖喱的味道，只是这次的香味更加浓郁。估计是自己配的料。仅从这点就能感到学姐的用心。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 315,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"而且咖喱的颜色也很浓，比茶色和焦茶色都要浓。估计是那种黑咖喱。从颜色来看，可能是作为巧克力的替代品。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 317,
+	},
+	block_00063 = {
+		{"bg", file="cutin_020", id=1, lv=5, path=":cg/", my=40, time=400},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"到此都还好，可一看对面的碗，里面盛的饭的形状却不太正常，看起来很奇怪。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 324,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不对，没什么奇怪的。因为是恋人所以没什么好奇怪的。又因为是两人独处所以更没什么奇怪的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 326,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"没错，没什么好奇怪的……但是好害羞。我再次确认没有看错，此后就错开了视线。这饭盛的……是不是提一嘴更好啊……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 328,
+	},
+	block_00066 = {
+		{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_noa1110", ex05="shi_noa0010", face="a0054", head="shi_noa", lv=2.2, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_noa1110", ex05="shi_noa0010", face="a0022", head="shi_noa", lv=2.2, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00435", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「今天的酱我可下了一番功夫。希望你喜欢。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 334,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这不是重点啊，不是还有比这更不一样的东西吗。和平时相比。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 336,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「那，那个。酱的确闻着就很香，但那个，饭是不是有点……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 339,
+	},
+	block_00069 = {
+		{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_noa1100", ex05="shi_noa0000", face="a0008", head="shi_noa", lv=2.2, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_noa1100", ex05="shi_noa0000", face="a0001", head="shi_noa", lv=2.2, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00436", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「嗯，饭吗？饭就是用和泉家平常吃的米做的啊……还是说用黄姜饭更好？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 345,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「那个，不是指饭做得怎么样……是盛出来的样子.......」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 348,
+	},
+	block_00071 = {
+		{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_noa1100", ex05="shi_noa0000", face="a0022", head="shi_noa", lv=2.2, id=20},
+		{"fgact", ch="詩桜", act="おじぎ", lv=2.2, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00437", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 354,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"诗樱学姐一副恍然大悟的样子，好像从来没想过我会在意饭的形状一样。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 356,
+	},
+	block_00073 = {
+		{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_nob1110", ex05="shi_nob0010", face="b0006", head="shi_nob", lv=2.2, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00438", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「今天不是情人节吗。就弄成情人节风格的了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 361,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「高兴归高兴啦，不过还是好害羞……不，我非常高兴。真的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 364,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我从没想过，诗樱学姐会给我准备这样一份恋人风格的惊喜……我期待了好久，所以大概比诗樱学姐想象的还要开心。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 367,
+	},
+	block_00076 = {
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"bg", file="bg002a", path=":bg/", sync=0},
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa1110", ex05="shi_noa0010", face="a0052", head="shi_noa", lv=2.2, id=13, sync=0},
+		{"extrans"},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa1110", ex05="shi_noa0010", face="a0032", head="shi_noa", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00439", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「似乎比起那些精心设计的小细节，还是大胆地表达心意对你更管用。所以这次就尝试着直接进攻。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 379,
+	},
+	block_00077 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa1110", ex05="shi_noa0010", face="a0055", head="shi_noa", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", hoho="h", mode=3, path=":fg/shi/no/", file="shi_noa1100", ex05="shi_noa0000", face="a0022h", head="shi_noa", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00440", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「能让你开心就好了。还有，我也会有点害羞的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 385,
+	},
+	block_00078 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"真是的。今年的情人节我收到了最让人心动的礼物。和诗樱学姐交往真是我人生一幸。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 387,
+	},
+	block_00079 = {
+		{"fg", ch="資正", size="no", mode=1, path=":fg/suk/no/", file="suk_noa0000", face="a0001", head="suk_noa", lv=2.2, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="etc_suk_00013", ch="suk"},
+			},
+			ja = {
+				{
+					name = {"資正"},
+					"「咕呜~」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 394,
+	},
+	block_00080 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob1110", ex05="shi_nob0010", face="b0053", head="shi_nob", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob1110", ex05="shi_nob0010", face="b0019", head="shi_nob", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00441", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「要不给你也盛成心形的。只要我男朋友不嫉妒就好。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 400,
+	},
+	block_00081 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「哈哈哈我才不会嫉妒资正这种家伙……现在的我已经被爱情填满了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 403,
+	},
+	block_00082 = {
+		{"fg", ch="資正", size="no", mode=1, path=":fg/suk/no/", file="suk_noa0000", face="a0003", head="suk_noa", lv=2.2, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="etc_suk_00014", ch="suk"},
+			},
+			ja = {
+				{
+					name = {"資正"},
+					"「哕哕哕哕哕……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 408,
+	},
+	block_00083 = {
+		{"msgoff"},
+		{"bg", x=640, y=-100, file="zbg002a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"bg", file="cutin_020", id=1, lv=5, path=":cg/", sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「但这也太可惜了，都有些下不去勺子了……真不想弄乱这个形状……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 417,
+	},
+	block_00084 = {
+		{"fg", ch="詩桜", size="z1", mode=1, resize=1, path=":fg/shi/z1/", file="shi_z1b1110", ex05="shi_z1b0010", face="b0032", head="shi_z1b", lv=2.3, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=1, path=":fg/shi/z1/", file="shi_z1b1110", ex05="shi_z1b0010", face="b0053", head="shi_z1b", lv=2.3, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00442", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「这就像祗园精舍的钟声，有形之物终将消散。你不是喜欢拍照吗，干脆拍张照保存起来吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 423,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「是啊！谢谢，马上就拍。这要是天梨绝对马上就传ins上去了。咔嚓。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 426,
+	},
+	block_00086 = {
+		{"fg", ch="詩桜", size="z1", mode=1, path=":fg/shi/z1/", file="shi_z1a1100", ex05="shi_z1a0000", face="a0042", head="shi_z1a", lv=2.3, id=20},
+		{"se", file="seコミ_眼光", id=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00443", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「就不说公开给全世界了，不许给别人看。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 432,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"充满杀气地目光死死地盯着我。这份心型的饭说到底也只是给我一个人看的。毕竟再怎么说也让人觉得害羞。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 434,
+	},
+	block_00088 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊，话说回来，在用餐前这么闹腾真是抱歉。都还一口未动呢……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 437,
+	},
+	block_00089 = {
+		{"fg", ch="詩桜", size="z1", mode=1, path=":fg/shi/z1/", file="shi_z1a1100", ex05="shi_z1a0000", face="a0055", head="shi_z1a", lv=2.3, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=1, path=":fg/shi/z1/", file="shi_z1a1100", ex05="shi_z1a0000", face="a0019", head="shi_z1a", lv=2.3, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00444", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「没事。你开心才是对我最大的回报。我也是，要不是太兴奋了，也不会把饭盛成这样。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 444,
+	},
+	block_00090 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"哇啊。已经有新婚生活的感觉了，心里怦怦直跳的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 446,
+	},
+	block_00091 = {
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"bg", x=400, file="zbg002a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b1100", ex05="shi_z1b0000", face="b0055", head="shi_z1b", lv=2.3, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b1100", ex05="shi_z1b0000", face="b0022", head="shi_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00445", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「我还做了饭后甜点。虽然不是自己做的，但也希望能让你满意。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 458,
+	},
+	block_00092 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"哎，这顿亲手做的饭已经让我很满足了，还有点心……这是不是意味着巧克力要来了呢？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 460,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"如诗樱学姐所说，我不是一个心思细腻的人，但怎么都不会不解风情到去问甜点是什么。真幸福啊，情人节。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 462,
+	},
+	block_00094 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"bg", file="catch04", id=9, lv=9, time=500, path=":cg/"},
+		{"bgm", file="bgm94", loop=0},
+		{"ex", time=6000, func="wait"},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="04_詩桜03_2"},
+		{"text"},
+		linkback = "block_00093",
+		line = 468,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

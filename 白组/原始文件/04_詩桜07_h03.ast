@@ -1,0 +1,3710 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="桃白白（捏他龙珠）"},
+		{"bgm", file="bgm18"},
+		{"msgoff"},
+		{"bg", file="bg025a", path=":bg/", sync=0},
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0800", ex05="shi_noa0000", face="a0001", head="shi_noa", lv=2.2, id=13, sync=0},
+		{"extrans", rule="rule_002r", vague=40},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01405", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「好了……虽然说现在我心情不错……」",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 21,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我在卧室等着，惊讶地发现诗樱学姐真的完全还原了那日的样子。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 23,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"鞋子也是那天的长筒皮靴——还戴着猫耳的和服女仆……！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 25,
+	},
+	block_00003 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0810", ex05="shi_nob0010", face="b0027", head="shi_nob", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0810", ex05="shi_nob0010", face="b0001", head="shi_nob", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01406", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「现在呢也暂且想和你忘我地来做……不过这并不代表着我就不吃常磐的醋了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 31,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「实在是抱歉。那我该如何平息诗樱学姐的怒火呢？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 34,
+	},
+	block_00005 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0810", ex05="shi_nob0010", face="b0023", head="shi_nob", lv=2.2, id=13},
+		{"fgact", ch="詩桜", act="いいえ", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0810", ex05="shi_nob0010", face="b0032", head="shi_nob", lv=2.2, id=13},
+			},
+			vl02 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0800", ex05="shi_nob0000", face="b0026", head="shi_nob", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01407", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「不，我并没有生气。相反，我十分享受体验吃醋这一新鲜的情感。也让我想要好好欺负你了，哼哼……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 42,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"或许仍生着气，但诗樱学姐却表现出一副即使是嫉妒也很释怀的样子，这让我意识到她那份成熟。起码表面上看来是这样。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 44,
+	},
+	block_00007 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0810", ex05="shi_noa0010", face="a0039", head="shi_noa", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0810", ex05="shi_noa0010", face="a0050", head="shi_noa", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01408", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「嘛，我在这自顾吃醋对常磐来说也是很失礼吧。如果是她的话一定会说『为什么是我啊』。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 50,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「确实。如果被我用那种目光看待，还和她说诗樱学姐吃你的醋的话，我想她一定会说『不要把我卷进来啊，你这满脑子黄色废料的白痴。』。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 53,
+	},
+	block_00009 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0800", ex05="shi_noa0000", face="a0006", head="shi_noa", lv=2.2, id=13},
+		{"fgact", ch="詩桜", act="うなづく", lv=2.2, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01409", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「但也正因如此，我想在女性的方面胜过常磐。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 59,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「是在说对常磐很失礼的那个开场白？学姐到底想要干什么啊，真是让人头大哦。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 62,
+	},
+	block_00011 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0810", ex05="shi_noa0010", face="a0052", head="shi_noa", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0810", ex05="shi_noa0010", face="a0054", head="shi_noa", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01410", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「没什么，我并没有打算找她的麻烦。只是想让你知道我之后行动有什么意义罢了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 68,
+	},
+	block_00012 = {
+		{"msgoff"},
+		{"bg", file="zbg025a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="詩桜", size="z1", mode=3, resize=1, path=":fg/shi/z1/", file="shi_z1a0810", ex05="shi_z1a0010", face="a0027", head="shi_z1a", lv=2.3, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0800", ex05="shi_z1a0000", face="a0006", head="shi_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01411", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「她也有着作为女性足以自豪的身材。不过我在胸部大小这一方面也很有自信。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 79,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「胸，胸部？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 82,
+	},
+	block_00014 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0810", ex05="shi_z1b0010", face="b0015", head="shi_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0810", ex05="shi_z1b0010", face="b0031", head="shi_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01412", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「是的。并不是想和她竞争，而是基于尊重的前提下，在她那充满吸引力的领域也展现一下自己的魅力。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 88,
+	},
+	block_00015 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0810", ex05="shi_z1b0010", face="b0006", head="shi_z1b", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01413", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「换言之，就是我想要用胸部来侍奉你。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 93,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"难不成是要那个吧？说到用胸部来侍奉的话除了那个我也想不到别的了。虽然如果期待落空会很难受，但是还是可以期待的吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 95,
+	},
+	block_00017 = {
+		{"excall", label="noscene", cond="s.scene==0"},
+		{"bg", file="zbg025a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0800", ex05="shi_z1b0000", face="b0032", head="shi_z1b", lv=2.3, id=13, sync=0},
+		{"extrans"},
+		{"bgm", file="bgm18"},
+		{"savetitle", text="桃白白（捏他龙珠）"},
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0800", ex05="shi_z1b0000", face="b0032", head="shi_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0800", ex05="shi_z1b0000", face="b0019", head="shi_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01414", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「请坐到床上，如果有损你情趣的话容我说一声抱歉，我来给你脱吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 120,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「完全没有，简直是情趣满满。穿着女仆装这样做，就像是被侍奉一样心怦怦跳个不停。 」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 123,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我觉得帮脱衣服也是侍奉的一部分，要是能这样被诗樱学姐服侍着度过每一天的话……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 126,
+	},
+	block_00020 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0800", ex05="shi_z1a0000", face="a0032", head="shi_z1a", lv=2.3, id=13},
+		{"fgact", ch="詩桜", act="おじぎ", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0810", ex05="shi_z1a0010", face="a0010", head="shi_z1a", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0810", ex05="shi_z1a0010", face="a0039", head="shi_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01415", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「让我给您脱下来吧。老公……或许叫主人更好？虽然我觉得应该没有像我这样傲慢的女仆就是了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 134,
+	},
+	block_00021 = {
+		{"fg", ch="詩桜", time=500, my=40, mode=-1, lv=2.3, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不不不，这样就好。被毒舌高冷年上女仆教授各种知识什么的，实在是令人兴奋啊。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 139,
+	},
+	block_00022 = {
+		{"bgm", stop=1},
+		{"se", file="se衣擦れ", id=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"bg", speed=60000, file="zev_sio_h35_02", path=":ev/ev_sio_h35/", x2=450, y2=320, x=-120, y=-350, set="ev_sio_h35", ax=1280, ay=720, bx=-640, by=-360},
+		{"bgm", file="bgm20"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01416", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「那就开始教育吧。首先是教会你我的胸部有多么的舒服。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 152,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"哦哦哦哦哦哦果然和之前想的一样果然是那个啊啊啊啊啊啊！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 154,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不知何时诗樱学姐解开了胸部的束缚，用她那丰满的欧派将我的肉棒夹住，紧紧地从两侧向其施压。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 156,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"男人都会向往的光景此刻就在我眼前发生。虽然之前也有几次乳交的经历，但有着色气可爱的女仆装加成，兴奋度简直是倍增。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 158,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"好大——诗樱学姐的欧派大小无需多言。虽然说起来有些失礼，不过我认为比常磐的胸部还要大。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 160,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在女性里也有着压倒性优势的胸部，却仅为夹着我的那玩意而使用，真是奢侈。比一个人吃满汉全席还要奢侈，美女比美食更吸引人啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 162,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01417", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「哦？从你龟头的状态来看，女仆装的效果已经发挥出来了啊。毕竟也做过好多次了呢，哼哼。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 165,
+	},
+	block_00029 = {
+		{"bg", time=500, file="ev_sio_h35_01", path=":ev/ev_sio_h35/", set="ev_sio_h35"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01418", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「只是穿着女仆装可真是够热的，明明空调开的26度……下次的话要还是穿薄点吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 170,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"诗樱学姐腾不出手来擦额头和胸口的汗。如玉一般的汗珠沿着胸部向下流，十分色情。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 172,
+	},
+	block_00031 = {
+		{"bg", sync=0, face="1", file="ev_sio_h35_02", time=400, path=":ev/ev_sio_h35/", set="ev_sio_h35"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01419", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「为了让做爱不那么无聊，把你喜欢的衣服都准备上吧。旗袍怎么样？还是说兔女郎装之类的？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 177,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「喜欢你去海边时穿的泳装。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 180,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01420", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「啊……你是很重视回忆的那种啊。既然这样，今后和你的生活里，要不要穿上各式服装，把一同创造美好回忆放在首位呢。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 183,
+	},
+	block_00034 = {
+		{"bg", sync=0, face="1", file="ev_sio_h35_01", time=400, path=":ev/ev_sio_h35/", set="ev_sio_h35"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01421", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「才交往一年就考虑不让做爱无聊什么的也太早了。我要把你调教成没有我连勃起都做不到的人哦。好乖好乖。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 188,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"诗樱学姐一直在调教我啊。身体已经变成没有学姐就不行的样子了，学姐的调教真是厉害啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 190,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01422", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「我听说过由于性生活不和而分手的事情。所以身体相性好真是万幸。想让你沉溺于快感之中啊……无论是肉体还是精神。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 193,
+	},
+	block_00037 = {
+		{"bg", time=500, file="ev_sio_h35_03", path=":ev/ev_sio_h35/", set="ev_sio_h35"},
+		{"se", file="seエロ_挿入、ヌメリ2", id=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01423", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「欸，唔哇唔哇……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 203,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"诗樱学姐张开嘴，伸出滑溜溜的舌头，流下大量唾液。唾液和汗水交织在一起，在胸间的沟壑里形成了一块三角形的池塘。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 205,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我最敏感的部位正浮于池塘之上。如果被舔舐的话一定会把持不住……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 207,
+	},
+	block_00040 = {
+		{"se", file="seエロ_手コキ：弱", id=1, loop=1},
+		{"lvo", ch="shi", file="fem_shi_70316", loop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01424", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「好啦～姆啾姆啾姆啾姆啾。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 213,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「学姐，那里不行……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 216,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"刚做好心理准备，敏感的龟头便在滑溜溜的唾液池塘里被胸部蹭来蹭去。随即，前列腺液由马眼涌了出来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 218,
+	},
+	block_00043 = {
+		{"bg", sync=0, face="1", file="ev_sio_h35_05", time=400, path=":ev/ev_sio_h35/", set="ev_sio_h35"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01425", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「主人，感觉怎么样呀？嘛，我觉得也用不着问就是了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 225,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「非常爽，感觉马上就要射出来了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 228,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01426", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「什么，还不够刺激吗？我明白了，我会给你更强的刺激的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 231,
+	},
+	block_00046 = {
+		{"bg", sync=0, face="1", file="ev_sio_h35_04", time=400, path=":ev/ev_sio_h35/", set="ev_sio_h35"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"伴着咕啾咕啾的声音，诗樱学姐玩弄着我的龟头。每当被学姐的胸夹住擦蹭的时，我都会深刻认识到，除小穴和嘴之外的这第三性器的厉害之处。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 235,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01427", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「哈啊好想再多长出一只手来……这样的话可以一边刺激着后穴，一边抓住蛋蛋，同时握住肉棒，舔舐乳头……啊，三只手也忙不过来。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 241,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01428", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「如果胸部夹住肉棒的同时刺激前列腺，这样的话，你会露出什么样的表情呢……光想想就很兴奋！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 244,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「诗樱前辈对我的后面很感兴趣啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 247,
+	},
+	block_00050 = {
+		{"bg", sync=0, face="1", file="ev_sio_h35_07", time=400, path=":ev/ev_sio_h35/", set="ev_sio_h35"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01429", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「因为我也想听你叫出声啊……总是只有我叫出来什么的很不甘心啊。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 252,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01430", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「被你插进来的话……就会无可救药地变成雌性呢。女人的核心部位被刺激的话，就冷静不下来。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 255,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01431", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「因而失去理性，想像孩子一样撒娇……被你按倒，然后屈服，忘我地叫出声来。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 258,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"想象着诗樱学姐喘息着像孩子一样向我撒娇的场景，本就勃起的肉棒更是涨得发硬。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 260,
+	},
+	block_00054 = {
+		{"bg", x=90, y=140, time=500, file="zev_sio_h35_05", path=":ev/ev_sio_h35/", set="ev_sio_h35", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01432", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「真想让你体会身为女孩子的我的心境。被捏住乳头，气喘吁吁地恳求着『前辈，请让我高潮』……一定很可爱吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 265,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01433", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「嗯～？想到自己被欺负的样子反而更加兴奋了吗？果然小智还挺M的啊……那就把身体交给我，忘我地叫出来吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 268,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不如说现在的我更像是S，想让诗樱学姐像小孩子一样叫出声来。不过现状却是学姐握住了我的弱点，所以不太好说出来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 270,
+	},
+	block_00057 = {
+		{"bg", sync=0, face="1", file="zev_sio_h35_04", time=400, path=":ev/ev_sio_h35/", set="ev_sio_h35", ax=1280, ay=720, bx=-640, by=-360, x=90, y=140},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01434", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「啊不好，明明说要侍奉你的。却沉浸在自己的幻想里了。主人，请原谅我这个不懂礼数的女仆……可以吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 277,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01435", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「如果你期待的话，之后可以满足你哺乳手交、颜面骑乘、播种位的愿望。但是请先享受我的侍奉。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 280,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「诗樱学姐，你从哪里学到的上面几个词语的……？你以前应该不知道这些吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 283,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01436", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「因为你喜欢黄油和工口漫啊，所以我当然也要学习。了解了你喜欢的东西后，我才能以我的方式帮你实现愿望啊。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 286,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"诗樱学姐生性好学。就像是龟兔赛跑的兔子一样。不过这兔子可是不依赖天赋，而是比赛前认真训练，以万全准备迎接比赛毫不松懈的兔子。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 288,
+	},
+	block_00062 = {
+		{"bg", time=500, file="ev_sio_h35_05", path=":ev/ev_sio_h35/", set="ev_sio_h35"},
+		{"lvo", ch="shi", file="fem_shi_70317", loop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01437", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「好啦主人～你的鸡鸡状态很好嘛，姆啾姆啾姆啾姆啾。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 297,
+	},
+	block_00063 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"啊啊啊啊啊要射了要射了，被这样用胸部激烈磨蹭的话要忍不住射精了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 299,
+	},
+	block_00064 = {
+		{"bg", sync=0, face="1", file="ev_sio_h35_06", time=400, path=":ev/ev_sio_h35/", set="ev_sio_h35"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01438", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「是不是还不够滑呢……啊姆，嗯唔……唔……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 306,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"诗樱学姐伸出舌头就很色气了啊……舌头上滴下唾液的样子更不用说，实在是色情的很。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 308,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01439", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「哼哼哼，虽然想舔，不过今天想练习只用胸部就让你射出来。如果你想让我吸的话，射出来之后我会好好给你吸个一干二净的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 311,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01440", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「嘛，我也想被你插入，身体深处已经痒痒的了。如果射出来后鸡鸡萎靡不振的话就麻烦了……今天我也想要一场激烈的性爱哦，主人。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 314,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「诗，诗樱学姐……太刺激了，马上就要射出来了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 317,
+	},
+	block_00069 = {
+		{"bg", sync=0, face="1", file="ev_sio_h35_07", time=400, path=":ev/ev_sio_h35/", set="ev_sio_h35"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01441", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「我已经预想到这种情况了，冰箱里有伟哥哦。如果要的话就和我说哦……想要大量浓郁粘稠的精液……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 322,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01442", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「考试结束后，作为奖励我会好好疼爱你一天的。不……我说谎了。如果通过了考试的话，不只是你，也为我庆祝一下，我也想要被疼爱。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 325,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「学姐，太狡猾了。讨论着那么幸福的未来，都把我心里填满了，让我已经忍不住想射出来了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 328,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01443", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「不必顾虑，尽管射出来吧。脸上也好胸上也好，选一个喜欢的地方射上去吧，请。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 331,
+	},
+	block_00073 = {
+		{"bg", sync=0, face="1", file="ev_sio_h35_04", time=400, path=":ev/ev_sio_h35/", set="ev_sio_h35"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01444", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「啊还有，难得穿一次女仆装，希望你能偶尔一次不叫我学姐，而是叫我诗樱。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 336,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「诗，诗樱，想射，请让我射出来……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 339,
+	},
+	block_00075 = {
+		{"bg", sync=0, face="1", file="ev_sio_h35_07", time=400, path=":ev/ev_sio_h35/", set="ev_sio_h35"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01445", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「哈啊啊啊啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 344,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我如恋人一般，叫了诗樱学姐的名字，发现学姐的身体明显地颤抖了起来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 346,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01446", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「没想到都相处到现在了，被叫名字仍会让我如此兴奋，那就请接受我最高等级的侍奉吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 351,
+	},
+	block_00078 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"诗樱手部的动作也逐渐色情，为了让我射出来，已经将自己的胸揉的不成样子了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 353,
+	},
+	block_00079 = {
+		{"bg", sync=0, face="1", file="ev_sio_h35_05", time=400, path=":ev/ev_sio_h35/", set="ev_sio_h35"},
+		{"se", stop=1, id=1, time=500},
+		{"se", file="seエロ_手コキ：強", id=2, loop=1},
+		{"lvo", ch="shi", file="fem_shi_70317", loop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01447", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「就这样射出来吧，姆啾姆啾姆啾姆啾。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 362,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊……射了，要射了，诗樱！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 365,
+	},
+	block_00081 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01448", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「主人，射出来吧。是想射在我的脸上呢，还是射在胸上呢？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 368,
+	},
+	block_00082 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「两个地方都想……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 371,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01449", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「哈哈，主人还真是贪得无厌呢。不过今天任性一点也无妨。请用我的身体来倾泻欲望吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 374,
+	},
+	block_00084 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01450", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「请射到我的脸上，主人……胸部也要。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 377,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊，去了……！射出来了……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 380,
+	},
+	block_00086 = {
+		{"se", stop=1, id=2, time=500},
+		{"lvo", ch="shi", stop=1},
+		{"bg", id=9, lv=9, sync=1, time=100, file="white", path=":bg/"},
+		{"bg", id=9, lv=9, sync=1, time=300, alpha=0, file="white", path=":bg/"},
+		{"bg", id=9, lv=9, sync=1, time=500, alpha=255, file="white", path=":bg/"},
+		{"cgdel", id=9, lv=9},
+		{"bg", file="ev_sio_h35_08", sync=0, time=1000, vague=100, path=":ev/ev_sio_h35/", set="ev_sio_h35"},
+		{"se", file="seエロ_射精外出し2", id=9, time=0, vol=100, pan=0},
+		{"ex", time=100, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"诗樱说完可以不用忍耐后，她的脸上和胸口便被大量的精液浸染。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 390,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"射到胸上的白色液体垂到了谷间的三角水池里，诗樱的唾液和我的精液混在一起，让我感到一种无法言说的兴奋。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 392,
+	},
+	block_00088 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"而且因为诗樱把射到自己脸上的精液用舌头舔掉了，我的肉棒仍在绝赞勃起中，前端还在流出剩余的精液。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 394,
+	},
+	block_00089 = {
+		{"bg", time=500, file="ev_sio_h35_09", path=":ev/ev_sio_h35/", set="ev_sio_h35"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01451", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「没有忍耐地喷出精液的肉棒和小智的高潮脸真是太棒了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 401,
+	},
+	block_00090 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我暂时沉浸在射精的余韵里，诗樱也仰头，望着我出神。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 403,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01452", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「有什么是比恋人忍耐不住那瞬间的表情更令人兴奋的呢？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 406,
+	},
+	block_00092 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01453", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「我喜欢捉弄别人，如果有喜爱的人的话也一定也会喜欢欺负他。不过很少有这种能把成年人欺负到忍受不住的机会……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 409,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01454", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「让他们忍到极限什么的，一般都会被讨厌吧。也只有在相互确认爱意的性爱时才能做这种事。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 412,
+	},
+	block_00094 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"看到诗樱学姐摩擦着大腿内侧。没想到平时理性的她，竟然还有如此情欲的一面。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 414,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01455", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「我喜欢和你做爱哦。喜欢让你射精，看到你射精时的表情就会兴奋……身体会发热，小腹内部也如有暖流。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 417,
+	},
+	block_00096 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01456", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「如果要继续的话，现在就请插进来吧。我的身体已经做好准备了。射了那么多还这么硬啊……哼哼，它也挺乖的嘛。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 420,
+	},
+	block_00097 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01457", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「不过在这之前，刚刚说好要用嘴帮你吸干净对吧。希望这样能帮它变得更有精神……啊姆……嗯？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 423,
+	},
+	block_00098 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我的尿道口被唇瓣温柔的触碰着，感受到一股强烈的吸力。与此同时，诗樱露出一副眼睛被闪到了的神色。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 425,
+	},
+	block_00099 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01458", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「嗯啾……姆啾……嗯？怎么回事……这光？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 428,
+	},
+	block_00100 = {
+		{"bg", file="bg025a", path=":bg/"},
+		{"fg", ch="詩桜", size="no", mode=1, resize=1, path=":fg/shi/no/", file="shi_nob0800", ex05="shi_nob0000", face="b0046", head="shi_nob", lv=2.2, id=20},
+		{"quake", mode="mw"},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_nob0810", ex05="shi_nob0010", face="b0012", head="shi_nob", lv=2.2, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01459", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「啊！窗帘！糟了，窗帘没有拉上。啊，我怎么会忘了这事……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 442,
+	},
+	block_00101 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"刚刚由于注意力过于集中，反倒忘了这个——从外面完全可以看到我们做了些什么。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 444,
+	},
+	block_00102 = {
+		{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_noa0810", ex05="shi_noa0010", face="a0038", head="shi_noa", lv=2.2, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_noa0810", ex05="shi_noa0010", face="a0002", head="shi_noa", lv=2.2, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01460", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「原来是这样，难怪明明开着空调还感觉很热。被这么晒着，你也很难受吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 450,
+	},
+	block_00103 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊，没，没什么。如果冷的话就那个，肉棒就可能会变软。如果要我选的话我还是会选热的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 453,
+	},
+	block_00104 = {
+		{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_noa0800", ex05="shi_noa0000", face="a0034", head="shi_noa", lv=2.2, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_noa0800", ex05="shi_noa0000", face="a0038", head="shi_noa", lv=2.2, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01461", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「能听到你这么说真是太好了。不过刚刚的嘴巴和胸部侍奉，都在千玉市免费公开放映了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 459,
+	},
+	block_00105 = {
+		{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_noa0810", ex05="shi_noa0010", face="a0006", head="shi_noa", lv=2.2, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_noa0810", ex05="shi_noa0010", face="a0032", head="shi_noa", lv=2.2, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01462", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「嘛，毕竟这里在20层，基本没有从外面看到的可能性。千玉市里还有一两座和这栋差不多高的楼，不过都在这房间的另一侧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 465,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"明明千玉市有四十万人，地铁站前却几乎没什么高层建筑。这也让从千玉长大的我在第一次去珍宿和超宫时，被那边的高层建筑群震撼到了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 467,
+	},
+	block_00107 = {
+		{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_nob0810", ex05="shi_nob0010", face="b0052", head="shi_nob", lv=2.2, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_nob0810", ex05="shi_nob0010", face="b0039", head="shi_nob", lv=2.2, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01463", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「选房子时也考虑了不被外面偷窥这一条件。不过如果有狙击手盯上我，从某个房顶来窥视这个房间的话就另当别论了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 473,
+	},
+	block_00108 = {
+		{"se", file="se歩きゆっくり(靴下、フローリング）", id=1, loop=1},
+		{"se", stop=1, id=1, time=3000},
+		{"bg", x=550, time=500, file="zbg025a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"诗樱走到窗前望向天空。不要说飞机了，就连鸟也没有一只。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 480,
+	},
+	block_00109 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她的背影令人浮想联翩。如果裙子能滑落然后漏出屁股的话绝对很色……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 482,
+	},
+	block_00110 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"按之前话题的流向，诗樱想推倒我让我仰视着她的姿势做……诗樱喜欢骑乘位啊……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 484,
+	},
+	block_00111 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过她也说过想被我推倒，让她叫出来什么的。虽然她想抵抗的话我不是她的对手，不过现在是在扮演女仆……好，就这样做。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 486,
+	},
+	block_00112 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「詩樱！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 489,
+	},
+	block_00113 = {
+		{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_nob0810", ex05="shi_nob0010", face="b0053", head="shi_nob", lv=2.2, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_noa0800", ex05="shi_noa0000", face="a0046", head="shi_noa", lv=2.2, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01464", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「嗯？什……哦哦哦！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 495,
+	},
+	block_00114 = {
+		{"se", file="se抱きつく", id=1},
+		{"quake"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我压在诗樱身上使她前倾。为了支持身体而伸出手的诗樱，变成贴在玻璃上的姿势。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 500,
+	},
+	block_00115 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我看着玻璃上映出的倒影，突然觉得穿和服留马尾辫也很棒，于是我一把抓住她的头发。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 502,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然诗樱解下头发的话我也喜欢，不过还是先享受这胸部吧。望着玻璃上的倒影，我更加地兴奋了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 504,
+	},
+	block_00117 = {
+		{"bgm", stop=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"bg", speed=5000, file="zev_sio_h36_01", path=":ev/ev_sio_h36/", x2=-600, y2=340, x=50, y=-350, set="ev_sio_h36", ax=1280, ay=720, bx=-640, by=-360},
+		{"ex", time=1500, func="wait"},
+		{"bg", file="ev_sio_h36_01", path=":ev/ev_sio_h36/", set="ev_sio_h36"},
+		{"bgm", file="bgm19"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01465", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「不是，你！……虽说从外面看不到。不过在这里做的话太羞耻了啊。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 518,
+	},
+	block_00118 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「诗樱平时都不会害羞嘛，所以想要看看因为害羞而不知所措的你。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 521,
+	},
+	block_00119 = {
+		{"bg", sync=0, face="1", file="ev_sio_h36_02", time=400, path=":ev/ev_sio_h36/", set="ev_sio_h36"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01466", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「哦……？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 526,
+	},
+	block_00120 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"诗樱不是那种性格，不会因为我说了想看你羞耻的一面就说「好吧，请看」。不过她抵抗的力度稍稍弱了几分。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 528,
+	},
+	block_00121 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01467", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「如果你是故意的话，那我的恋人可真是个大变态啊——难道你喜欢露出play吗？这还是请容我拒绝，我可没有打算让你以外的男人看到我的裸体。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 531,
+	},
+	block_00122 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我完全没有这种兴趣……不如说我可是纯爱战神……把你压到玻璃上完全是因为不可抗力。再说你不是也说没有被看到的可能吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 534,
+	},
+	block_00123 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01468", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「的确没有被看到的可能性，也确实没有担心被看到……但是，怎么说呢……感觉就像在大自然中全裸一样。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 537,
+	},
+	block_00124 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「听起来诗樱应该会挺喜欢这种。如果有机会的话，我们去赤道那的无人岛裸奔吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 540,
+	},
+	block_00125 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01469", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「虽说不讨厌，不过现在可不是在什么无人岛而是在千玉市站前哦。也不是没有别人，你不是还在这吗。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 543,
+	},
+	block_00126 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01470", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「嘛，听到你只是想看我羞耻的模样，多多少少能安下心来了。真是个不让人省心的主人啊。如果你乱来的话，我可是会以下犯上的哦。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 546,
+	},
+	block_00127 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01471", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「说起来你和我说话的时候不是可以不带敬语吗？不只是现在，在今后生活中我也希望如此。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 549,
+	},
+	block_00128 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「那个，在学园里还是用敬语吧……毕竟现在诗樱叫我主人，我好像挺喜欢女仆过家家的呢。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 552,
+	},
+	block_00129 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01472", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「为了让你无论什么时候都可以开始不对我说敬语……以后也定期进行女仆的角色扮演吧，主人。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 555,
+	},
+	block_00130 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「每次都能看到这身女仆装的话，真是太幸福了……说起来这是和服的下装吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 558,
+	},
+	block_00131 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01473", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「不啊，是裙子。比起百褶裙来，和服下装的制作要花成倍的功夫……所以看上去像和服就够了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 561,
+	},
+	block_00132 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「还真是，能从下面掀起来呢。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 564,
+	},
+	block_00133 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01474", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「掀起来……？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 567,
+	},
+	block_00134 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"本想解开裙子使其滑落，但如果诗樱反抗的话还要花不少功夫。所以我从下面把裙子掀了起来扎进了腰带里，顺势将内裤也脱了下来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 569,
+	},
+	block_00135 = {
+		{"se", file="se衣擦れ", id=1},
+		{"bg", time=500, file="ev_sio_h36_03", path=":ev/ev_sio_h36/", set="ev_sio_h36"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01475", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「什么……！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 578,
+	},
+	block_00136 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"诗樱的下半身完全暴露出来——无论是紧致的臀部，亦或是从大腿根到脚踝勾勒出美丽曲线的毫无赘肉的腿也好，就像是时装模特一样。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 580,
+	},
+	block_00137 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"诗樱的腿也很长啊，这能是日本人的腿？虽然身高不同，但这高度对于插入来说却正好合适。如果我和诗樱一样高的话，由于上半身长度不同，我只能踮起脚尖才能插入了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 582,
+	},
+	block_00138 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01476", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「能做出这样的行为，你还真是够果断的啊……你似乎忘了我还算是个女孩子哦，」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 585,
+	},
+	block_00139 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我可没有和男人恋爱的兴趣……屁股很好看呢。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 588,
+	},
+	block_00140 = {
+		{"bg", sync=0, face="1", file="ev_sio_h36_04", time=400, path=":ev/ev_sio_h36/", set="ev_sio_h36"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01477", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「你最好提前做好你也会被我这样做的准备……我也会温柔的来回抚摸你的屁股哦……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 593,
+	},
+	block_00141 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"是因为刚刚侍奉完呢，还是因为现在的诗樱非常兴奋呢？学姐那里已经分泌出了充足的爱液。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 595,
+	},
+	block_00142 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「虽然想保持这个体位继续爱抚……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 598,
+	},
+	block_00143 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01478", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「你这前戏还真是墨迹啊……我可不想再被舔上两个小时了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 601,
+	},
+	block_00144 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「因为忍不了了，现在我就想插进去。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 604,
+	},
+	block_00145 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01479", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「你都强行做到这一步了，却总是在最后却都是把决定权交给我。如果是我的话，我会二话不说直接将振动棒插进你的屁眼里。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 607,
+	},
+	block_00146 = {
+		{"se", file="seエロ_挿入、ヌメリ2", id=2},
+		{"bg", time=500, file="ev_sio_h36_08", path=":ev/ev_sio_h36/", set="ev_sio_h36"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01480", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「啊……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00145",
+		linknext = "block_00147",
+		line = 616,
+	},
+	block_00147 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"因为听到了如此可怕的计划，所以在肉棒软下来前，我直接插进了诗樱的小穴。虽然有那么一瞬间它都快软掉了，不过在碰到诗樱的穴口后又立刻重现雄风。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00146",
+		linknext = "block_00148",
+		line = 618,
+	},
+	block_00148 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"和诗樱做爱最常用的体位是骑乘位，其次是正常位。所以后入对我来说非常新鲜。心情也不像以前那样紧绷着，而是感觉心情舒畅。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00147",
+		linknext = "block_00149",
+		line = 620,
+	},
+	block_00149 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"而且骑乘位和正常位大部分都是诗樱在动。而这种后入式能让我把根部都塞进去非常舒服。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00148",
+		linknext = "block_00150",
+		line = 622,
+	},
+	block_00150 = {
+		{"bg", sync=0, face="1", file="ev_sio_h36_05", time=400, path=":ev/ev_sio_h36/", set="ev_sio_h36"},
+		{"se", file="seエロ_ピストン：弱", id=1, loop=1},
+		{"lvo", ch="shi", file="fem_shi_70319", loop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01481", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「嗯……呜……！太深了……嗯……咕呜……哈啊，你的鸡鸡一插进来就没了力气……嗯呜……嗯……啊……哈啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00149",
+		linknext = "block_00151",
+		line = 630,
+	},
+	block_00151 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01482", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「哈啊……啊……啊啊……感觉也还不错……啊……鸡鸡插到深处了……啊啊……嗯……哈啊……那里……好舒服……还要……嗯……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00150",
+		linknext = "block_00152",
+		line = 633,
+	},
+	block_00152 = {
+		{"bg", sync=0, face="1", file="ev_sio_h36_07", time=400, path=":ev/ev_sio_h36/", set="ev_sio_h36"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01483", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「啊……嗯呜……呜嗯……哈啊……好棒……为什么你不看着我，而是望向窗外啊！？哦……那是，常磐和天梨？！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00151",
+		linknext = "block_00153",
+		line = 640,
+	},
+	block_00153 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"糟糕糟糕糟糕。肉棒连根没入的快感实在是非同寻常。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00152",
+		linknext = "block_00154",
+		line = 642,
+	},
+	block_00154 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"诗樱想逃开，却只能紧紧贴在玻璃上。这使我能贯穿到肉穴最深处，实在是非常爽……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00153",
+		linknext = "block_00155",
+		line = 644,
+	},
+	block_00155 = {
+		{"bg", sync=0, face="1", file="ev_sio_h36_08", time=400, path=":ev/ev_sio_h36/", set="ev_sio_h36"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01484", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「啊……哈啊……嗯……呜嗯……哈……啊啊……嗯……呜啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00154",
+		linknext = "block_00156",
+		line = 649,
+	},
+	block_00156 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01485", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「嗯……快点……啊……哈啊……啊……再往上一点……不，啊……最舒服的那个地方……没有刺激到……呜嗯呜嗯……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00155",
+		linknext = "block_00157",
+		line = 652,
+	},
+	block_00157 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01486", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「如果我能自由移动的话，我就自己调整了……哈……嗯……啊啊……快到了……快到了……还差一点……啊，就现在……就差一点……嗯！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00156",
+		linknext = "block_00158",
+		line = 656,
+	},
+	block_00158 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"或许是没注意到自己的表情被倒映在玻璃上，诗樱显得更无防备，表情自然而然的流露了出来。再加上头上还戴着猫耳，那个平日里盛气凌人的诗樱也会有这么可爱的一面啊……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00157",
+		linknext = "block_00159",
+		line = 658,
+	},
+	block_00159 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「诗樱，试着学下猫叫？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00158",
+		linknext = "block_00160",
+		line = 661,
+	},
+	block_00160 = {
+		{"bg", sync=0, face="1", file="ev_sio_h36_06", time=400, path=":ev/ev_sio_h36/", set="ev_sio_h36"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01487", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「谁会说啊，想死啊……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00159",
+		linknext = "block_00161",
+		line = 666,
+	},
+	block_00161 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"明明是女仆，却采取了相当强硬的态度呢。如果认真反抗的话我完全不是诗樱的对手，所以打趣还是适可而止吧。诗樱还真是要强啊……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00160",
+		linknext = "block_00162",
+		line = 668,
+	},
+	block_00162 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"要……强？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00161",
+		linknext = "block_00163",
+		line = 673,
+	},
+	block_00163 = {
+		{"se", stop=1, id=1, time=500},
+		{"lvo", ch="shi", stop=1},
+		{"bg", x=-380, y=200, time=500, file="zev_sio_h36_06", path=":ev/ev_sio_h36/", set="ev_sio_h36", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「听别人说要强的女孩子后穴会是弱点哦……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00162",
+		linknext = "block_00164",
+		line = 681,
+	},
+	block_00164 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01488", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「我会把你绞死的……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00163",
+		linknext = "block_00165",
+		line = 684,
+	},
+	block_00165 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「想插诗樱的后穴。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00164",
+		linknext = "block_00166",
+		line = 687,
+	},
+	block_00166 = {
+		{"bg", sync=0, face="1", file="zev_sio_h36_05", time=400, path=":ev/ev_sio_h36/", set="ev_sio_h36", ax=1280, ay=720, bx=-640, by=-360, x=-380, y=200},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01489", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「呜，总觉着有一天会这样，没想到是今天……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00165",
+		linknext = "block_00167",
+		line = 692,
+	},
+	block_00167 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"本以为诗樱会强烈拒绝，意外地得到了积极的回应。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00166",
+		linknext = "block_00168",
+		line = 694,
+	},
+	block_00168 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「再怎么说这也不是仅凭自己的意愿能决定的事情……如果诗樱允许的话，我还是想插进去的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00167",
+		linknext = "block_00169",
+		line = 697,
+	},
+	block_00169 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01490", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「不戴的话不行哦……如果不戴套的话，要提前做好准备工作……不然可太不卫生了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00168",
+		linknext = "block_00170",
+		line = 700,
+	},
+	block_00170 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「现在清洗的话……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00169",
+		linknext = "block_00171",
+		line = 703,
+	},
+	block_00171 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01491", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「首先是没有道具。而且我也不想因为做这些不熟悉的行为，伤害到自己的身体。万一让你染上什么病的话就更糟了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00170",
+		linknext = "block_00172",
+		line = 706,
+	},
+	block_00172 = {
+		{"bg", sync=0, face="1", file="zev_sio_h36_07", time=400, path=":ev/ev_sio_h36/", set="ev_sio_h36", ax=1280, ay=720, bx=-640, by=-360, x=-380, y=200},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01492", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"在那个带灯的橱柜的抽屉里放着避孕套和润滑剂……用那个的话我就让你插进来……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00171",
+		linknext = "block_00173",
+		line = 711,
+	},
+	block_00173 = {
+		{"bg", time=500, file="ev_sio_h36_07", path=":ev/ev_sio_h36/", set="ev_sio_h36"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「避孕套我能理解，连润滑剂都准备了……难道你用过振动棒……这个好像还是用后穴专用的？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00172",
+		linknext = "block_00174",
+		line = 716,
+	},
+	block_00174 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01493", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「因为想为你插进来做准备嘛……在实践前提前模拟。适应的话会好一些吧……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00173",
+		linknext = "block_00175",
+		line = 719,
+	},
+	block_00175 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"诗樱是在什么时候做的这些我无从得知。但她已经准备到这一步的事实令我备受打击。不过，想到诗樱为了把后穴的初次奉献给我所需的勇气，我也就原谅了她。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00174",
+		linknext = "block_00176",
+		line = 721,
+	},
+	block_00176 = {
+		{"se", file="seエロ_挿入、ヌメリ3", id=2},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"当我把润滑剂滴到诗樱的后穴，后穴就发出了黏黏的光泽，比我想象的还要更加色情。能插进去吗……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00175",
+		linknext = "block_00177",
+		line = 725,
+	},
+	block_00177 = {
+		{"bg", sync=0, face="1", file="ev_sio_h36_05", time=400, path=":ev/ev_sio_h36/", set="ev_sio_h36"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01494", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「想到你的大鸡鸡要插进来，虽然有点紧张……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00176",
+		linknext = "block_00178",
+		line = 730,
+	},
+	block_00178 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我觉得第一次很难成功，所以如果身体不舒服的话就下次再说吧……即使失败也能积累经验嘛，所以诗樱的决心并没有白费哦。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00177",
+		linknext = "block_00179",
+		line = 733,
+	},
+	block_00179 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01495", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「嗯嗯，如果难受的话我会告诉你的。相反，如果我没让你停下来的话，即使看上去很疼也不要紧的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00178",
+		linknext = "block_00180",
+		line = 736,
+	},
+	block_00180 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「那么。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00179",
+		linknext = "block_00181",
+		line = 739,
+	},
+	block_00181 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我分开穴肉，试着贴近穴口。不过比起前穴入口要狭窄许多。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00180",
+		linknext = "block_00182",
+		line = 741,
+	},
+	block_00182 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"尽管如此，我仍使劲挺腰，将龟头挤进后穴。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00181",
+		linknext = "block_00183",
+		line = 743,
+	},
+	block_00183 = {
+		{"se", file="seエロ_挿入、ヌメリ1", id=1},
+		{"bg", sync=0, face="1", file="ev_sio_h36_08", time=400, path=":ev/ev_sio_h36/", set="ev_sio_h36"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01496", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「嗯……呜……哎……果然会很疼啊……而且小腹如同被重物压着一般……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00182",
+		linknext = "block_00184",
+		line = 750,
+	},
+	block_00184 = {
+		{"se", file="seエロ_ペニス挿入", id=2},
+		{"bg", sync=0, face="1", file="ev_sio_h36_09", time=400, path=":ev/ev_sio_h36/", set="ev_sio_h36"},
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01497", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「嗯噢噢噢噢哦哦哦！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00183",
+		linknext = "block_00185",
+		line = 761,
+	},
+	block_00185 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"一开始还有些顾虑，不过或许是因为润滑剂的原因，当我一用力，没想到整根肉棒都滑了进去。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00184",
+		linknext = "block_00186",
+		line = 763,
+	},
+	block_00186 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01498", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「哦……哦哦啊啊啊……哦呜……你……真是不可原谅……你居然一口气全进来……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00185",
+		linknext = "block_00187",
+		line = 766,
+	},
+	block_00187 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「抱歉……不过能拿到诗樱后穴的初次我很开心，谢谢。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00186",
+		linknext = "block_00188",
+		line = 769,
+	},
+	block_00188 = {
+		{"bg", sync=0, face="1", file="ev_sio_h36_07", time=400, path=":ev/ev_sio_h36/", set="ev_sio_h36"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01499", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「不，没有啦。能让你开心的话我做的这一切也就有价值了。毕竟我也是个女孩子，也想要把我的一切都献给你呢。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00187",
+		linknext = "block_00189",
+		line = 774,
+	},
+	block_00189 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"平时要强的诗樱却说出这样的话语，我的欲望突然又高涨起来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00188",
+		linknext = "block_00190",
+		line = 776,
+	},
+	block_00190 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这份冲动难以抑制，于是我用那硬的发僵的肉棒，在诗樱的后穴中抽插起来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00189",
+		linknext = "block_00191",
+		line = 778,
+	},
+	block_00191 = {
+		{"se", file="seエロ_ピストン：弱", id=1, loop=1},
+		{"lvo", ch="shi", file="fem_shi_70319", loop=1},
+		{"bg", sync=0, face="1", file="ev_sio_h36_08", time=400, path=":ev/ev_sio_h36/", set="ev_sio_h36"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01500", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「哈啊！呜啊……咕……嗯……哈啊……啊……哈啊……啊……这真是……从来没体验过的感觉……啊……哈啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00190",
+		linknext = "block_00192",
+		line = 788,
+	},
+	block_00192 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01501", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「哈啊……啊啊……啊呜……啊……哈啊……！啊……啊……不行……啊……没力气了……啊啊……啊……啊啊啊……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00191",
+		linknext = "block_00193",
+		line = 791,
+	},
+	block_00193 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01502", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「呀……啊啊……嘿啊……嗯！啊啊……啊……不行……感觉有什么东西要漏出来了……啊……啊啊……啊啊啊啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00192",
+		linknext = "block_00194",
+		line = 794,
+	},
+	block_00194 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"看着一反常态的诗樱，我的肉棒又涨大一份。要强的女性的弱点是后穴这一都市传说居然是真的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00193",
+		linknext = "block_00195",
+		line = 796,
+	},
+	block_00195 = {
+		{"bg", sync=0, face="1", file="ev_sio_h36_07", time=400, path=":ev/ev_sio_h36/", set="ev_sio_h36"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01503", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「嗯啊……啊啊……哈……嗯……呜……哈啊……啊……啊啊……什么啊……这是……像是打开了新世界的大门……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00194",
+		linknext = "block_00196",
+		line = 801,
+	},
+	block_00196 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01504", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「呜……呜……！现在抓着窗户还好，如果到床上的话，说不定会表现的更淫荡……在这做真是不错……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00195",
+		linknext = "block_00197",
+		line = 804,
+	},
+	block_00197 = {
+		{"bg", sync=0, face="1", file="ev_sio_h36_08", time=400, path=":ev/ev_sio_h36/", set="ev_sio_h36"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01505", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「啊啊……呜啊……呜……哈啊……啊！啊……啊啊……鸡鸡拔出去的感觉……啊啊……没力气了……哈啊……嗯……呜……啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00196",
+		linknext = "block_00198",
+		line = 809,
+	},
+	block_00198 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「像猫一样叫出来，像猫一样。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00197",
+		linknext = "block_00199",
+		line = 812,
+	},
+	block_00199 = {
+		{"bg", sync=0, face="1", file="ev_sio_h36_09", time=400, path=":ev/ev_sio_h36/", set="ev_sio_h36"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01506", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「喵，喵……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00198",
+		linknext = "block_00200",
+		line = 817,
+	},
+	block_00200 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"做到了……让带着猫耳的诗樱「喵」地叫了出来……如果不是现在腾不出手，我真想振臂欢呼。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00199",
+		linknext = "block_00201",
+		line = 819,
+	},
+	block_00201 = {
+		{"se", stop=1, id=1, time=500},
+		{"lvo", ch="shi", stop=1},
+		{"bg", sync=0, face="1", file="ev_sio_h36_05", time=400, path=":ev/ev_sio_h36/", set="ev_sio_h36"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01507", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「只，只是，果然我没法通过后穴高潮啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00200",
+		linknext = "block_00202",
+		line = 827,
+	},
+	block_00202 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊……知，知道了。抱歉！我光想着自己去了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00201",
+		linknext = "block_00203",
+		line = 830,
+	},
+	block_00203 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"实际上我马上就要射出来了，不过果然不能止于一个人满足啊。于是我把沾满润滑剂的肉棒从诗樱的后穴里拔了出来，摘下了避孕套。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00202",
+		linknext = "block_00204",
+		line = 832,
+	},
+	block_00204 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"临近射精，我的肉棒已经膨胀到了极限。诗樱的前穴被爱液浸润，比用了润滑油的后穴更加润滑。于是我一口气捅到了底。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00203",
+		linknext = "block_00205",
+		line = 836,
+	},
+	block_00205 = {
+		{"se", file="seエロ_ピストン：中", id=2, loop=1},
+		{"lvo", ch="shi", file="fem_shi_70320", loop=1},
+		{"bg", sync=0, face="1", file="ev_sio_h36_09", time=400, path=":ev/ev_sio_h36/", set="ev_sio_h36"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01508", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「啊啊！啊……哈啊……啊……啊啊……嗯……嗯……是因为让你着急了吗？感觉到了你对我的，更多的爱……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00204",
+		linknext = "block_00206",
+		line = 844,
+	},
+	block_00206 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01509", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「啊啊……呜……嗯啊……！啊……啊啊……嗯！啊……呀……哈啊……嗯……啊啊……啊……哇啊……啊……嗯……这样下去……要高潮了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00205",
+		linknext = "block_00207",
+		line = 847,
+	},
+	block_00207 = {
+		{"bg", sync=0, face="1", file="ev_sio_h36_08", time=400, path=":ev/ev_sio_h36/", set="ev_sio_h36"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01510", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「啊……啊啊……后面也是……前面也是……脑子变得好奇怪……要融化了……啊啊……哈……啊啊……啊……哈啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00206",
+		linknext = "block_00208",
+		line = 852,
+	},
+	block_00208 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"诗樱一反常态的弱势话语点燃了我的征服欲——想让她高潮，想听她放声大叫。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00207",
+		linknext = "block_00209",
+		line = 854,
+	},
+	block_00209 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过，也想射在刚刚抽插过的后穴……因为是第一次用那里，所以想用精液灌满它。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00208",
+		linknext = "block_00210",
+		line = 856,
+	},
+	block_00210 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01511", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「啊……呜……啊……啊啊……不行了……已经站不稳了……呼……如果没有玻璃的话……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00209",
+		linknext = "block_00211",
+		line = 859,
+	},
+	block_00211 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01512", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「啊啊……啊……要高潮了……啊啊……嗯……这是……从来没有过的感觉……啊啊……啊……啊啊……好厉害……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00210",
+		linknext = "block_00212",
+		line = 862,
+	},
+	block_00212 = {
+		{"bg", sync=0, face="1", file="ev_sio_h36_07", time=400, path=":ev/ev_sio_h36/", set="ev_sio_h36"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01513", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「啊……哈啊……这样下去……我会……啊啊……哈……嗯……比之前更……啊啊……哈……要变成你的东西了……主人……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00211",
+		linknext = "block_00213",
+		line = 867,
+	},
+	block_00213 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"是射在小穴里征服诗樱的心呢，还是射在后穴里征服诗樱的屁股呢……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00212",
+		linknext = "block_00214",
+		line = 869,
+	},
+	block_00214 = {
+		{"select", file="04_詩桜07_h03a", text="select"},
+		{"select", file="04_詩桜07_h03b", text="select"},
+		{"select", mode="sys", name="shi_h03", auto=1},
+		{"text"},
+		select = {
+			ja = {
+				"射在小穴",
+				"射在后穴",
+			},
+		},
+		linkback = "block_00213",
+		linknext = "block_00215",
+		line = 877,
+	},
+	block_00215 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"　",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00214",
+		line = 881,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+		scene = { block="block_00017", label=1 },
+		noscene = { block="block_00017", label=6 },
+	},
+}

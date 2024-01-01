@@ -1,0 +1,2387 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="唐津的橘子是好橘子"},
+		{"bg", time=2000, file="white", path=":bg/"},
+		{"bg", time=2000, file="bg005a", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「妃爱。」",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 16,
+	},
+	block_00001 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"msgoff"},
+		{"bg", speed=12000, file="zev_hiy_33_02", path=":ev/ev_hiy_33/", x2=640, y2=-360, x=-640, y=360, set="ev_hiy_33", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"extrans"},
+		{"ex", time=2000, func="wait"},
+		{"bg", x=0, y=0, file="ev_hiy_33_02", path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"bgm", file="bgm15"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「妃爱。粥熬好了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 37,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00482", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「诶……哥哥熬的吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 42,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在暑假步入尾声的时候，妃爱感冒了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 44,
+	},
+	block_00004 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_06", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00483", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「别说熬不熬粥了，哥哥连煮饭都不会……好担心里面究竟放了什么。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 49,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「买了梅干和腌海带。有什么其他想要的记得说哦~」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 52,
+	},
+	block_00006 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_01", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00484", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「鸡蛋……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 57,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「感觉如果把鸡蛋加进去的话会变得黏答答的，所以熬粥的时候就没有放进去……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 60,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"以前熬粥的时候把煎好了的鸡蛋放了进去，但不知道为什么粘在了锅上，最后没办法就做成杂烩粥了。自从那件惨剧发生后，我在心里发誓再也不做料理了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 62,
+	},
+	block_00009 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_06", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00485", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「谢谢……这还是我第一次吃哥哥熬的粥，有点激动……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 67,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「可以自己吃吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 70,
+	},
+	block_00011 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_09", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00486", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「可以是可以，但是想要哥哥喂我所以开始撒娇了——……啊——」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 75,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"妃爱发出了撒娇的声音，嘴巴开始一张一合。就像小雏鸡一样。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 77,
+	},
+	block_00013 = {
+		{"bg", time=500, file="ev_hiy_33_04", path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"用勺子舀起粥送到妃爱嘴边，她很开心地吃了好几口。看起来还有食欲。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 83,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"妃爱是那种很少感冒的孩子，但记得她小时候有次发高烧的时候，我也是这么照顾她的。说是照顾，但我什么都不会，所以只能摸摸她的头。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 85,
+	},
+	block_00015 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_01", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00487", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「哈——好久没有睡在自己的被子里了，心里有些寂寞。感觉床好宽啊。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 90,
+	},
+	block_00016 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_10", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00488", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「真的好久没有和哥哥分开来睡了呢……可能已经有一年了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 95,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「是啊……和妃爱睡在一起，已经过了一年了。说起来，两个人一天也没有分开，一直都是睡一起的呢，哈哈……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 98,
+	},
+	block_00018 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_09", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"昨天晚上，妃爱说着「奇怪，感觉有点冷」，不想把感冒传染给我，于是回到了自己房间，久违地和我分开睡了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 104,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"然后今天早上。因为担心妃爱，我早早地从床上爬起来，准备去妃爱房间看看她的状况。打开门看到妃爱脸上通红，时不时发出痛苦的呻吟。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 106,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"先煮了一碗面喂给她，等到9点叫了辆出租车，带着妃爱去了经常去的医院。在此期间，妃爱给经纪人打了个电话。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 108,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「要不去我房间睡？毕竟医生说了不会传染。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 111,
+	},
+	block_00022 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_02", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00489", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「嗯……感觉会给哥哥添很多麻烦，所以直到治好前我都会当个乖宝宝的……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 116,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"检查结果显示炎症的数值偏高，按医生的诊断，是轻度肺炎。医生给开了一些抗生素和退烧药，并且嘱咐要静养几天。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 118,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"医生说如果没有退烧的话再过来找他，然后我就带着妃爱回家了。按照医生的叮嘱，让妃爱躺在床上睡到中午。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 120,
+	},
+	block_00025 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_05", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「还好今天是工作日，医院开门……不对，应该是不幸中的万幸。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 127,
+	},
+	block_00026 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_07", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00490", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「还在放暑假真的太好了……如果再晚一周感冒，就要害哥哥迟到了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 132,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「迟到指的是上课吗？如果妃爱感冒的话，我会理所当然地请假哦。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 135,
+	},
+	block_00028 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_13", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00491", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「怎么能这样，明明高三是个重要的时期……而且之后甚至还要在文化祭的运营上花费心思。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 140,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「至少今天一天，因为很担心妃爱，所以根本无暇顾及上课和学生会活动。嘛，学生会那边，如果是去年的话可能得一个人负起责任……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 143,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「但现在常磐和锦都值得信赖，神田和饭田也都能干活。所以没关系。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 146,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「最重要的是，明明妃爱都感冒了，我却要在学校待到放学的话，会被包括里姐在内的全员赶回来的。大家都最喜欢妃爱了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 149,
+	},
+	block_00032 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_02", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00492", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「是吗……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 154,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「话说要不先和里姐……还有锦打个电话？晚饭如果是我来下厨的话，可能又会变成喝粥了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 157,
+	},
+	block_00034 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_11", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00493", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「哥哥做的粥很好喝哦……但是，如果哥哥脱不开身，不太好办的话，那好吧……和里姐商量一下吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 162,
+	},
+	block_00035 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_08", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00494", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「至少在哥哥出门的时候，能让她来家里面……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 167,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「没有，我不准备出去。今天一天会一直陪在妃爱身边的。虽然准备出门买点东西，但除此之外就不出去了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 170,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「在妃爱难受的时候，我怎么会离开呢？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 173,
+	},
+	block_00038 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_12", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00495", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「嗯，那样的话……今天就拜托哥哥来照顾我了。如果明天病情没好转的话，再去拜托里姐帮忙吧……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 178,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"如果明天能好倒无所谓。大病的话姑且不谈，医生也说了只要稍微静养一会就能好转了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 180,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然也不讨厌找人帮忙，但已经带妃爱去医院看了病，开了药，还被医生嘱咐了要静养。现在也没有什么能做的了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 182,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"如果妃爱说了想见里姐和锦来打起精神的话姑且不谈，但妃爱已经说了想让我来照顾她，所以今天就这么安安静静地陪着她吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 184,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"实际上，之前联系过的妃爱的经纪人已经有点急躁了。她直接打电话给我，说「妃爱就拜托了」。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 186,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然她很想赶过来，但是好像因为翘了很多工作，要去一堆地方谢罪。但是比起那些，她更担心妃爱的身体状况。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 188,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我去把碗洗了。要吃水果吗？等会再去买些大棚橘子回来。佐贺的甜甜的那种。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 191,
+	},
+	block_00045 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_09", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00496", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「哇，我喜欢橘子……想吃想吃。谢谢你，哥哥。最喜欢你了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 198,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「在我回来之前要好好地吃药哦。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 201,
+	},
+	block_00047 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_10", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00497", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「虽然不是很喜欢吃药……不过因为想早点康复，所以我会努力的！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 206,
+	},
+	block_00048 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="rule_001", wait=250, file="black", path=":bg/", vague=40},
+		{"msgoff"},
+		{"bg", file="bg002a", path=":bg/", sync=0},
+		{"extrans", rule="rule_001", vague=40},
+		{"fg", ch="資正", size="no", mode=1, path=":fg/suk/no/", file="suk_noa0000", face="a0001", head="suk_noa", lv=2.2, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="etc_suk_00008", ch="suk"},
+			},
+			ja = {
+				{
+					name = {"資正"},
+					"「唔……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 220,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"从楼梯下到一楼，资正难得一副像是在等着我的样子，在楼梯下老老实实地坐着。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 222,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"以为它想去看妃爱，没想到却跟着我来到了厨房。我伸手摸了摸它的头，它抬起头用一种好像将什么东西拜托给我的眼神看了过来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 224,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"现在不是饭点也不是散步的时候。看起来它也不是想找人玩。这样的话，难道。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 226,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「妃爱已经看过医生了，放心。明天就能好起来的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 229,
+	},
+	block_00053 = {
+		{"fg", ch="資正", size="no", mode=1, path=":fg/suk/no/", file="suk_noa0000", face="a0002", head="suk_noa", lv=2.2, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="etc_suk_00009", ch="suk"},
+			},
+			ja = {
+				{
+					name = {"資正"},
+					"「汪！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 234,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"资正老实地自己回到了狗窝里面。明明它应该理解不了人类的语言。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 236,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"可能是因为妃爱从早上开始身体状况就不太好，它看到后有些担心吧。而且，他似乎察觉到了我的态度。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 238,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然不准备长时间离开家，但确实希望在出门买东西的这段时间里面，有人能保护妃爱。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 240,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"毕竟资正是除了我之外，在这个家里陪着妃爱最久的家伙了。既然它都这么担心，那妃爱应该也能安心了吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 242,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"资正的话一定会保护着妃爱的。我看着它那值得信赖的背影，竖了个大拇指，但它早已蜷缩成一团，没看到我的大拇指。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 244,
+	},
+	block_00059 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="rule_002", wait=500, file="black", path=":bg/", vague=40},
+		{"bg", rule="rule_002r", vague=40, file="ev_hiy_33_12", path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我回来了……诶，在这刷手机没关系吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 258,
+	},
+	block_00060 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_11", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00498", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「小悠刚刚给我发短信， 所以我现在在回信……身体已经好了一些。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 263,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然我听不懂这是她的真心话，还是为了不让我担心所说的假话，但看她的脸色看起来比早上红润多了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 265,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00499", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「因为上个月小悠感冒的时候，我用『职业精神不够』对她进行了说教，所以现在是我在被说教。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 270,
+	},
+	block_00063 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「这100%是妃爱的错。就连过度宠爱妃爱的我都这么觉得。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 273,
+	},
+	block_00064 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_08", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00500", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「嘛，虽然9成的内容都是在担心我的身体状况。又温柔又帅气的哥哥来照顾我了，就聊到这吧……发送。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 278,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"妃爱把手机屏幕关掉，钻进了被子里面。为什么要钻进去呢。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 280,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「妃爱。给，橘子。如果不够的话，我等会再去买回来。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 283,
+	},
+	block_00067 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_12", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00501", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「太好了，看起来好好吃。为什么只有夏天才能吃上橘子呢。记得小时候，感冒后吃的是罐装的来着。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 288,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「罐装也有罐装的好处哦。但是母亲只在我们感冒的时候给我们买，所以吃得也不多呢……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 291,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「妃爱感冒的时候，母亲不是去买橘子罐头了吗。明明我也很想吃，但她却一个也不分给我，记得当时老委屈了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 294,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"想要吃专门为了感冒的人而买的橘子罐头是不对的，但我当时还小，所以就请原谅我吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 296,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「诶？但是，没吃上橘子罐头的回忆好像就只有那次了……也就是说，妃爱小时候感冒的次数很少吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 299,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「现在回忆起来，好像没怎么看到过妃爱感冒呢。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 302,
+	},
+	block_00073 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_09", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00502", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「那一定是因为，父亲和母亲十分重视我的身体健康的原因。而且如果在工作上请假的话，会被斥责的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 307,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「诶，生病请假会被斥责吗？被那个经纪人？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 310,
+	},
+	block_00075 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_08", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00503", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「不不，她反倒是低头的那一方……主要是被搭档和staff们。但因为母亲也陪着我来到了现场，所以就不了了之了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 315,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「真吓人啊。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 318,
+	},
+	block_00077 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_05", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00504", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「虽说如此，明明大家都很忙，我却把日程安排打乱了。有时还会害得他们要当场改剧本。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 325,
+	},
+	block_00078 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_01", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00505", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「所以请了一次假之后，如果只是身体少许不适，一般就选择用粉底遮一遮，然后勉强把工作完成。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 330,
+	},
+	block_00079 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_11", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00506", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「母亲本来打算身体不舒服就让我休息的，但我说没事，因为是工作，所以母亲也没能强硬地反对。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 335,
+	},
+	block_00080 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_12", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00507", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「就算有点低烧，在想要量体温的时候，把冷的塑料瓶放在腋下测就能蒙混过去。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 340,
+	},
+	block_00081 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「喂！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 343,
+	},
+	block_00082 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_03", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00508", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「抱歉。对工作我一直都是竭尽全力的。因为我曾经看到过一个演员，他给现场添了一次麻烦之后，马上就失去了立足之地。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 350,
+	},
+	block_00083 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_07", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00509", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「经纪人虽然也很关心我的身体健康，但如果是我说想要工作，她就会优先让我工作。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 355,
+	},
+	block_00084 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我知道母亲为什么说她讨厌那个经纪人。因为爱有时是带着剧毒的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 357,
+	},
+	block_00085 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_08", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00510", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「所以，即使我身体有点不舒服，在家里也会装作很健康的样子。虽说如此，我一直都没有生过什么大病就是了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 362,
+	},
+	block_00086 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我可能有好几次没注意到，来找你玩扑克或者黑白棋了。如果让你勉强了的话，对不起。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 365,
+	},
+	block_00087 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_13", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00511", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啊—没有没有，那种事……我记忆里面也没发生过，虽然不知道实际是怎么样的，但即使有找我玩游戏的话，哥哥也没有错……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 370,
+	},
+	block_00088 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_05", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"说到这里，妃爱陷入了沉默。看样子好像回忆起来了什么。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 376,
+	},
+	block_00089 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_06", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00512", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「如果哥哥要道歉的话，那我也要道歉。刚刚不是说请了一次假之后什么什么吗，最初的那次请假，是发高烧的那一回。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 381,
+	},
+	block_00090 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_07", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00513", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「那时，在一楼的房间里，母亲一直片刻不离地照顾着我的时候，哥哥突然跑了过来，摸了摸我的头，让我吓了一跳。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 386,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊——我还记得。因为那是妃爱第一次感冒发烧，所以当时不知道该怎么办。只能担心地握着手……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 389,
+	},
+	block_00092 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_08", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00514", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「没错，哥哥握住了我的手呢。但是我那个时候，最开始以为旁边的是父亲。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 394,
+	},
+	block_00093 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_11", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00515", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「在之后有问过父亲，但他说不知道，那个时候我才知道那个人原来是哥哥。说起来手好小啊，之类的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 399,
+	},
+	block_00094 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_02", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00516", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「当时的我，并没有想到哥哥会那么可靠，完全想象不出来。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 404,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「唔，嗯......」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 407,
+	},
+	block_00096 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_10", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00517", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「所以，哥哥对不起。明明我那个时候真的很安心。却还认为哥哥不可靠。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 412,
+	},
+	block_00097 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_08", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00518", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「真想告诉当时的自己。告诉她我的哥哥已经变得十分可靠，现在都开始照顾着生病的我了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 419,
+	},
+	block_00098 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_09", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00519", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「呀，真是的……都没有特意去拜托哥哥。就算什么都不说，什么都不做，哥哥在我身边已经是习以为常的事了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 424,
+	},
+	block_00099 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_12", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00520", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「谢谢，哥哥。越是生病的时候，越能体会到家人的可贵呢。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 429,
+	},
+	block_00100 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"那个时候的我，到底是以怎样的力度握着妃爱的手呢。实在有些记不起来，所以只能尽量轻轻地握住她小小的手。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 431,
+	},
+	block_00101 = {
+		{"bg", time=500, file="ev_hiy_33_14", path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00521", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「虽然身体很难受，头也是昏昏沉沉的，但是有人能在旁边陪着实在是太感谢了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 436,
+	},
+	block_00102 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_16", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00522", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「当知道那个值得感谢的对象并不是父亲……而是一直不经意间站在身边的那个家人的时候，可能我才第一次认识到『哥哥』的这个存在。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 441,
+	},
+	block_00103 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_15", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00523", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「在那之前，一直是当成理所当然在同一个家里面生活的，理所当然在同一张桌子上吃饭的『身为哥哥的那个人』。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 446,
+	},
+	block_00104 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_14", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00524", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「哥哥是怎么想的？是什么时候开始，把我当成和父亲母亲一样的家人？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 451,
+	},
+	block_00105 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我从妃爱出生的时候开始就很重视妃爱哦。毕竟这么可爱，实在是没办法。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 454,
+	},
+	block_00106 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_18", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00525", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「诶，真的假的！？我出生的时候，哥哥可是一岁哦？应该不会觉得重视和可爱什么的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 459,
+	},
+	block_00107 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「关于这一点呢。对于比自己晚出生的年幼一些的存在……而且还是女孩子，不觉得可爱的不得了吗。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 462,
+	},
+	block_00108 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_15", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00526", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啊，绝对是在说谎。那可是一岁的男孩子和女孩子，不是吗。在走出家门之后，才会第一次产生那种意识不是吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 467,
+	},
+	block_00109 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「就算是那样，对于比自己晚出生的家人，还是会无条件地疼爱的。也可以说是无偿的爱。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 470,
+	},
+	block_00110 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_14", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00527", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「那不是因为好奇心，或者只是因为一时兴起吗？说到底，在那个时候哥哥应该连『妹妹』是什么都不知道。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 475,
+	},
+	block_00111 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「妃爱是后出生的那一方，所以可能没办法理解先出生那一方的心情吧。我在第一次看到妃爱的那个瞬间就喜欢上了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 478,
+	},
+	block_00112 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_17", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00528", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「为什么是这种居高临下的视线。而且，为什么感觉有点拽拽的。可恶~，尽在这摆着哥哥的架子。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 485,
+	},
+	block_00113 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊，妃爱，还能吃橘子吗？要不要我来喂你？我是哥哥，这些都是理所应当的。来，啊——昂~」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 488,
+	},
+	block_00114 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_14", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00529", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「虽然现在肚子已经饱了，但今天想让哥哥多宠宠我，所以就老实地接受投喂吧。啊——阿姆。橘子好好次。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 493,
+	},
+	block_00115 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_17", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然已经被妃爱否认了，实际上一岁的时候可能确实没有她是我妹妹的认知，但是可以断定的是，当时心里想要宠爱这个生物的心情发自真心。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 497,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"看着眼前用我递过去的橘子把小嘴塞得满满的妃爱，我深深地这么想到。作为家人，看到这副表情，不想去宠爱的人，肯定不存在吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 499,
+	},
+	block_00117 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我喜欢看动物幼崽的视频和图片。这并不是想把妃爱与动物们相提并论，而是想说，对刚出生的纯洁的存在抱有喜爱之情，是一种本能。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 501,
+	},
+	block_00118 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在年幼的时候可以感受到这种温馨而又温柔的感情，是家里先出生的人的特权。感受到一次之后，就会终身不忘的，最初所记住的保护欲。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 503,
+	},
+	block_00119 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这也只限于这个妹妹。不准备和其他人比较，连想都没有想过，因为她就是这么可爱的一个妹妹。我可以发誓，从相遇的那个瞬间，就已经喜欢上她了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 505,
+	},
+	block_00120 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"谢谢你能降临在这个世界上。这是多么可爱的妹妹啊，好想抱上去。不，不是那种涩涩的意义上的抱。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 507,
+	},
+	block_00121 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_15", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00530", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「哈——啾！诶，好奇怪啊。我还以为已经好了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 514,
+	},
+	block_00122 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"嗯，就算用这样不成体统的表情打喷嚏也很可爱。嘛，刚刚的有点不成体统过头了。就算关系再怎么亲密无间，也不要在恋人面前露出这种表情啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 516,
+	},
+	block_00123 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「看到你已经有精神到能进行这样的对话，我就安心了，明天和后天也不能掉以轻心，要好好休息，争取在下周恢复好。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 519,
+	},
+	block_00124 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_18", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00531", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「当然是想迅速地，而且不留后遗症地治好，下周有个预定，在那之前必须要恢复健康……哈！第二学期要开始了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 524,
+	},
+	block_00125 = {
+		{"bg", sync=0, face="1", file="ev_hiy_33_17", time=400, path=":ev/ev_hiy_33/", set="ev_hiy_33"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然是装糊涂，但妃爱心里应该也明白吧。9月的第一周，今年的这个星期天是什么纪念日。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 528,
+	},
+	block_00126 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这个一年中期盼已久的日子。去年的这一天虽然留下了最棒的回忆，但也留下了很多难受回忆的特别的一天。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 530,
+	},
+	block_00127 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我妹妹的生日。今年一定要和妹妹度过没有任何瑕疵，只有纯粹幸福的一天。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 532,
+	},
+	block_00128 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"bg", time=2000, file="bg001a", path=":bg/"},
+		{"fg", ch="妃愛", size="no", mx=40, mode=3, path=":fg/hiy/no/", file="hiy_noa0710", ex05="hiy_noa0010", face="a0041", head="hiy_noa", lv=2.2, id=13},
+		{"bgm", file="bgm29"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00532", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「治好啦――――――！！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 547,
+	},
+	block_00129 = {
+		{"se", file="seコミ_胸を張る", id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"第二天早上，妃爱一边挥舞着36.5度的温度计，一边充满活力地跑到了我的房间里面。脸色也好了很多。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 551,
+	},
+	block_00130 = {
+		{"se", stop=1, time=500, id=1},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg001a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="妃愛", size="z1", mode=3, resize=1, path=":fg/hiy/z1/", file="hiy_z1a0710", ex05="hiy_z1a0010", face="a0055", head="hiy_z1a", lv=2.3, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0710", ex05="hiy_z1b0010", face="b0051", head="hiy_z1b", lv=2.3, id=13},
+				{"fgact", ch="妃愛", act="ジャンプ", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00533", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「感觉，知道坏东西已经『刷！』地离开了身体了！『刷！』地！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 566,
+	},
+	block_00131 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0700", ex05="hiy_z1b0000", face="b0048", head="hiy_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0700", ex05="hiy_z1b0000", face="b0053", head="hiy_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00534", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「这样今晚开始就可以在哥哥的房间里一起睡了——！分开了一晚上的份，就让我好好撒娇个够吧！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 572,
+	},
+	block_00132 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「你这么有精神我是很开心，一起睡也完全可以，但一定要完全康复哦。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 575,
+	},
+	block_00133 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0710", ex05="hiy_z1a0010", face="a0035", head="hiy_z1a", lv=2.3, id=13},
+		{"fgact", ch="妃愛", act="うなづく", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0710", ex05="hiy_z1a0010", face="a0013", head="hiy_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00535", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「这个嘛，嗯，我当然会注意的，但有一种身体康复时特有的，和生病的时候相比更加清爽的感觉。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 583,
+	},
+	block_00134 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0710", ex05="hiy_z1a0010", face="a0041", head="hiy_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0710", ex05="hiy_z1b0010", face="b0055", head="hiy_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00536", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「哎呀，这个全都是哥哥的精心照顾的功劳……所以来个回礼的抱抱。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 589,
+	},
+	block_00135 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"妃爱张开双手，脸上浮现出灿烂的笑容。我刚刚从床上爬起来，过了一段时间才反应过来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 591,
+	},
+	block_00136 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「诶，回礼……向我回礼吗？由我来吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 594,
+	},
+	block_00137 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0710", ex05="hiy_z1b0010", face="b0006", head="hiy_z1b", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00537", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「因为哥哥好像会无条件地爱着妹妹。所以就让我来好好地确认一下吧！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 599,
+	},
+	block_00138 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"「我已经精神起来了，快给我回礼」吗。多么厚颜无耻的妹妹。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 601,
+	},
+	block_00139 = {
+		{"msgoff"},
+		{"bg", zoom=120, file="zbg001a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="妃愛", size="z2", mode=3, resize=1, path=":fg/hiy/z2/", file="hiy_z2b0700", ex05="hiy_z2b0000", face="b0032", head="hiy_z2b", lv=2.4, id=13, sync=0},
+		{"extrans", time=500},
+		{"se", file="se抱きつく", id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是说了不求回报的爱这种自以为是的话的也是我，所以只好按照妃爱的要求抱了上去。从现在开始到生日为止的每一天，都要注意身体哦。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 611,
+	},
+	block_00140 = {
+		{"se", stop=1, time=500, id=1},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"bg", file="catch01", id=9, lv=9, time=500, path=":cg/"},
+		{"bgm", file="bgm91", loop=0},
+		{"ex", time=6000, func="wait"},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="01_妃愛12_1"},
+		{"text"},
+		linkback = "block_00139",
+		line = 619,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

@@ -1,0 +1,707 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="因故校内也张贴的通告"},
+		{"bg", time=2000, file="bg099a", path=":bg/"},
+		{"bgm", file="bgm17"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"两个月后，我和华乃来到了这里。",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 14,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"今天是关乎我和华乃未来4年的重要日子。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 16,
+	},
+	block_00002 = {
+		{"bg", file="ev_kan_34_01", path=":ev/ev_kan_34/", set="ev_kan_34"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10796", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「稍微等一下，我有点害怕，害怕到什么也看不见了，等一下等一下真的不行啊稍微等一下真的不行好累啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 23,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「要我等多久都行」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 26,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"昨天晚上还摆出一副“只是有那么一丁点紧张而已”架势的华乃，现在却在我的面前害怕得抖个不停。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 28,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这种地方也正是华乃的魅力所在，虽然嘴巴上说的比谁都很，实际上却比吉娃娃都要胆小。虽然很想摸摸她的头安慰她，但大庭广众之下只好作罢。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 30,
+	},
+	block_00006 = {
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10797", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「啊啊啊、啊啊哇、啊啊啊、啊啊呜」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 35,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「你看你，跟个畏畏缩缩的转校生一样。虽说你确实是一名转校生没错」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 38,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10798", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「就算我是转校生那也是两年前了吧。而、而且比起这个，为什么你能够那么镇定啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 41,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我确实感觉非常紧张，但一想到边上有个比我更加紧张的人在，就一下子冷静下来了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 44,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"人在有东西要守护时会变强。不过我之所以会这么冷静，很大程度上是因为我另外报了比较差的私立学校保底。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 46,
+	},
+	block_00011 = {
+		{"bg", zoom=90, x=160, y=110, time=500, file="zev_kan_34_01", path=":ev/ev_kan_34/", set="ev_kan_34", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「还是在网上查成绩吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 51,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10799", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「难、难得都到这里来了，怎么可能还去网上查啊……真要上网查，站在这里用手机查不也一样吗……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 54,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「但是周围没有人，我们不就能紧紧地抱在一起了吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 57,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10800", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「那、那还是有些小期待的……你的拥抱确实会给我勇气，但能和喜欢的人一起看录取名单是我的梦想……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 60,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"华乃对自己儿时的梦想相当重视。一旦在脑海中预想了某件事情的结局，她就会一直拘泥于自己的决定。我想这点在阿宅中应该还挺常见的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 62,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"对于想要满足华乃愿望的我来说，无论会花多少时间我都想要一直陪伴在她的身边。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 64,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「抱是不能抱了，那么要握手吗？在新川和天梨回来之前」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 67,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10801", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「要是被他俩看见，那又是一段黑历史了，所以我会忍住的……没、没关系的，我已经能看见了……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 70,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10802", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「但、但还是好害怕，你要呆在我的身边哦。千万不要从我身边离开哦」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 73,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"华乃的身子紧贴在我的肩膀上。这羞耻程度和手牵手已经不相上下了吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 75,
+	},
+	block_00021 = {
+		{"bg", sync=0, face="1", file="zev_kan_34_02", time=400, path=":ev/ev_kan_34/", zoom=90, set="ev_kan_34", ax=1280, ay=720, bx=-640, by=-360, x=160, y=110},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10803", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「啊快看！有我和你的学号！天梨和新川同学的也在！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 83,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10804", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「太好了，大家都合格了……！而且，还能再和你一起生活四年了！太好了……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 86,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"华乃激动得热泪盈眶，在那两个人回来之前，悄悄帮她擦干净吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 88,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10805", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「等等！你也高兴一点呀！我、我可是被录取了哦！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 91,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「恭喜你，华乃。可以抱抱你吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 94,
+	},
+	block_00026 = {
+		{"bg", sync=0, face="1", file="zev_kan_34_03", time=400, path=":ev/ev_kan_34/", zoom=90, set="ev_kan_34", ax=1280, ay=720, bx=-640, by=-360, x=160, y=110},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10806", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「啊……那、那种事在外人面前还是……其、其实的话，我是超级想要你抱我的，就连接吻也好想做，但还是等到只有我们两个人的时候……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 99,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"大吵大闹的宅女，一害羞就扭扭捏捏地缩成一团。实在是太可爱了。等下再好好地宠爱她吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 101,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10807", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「但是，这下……就能够和喜欢的人过上期待已久的4年校园生活了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 104,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10808", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「4月开始咱俩的新生活就开始了哦。我会期待两、两个人的同居生活的！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 107,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她直接在外人面前说出来了。这种娇滴滴的声音被别人听到可能又会成为她的一段黑历史……不过看到那张洋溢着幸福的脸庞，我没有把话说出来去冲淡她的喜悦。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 109,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10809", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「还有，既然我们两个都合格了……已经不用在忍耐了对吧。尽情地做爱吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 114,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"那还真是，春假期间请务必让我过上没羞没臊的甜蜜生活。但是你在这种地方说出来的话我会忍不住的还是请你别这样啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 116,
+	},
+	block_00033 = {
+		{"bg", time=500, file="ev_kan_34_03", path=":ev/ev_kan_34/", set="ev_kan_34"},
+		{"fg", ch="広夢", size="no", mode=1, path=":fg/hir/no/", file="hir_noa0200", face="a0055", head="hir_noa", lv=2.2, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="no", mode=1, path=":fg/hir/no/", file="hir_noa0200", face="a0010", head="hir_noa", lv=2.2, id=20},
+			},
+			vl02 = {
+				{"fg", ch="広夢", size="no", mode=1, path=":fg/hir/no/", file="hir_noa0200", face="a0053", head="hir_noa", lv=2.2, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10009", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「我回来了……来，和泉点的茶水。忘记问你是要冰的还是热的了，所以买了个热的可以吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 127,
+	},
+	block_00034 = {
+		{"fg", ch="天梨", size="no", mode=1, path=":fg/ame/no/", file="ame_noa0200", ex05="ame_noa0000", face="a0054", head="ame_noa", lv=2.2, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="no", mode=1, path=":fg/ame/no/", file="ame_noa0200", ex05="ame_noa0000", face="a0052", head="ame_noa", lv=2.2, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_10039", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「我回来了——啊，华乃亲冷静下来了？已经知道结果了吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 138,
+	},
+	block_00035 = {
+		{"bg", sync=0, face="1", file="ev_kan_34_04", time=400, path=":ev/ev_kan_34/", set="ev_kan_34"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10810", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「啊，抱歉。虽然想着要等大家一起去确认结果，但刚才我已经自己先看了。太好了，大家全都顺利通过了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 145,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"还说什么想等大家一起确认结果，刚才在我、新川还有天梨三个人一起看结果的时候，一个人瑟瑟发抖连头都不敢抬起来的是谁啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 147,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"新川和天梨其实早就知道结果了，他们只是觉得让我和华乃独处的话，华乃就能冷静下来，所以才特意离开了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 149,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"话虽如此，那个宅女还装什么成熟啊。她哀嚎着叫着“对不起，我不敢看结果……”的那副害怕样子明明也被他们两个看见了。超级可爱的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 151,
+	},
+	block_00039 = {
+		{"bg", sync=0, face="1", file="ev_kan_34_05", time=400, path=":ev/ev_kan_34/", set="ev_kan_34"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10811", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「等等，你在偷笑个什么呀。给我更加严肃一点呀，等到四月我们可就成大学生了啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 156,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"真是，拿这个爱逞强的废柴恋人没办法。真想欺负她一辈子。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 158,
+	},
+	block_00041 = {
+		{"scene", file="scene09"},
+		{"bgm", stop=1, time=5000},
+		{"se", stop=1, id=-1, time=5000},
+		{"vostop", stop=1, time=5000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=5000, file="white", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=0, func="wait"},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"タイトル"},
+		{"text"},
+		linkback = "block_00040",
+		line = 168,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

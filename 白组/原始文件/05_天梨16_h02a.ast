@@ -1,0 +1,717 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="内务长官"},
+		{"bg", time=0, sync=0, file="ev_ame_h34_07", path=":ev/ev_ame_h34/", set="ev_ame_h34"},
+		{"se", file="seエロ_ピストン：中", id=2, loop=1},
+		{"lvo", ch="ame", file="fem_ame_10102", loop=1},
+		{"bgm", file="bgm20"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"如果天梨为了今天已经做好了准备……！　那就让我回应她的感情吧……！",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 15,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「那我就不客气了……！　我要射在天梨的里面……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 18,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01512", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「嗯，好啊……！　会长就随自己喜欢的做吧……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 21,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"为了不让天梨溜走，我从握住大腿改成握住腰部，把即将射精的肉棒牢牢地插进深处。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 23,
+	},
+	block_00004 = {
+		{"se", stop=1, time=500, id=2},
+		{"lvo", ch="ame", stop=1},
+		{"bg", sync=0, face="1", file="ev_ame_h34_18", time=400, path=":ev/ev_ame_h34/", set="ev_ame_h34"},
+		{"se", file="seエロ_ピストン：強", id=3, loop=1},
+		{"lvo", ch="ame", file="fem_ame_10104", loop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01513", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「啊，呀，啊啊，啊，嗯！　啊，好激烈，啊啊，啊，呀！　啊啊，啊，哈，啊，呀啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 37,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01514", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「呀，啊，好厉害！　啊，看，看着这么拼命的会长，喜欢……啊，啊啊，呀！　啊啊，嗯，啊，好……好深！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 40,
+	},
+	block_00006 = {
+		{"bg", sync=0, face="1", file="ev_ame_h34_07", time=400, path=":ev/ev_ame_h34/", set="ev_ame_h34"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01515", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「啊，呀，好棒，啊啊，嗯！　呀，啊啊，不行了，啊啊，呀！　要忍，忍不住……啊啊，呀！　啊，啊啊，啊啊啊啊啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 46,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「射了！　要在天梨里面，射出来了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 49,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01516", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「可以哦，射出来……！　啊，呀啊，射了好多……好舒服！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 52,
+	},
+	block_00009 = {
+		{"se", stop=1, time=500, id=3},
+		{"lvo", ch="ame", stop=1},
+		{"bg", id=9, lv=9, sync=1, time=100, file="white", path=":bg/"},
+		{"bg", id=9, lv=9, sync=1, time=300, alpha=0, file="white", path=":bg/"},
+		{"bg", id=9, lv=9, sync=1, time=500, alpha=255, file="white", path=":bg/"},
+		{"cgdel", id=9, lv=9},
+		{"bg", file="ev_ame_h34_08", sync=0, time=1000, vague=100, path=":ev/ev_ame_h34/", set="ev_ame_h34"},
+		{"se", file="seエロ_射精中出し5", id=9, time=0, vol=100, pan=0},
+		{"ex", time=100, func="wait"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01517", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「啊！　呀啊啊啊啊啊啊啊！　啊，我感觉到了，会长的，射出来了……呀啊啊啊啊啊嗯！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 64,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01518", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「呼，呜，射了好多……啊、啊啊、肚子里……感觉到了……啊啊啊，啊，呀，啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 67,
+	},
+	block_00011 = {
+		{"bg", sync=0, face="1", file="ev_ame_h34_09", time=400, path=":ev/ev_ame_h34/", set="ev_ame_h34"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01519", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「啊，好厉害……哈啊，哈，啊啊……啊，会长，看起来很舒服的样子……太好了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 72,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在天梨的里面射得足以让我的尖端感到麻木了，而我也已经在沉浸在幸福的绝顶中四肢脱力了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 74,
+	},
+	block_00013 = {
+		{"bg", sync=0, face="1", file="ev_ame_h34_12", time=400, path=":ev/ev_ame_h34/", set="ev_ame_h34"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这时天梨从我头的上方，深情地抚摸着我疲惫不堪的脸。这孩子，真的很愿意为我献身……为我尽心尽力。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 80,
+	},
+	block_00014 = {
+		{"savetitle", text="白宫"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「话说回来，天梨刚才说过几次“要忍不住了”，那是指什么……？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 94,
+	},
+	block_00015 = {
+		{"bg", sync=0, face="1", file="ev_ame_h34_09", time=400, path=":ev/ev_ame_h34/", set="ev_ame_h34"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01529", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「诶？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 99,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"可能是她无意间说出的话吧……正当我这样想的时候，天梨却害羞地移开了视线。她似乎明白自己说过那种话。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 101,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01530", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「那，那个……和会长做的时候，好像有几次忍不住想尿尿了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 104,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「诶？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 107,
+	},
+	block_00019 = {
+		{"bg", sync=0, face="1", file="ev_ame_h34_10", time=400, path=":ev/ev_ame_h34/", set="ev_ame_h34"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01531", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「啊，没，没问题哦！　我觉得我好好坚持到最后了……但是，我事先也已经去过洗手间了，好奇怪……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 112,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01532", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「而且，和平时尿尿的感觉也有点不一样……感觉好像不受控制地出来……而且是从全身……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 115,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01533", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「难道说，这就是去了的感觉吗……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 118,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「诶，那有点可惜了。如果我再努力一点，说不定天梨就能去了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 121,
+	},
+	block_00023 = {
+		{"bg", sync=0, face="1", file="ev_ame_h34_09", time=400, path=":ev/ev_ame_h34/", set="ev_ame_h34"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01534", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「但，但是，我也不知道这是不是去了的感觉！万一真的尿出来的话……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 126,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「是啊，但是下次有同样的感觉的话……即使天梨尿出来也没关系，我并不想让你一直忍到最后……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 129,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「如果天梨能高潮的话，我也想试试让天梨体验一下去了的感觉。如果我们两个一起高潮的话，我也会感觉更舒服……我们也会加深彼此间的爱情」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 132,
+	},
+	block_00026 = {
+		{"bg", sync=0, face="1", file="ev_ame_h34_11", time=400, path=":ev/ev_ame_h34/", set="ev_ame_h34"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01535", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「但，但是，我还是稍微感觉有点害怕……果然，如果那是尿意的话就麻烦了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 137,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「如果是尿意的话，到时候尿在我身上也没关系。如果每次都这样的话会有些尴尬，但有失败才会有成功……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 140,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01536", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「虽，虽然会长这样说，但如果尿在会长身上的话，我还是会觉得很对不起，还是会觉得很尴尬……就算你说尿在身上也可以，我还是会觉得有些烦恼」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 143,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「但是啊，我听说女孩子去的时候缩紧的感觉，才是H的过程中最爽的……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 146,
+	},
+	block_00030 = {
+		{"bg", sync=0, face="1", file="ev_ame_h34_10", time=400, path=":ev/ev_ame_h34/", set="ev_ame_h34"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01537", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「诶！　真的吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 151,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"天梨被失败的风险吓坏了，但是当她知道她去了的时候可能能让我感到高兴，她就突然对此产生了兴趣。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 153,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01538", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「如果我去了的话，会长也会感到舒服……哎……那，那个，我也许想努力一下……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 156,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我听说女孩子不容易高潮。如果有下一次机会，即使有点勉强，我也会尽力去做的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 159,
+	},
+	block_00034 = {
+		{"bg", sync=0, face="1", file="ev_ame_h34_12", time=400, path=":ev/ev_ame_h34/", set="ev_ame_h34"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01539", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「嗯，嗯。如果会长能高兴的话……呜，虽然还是很担心，但我会试着努力在要去的时候不去忍耐的……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 164,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"真是个对我尽心尽力的女孩子。我伸出手，温柔地抚摸着她的脸颊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 166,
+	},
+	block_00036 = {
+		{"bg", x=500, y=250, time=500, file="zev_ame_h34_09", path=":ev/ev_ame_h34/", set="ev_ame_h34", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01540", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「诶嘿嘿，会长好温柔……那个，可以吻我吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 171,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不要，因为现在天梨脸上还残留着一些精液。等我先用纸巾擦干净」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 174,
+	},
+	block_00038 = {
+		{"bg", sync=0, face="1", file="zev_ame_h34_11", time=400, path=":ev/ev_ame_h34/", set="ev_ame_h34", ax=1280, ay=720, bx=-640, by=-360, x=500, y=250},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01541", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「诶，好过分！　这个是会长射在上面的哟！？　明明是自己射出来的，太过分了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 179,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"愤怒的天梨直接吻了我。还亲了我的脸颊。虽然天梨很阳光，但该生气的时候好像也会生气。这个行为就像狗狗一样。真可爱。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 181,
+	},
+	block_00040 = {
+		{"scene", file="scene19"},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"bg", file="catch05", id=9, lv=9, time=500, path=":cg/"},
+		{"bgm", file="bgm96", loop=0},
+		{"ex", time=6000, func="wait"},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="05_天梨17"},
+		{"text"},
+		linkback = "block_00039",
+		line = 191,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

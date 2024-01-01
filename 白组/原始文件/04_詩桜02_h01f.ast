@@ -1,0 +1,861 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="霜月骚乱"},
+		{"msgoff"},
+		{"bg", file="bg001c", path=":bg/", sync=0},
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa1110", ex05="shi_noa0010", face="a0039", head="shi_noa", lv=2.2, id=13, sync=0},
+		{"extrans", time=2000},
+		{"bgm", file="bgm08"},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa1110", ex05="shi_noa0010", face="a0028", head="shi_noa", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01286", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「说来，一时起了兴致就顺势做了……不过可得在妃爱亲回来之前消除气味」",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 24,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊，也是……不过，味道有那么明显吗？开窗换个几十分钟气后还会有吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 27,
+	},
+	block_00002 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa1100", ex05="shi_noa0000", face="a0038", head="shi_noa", lv=2.2, id=13},
+		{"fgact", ch="詩桜", act="おじぎ", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa1100", ex05="shi_noa0000", face="a0027", head="shi_noa", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01287", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「嗯……毕竟味道的来源多少沾了点在床单上……要不把垃圾筒挪到我房间去……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 34,
+	},
+	block_00003 = {
+		{"fg", ch="詩桜", mx=-40, mode=-1, lv=2.2, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"居然让诗樱学姐的手沾染这般污秽之物……我的心中充满了歉意。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 38,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过，要是垃圾桶里传出的味道也会暴露的话，那我以前自慰的时候不也……虽然我也尽量做了处理，不过还是不知道到底暴露了没有……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 40,
+	},
+	block_00005 = {
+		{"msgoff"},
+		{"bg", file="zbg001c", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="詩桜", size="z1", mode=3, resize=1, path=":fg/shi/z1/", file="shi_z1a1100", ex05="shi_z1a0000", face="a0039", head="shi_z1a", lv=2.3, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a1100", ex05="shi_z1a0000", face="a0001", head="shi_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01288", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「虽然妃爱亲是叫我不用客气……不过说归说，太邋遢也不好」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 51,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「也是……也不能叫她别进我房间。她肯定会担心我身体进来看看的……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 54,
+	},
+	block_00007 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a1100", ex05="shi_z1a0000", face="a0028", head="shi_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a1110", ex05="shi_z1a0010", face="a0018", head="shi_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01289", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「用浓香去掩盖也有点……那样妃爱亲会顾虑我们，之后刻意晚回来也不太好」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 60,
+	},
+	block_00008 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b1110", ex05="shi_z1b0010", face="b0027", head="shi_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b1110", ex05="shi_z1b0010", face="b0003", head="shi_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01290", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「所以说，这就是最优解了吧。现在开始每人要吃十个左右哦」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 66,
+	},
+	block_00009 = {
+		{"bg", time=500, file="bg001c", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"诗樱学姐剥起了房间里放着的橘子，给我也递了几个。这些橘子产自爱媛县，香气浓郁，完全没有不自然的地方，的确是最优解。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 70,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"正好我们饿了，而且橘子也好吃，结果一不注意就吃多了。两个人的指尖都被染得黄灿灿的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 72,
+	},
+	block_00011 = {
+		{"bgm", stop=1, time=1000},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="rule_002", wait=500, file="black", path=":bg/", vague=40},
+		{"msgoff"},
+		{"bg", x=-400, file="zbg002c", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a1100", ex05="shi_z1a0000", face="a0001", head="shi_z1a", x=280, lv=2.3, id=10, sync=0},
+		{"fg", ch="妃愛", size="z1", mode=3, resize=1, path=":fg/hiy/z1/", file="hiy_z1b1000", ex05="hiy_z1b0000", face="b0001", head="hiy_z1b", x=-280, lv=2.3, id=9, sync=0},
+		{"extrans", rule="rule_002r", vague=40},
+		{"bgm", file="bgm23"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「今天开始我就一个人洗澡吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 92,
+	},
+	block_00012 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b1010", ex05="hiy_z1b0010", face="b0008", head="hiy_z1b", x=-280, lv=2.3, id=9},
+		{"fgact", ch="妃愛", act="びっくり", lv=2.3, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01377", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「欸，为什么！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 98,
+	},
+	block_00013 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a1100", ex05="shi_z1a0000", face="a0039", head="shi_z1a", x=280, lv=2.3, id=10},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这个提案本来是值得高兴的，不知为何妃爱却对此提出了异议。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 102,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「要说为什么……洗澡本来就是自己洗的啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 105,
+	},
+	block_00015 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b1000", ex05="hiy_z1b0000", face="b0007", head="hiy_z1b", x=-280, lv=2.3, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a1000", ex05="hiy_z1a0000", face="a0016", head="hiy_z1a", x=-280, lv=2.3, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01378", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「难道哥哥还在害羞吗？我和姐姐都没想什么别的，只是单纯担心哥哥身体」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 111,
+	},
+	block_00016 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a1100", ex05="shi_z1a0000", face="a0027", head="shi_z1a", x=280, lv=2.3, id=10},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"诗樱学姐因为每次都在和我做色色的事而稍显动摇。不过也仅限于动筷子的手稍有停顿。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 115,
+	},
+	block_00017 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a1000", ex05="hiy_z1a0000", face="a0003", head="hiy_z1a", x=-280, lv=2.3, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a1000", ex05="hiy_z1a0000", face="a0043", head="hiy_z1a", x=-280, lv=2.3, id=9},
+				{"fgact", ch="妃愛", act="うなづく", lv=2.3, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01379", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「从自己觉得无恙起，还是要再观察一……三个星期为妙吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 122,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"为什么从一周一下增加到了三周啊。看来不是一周，是想说一个月吧。那这可太长了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 124,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「采取平常的生活方式，也有助于让生活重回正轨。而且康复医生也说了“可以自己去洗澡了”」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 127,
+	},
+	block_00020 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a1000", ex05="hiy_z1a0000", face="a0038", head="hiy_z1a", x=-280, lv=2.3, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01380", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「我还是觉得和我们一起洗好一点……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 132,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"就算我搬出康复医生说的话，妃爱也还是不肯罢休。她本来就热衷于照顾我，虽说现在是特殊的溺爱时期，不过我也没想到她会这么反对……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 134,
+	},
+	block_00022 = {
+		{"msgoff"},
+		{"bg", file="bg002c", path=":bg/", sync=0},
+		{"fg", ch="詩桜", size="no", mode=3, resize=1, path=":fg/shi/no/", file="shi_noa1100", ex05="shi_noa0000", face="a0027", head="shi_noa", x=230, lv=2.2, id=10, sync=0},
+		{"fg", ch="妃愛", size="no", mode=3, resize=1, path=":fg/hiy/no/", file="hiy_nob1000", ex05="hiy_nob0000", face="b0001", head="hiy_nob", x=-230, lv=2.2, id=9, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01381", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「诗樱学姐怎么看？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 144,
+	},
+	block_00023 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob1110", ex05="shi_nob0010", face="b0001", head="shi_nob", x=230, lv=2.2, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01291", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「如果能让他尽快康复，我觉得还是听专家的话更好」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 149,
+	},
+	block_00024 = {
+		{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_noa1000", ex05="hiy_noa0000", face="a0028", head="hiy_noa", x=-230, lv=2.2, id=9},
+		{"fgact", ch="妃愛", act="おじぎ", lv=2.2, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01382", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「是吗……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 155,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「而且，大家每天都很忙，还要每天轮班来照顾我，实在有点过意不去……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 158,
+	},
+	block_00026 = {
+		{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_nob1010", ex05="hiy_nob0010", face="b0042", head="hiy_nob", x=-230, lv=2.2, id=9},
+		{"fgact", ch="妃愛", act="びっくり", lv=2.2, id=9},
+		{"se", file="seコミ_眼光", id=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01383", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「——啊！你刚才说了“实在过意不去”是吧！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 165,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「嗯？啊，是说了。妃爱的体格比我小这么多，照顾我也不容易吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 168,
+	},
+	block_00028 = {
+		{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_nob1010", ex05="hiy_nob0010", face="b0035", head="hiy_nob", x=-230, lv=2.2, id=9},
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa1110", ex05="shi_noa0010", face="a0039", head="shi_noa", x=230, lv=2.2, id=10},
+		{"fgact", ch="妃愛", act="いいえ", lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_nob1010", ex05="hiy_nob0010", face="b0006", head="hiy_nob", x=-230, lv=2.2, id=9},
+				{"fgact", ch="妃愛", act="うんうん", lv=2.2, id=9},
+			},
+			vl02 = {
+				{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_nob1000", ex05="hiy_nob0000", face="b0043", head="hiy_nob", x=-230, lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01384", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「哥哥真是的，又开始客气了。果然还是在顾虑我们！为了哥哥的身体，再坚持一个月小菜一碟！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 178,
+	},
+	block_00029 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa1110", ex05="shi_noa0010", face="a0001", head="shi_noa", x=230, lv=2.2, id=10},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不不不，就算妃爱能坚持，那也要考虑诗樱学姐和里姐……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 183,
+	},
+	block_00030 = {
+		{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_nob1000", ex05="hiy_nob0000", face="b0003", head="hiy_nob", x=-230, lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_noa1000", ex05="hiy_noa0000", face="a0027", head="hiy_noa", x=-230, lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01385", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「没事，我一个人也可以」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 190,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不、不是！明明妃爱才是最忙的，在说什么呢……诗樱学姐，帮帮忙」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 193,
+	},
+	block_00032 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa1100", ex05="shi_noa0000", face="a0039", head="shi_noa", x=230, lv=2.2, id=10},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob1110", ex05="shi_nob0010", face="b0003", head="shi_nob", x=230, lv=2.2, id=10},
+			},
+			vl02 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob1100", ex05="shi_nob0000", face="b0032", head="shi_nob", x=230, lv=2.2, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01292", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「我想的是康复优先……不过要是妃爱亲实在不放心的话，我也不能把你丢给她一个人。我也来帮忙」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 200,
+	},
+	block_00033 = {
+		{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_nob1010", ex05="hiy_nob0010", face="b0041", head="hiy_nob", x=-230, lv=2.2, id=9},
+		{"fgact", ch="妃愛", act="ジャンプ", lv=2.2, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01386", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「太好了！不愧是我姐！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 207,
+	},
+	block_00034 = {
+		{"quake", mode="mw"},
+		{"se", file="seガーン", id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「等下！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 213,
+	},
+	block_00035 = {
+		{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_nob1010", ex05="hiy_nob0010", face="b0006", head="hiy_nob", x=-230, lv=2.2, id=9},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"偷鸡不成蚀把米。我还以为诗樱学姐会一直站在我这边的。她还真是宠溺妃爱啊……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 217,
+	},
+	block_00036 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa1100", ex05="shi_noa0000", face="a0053", head="shi_noa", x=230, lv=2.2, id=10},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa1100", ex05="shi_noa0000", face="a0023", head="shi_noa", x=230, lv=2.2, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01293", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「就算不需要直接参与照顾，在旁边照看照看还是可以的。这样你也安心一些，对吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 223,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不、不过，每次都还要让你换泳衣也挺不好意思的……而且，马上入冬就要冷起来了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 226,
+	},
+	block_00038 = {
+		{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_nob1000", ex05="hiy_nob0000", face="b0034", head="hiy_nob", x=-230, lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_nob1000", ex05="hiy_nob0000", face="b0003", head="hiy_nob", x=-230, lv=2.2, id=9},
+			},
+			vl02 = {
+				{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_nob1000", ex05="hiy_nob0000", face="b0015", head="hiy_nob", x=-230, lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01387", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「果然还是在顾虑我们啊，哥哥~。我早就做好精神准备了。我实在是担心哥哥，就再照顾一个月，好吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 233,
+	},
+	block_00039 = {
+		{"bg", file="bg099c", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"家庭会议最终判决，我独立洗澡的时间推迟一个月。退一百步来说，就算妃爱知道我担心她们，但为什么她会高兴呢。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 237,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过……因为我的受伤，让妃爱最担心的人也正是我。还是老实听她的话吧……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 239,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"时至今日，被妃爱触摸的时候，我还是会心跳不已……至少努力别被她发现我勃起了吧……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 241,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"里姐就更加过分。冷不丁就来一句“这不是泡泡浴吗？”，搞得我都不知道怎么回应……而实际上，里姐手上打满肥皂泡的样子的确很色……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 243,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"至于诗樱学姐，刚开始还站在我这边，可一决定要继续照顾，就兴奋地动起双手。这是什么动作啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 245,
+	},
+	block_00044 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"bg", file="catch04", id=9, lv=9, time=500, path=":cg/"},
+		{"bgm", file="bgm94", loop=0},
+		{"ex", time=6000, func="wait"},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="04_詩桜03_1"},
+		{"text"},
+		linkback = "block_00043",
+		line = 253,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

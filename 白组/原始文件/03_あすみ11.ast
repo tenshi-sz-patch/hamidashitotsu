@@ -1,0 +1,1109 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="你的一切"},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg007c", path=":bg/", sync=0},
+		{"fg", ch="あすみ", size="no", mode=3, path=":fg/asu/no/", file="asu_nob1101", ex05="asu_nob0001", face="b0055", head="asu_nob", x=0, lv=2.2, id=13, sync=0},
+		{"extrans"},
+		{"bgm", file="bgm08"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10361", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「欢迎回家~」",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 21,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"借用完浴室回来之后，亚澄一脸开心的样子。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 23,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"说起来，虽然她在我面前从没露出过不开心的样子（生气的样子倒是有过），但现在的她看上去要比以往更加开心，满脸笑嘻嘻的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 25,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「是有什么值得高兴的事吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 28,
+	},
+	block_00004 = {
+		{"fg", ch="あすみ", size="no", mode=3, path=":fg/asu/no/", file="asu_nob1101", ex05="asu_nob0001", face="b0019", head="asu_nob", x=0, lv=2.2, id=13},
+		{"fgact", ch="あすみ", act="うなづく", lv=2.2, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10362", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「当然。和学长卿卿我我可让人开心了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 34,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我看你这样子也不像是出于爱意啊……是小式的事吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 37,
+	},
+	block_00006 = {
+		{"fg", ch="あすみ", size="no", mode=3, path=":fg/asu/no/", file="asu_nob1101", ex05="asu_nob0001", face="b0008", head="asu_nob", x=0, lv=2.2, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"因为她手上还拿着手机，所以我就随口一猜。看亚澄这震惊的样子，看来是猜对了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 41,
+	},
+	block_00007 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg007c", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="あすみ", size="z1", mode=3, resize=1, path=":fg/asu/z1/", file="asu_z1b1111", ex05="asu_z1b0011", face="b0035", head="asu_z1b", x=0, lv=2.3, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10363", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「关注马上就要超过45万了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 51,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「哎，可以啊！红白歌会之后已经两个月了……居然关注还在涨。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 54,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"关注虽然每天都在涨，但没什么爆点的话，增长也屈指可数。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 56,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"说回这次，一月才刚突破40万大关，而之后两个月就增长了5万人。考虑到这一点，就更能体会到这个数字有多恐怖了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 58,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"最近的热点事件……虽说亚澄尽可能每天都直播，但也没干什么特别的。那这个数字增长是……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 60,
+	},
+	block_00012 = {
+		{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a1101", ex05="asu_z1a0001", face="a0023", head="asu_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10364", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「MV播放量也在涨……所以我估计是唱的歌传播出去了吧。但契机是什么我也不清楚……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 65,
+	},
+	block_00013 = {
+		{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a1101", ex05="asu_z1a0001", face="a0052", head="asu_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a1101", ex05="asu_z1a0001", face="a0055", head="asu_z1a", x=0, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10365", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「播放量上涨就已经很让人高兴，像这样涨这么多，不就更让人高兴了吗。毕竟可以让那么多的人听我的歌啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 71,
+	},
+	block_00014 = {
+		{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a1111", ex05="asu_z1a0011", face="a0022", head="asu_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a1111", ex05="asu_z1a0011", face="a0054", head="asu_z1a", x=0, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10366", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「听第一次可能就是单纯好奇，但听第二次不就证明是喜欢我的歌了吗……要是能反复听好多次就更让人开心了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 78,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「想置身于冬日雪景的时候，我就会去听亚……小式的歌，所以就会一直循环播放……一听就停不下来了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 81,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「小式刚出道的时候，为了多贡献播放量我还一直在循环呢！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 84,
+	},
+	block_00017 = {
+		{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1b1101", ex05="asu_z1b0001", face="b0022", head="asu_z1b", x=0, lv=2.3, id=13},
+		{"fgact", ch="あすみ", act="おじぎ", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10367", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「谢谢你，刚出道的时候播放量涨一我都超兴奋的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 90,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"说是刚出道的时候，但从我开始听她的「试着唱了下」开始，听完一遍播放量涨100都是正常的，能看到播放量以个位数逐渐增长，看来是相当早期的事了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 92,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"说起来，刚才的对话里有一点让人很在意……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 94,
+	},
+	block_00020 = {
+		{"bg", speed=150000, file="zbg007c", path=":bg/", x2=640, y2=100, x=-640, y=100, ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「你现在也还每天都关心播放量和关注数吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 99,
+	},
+	block_00021 = {
+		{"fg", ch="あすみ", size="no", mode=1, resize=1, path=":fg/asu/no/", file="asu_nob1111", ex05="asu_nob0011", face="b0019", head="asu_nob", lv=2.2, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10368", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「是的。休息的时候打开自己的主页就会先去看看。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 104,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"略感困扰的笑脸里又露出几分天真无邪。像我这样乖僻的人会觉得“拘泥于数字真是逊爆了”……但她看起来就完全没有这种意识。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 106,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"达到了什么吉利的数字就会和大家一起庆祝，在乎关注数对以此谋生的人来讲或许是理所应当的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 108,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"现在签了公司，看这些数字也自然成了工作的一环。况且也不是整天都盯着这些数字，说是“拘泥”不如说是“关心”比较好。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 110,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"常磐也会因为插画的转发或赞破万而高兴，我也从没觉得那有什么逊的。真正逊的反倒成了拘泥于“他人是否拘泥于数字”的我。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 112,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「那么……这些数据被后出道的新人超越的时候，也还是会沮丧气馁的吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 115,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我对亚澄的本性放了心，就调转话头到一些无关紧要的事上。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 117,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这个问题显然不问也罢。不如说，亲不越礼近有分寸……是个不该问的问题。我慌慌张张地想要撤回。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 119,
+	},
+	block_00029 = {
+		{"fg", ch="あすみ", size="no", mode=1, path=":fg/asu/no/", file="asu_nob1111", ex05="asu_nob0011", face="b0010", head="asu_nob", lv=2.2, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="あすみ", size="no", mode=1, path=":fg/asu/no/", file="asu_nob1111", ex05="asu_nob0011", face="b0019", head="asu_nob", lv=2.2, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10369", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「我不是很关心其他VTuber的数据。可能是因为我没什么朋友吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 125,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"亚澄毫不犹豫地就回答了我的问题。我提的这个问题惹她生气也不奇怪，但亚澄自己倒是不以为然。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 127,
+	},
+	block_00031 = {
+		{"fg", ch="あすみ", size="no", mode=1, path=":fg/asu/no/", file="asu_noa1101", ex05="asu_noa0001", face="a0003", head="asu_noa", lv=2.2, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="あすみ", size="no", mode=1, path=":fg/asu/no/", file="asu_noa1101", ex05="asu_noa0001", face="a0022", head="asu_noa", lv=2.2, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10370", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「如果有什么爆火的VTuber，我也会去看他们的直播，学习学习。平时也没空看那么多直播，当它成为讨论热点时，我才会去 ……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 133,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"从她身上看不到嫉妒这种感情。因为她实在过于老实，所以也不像是故作不在乎的样子。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 135,
+	},
+	block_00033 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg007c", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="あすみ", size="z1", mode=3, resize=1, path=":fg/asu/z1/", file="asu_z1a1101", ex05="asu_z1a0001", face="a0002", head="asu_z1a", lv=2.3, id=13, sync=0},
+		{"extrans"},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a1101", ex05="asu_z1a0001", face="a0020", head="asu_z1a", lv=2.3, id=13},
+				{"fgact", ch="あすみ", act="おじぎ", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10371", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「跟同期生比，只有自己不涨粉，那也还是会在意的吧。特别是出道日期相近的那些。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 149,
+	},
+	block_00034 = {
+		{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a1111", ex05="asu_z1a0011", face="a0014", head="asu_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a1111", ex05="asu_z1a0011", face="a0028", head="asu_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10372", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「我自己也知道自己不善言辞……虽然努力学习，努力让大家满意，但还是做不到妙语连珠……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 155,
+	},
+	block_00035 = {
+		{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1b1101", ex05="asu_z1b0001", face="b0038", head="asu_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1b1101", ex05="asu_z1b0001", face="b0028", head="asu_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10373", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「每次聊天的时候，我都会担心要是观众减少了该怎么办，所以平常只要不取关，我就谢天谢地了，哪有精力去和别人比较啊。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 161,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"小式的实况和音乐制作……还有杂谈我都喜欢，但这种情况下重要的不是我们这些老粉，而是第一次来看的路人吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 165,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"与其担心她对数据过于敏感，不如担心她对自己太不自信了。和那些强势的人对话的时候，就经常一脸慌张的样子。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 167,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"看来她怕的不是被别人超越，而是不如昨天的自己。看来是挺认真的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 169,
+	},
+	block_00039 = {
+		{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1b1111", ex05="asu_z1b0011", face="b0002", head="asu_z1b", lv=2.3, id=13},
+		{"fgact", ch="あすみ", act="おじぎ", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10374", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「但要是『试着唱了下』的播放量比聊天还要少，可能也会挺伤心的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 176,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但这样的亚澄心中也有自己所坚信的东西，而这也是她开始直播的初心。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 178,
+	},
+	block_00041 = {
+		{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a1101", ex05="asu_z1a0001", face="a0018", head="asu_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a1101", ex05="asu_z1a0001", face="a0019", head="asu_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10375", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「说起来可能有点厚脸皮……但比起翻唱曲，自己的原创曲播放上涨的时候……要更开心。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 184,
+	},
+	block_00042 = {
+		{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a1111", ex05="asu_z1a0011", face="a0004", head="asu_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a1111", ex05="asu_z1a0011", face="a0031", head="asu_z1a", lv=2.3, id=13},
+				{"fgact", ch="あすみ", act="おじぎ", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a1111", ex05="asu_z1a0011", face="a0023", head="asu_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10376", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「再就是新歌的播放量比前一首更高的时候，也会有种成长的感觉……心里可高兴了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 192,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她对“歌”既有贪欲也有嫉妒，所以才会有成长，才会比对其他的什么都要主动。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 194,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"那么这就不需要我担心了。说到底根本就不需要我担心，但作为她的男朋友怎么也还是会在意的。而现在这份纠结也解开了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 196,
+	},
+	block_00045 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", zoom=120, file="zbg007c", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="あすみ", size="z2", mode=3, resize=1, path=":fg/asu/z2/", file="asu_z2a1101", ex05="asu_z2a0001", face="a0034", head="asu_z2a", x=0, lv=2.4, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="あすみ", size="z2", mode=3, path=":fg/asu/z2/", file="asu_z2a1101", ex05="asu_z2a0001", face="a0015", head="asu_z2a", x=0, lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10377", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「光关注数据可不行……我希望我写出的歌能打动自己的内心，并因此能成为对于谁无可替代的存在。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 208,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「但你的真实想法是？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 211,
+	},
+	block_00047 = {
+		{"fg", ch="あすみ", size="z2", mode=3, path=":fg/asu/z2/", file="asu_z2a1101", ex05="asu_z2a0001", face="a0054", head="asu_z2a", x=0, lv=2.4, id=13},
+		{"fgact", ch="あすみ", act="うなづく", lv=2.4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10378", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「想让好多好多的人听！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 217,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"亚澄笑了，我也跟着笑了。什么啊，这说的不是很有趣吗。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 219,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"话说得幽默风趣就该好好表扬。要是能借此消解不安让她安心，之后把精力投入到曲子的创作中就好了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 221,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「明天的收录我去不了，就把期待留到正式演出的时候吧。之后的视频也是。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 224,
+	},
+	block_00051 = {
+		{"fg", ch="あすみ", size="z2", mode=3, path=":fg/asu/z2/", file="asu_z2b1101", ex05="asu_z2b0001", face="b0052", head="asu_z2b", x=0, lv=2.4, id=13},
+		{"fgact", ch="あすみ", act="うなづく", lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="あすみ", size="z2", mode=3, path=":fg/asu/z2/", file="asu_z2b1101", ex05="asu_z2b0001", face="b0055", head="asu_z2b", x=0, lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10379", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「好的！我也期待很久了，好想让学长听我的歌啊……希望能让大家都喜欢。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 231,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然让我独占她的身子，却依旧把歌声留给大家。当天的我也就是众多雪达摩之一吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 233,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「那今天就先回去了。明天……恐怕见不了面吧。后天能再来打扰吗。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 236,
+	},
+	block_00054 = {
+		{"fg", ch="あすみ", size="z2", mode=3, path=":fg/asu/z2/", file="asu_z2b1111", ex05="asu_z2b0011", face="b0008", head="asu_z2b", x=0, lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="あすみ", size="z2", mode=3, path=":fg/asu/z2/", file="asu_z2b1111", ex05="asu_z2b0011", face="b0038", head="asu_z2b", x=0, lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10380", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「啊，抱歉……按鸣门之前说的，小式的身体3D化之后，动作好像会完全不一样……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 242,
+	},
+	block_00055 = {
+		{"fg", ch="あすみ", size="z2", mode=3, path=":fg/asu/z2/", file="asu_z2a1101", ex05="asu_z2a0001", face="a0002", head="asu_z2a", x=0, lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="あすみ", size="z2", mode=3, path=":fg/asu/z2/", file="asu_z2a1101", ex05="asu_z2a0001", face="a0028", head="asu_z2a", x=0, lv=2.4, id=13},
+				{"fgact", ch="あすみ", act="いいえ", lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10381", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「活动当天还要登台演出，3D的身体不经练习基本不可能直接用好。说是剩下的20天都不太够呢。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 249,
+	},
+	block_00056 = {
+		{"fg", ch="あすみ", size="z2", mode=3, path=":fg/asu/z2/", file="asu_z2a1111", ex05="asu_z2a0011", face="a0014", head="asu_z2a", x=0, lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="あすみ", size="z2", mode=3, path=":fg/asu/z2/", file="asu_z2a1111", ex05="asu_z2a0011", face="a0029", head="asu_z2a", x=0, lv=2.4, id=13},
+			},
+			vl02 = {
+				{"fgact", ch="あすみ", act="おじぎ", lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10382", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「之后一段时间要在鸣门和其他工作人员的照看下，练习使用3D身体了……一下课就要直奔事务所，抱歉了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 256,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「完全没问题！亚澄也要好好准备演出啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 259,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"看来在亚澄心中，最喜欢的学长也比不过更喜欢的歌唱。不，这也没什么好不甘心的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 261,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"为了让别人听自己的歌，或是在做与之相关的准备时，亚澄就展现出其贪得无厌的一面，甚至可以为此抛弃掉日常生活。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 263,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"和她交往就要接受她这一点，由此我也更感受到她对歌唱的热爱。可得在上学路上和午休还有空相处的时候，再多看几眼她的笑容啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 265,
+	},
+	block_00061 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"bg", file="catch03", id=9, lv=9, time=500, path=":cg/"},
+		{"bgm", file="bgm93", loop=0},
+		{"ex", time=6000, func="wait"},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="03_あすみ12"},
+		{"text"},
+		linkback = "block_00060",
+		line = 271,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

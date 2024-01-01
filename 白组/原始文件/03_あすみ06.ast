@@ -1,0 +1,1989 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="地球最终日"},
+		{"msgoff"},
+		{"bg", file="zbg002a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="妃愛", size="z1", mode=3, resize=1, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0001", head="hiy_z1b", lv=2.3, id=13, sync=0},
+		{"extrans"},
+		{"bgm", file="bgm01"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「亚澄和经纪人聊工作的时候，我在旁边插嘴会不会显得太缺乏常识了？」",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 19,
+	},
+	block_00001 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0050", head="hiy_z1b", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10074", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「你说啥？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 24,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"由于隔了三周才去见女朋友，所以有点紧张。于是我试着向演艺界的前辈寻求思想上的准备，结果她对我露出了和被拜托找小猫的刑警一样的表情。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 26,
+	},
+	block_00003 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0028", head="hiy_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0038", head="hiy_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10075", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「没想到哥哥会问我这个问题……我现在的心情就像被命令立刻去寻找被诱拐的小猫的搜查一课的刑警一样。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 32,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不愧是我的妹妹，想法和我一模一样。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 34,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「感觉自己能问出这个问题就已经很没常识了。现在我光是看到妃爱的脸就感觉很羞耻了。你现在赶紧出去。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 37,
+	},
+	block_00006 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0045", head="hiy_z1a", lv=2.3, id=13},
+		{"fgact", ch="妃愛", act="びっくり", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0018", head="hiy_z1b", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0001", head="hiy_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10076", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「咋还让我出去呢！我想想啊，假如我正在这里和经纪人说话。哥哥在那里看电视。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 45,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「嗯，我在看电视。今早的猫猫是布拉多尔猫。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 48,
+	},
+	block_00008 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0210", ex05="hiy_z1a0010", face="a0015", head="hiy_z1a", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10077", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「『妃爱小姐，有人想要拜托你黄金周的周末去舞台上打个招呼。但上午是常规收录，第二天还有活动，您觉得如何呢？』」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 53,
+	},
+	block_00009 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0210", ex05="hiy_z1b0010", face="b0007", head="hiy_z1b", lv=2.3, id=13},
+		{"fgact", ch="妃愛", act="びっくり", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10078", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「来，请哥哥把现在的想法如实的说出来！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 59,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「感觉会很忙很辛苦，但妃爱很可靠，而且做不到的时候也会好好拒绝，所以应该没问题吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 62,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「真的啊！　完全没有需要我插嘴的地方！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 65,
+	},
+	block_00012 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0054", head="hiy_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0023", head="hiy_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10079", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「谢谢。你看，对方是我的时候就是这样，而现在锦也是专业的了，我觉得你也可以相信她！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 73,
+	},
+	block_00013 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0019", head="hiy_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0035", head="hiy_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10080", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「就算是专业的，有时候也会做出１次、２次……７兆次的错误选择，那种情况就当做是在学习吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 79,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「好的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 82,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"前几天经纪人来找亚澄商量代理出演的事情时，我觉得「代理被炎上的主演者给人的印象是不是不太好？」，于是就插嘴了，但果然这种担心是多余的啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 84,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我痛感自己见识短浅。虽说也有之前新川说过让人不安的话的原因……不过也是啊，如果是妃爱处在同样情况下的话，我是不会去插嘴的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 86,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"就算是常磐或者诗樱学姐也……首先那两人谈工作的时候我就不会有在的机会吧，就算有这样的机会我应该也会选择沉默。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 88,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我心里的某处还在认为「因为亚澄才刚进企业」「还和新人一样」因此小瞧她吧。我身为亚澄的男朋友却在轻视她，这怎么能行呢？应该像对待妃爱一样对待她。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 90,
+	},
+	block_00019 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0010", head="hiy_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0023", head="hiy_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10081", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「不过这是“哥哥处于无关人士的立场”的情况。如果前提条件是『被叫来坐着谈工作』的话，我觉得说什么都是可以的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 98,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"到底要怎么样啊……！　刚反省完就安慰我说不用反省也行，我用无处安放的拳头遮住了脸。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 100,
+	},
+	block_00021 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0019", head="hiy_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0053", head="hiy_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10082", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「如果不能说出自己想法的话，为什么还要叫过去呢？就算对方只是想让你坐在那闭口不言，哥哥也是有发言权的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 106,
+	},
+	block_00022 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0210", ex05="hiy_z1a0010", face="a0054", head="hiy_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fgact", ch="妃愛", act="うんうん", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0019", head="hiy_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10083", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「就我而言，哥哥担心我的身体状况的话，我肯定会开心地手舞足蹈的哦吼吼。但听不听你的话就另说了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 113,
+	},
+	block_00023 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0001", head="hiy_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0054", head="hiy_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10084", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「如果哥哥不断乱插嘴，让对方的事务所觉得你这家伙很烦人的话，对方应该会改变商量方式的。所以想怎么做，怎么做就好。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 119,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「让我想怎么做就怎么做，这才是最让我发愁的……反过来说的话，有没有『不能做』的？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 122,
+	},
+	block_00025 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0002", head="hiy_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0023", head="hiy_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10085", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「大概就是不能觉得事不关己吧。虽然说什么都可以，但不要觉得一切都只是为了对方，自己该说什么要自己思考然后自己决定。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 130,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「好的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 133,
+	},
+	block_00027 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0043", head="hiy_z1a", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10086", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「另外，哥哥什么事情都憋在心里、思想也太过消极了点。总之活得更随意点吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 138,
+	},
+	block_00028 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0038", head="hiy_z1a", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10087", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「虽然当今这世道的风向是不能把责任强加给别人，但闷在心里的事情太多导致走投无路的人当然也是有的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 145,
+	},
+	block_00029 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0023", head="hiy_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0210", ex05="hiy_z1b0010", face="b0041", head="hiy_z1b", lv=2.3, id=13},
+				{"fgact", ch="妃愛", act="うなづく", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10088", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「如果目的是追求内心安宁的话，那么在自己心里找借口不也挺好的吗？偶尔有那么一天想把所有错误都归咎于别人，我觉得也是可以的！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 152,
+	},
+	block_00030 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0002", head="hiy_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0022", head="hiy_z1b", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0210", ex05="hiy_z1b0010", face="b0031", head="hiy_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10089", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「不过，胡乱迁怒于人是不可以的。如果有牢骚的话就来找妹妹吧。如果是无关紧要的事，我随时都可以听听的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 158,
+	},
+	block_00031 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0210", ex05="hiy_z1a0010", face="a0054", head="hiy_z1a", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10090", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「总而言之，哥哥就活得更随意一些吧！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 163,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不对不对妃爱小姐，你在说什么呢。哪还有比我活得更随意的人了。嗯，没有的吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 166,
+	},
+	block_00033 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0019", head="hiy_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0210", ex05="hiy_z1a0010", face="a0041", head="hiy_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10091", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「那是哥哥没有负担的时候的事了吧。现在为了锦而活的哥哥也很帅气，我不讨厌哦！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 172,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「好的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 175,
+	},
+	block_00035 = {
+		{"fg", ch="妃愛", size="z2", my=40, mode=3, resize=1, path=":fg/hiy/z2/", file="hiy_z2b0210", ex05="hiy_z2b0010", face="b0055", head="hiy_z2b", lv=2.4, id=13},
+		{"fgact", ch="妃愛", act="うんうん", lv=2.4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10092", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「乖乖~」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 181,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"可能是觉得对于不习惯为人处世的哥哥来说，责任这个词还太早了吧，所以妃爱过来摸了摸我的头。我也顺从地被她摸着。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 183,
+	},
+	block_00037 = {
+		{"bg", speed=160000, file="zbg002a", path=":bg/", x2=640, y2=0, x=-640, y=0, ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我有时候也觉得妃爱说的没错（虽然妃爱没这么说过就是了）我进入社会也许还太早了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 188,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不和演唱会或者活动这种大规模的东西扯上关系，也可以选择就像个学生，谈恋爱直到毕业为止。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 190,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"一边远远地看着亚澄活跃的成功经历，只要在她来报告的时候摆出一副学长的样子夸一句「很厉害啊」就好了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 192,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但我那娇小的女朋友，已经片刻不停地冲进了社会的洪流之中，所以我想至少在安全的地方守望着她。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 194,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"如果有可以商量的人，我想让他务必听我说说，关于亲近自己的可爱学妹是有名的ＶＴｕｂｅｒ这件事。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 196,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"情况太过特殊，这种经历哪里都没有。或许可以在knowledge community上问一下，或许会有亲切却不负责的主妇给我提供一些建议。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 198,
+	},
+	block_00043 = {
+		{"msgoff"},
+		{"bg", file="zbg002a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="妃愛", size="z1", mode=3, resize=1, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0023", head="hiy_z1b", lv=2.3, id=13, sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「妃爱A～梦。我，想一直处在不用负责的立场上，只是开心地活着～」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 207,
+	},
+	block_00044 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0210", ex05="hiy_z1b0010", face="b0032", head="hiy_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0210", ex05="hiy_z1a0010", face="a0006", head="hiy_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10093", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「乖乖。不要忘了，现在的生活方式可是你自己选择的。不过从现在开始，由我这个妹妹一并照顾哥哥和锦也是可以的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 213,
+	},
+	block_00045 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0052", head="hiy_z1a", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10094", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「说到锦，听说她新曲的试作音已经完成了？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 218,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「欸，你怎么知道。明明我也才刚从ＬＩＭＥ上听说。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 221,
+	},
+	block_00047 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0019", head="hiy_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0001", head="hiy_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10095", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「什么怎么知道的，我每天都和她见面、和她说话。她今早也给我发消息了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 227,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"自从决定了发新曲的日程之后，亚澄就专心投入到作曲了。至今为止我已经三周没有去过亚澄的房间了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 229,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过，学还是要上的，所以我们每天都会在一起。一起吃午饭，放学后稍微喝喝茶什么的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 231,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"只是，我没有作曲的经验。虽然不知道具体情况，但录音的时候她始终都要戴着耳机，所以好像也没法聊天。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 233,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"据说如果集中精力的话，也许会５小时、６小时……７２小时坐在电脑面前一动不动。我不想打扰到她，就约好「等曲子完成之后再去你的房间」。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 235,
+	},
+	block_00052 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0210", ex05="hiy_z1b0010", face="b0052", head="hiy_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0008", head="hiy_z1b", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0041", head="hiy_z1b", lv=2.3, id=13},
+				{"fgact", ch="妃愛", act="うなづく", lv=2.3, id=13},
+			},
+			vl03 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0027", head="hiy_z1b", lv=2.3, id=13},
+			},
+			vl04 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0055", head="hiy_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10096", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「因为今天放学后能见到哥哥，她可开心了……啊，这个好像不能说啊。今晚晚些回来也没事，要多和她说说话。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 245,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「谢谢。不过亚澄今天还要直播，我觉得不会待到太晚。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 248,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"想集中精力作曲，同时直播也不能疏忽，这就是兼顾作曲的ＶＴｕｂｅｒ的辛苦吧。不过小式每天都在开心地聊天。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 250,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我晚上八点左右回来。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 253,
+	},
+	block_00056 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0002", head="hiy_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0010", head="hiy_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10097", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「如果你们俩是这么打算的话我也不打算插嘴，但明明是三周不见的两人独处，却意外地平淡呢。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 259,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「看上去很平淡吗？除去周末我们每天都会见面，亚澄也经常向我撒娇，我和亚澄都很幸福呢。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 262,
+	},
+	block_00058 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0038", head="hiy_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0048", head="hiy_z1a", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0001", head="hiy_z1b", lv=2.3, id=13},
+			},
+			vl03 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0019", head="hiy_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10098", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「总感觉哥哥和锦之间有种这样的氛围呢。『老爷子，茶泡好了哦』这种的。感觉完全不用担心你们俩啊。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 270,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不用担心我们之间会因为歧见而分手。亚澄大概也不会对我有不安。感觉只要每天确认一次对方还活着就可以放心了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 273,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「比起我自己，我其实更担心亚澄的压力问题。我听说音乐家不是在作曲的时候会变得神经质吗。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 276,
+	},
+	block_00061 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0003", head="hiy_z1b", lv=2.3, id=13},
+		{"fgact", ch="妃愛", act="うんうん", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10099", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「我听说过我听说过。我懂我懂。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 282,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「诗樱学姐快到截稿日期的时候也不会见我了，而且到处都找不到人；常磐快到冬季同人展的时候，也会变得非常神经质。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 285,
+	},
+	block_00063 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0210", ex05="hiy_z1b0010", face="b0012", head="hiy_z1b", lv=2.3, id=13},
+		{"fgact", ch="妃愛", act="おじぎ", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0210", ex05="hiy_z1b0010", face="b0019", head="hiy_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10100", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「很吓人呢。虽然我自己说有些那啥，但有种就连我也不能搭话的氛围。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 295,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「但是，亚澄最近三周里……兴许是快要完成了心情很痛快，就连昨天和前天都在正常直播。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 298,
+	},
+	block_00065 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0210", ex05="hiy_z1b0010", face="b0008", head="hiy_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0040", head="hiy_z1a", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0008", head="hiy_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10101", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「确实很正常啊。休息时间也和我悠闲地说话了。她还悠哉地问我『猪肉包和肉包的区别是什么？』」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 307,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「就算亚澄是超人，也会出现这种情况吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 310,
+	},
+	block_00067 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0042", head="hiy_z1a", lv=2.3, id=13},
+		{"fgact", ch="妃愛", act="いいえ", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0010", head="hiy_z1a", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0001", head="hiy_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10102", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「我不知道。每个人的情况都不一样的吧。不过她上周也说过『我下周可能没法来上课了』。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 318,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「能随口说出这种话，很厉害啊。但不可否认的是，现在的学校对亚澄来说只不过是『去见旧学生会大家的地方』。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 321,
+	},
+	block_00069 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0032", head="hiy_z1b", lv=2.3, id=13},
+		{"fgact", ch="妃愛", act="おじぎ", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10103", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「真是个大人物啊。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 327,
+	},
+	block_00070 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0001", head="hiy_z1b", lv=2.3, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「这话该你来说吗？不过，作为哥哥我还是希望你能顺利毕业。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 332,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然希望，但不管是对妃爱还是对亚澄来说，为了「现在的目标」，学校的课业确实没有那么重要。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 334,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"另一方面，包括和我的关系在内，妃爱和亚澄也的确处于互相需要彼此的关系中。她们俩都很忙，在学校之外很难再有直接见面的机会。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 337,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"对她们来说，学校真的逐渐变成了「见朋友的地方」。不过，也许大多数学生上学的理由都是类似的吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 339,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过就算我毕业了，亚澄和妃爱也会继续亲密地上学吧，这样就再好不过了。就算毕业不是她们的目的，我也希望毕业能成为两个人的美好回忆。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 341,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「冷静下来想想，让大人物妃爱说是大人物的亚澄很厉害啊。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 344,
+	},
+	block_00076 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0019", head="hiy_z1b", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10104", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「不不，我倒不如说是小人物，和哥哥并没有什么区别的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 349,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「刚才，你是不是间接说我是小人物了？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 352,
+	},
+	block_00078 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0031", head="hiy_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0053", head="hiy_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10105", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「至少我是被培养出来的，不像锦那样天然。说到底她才是真正的大人物。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 358,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「培养出来的大人物和天然的大人物之间有什么区别吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 361,
+	},
+	block_00080 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0027", head="hiy_z1a", lv=2.3, id=13},
+		{"fgact", ch="妃愛", act="おじぎ", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0001", head="hiy_z1a", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0001", head="hiy_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10106", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「嗯—，我举一个例子，比如因为我从小就在演艺界，所以某种程度上习惯了和同业界的权威说话。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 369,
+	},
+	block_00081 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0001", head="hiy_z1b", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10107", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「但这是基于履历和经验得来的，我现在和赞助商、策划、以及其他业界的大人物说话的时候，还是会有一些心理负担的哦。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 374,
+	},
+	block_00082 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0019", head="hiy_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0001", head="hiy_z1b", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0013", head="hiy_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10108", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「不过由于我不相信别人，所以大多数情况下想着『和这个人一辈子都不会有关系』就不会在意了，但即使如此相遇的一瞬间还是会紧张的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 382,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「就一瞬间啊，已经很厉害了哦。像我这种人和别人说话的时候一直都会很紧张。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 385,
+	},
+	block_00084 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0019", head="hiy_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0001", head="hiy_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10109", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「但是锦的情况，是天生的对吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 390,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「天生指的是？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 393,
+	},
+	block_00086 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0008", head="hiy_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0003", head="hiy_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10110", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「亚澄的父母，可是世界出名的艺术家。而且，总体上看的话他们的艺术风格偏守旧一些，是一种比较古典的艺术风格。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 399,
+	},
+	block_00087 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0023", head="hiy_z1b", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10111", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「从她出生开始，她就处在上流社会中，和优雅高贵的上层阶级有交集。而且是在非常自然的环境中。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 404,
+	},
+	block_00088 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0001", head="hiy_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0031", head="hiy_z1b", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0043", head="hiy_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10112", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「从小就在贵族面前被命令『亚澄，打个招呼』，在这种环境下长大的话，事到如今面对谁还会胆怯呢？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 411,
+	},
+	block_00089 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我记得，亚澄的父亲，好像在贾斯提斯国家的总统面前演奏过来着……还有什么能比那个人更让人紧张呢？虽说我不知道当时是哪个总统。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 413,
+	},
+	block_00090 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0019", head="hiy_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0004", head="hiy_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10113", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「虽然锦害怕接近别人，但那是她原本的性格，不会因为特定的对象而改变态度。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 419,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她会害怕别人，是因为对男性有恐惧感，也是因为被集体所排斥了吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 421,
+	},
+	block_00092 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"听妃爱这么一说我想起来了，亚澄从现实世界进入不需要和别人有直接交集的电子世界之后，就拥有了行动力和勇气。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 423,
+	},
+	block_00093 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0001", head="hiy_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0052", head="hiy_z1a", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0032", head="hiy_z1a", lv=2.3, id=13},
+				{"fgact", ch="妃愛", act="おじぎ", lv=2.3, id=13},
+			},
+			vl03 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0053", head="hiy_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10114", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「不是从组织方面而是从社会阶级方面来讲，她对所有人类的视线都是平等的。所以说，我才会感慨亚澄才是真的大人物。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 433,
+	},
+	block_00094 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0022", head="hiy_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0001", head="hiy_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10115", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「她很有礼貌，让年长者也有面子。况且还有像常磐那样照顾她的人。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 439,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她知道野野花小姐的真实身份时可是倒下了啊。不过我也是，比起日本的内阁总理，面对野野花小姐会更紧张。不过面对常磐的时候我会用章鱼烧堵住她的嘴就是了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 441,
+	},
+	block_00096 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0023", head="hiy_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0032", head="hiy_z1b", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0210", ex05="hiy_z1b0010", face="b0041", head="hiy_z1b", lv=2.3, id=13},
+				{"fgact", ch="妃愛", act="うなづく", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10116", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「大概在锦的心中，人类中等级最高的，不是世界上的王族、阿拉伯的富豪、国宝级人物之类的，而是哥哥」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 449,
+	},
+	block_00097 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我好厉害啊。从明天开始我就自称第六天魔王好了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 452,
+	},
+	block_00098 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0053", head="hiy_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0054", head="hiy_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10117", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「正因为锦是这样的孩子，所以我也很快就喜欢上她了。毕竟她会用同样的视线和我说话。当然也包括她最喜欢哥哥这点。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 458,
+	},
+	block_00099 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「别说了，快别说了。听你再说一遍喜欢，我会，我会害羞的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 461,
+	},
+	block_00100 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0031", head="hiy_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0023", head="hiy_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10118", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「如果明天地球就会毁灭的话，我和锦会毫不犹豫地在人生的最后一天陪哥哥度过的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 467,
+	},
+	block_00101 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「但是，人生的最后一天我要通关积累的黄油，会很忙的……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 470,
+	},
+	block_00102 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0210", ex05="hiy_z1b0010", face="b0045", head="hiy_z1b", lv=2.3, id=13},
+		{"fgact", ch="妃愛", act="びっくり", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0210", ex05="hiy_z1b0010", face="b0042", head="hiy_z1b", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0210", ex05="hiy_z1b0010", face="b0047", head="hiy_z1b", lv=2.3, id=13},
+				{"fgact", ch="妃愛", act="びっくり", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_10119", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「有这么精神可嘉的妹妹和最爱的女朋友，还要放她们鸽子打黄油吗！　女主角的娇喘声我全部读给你听的。做好觉悟吧！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 479,
+	},
+	block_00103 = {
+		{"fg", ch="妃愛", mx=40, mode=-1, lv=2.3, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"妃爱留下了一个手势，然后把空马克杯端去厨房了。清晨的咖啡真是好喝。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 483,
+	},
+	block_00104 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"bg", file="catch03", id=9, lv=9, time=500, path=":cg/"},
+		{"bgm", file="bgm93", loop=0},
+		{"ex", time=6000, func="wait"},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="03_あすみ07_1"},
+		{"text"},
+		linkback = "block_00103",
+		line = 489,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

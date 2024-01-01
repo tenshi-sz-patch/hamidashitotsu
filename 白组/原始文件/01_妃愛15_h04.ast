@@ -1,0 +1,3488 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="燕雀安知鸿鹄之志"},
+		{"msgoff"},
+		{"bg", x=-400, file="zbg001a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="妃愛", size="z1", mode=3, resize=1, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0055", head="hiy_z1b", lv=2.3, id=13, sync=0},
+		{"extrans", time=2000},
+		{"bgm", file="bgm18"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01101", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「现在开始我要认真为你服务。哥哥请坐在那里。」",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 20,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我也想给妃爱做。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 23,
+	},
+	block_00002 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0002", head="hiy_z1b", lv=2.3, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然妃爱好像想要说什么，但我已经抓住了她的屁股，她本人一边呻吟一边沉思着说道。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 27,
+	},
+	block_00003 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0018", head="hiy_z1a", lv=2.3, id=13},
+		{"fgact", ch="妃愛", act="いいえ", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01102", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「可是我还没洗澡。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 33,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我也没洗澡，一样的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 36,
+	},
+	block_00005 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0210", ex05="hiy_z1b0010", face="b0045", head="hiy_z1b", lv=2.3, id=13},
+		{"fgact", ch="妃愛", act="いいえ", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0043", head="hiy_z1b", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0047", head="hiy_z1b", lv=2.3, id=13},
+				{"fgact", ch="妃愛", act="びっくり", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01103", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「条件不同好不好，哥哥是男孩子，我是女孩子。闭月羞花的女孩子哦。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 45,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「明明马上就要做涩涩的事了，就算你说闭月羞花。有点想嘲笑你了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 48,
+	},
+	block_00007 = {
+		{"fg", ch="妃愛", size="z1", ex01="b0099", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0042", head="hiy_z1b", lv=2.3, id=13},
+		{"fgact", ch="妃愛", act="びっくり", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0036", head="hiy_z1b", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0043", head="hiy_z1a", lv=2.3, id=13},
+				{"fgact", ch="妃愛", act="いいえ", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01104", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「打住打住，又来了。我再也不会原谅你了，我要让哥哥你满满地射出来。就算你求我说自己射不出来了，我也要继续帮你撸。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 57,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「好想一边抚摸妃爱的屁股一边被妃爱口啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 60,
+	},
+	block_00009 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0210", ex05="hiy_z1a0010", face="a0045", head="hiy_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a0200", ex05="hiy_z1a0000", face="a0020", head="hiy_z1a", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fgact", ch="妃愛", act="おじぎ", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01105", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「别，别想用这么变态的发言糊弄过去……唔，唔嗯，早上回家还没来得及洗澡太……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 67,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我得先抓住她的把柄。可就算这样的想法，这个聪明的妹妹也很快就会注意到的吧。所以必须要在她因为我的变态发言而动摇的这段时间内决出胜负。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 69,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「妃爱的屁股好可爱啊。又圆又漂亮又光滑。真想一边摸着你屁股一边被你用嘴做啊。真的好憧憬啊。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 72,
+	},
+	block_00012 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0014", head="hiy_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0200", ex05="hiy_z1b0000", face="b0035", head="hiy_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01106", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「如果只是喜欢屁股的话，洗完澡之后不也可以吗？但如果哥哥你想要我穿着制服做的话，那我会穿着哦。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 78,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"确实，如果只是在意屁股的话，洗完澡之后也可以吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 80,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「但是，我俩是一起从毕业典礼的庆功宴上回来的，我想就这样保持现在的情绪。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 83,
+	},
+	block_00015 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b0210", ex05="hiy_z1b0010", face="b0018", head="hiy_z1b", lv=2.3, id=13},
+		{"fgact", ch="妃愛", act="おじぎ", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01107", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「这我大概知道。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 89,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我和妃爱因为在毕业典礼上互相致辞而感动，发自内心地庆祝，享受着庆功宴，在回去的巴士里就想着早点回来亲亲热热了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 91,
+	},
+	block_00017 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", zoom=120, file="zbg001a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0, x=-400},
+		{"fg", ch="妃愛", size="z2", mode=3, resize=1, path=":fg/hiy/z2/", file="hiy_z2b0200", ex05="hiy_z2b0000", face="b0011", head="hiy_z2b", lv=2.4, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我从身侧贴近，抚摸着妃爱的头，妃爱稍微犹豫一下就将身体靠近了我。不仅如此，她还主动伸过来亲吻了我的下巴。兄妹判定过关过关。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 101,
+	},
+	block_00018 = {
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b0200", ex05="hiy_z2b0000", face="b0002", head="hiy_z2b", lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b0200", ex05="hiy_z2b0000", face="b0018", head="hiy_z2b", lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01108", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「欸~好担心会不会臭啊，好担心能不能让哥哥满意啊。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 107,
+	},
+	block_00019 = {
+		{"fg", ch="妃愛", my=40, mode=-1, lv=2.4, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"妃爱从床上跨在我身上的时候看起来很不安。我自然不会去探究是否有臭味，反而感觉这个妹妹的身体一直散发着香味。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 111,
+	},
+	block_00020 = {
+		{"se", file="seジッパー2", id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"另一方面，妃爱在拉开我拉链的时候，完全没有在意我身体的臭味，而我此时满脑子都是想着被她口。如果哥哥那里有奇怪的味道，对不起。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 115,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"还有，别忘了拉上窗帘……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 117,
+	},
+	block_00022 = {
+		{"se", stop=1, time=500, id=1},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="white", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=0, func="wait"},
+		{"msgoff"},
+		{"bg", speed=10000, file="zev_hiy_h37_01", path=":ev/ev_hiy_h37/", x2=640, y2=-360, x=640, y=360, set="ev_hiy_h37", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"extrans"},
+		{"ex", time=2000, func="wait"},
+		{"bg", file="ev_hiy_h37_01", path=":ev/ev_hiy_h37/", set="ev_hiy_h37"},
+		{"bgm", file="bgm20"},
+		{"lvo", ch="hiy", file="fem_hiy_70519", loop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01109", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「嗯啾噜啾噜啾噜啾噜……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 139,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但妃爱也没有表现出在意我体臭的样子，她一拿出我的肉棒就激烈地吸了起来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 141,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01110", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「嗯啾噜啾噜……嗯啾，啾噜，啾……嗯啾，啾噗，嗯啾噜……啾。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 144,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01111", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啾噗！啾啵，啾啵，嗯啾噜……啾，啾啵，啾啵，嗯呣……啾噗，啾噗！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 147,
+	},
+	block_00026 = {
+		{"lvo", ch="hiy", stop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01112", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「哈，哈啊……欸嘿嘿，把哥哥当做这根肉棒来享用，感觉这样也很不错呢。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 154,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"妃爱有时会在我睡醒的时候帮我口交，可能是想看我吃惊的脸吧，每当这种时候她都是从胯下看向我这边的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 156,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"像今天这样的姿势，没什么印象了……但她本人看起来很开心，这比什么都好。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 158,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我现在兴奋得不得了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 161,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01113", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「已经变得硬邦邦的了。我家哥哥好像很喜欢用嘴做啊。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 166,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「最喜欢了……话说，我觉得没有男人会讨厌这个的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 169,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01114", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「就算你以其他男性为例，可是我对哥哥以外的男性完全没有兴趣，哥哥喜欢的就是我的全部哦。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 172,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「那我就说了，我非常喜欢……被妃爱用嘴做的话，能感觉到那种竭尽全力的喜欢，我特别喜欢这种。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 175,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01115", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「呣唔唔，哥哥你这么说会让我这个妹妹很在意啊。我会全心全意地，把自己学会的所有技术都奉献给你，让你高兴的~。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 178,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"被妃爱用心含住的实感来了。今天的期待值特别高啊……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 180,
+	},
+	block_00036 = {
+		{"bg", zoom=80, x=380, y=150, sync=0, face="1", file="zev_hiy_h37_02", time=400, path=":ev/ev_hiy_h37/", set="ev_hiy_h37", ax=1280, ay=720, bx=-640, by=-360},
+		{"lvo", ch="hiy", file="fem_hiy_70519", loop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01116", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「嗯呣，嗯呣啾唔唔……嗯呣，嗯呣啾，啾噜，嗯呣……啾，舔，舔……啾呣，嗯啾~」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 187,
+	},
+	block_00037 = {
+		{"bg", time=500, file="ev_hiy_h37_02", path=":ev/ev_hiy_h37/", set="ev_hiy_h37"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01117", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「嗯呣，嗯啾，啾！啾呣，舔，啾……啾噗，嗯啾噗！啾噗，嗯呣……舔舔舔舔舔……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 192,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01118", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啾啵，啾啵，嗯啾……啾噗，啾，嗯啾，嗯啾噜……啾噗！啾啵，啾啵~」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 195,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"妃爱从用力上下吞吐的动作，转换成了细心爱抚棒身的动作。她似乎被“竭尽全力”这句话刺激到了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 199,
+	},
+	block_00040 = {
+		{"bg", sync=0, face="1", file="ev_hiy_h37_03", time=400, path=":ev/ev_hiy_h37/", set="ev_hiy_h37"},
+		{"lvo", ch="hiy", stop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01119", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「舔……舔，嗯啾，舔……嗯啾，啾……哈，哈啊……哥哥的欧金金好可爱，真想独占它啊。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 210,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不，不管怎么想，它都是只属于妃爱的吧……我也是这么做的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 213,
+	},
+	block_00042 = {
+		{"bg", sync=0, face="1", file="ev_hiy_h37_04", time=400, path=":ev/ev_hiy_h37/", set="ev_hiy_h37"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01120", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「我家哥哥很受欢迎，如果欧金金被别人用的话，我完全无法忍耐……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 218,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"妃爱温柔地揉着我的蛋蛋，小心翼翼地把舌头攀到我的棒身上。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 220,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不是，与其去风俗店，我还不如用黄色游戏来解决。你不用担心会被别人用到。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 223,
+	},
+	block_00045 = {
+		{"bg", zoom=80, x=380, y=150, time=500, file="zev_hiy_h37_03", path=":ev/ev_hiy_h37/", set="ev_hiy_h37", ax=1280, ay=720, bx=-640, by=-360},
+		{"se", file="seエロ_手コキ：強", id=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01121", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「我指的不是，那个！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 232,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"妃爱用手狠狠地把我的肉棒擦了一下。面对突如其来的强烈刺激，我不禁仰面朝天。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 234,
+	},
+	block_00047 = {
+		{"se", stop=1, time=1000, id=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01122", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「妃爱我担心你和别人做充满爱意的H。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 239,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「刚刚差点……就要射了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 242,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01123", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「先端那里是有点出来了呢。啾……我吸。哥哥看起来很舒服，妃爱好高兴，好高兴。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 247,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不，我说真的，我的心和身体都被妃爱支配着。你不用担心我会和别人做哦。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 250,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01124", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「哥哥虽然不会做那种金钱交易的H，但好像对那种一夜情一样的H没什么抵抗力。要是被人充满感情地请求疼爱她一次的话。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 255,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我会说我有正在交往的人哦，一般来说。今后也不可能会有『那家伙放学后一直待在学校，其实根本就没女朋友吧？』这样的传言哦。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 258,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01125", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「那就每天早上都在这里写上我的名字吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 261,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「那个，如果被看到的话，我们的关系就会暴露了吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 264,
+	},
+	block_00055 = {
+		{"se", file="seエロ_手コキ：強", id=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01126", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「是谁刚才口口声声说不会给别人看的！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 269,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我的肉棒又被妃爱咯吱咯吱地高速摩擦了一下。不要随意玩弄别人的快感啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 271,
+	},
+	block_00057 = {
+		{"se", stop=1, time=1000, id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「澡堂或者旅行之类的……总是有的吧……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 276,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01127", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「真是的，我又不能在旅行前夕和哥哥做爱。虽然在家里我会尽可能的吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 279,
+	},
+	block_00059 = {
+		{"bg", zoom=80, x=380, y=150, time=500, file="zev_hiy_h37_01", path=":ev/ev_hiy_h37/", set="ev_hiy_h37", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不知是不是厌倦了问答，妃爱啊呣一下含住了我的肉棒。在全部涂满唾液之后，紧紧地握住了肉棒根部。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 285,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01128", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啊呣啊呣。因为哥哥对妹妹不够关心，所以我会一边使劲一边吸。吸到哥哥你说受不了为止。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 288,
+	},
+	block_00061 = {
+		{"bg", time=500, file="ev_hiy_h37_02", path=":ev/ev_hiy_h37/", set="ev_hiy_h37"},
+		{"se", file="seエロ_手コキ：強", loop=1, id=1},
+		{"lvo", ch="hiy", file="fem_hiy_70520", loop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01129", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「嗯呣啾！嗯呣，啾噜！啾噗，啾噗！嗯啾噗，啾噜，啾啵！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 297,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01130", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啾噗，啾噗！啾！啾舔舔舔……啾啵！嗯啾噗！啾，嗯啾噗！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 300,
+	},
+	block_00063 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"按照宣言，妃爱用双手摩擦棒身的同时不停吸着。无论哪一边都快射了，但如果双边同时拿出全力的话，那就。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 302,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01131", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「嗯啾噗！啾啵！嗯啾噗，啾噗，啾噜，啾啵！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 307,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01132", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啾啵，啾噗！啾啪，哈，噗哈，嗯呣，啾噗！啾啵！嗯啾噗，啾啵！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 310,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01133", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啾噗噗，啾噗，啾啵！嗯啾噜，啾噜！嗯啾噜噜噜噜噜……啾噗！啾啵，啾噗！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 313,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"像这样还能保持3分钟以上的，本来就已经很厉害了。从肉棒根部传来的唾液咕啾咕啾声中，我领悟到我还有几秒就要到极限这个事实。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 315,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01134", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啾噗！嗯啾噗！噗哈，射吧，哥哥射出来吧！变成不能正常恋爱，变成妹妹专用的欧金金吧！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 318,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然和能不能正常谈恋爱完全没关系，但现在我想暂时品味一下这种快感。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 320,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"为了不马上射出来，此刻我不得不惩罚一下手中拿到的人质。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 322,
+	},
+	block_00071 = {
+		{"bg", zoom=80, x=380, y=150, sync=0, face="1", file="zev_hiy_h37_01", time=400, path=":ev/ev_hiy_h37/", set="ev_hiy_h37", ax=1280, ay=720, bx=-640, by=-360},
+		{"lvo", ch="hiy", stop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01135", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「记住只有和我做才能体会到的快感，作为女孩子第一次的对象，哥哥你的身体还完全无法让人满足哦！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 329,
+	},
+	block_00072 = {
+		{"se", stop=1, time=500, id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"面前的少女实在太得意忘形，我用指头压住妃爱的阴蒂，把手指猛地伸进她已经湿得不能再湿的小穴。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 333,
+	},
+	block_00073 = {
+		{"bg", time=500, file="ev_hiy_h37_05", path=":ev/ev_hiy_h37/", set="ev_hiy_h37"},
+		{"flash", time=500},
+		{"se", file="seエロ_挿入、ヌメリ1", id=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01136", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「嗯啊啊啊啊啊啊啊啊啊啊～～～～～～～！！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 344,
+	},
+	block_00074 = {
+		{"se", stop=1, time=500, id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"出乎预料地，妃爱朝下半身方向那里发出了奇怪的悲鸣。不过也可能是喘息声。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 348,
+	},
+	block_00075 = {
+		{"se", file="seエロ_愛撫：中", loop=1, id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"因为效果比想象中还好，我把插在妃爱里面的手指上下拨弄了几下。用指尖好几次摩擦妃爱里面特别敏感的肉壁。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 352,
+	},
+	block_00076 = {
+		{"bg", zoom=80, x=380, y=150, time=500, file="zev_hiy_h37_03", path=":ev/ev_hiy_h37/", set="ev_hiy_h37", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01137", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「噗哈！呀啊！啊，呀啊……啊！哥哥，哥……啊，啊嗯！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 357,
+	},
+	block_00077 = {
+		{"bg", zoom=80, x=380, y=150, sync=0, face="1", file="zev_hiy_h37_04", time=400, path=":ev/ev_hiy_h37/", set="ev_hiy_h37", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01138", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「哥哥，妃爱，不行了……啊嗯！啊，啊嗯！啊，啊，呀啊啊啊啊……那里，不行！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 362,
+	},
+	block_00078 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"一年半的时间里，每个月和妃爱做爱10次的结果就是，我总算抓住了这个妹妹的弱点。在此基础上，到目前为止我都在重点开发这些位置。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 364,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然到现在为止，我还是一被妃爱认真摩擦就要射出来的弱鸡哥哥……但，我已经不弱了！我很强的……不，也不算强，我现在是能和妃爱打成平局的哥哥了！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 366,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01139", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「哈，啊啊，呀，嗯……！哥哥，哥……至少说点什么吧！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 371,
+	},
+	block_00081 = {
+		{"se", file="seエロ_クンニ2", id=2},
+		{"bg", zoom=80, x=380, y=150, sync=0, face="1", file="zev_hiy_h37_03", time=400, path=":ev/ev_hiy_h37/", set="ev_hiy_h37", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01140", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啊，呀啊！不能舔……啊，嗯！哈，呜呜……呜，那，那我也舔……呜，舔，我舔……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 378,
+	},
+	block_00082 = {
+		{"se", stop=1, id=2, time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01141", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「哥哥真是的，我本来打算再过一会儿就把哥哥弱鸡的欧金金吸到哥哥说对不起为止的……吸到你射不出来为止」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 383,
+	},
+	block_00083 = {
+		{"se", stop=1, time=500, id=1},
+		{"se", file="seエロ_愛撫：強", loop=1, id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这是制定了何等恐怖的计划……虽然我知道就是了。为了不给妃爱留下空隙，我一边轻轻咬着妃爱甜美的阴蒂，一边用食指和中指拨弄她的小穴。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 389,
+	},
+	block_00084 = {
+		{"bg", time=500, file="ev_hiy_h37_06", path=":ev/ev_hiy_h37/", set="ev_hiy_h37"},
+		{"lvo", ch="hiy", file="fem_hiy_70520", loop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01142", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「嗯呣，嗯呣呜呜呜……嗯呣，啾！啾唔！啾舔舔舔……啾啵！啾舔舔舔！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 398,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01143", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「嗯啾噜噜！啾噗！嗯啾，啾呜呜！啾啵！嗯啾噗！啾啵！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 401,
+	},
+	block_00086 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01144", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「舔，舔，嗯啾噗！呣啾，啾噗！啾啵！嗯啾，啾啵！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 404,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"嗯，欸……？啊咧？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 406,
+	},
+	block_00088 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"用手指欺负妃爱里面的话，每次用力摩擦妃爱的脚都会用力，屁股也会绷紧，明明应该很有感觉才对，但妃爱对我的口交却没有变弱。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 408,
+	},
+	block_00089 = {
+		{"bg", sync=0, face="1", file="ev_hiy_h37_09", time=400, path=":ev/ev_hiy_h37/", set="ev_hiy_h37"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01145", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「嗯啾噗！啾噗！嗯啾噜！嗯啾噗！啾啵！呣啾，啾啪，啾噗！啾啵！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 413,
+	},
+	block_00090 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01146", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「嗯啾舔舔舔舔舔……啾噜！呣啾，啾噗！啾啵，啾啵，啾噗！啾噜！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 416,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01147", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啾啵，啾啵，啾噗，啾啵！啾啪，啾噗，啾噗！啾噜噜！啾啵！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 419,
+	},
+	block_00092 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"非但没有变弱，反而吸得更厉害了！这难道是对我行为的抗议，生气了吗……！？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 421,
+	},
+	block_00093 = {
+		{"bg", sync=0, face="1", file="ev_hiy_h37_06", time=400, path=":ev/ev_hiy_h37/", set="ev_hiy_h37"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01148", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啾噗！啾啵！啾噗，啾噗！啾，啾，啾噜噜噜……啾噗！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 426,
+	},
+	block_00094 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01149", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啾噗，啾噗，啾啵，啾噗！啾噜！啾啵！啾噗，啾啪，啾啪！啾噜噜噜！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 429,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"啊，不妙，要射，过不了几分钟就要射了，要被认真起来的妃爱舔射了。明明坚持到了现在，针对妃爱让她分心的计划却失败了，完全是失策啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 431,
+	},
+	block_00096 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"就像是对刚才我行为的还击一般，所以什么都不说就更加可怕了。我感受到了妃爱温柔的安静下面隐藏的愤怒。得想办法将她的声音引出来，于是我更加用力地刺激起她的阴蒂。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 433,
+	},
+	block_00097 = {
+		{"bg", sync=0, face="1", file="ev_hiy_h37_09", time=400, path=":ev/ev_hiy_h37/", set="ev_hiy_h37"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01150", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「嗯呣呜呜呜呜！？嗯呣，呀啊，嗯呣呜呜呜呜……嗯呣！啾噗！啾噗！啾噗噜呜呜！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 438,
+	},
+	block_00098 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01151", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啾啵！啾啵，啾啵！啾啵噜！啾啵，啾噗！啾啪，啾噗，啾啵！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 441,
+	},
+	block_00099 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01152", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啾啵，啾啪，啾噗，啾噗噜！啾啵！啾噗！啾啵！啾噗！啾啪！啾啪！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 444,
+	},
+	block_00100 = {
+		{"se", stop=1, time=500, id=1},
+		{"lvo", ch="hiy", stop=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊，妃爱，不行了！射了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 451,
+	},
+	block_00101 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在这场激烈的互相爱抚比赛中，先承认完败的是我。话说，被这么强有力地吸着，不可能忍耐得了吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 453,
+	},
+	block_00102 = {
+		{"bg", sync=0, face="1", file="ev_hiy_h37_06", time=400, path=":ev/ev_hiy_h37/", set="ev_hiy_h37"},
+		{"lvo", ch="hiy", file="fem_hiy_70521", loop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01153", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啾噗噗！啾啵哦哦！啾噗，啾啵！啾噗，嗯啾噗！啾噗，啾噜！啾噗！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 460,
+	},
+	block_00103 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01154", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啾啪！啾噗，啾啵，啾噗！啾噗，嗯啾噗！啾噗，啾噜！嗯呣，嗯，嗯啾噜！啾噗！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 463,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01155", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啾噗！啾噗！啾噗！啾噗噜！啾噗，啾噜噜！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 466,
+	},
+	block_00105 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「妃爱，我不行了！要射在你嘴里了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 469,
+	},
+	block_00106 = {
+		{"bg", id=9, lv=9, sync=1, time=100, file="white", path=":bg/"},
+		{"bg", id=9, lv=9, sync=1, time=300, alpha=0, file="white", path=":bg/"},
+		{"bg", id=9, lv=9, sync=1, time=500, alpha=255, file="white", path=":bg/"},
+		{"cgdel", id=9, lv=9},
+		{"bg", file="ev_hiy_h37_07", sync=0, time=1000, vague=100, path=":ev/ev_hiy_h37/", set="ev_hiy_h37"},
+		{"se", file="seエロ_射精中出し5", id=9, time=0, vol=100, pan=0},
+		{"ex", time=100, func="wait"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01156", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「嗯呣啾呜呜呜呜呜呜呜！啾呜呜呜呜呜呜呜呜！啾噜呜！嗯啾噜噜噜噜噜噜……嗯啾噜！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 479,
+	},
+	block_00107 = {
+		{"se", stop=1, time=500, id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「唔啊！妃爱！别，别再吸了啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 484,
+	},
+	block_00108 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01157", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啾噜呜呜呜呜！啾噜，啾呜呜呜呜呜呜！吸舔！啾呜呜呜！吸，啾噗！吞咽！啾噜呜呜呜呜！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 487,
+	},
+	block_00109 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01158", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啾呜呜！啾，啾噜呜呜！舔，啾噜！啾噗！啾噜噜呜呜！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 490,
+	},
+	block_00110 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「对不起！真的不行了！刚射出来很敏感的！不能再吸了啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 493,
+	},
+	block_00111 = {
+		{"bg", time=500, file="ev_hiy_h37_08", path=":ev/ev_hiy_h37/", set="ev_hiy_h37"},
+		{"lvo", ch="hiy", stop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01159", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「噗哈啊啊啊啊啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 500,
+	},
+	block_00112 = {
+		{"se", file="seエロ_手コキ：強", loop=1, id=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01160", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「你以为，我会原谅你吗！我撸我撸我撸我拤我拤我拤！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 505,
+	},
+	block_00113 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「对不起，我错了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 508,
+	},
+	block_00114 = {
+		{"se", stop=1, time=1000, id=1},
+		{"bg", sync=0, face="1", file="ev_hiy_h37_08", time=400, path=":ev/ev_hiy_h37/", set="ev_hiy_h37"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"明明刚射出来就坦白了，但还是被妃爱用手握住沾满唾液的肉棒，用力地给捏了一下。实在忍不住了我投降还不行吗。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 516,
+	},
+	block_00115 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01161", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「明明坦率地撒娇就好了……这是给哥哥欧金金服务的元气妹妹的惩罚哦。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 519,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01162", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「请在吸取这次教训后，就承认自己是个弱鸡哥哥吧，以后再射的时候不可以说『射在嘴里』，要说『射在妹妹的嘴里』才对。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 522,
+	},
+	block_00117 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我知道了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 525,
+	},
+	block_00118 = {
+		{"bg", zoom=80, x=380, y=150, time=500, file="zev_hiy_h37_08", path=":ev/ev_hiy_h37/", set="ev_hiy_h37", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01163", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「请好好地，一句一句地，把『妹妹的』『为妹妹』都加上。为了不对其他女孩产生心思，你要时常意识到自己是只能和妹妹恋爱的哥哥。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 530,
+	},
+	block_00119 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"妃爱用满足的声音，一边用指尖握着我肉棒的前端，一边对我说教。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 532,
+	},
+	block_00120 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01164", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啊，但是太好了。今天哥哥也做得非常好，我差点就先高潮了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 535,
+	},
+	block_00121 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01165", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「但还好哥哥的欧金金很弱鸡，让我逃过一劫。真遗憾啊，欧尼酱。乖，乖。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 538,
+	},
+	block_00122 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"妃爱再过一会儿也要去了吗……也太可惜了，我想和她一起高潮啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 540,
+	},
+	block_00123 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但看到现在妃爱强势的一面，就算我跟她说我想要欺负她，感觉也不会把优势让出来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 542,
+	},
+	block_00124 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"那一次我一边吸着妃爱的胸一边被她手冲的时候，妃爱看起来异常高兴。虽然是服务体质，但她一旦掌握了主导权就根本不听我说话了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 544,
+	},
+	block_00125 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"因为我的性格，导致她经常充满母性。但作为一个女孩子，妃爱可能也喜欢欺负我，喜欢恶作剧。但这个妹妹没有解放自己的机会。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 546,
+	},
+	block_00126 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"嘛，现在她好像在充分享受着，这次就让妃爱舒服起来吧。话虽如此，如果这个妹妹认真起来的话，我可能又要很快被她弄得射出来了吧……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 548,
+	},
+	block_00127 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"好，这次就用这个妹妹完全无法抵抗的姿势吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 550,
+	},
+	block_00128 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01166", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「哥哥，今天累了吗？毕竟刚通宵，洗个澡就睡了吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 553,
+	},
+	block_00129 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不……我要让妃爱明白？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 556,
+	},
+	block_00130 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01167", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「让我明白……？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 559,
+	},
+	block_00131 = {
+		{"quake"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我抱！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 564,
+	},
+	block_00132 = {
+		{"se", file="se抱きつく", id=1},
+		{"bgm", stop=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我承认我是弱鸡哥哥。但是，为了让妃爱知道她也是柔弱妹妹，我抱起了她小巧而轻软的身体。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 571,
+	},
+	block_00133 = {
+		{"se", stop=1, time=500, id=1},
+		{"msgoff"},
+		{"bg", speed=12000, file="zev_hiy_h38_01", path=":ev/ev_hiy_h38/", x2=640, y2=-360, x=-640, y=360, set="ev_hiy_h38", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"extrans"},
+		{"ex", time=5000, func="wait"},
+		{"bg", time=500, file="ev_hiy_h38_01", path=":ev/ev_hiy_h38/", set="ev_hiy_h38"},
+		{"bgm", file="bgm19"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01168", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啊咧欸欸欸欸欸欸欸！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 589,
+	},
+	block_00134 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"或许知道被完全抱起来之后是无法抵抗的吧。妃爱一边将双臂紧紧地缠在我的脖子上，一边就这样紧紧抱着我。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 591,
+	},
+	block_00135 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01169", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「哥，哥哥……你刚刚才射完感觉不重吗！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 594,
+	},
+	block_00136 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我知道啊，但妃爱确实很轻。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 597,
+	},
+	block_00137 = {
+		{"bg", x=-640, y=250, time=500, file="zev_hiy_h38_13", path=":ev/ev_hiy_h38/", set="ev_hiy_h38", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01170", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「虽然很轻，但又和抱着一袋大米的感觉不一样……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 602,
+	},
+	block_00138 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「到现在为止，我们好像也有过几次互相抱住身体的经历吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 605,
+	},
+	block_00139 = {
+		{"bg", x=-640, y=250, sync=0, face="1", file="zev_hiy_h38_03", time=400, path=":ev/ev_hiy_h38/", set="ev_hiy_h38", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01171", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「我不太能一口气全部记起来。有种在动画中，被龙还有巨人突然捏住的女主角的感觉。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 612,
+	},
+	block_00140 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「女主角啊。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 615,
+	},
+	block_00141 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01172", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「因为现在抱着我的人是哥哥。哥哥的恋人是我。所以女主角也是我。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 618,
+	},
+	block_00142 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我们紧紧地拥抱在一起。也许是决定把身体交给我了吧，我手指抓得妃爱屁股的肉都陷了进去。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 620,
+	},
+	block_00143 = {
+		{"bg", x=-640, y=250, sync=0, face="1", file="zev_hiy_h38_04", time=400, path=":ev/ev_hiy_h38/", set="ev_hiy_h38", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01173", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「被哥哥抱着就很安心。哥哥是我安心的源泉。是可以依靠的哥哥。所以是很强很强的哥哥」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 627,
+	},
+	block_00144 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这世上还有被妹妹说可以依靠，不会感到心中充满了自尊心和家族爱的男人吗。多么令人怜爱的妹妹啊，我的身体也紧紧贴近她。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 629,
+	},
+	block_00145 = {
+		{"bg", x=-640, y=250, sync=0, face="1", file="zev_hiy_h38_03", time=400, path=":ev/ev_hiy_h38/", set="ev_hiy_h38", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01174", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「所以刚才稍微有点得意忘形的事情能请您原谅吗，务必务必恳求你。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 638,
+	},
+	block_00146 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是，妃爱说我值得依靠的话，原来是为了保护自己的怀柔政策。不，应该有9成是真心吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00145",
+		linknext = "block_00147",
+		line = 640,
+	},
+	block_00147 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"因为她刚说了「感到安心」，我就不好欺负她了，真是会说话啊。温柔的哥哥应该不会做过分的事。我不会欺负我妹妹的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00146",
+		linknext = "block_00148",
+		line = 642,
+	},
+	block_00148 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「没关系，我一定不会做让妃爱伤心的事的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00147",
+		linknext = "block_00149",
+		line = 645,
+	},
+	block_00149 = {
+		{"bg", x=-640, y=250, sync=0, face="1", file="zev_hiy_h38_13", time=400, path=":ev/ev_hiy_h38/", set="ev_hiy_h38", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01175", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「哇啊，哥哥真温柔啊。不愧是我值得信赖的哥哥，最稀饭了~」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00148",
+		linknext = "block_00150",
+		line = 650,
+	},
+	block_00150 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01176", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「但是如果不想让我悲伤的话，差不多该放我下来了。因为这样下去连动都动不了了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00149",
+		linknext = "block_00151",
+		line = 653,
+	},
+	block_00151 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不，我不会放你下来的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00150",
+		linknext = "block_00152",
+		line = 656,
+	},
+	block_00152 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"妃爱在我耳边发出了咕奴奴的声音。看来是理解到自己的怀柔政策以失败告终了吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00151",
+		linknext = "block_00153",
+		line = 658,
+	},
+	block_00153 = {
+		{"bg", x=-640, y=250, sync=0, face="1", file="zev_hiy_h38_02", time=400, path=":ev/ev_hiy_h38/", set="ev_hiy_h38", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01177", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「你打算干什么。你想对我做什么过分的事。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00152",
+		linknext = "block_00154",
+		line = 663,
+	},
+	block_00154 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不会对你做过分的事。这不是为了欺负妃爱哦。只是想让妃爱变得舒服起来，像这样……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00153",
+		linknext = "block_00155",
+		line = 666,
+	},
+	block_00155 = {
+		{"bg", time=500, file="ev_hiy_h38_02", path=":ev/ev_hiy_h38/", set="ev_hiy_h38"},
+		{"se", file="seエロ_ピストン：弱", loop=1, id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我用肉棒摩擦妃爱的胯下，前后活动着腰。虽然从旁人看这是愚蠢的动作，但现在这里能看到我身影的只有妃爱，所以我不介意。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00154",
+		linknext = "block_00156",
+		line = 674,
+	},
+	block_00156 = {
+		{"bg", sync=0, face="1", file="ev_hiy_h38_01", time=400, path=":ev/ev_hiy_h38/", set="ev_hiy_h38"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01178", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「欸，什，什么？为什么要这样动？把祭品献出去之前傩舞一样的开场白？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00155",
+		linknext = "block_00157",
+		line = 679,
+	},
+	block_00157 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"什么是傩舞啊。我记得应该是电影里，在祭品献给神之前，周围人一边跳舞一边打鼓的场景。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00156",
+		linknext = "block_00158",
+		line = 681,
+	},
+	block_00158 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"现在的妃爱但是从某种意义上来说和祭品有这一样的心情，现在她开始渐渐理解我在做什么。她吐出甜美的气息，用更强的力度紧紧地抱住了我。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00157",
+		linknext = "block_00159",
+		line = 683,
+	},
+	block_00159 = {
+		{"bg", sync=0, face="1", file="ev_hiy_h38_02", time=400, path=":ev/ev_hiy_h38/", set="ev_hiy_h38"},
+		{"lvo", ch="hiy", file="fem_hiy_70523", loop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01179", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「呀，欸，呀啊……啊，什么这是……呀，哥哥，总觉得这样子，有种H的感觉……啊嗯！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00158",
+		linknext = "block_00160",
+		line = 690,
+	},
+	block_00160 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01180", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「呀，呀啊，哥哥，不要摩擦啊……呀，呀嗯！呀，不要，呀啊！这个，在……在做吗！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00159",
+		linknext = "block_00161",
+		line = 693,
+	},
+	block_00161 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01181", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「欸，欸欸欸，什么这是……呀啊！哈，哈啊……明明只是被哥哥，摩擦了一下，却这么舒服……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00160",
+		linknext = "block_00162",
+		line = 696,
+	},
+	block_00162 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"想象自己的腰前后摆动的话会觉得很蠢，但因为妃爱很有感觉，所以我不算是脑子不正常的人。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00161",
+		linknext = "block_00163",
+		line = 698,
+	},
+	block_00163 = {
+		{"bg", sync=0, face="1", file="ev_hiy_h38_03", time=400, path=":ev/ev_hiy_h38/", set="ev_hiy_h38"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01182", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「哈，哈啊……欸，骗人的吧……呀，呀啊，嗯……！欸这个，可能比起被插入，这个还要更舒服……？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00162",
+		linknext = "block_00164",
+		line = 703,
+	},
+	block_00164 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01183", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「但，但是，也太有感觉了……！啊，呀啊嗯！哥哥，我要去了！我，我要高潮了！呀啊，啊嗯！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00163",
+		linknext = "block_00165",
+		line = 706,
+	},
+	block_00165 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01184", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「欸欸，什么这是？这样的事我至今都不知道……被欧金金摩擦，比用自己的手爱抚要舒服得多……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00164",
+		linknext = "block_00166",
+		line = 709,
+	},
+	block_00166 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不久之后妃爱已经沉迷素股，她一边把双臂双脚缠在我身上，一边像把自己的胯间摩擦到我的肉棒上一样，自己活动着腰。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00165",
+		linknext = "block_00167",
+		line = 711,
+	},
+	block_00167 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「这个，好像叫素股哦……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00166",
+		linknext = "block_00168",
+		line = 714,
+	},
+	block_00168 = {
+		{"bg", sync=0, face="1", file="ev_hiy_h38_04", time=400, path=":ev/ev_hiy_h38/", set="ev_hiy_h38"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01185", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「欸！？只，只是听说过……嗯，没想到这么舒服……啊！啊，啊嗯！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00167",
+		linknext = "block_00169",
+		line = 719,
+	},
+	block_00169 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01186", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「欸，但，但是，虽然我很舒服……这样子，哥哥你也舒服吗……？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00168",
+		linknext = "block_00170",
+		line = 722,
+	},
+	block_00170 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「其实我舒服得都快射了，从刚才开始就一直忍耐着。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00169",
+		linknext = "block_00171",
+		line = 725,
+	},
+	block_00171 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然是为了让妃爱焦急才开始的素股，但自己却已经接近极限了。好舒服啊，素股。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00170",
+		linknext = "block_00172",
+		line = 727,
+	},
+	block_00172 = {
+		{"bg", x=-640, y=250, time=500, file="zev_hiy_h38_06", path=":ev/ev_hiy_h38/", set="ev_hiy_h38", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01187", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「哈，啊啊，呀啊……！哥哥，好舒服……这个很舒服，但是……好难过哦！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00171",
+		linknext = "block_00173",
+		line = 732,
+	},
+	block_00173 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01188", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「呀啊嗯，啊，哈啊……哥哥很舒服，我也很高兴……啊，啊嗯！我也很舒服……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00172",
+		linknext = "block_00174",
+		line = 735,
+	},
+	block_00174 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01189", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「呀啊啊啊嗯！但果然还是想要哥哥的！拜托了，哥哥……插进来吧……来做爱吧？用哥哥的肉棒，在我的里面使劲地摩擦吧……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00173",
+		linknext = "block_00175",
+		line = 738,
+	},
+	block_00175 = {
+		{"bg", x=-640, y=250, sync=0, face="1", file="zev_hiy_h38_07", time=400, path=":ev/ev_hiy_h38/", set="ev_hiy_h38", ax=1280, ay=720, bx=-640, by=-360},
+		{"lvo", ch="hiy", stop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01190", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「哥哥把欧金金插进来吧……！呀嗯！这样下去的话，还没插进来我就快高潮了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00174",
+		linknext = "block_00176",
+		line = 745,
+	},
+	block_00176 = {
+		{"se", stop=1, time=500, id=1},
+		{"se", file="seエロ_ペニス挿入前", id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"听到妃爱的恳求，临近极限的我，把手上的屁股整个托起来，把自己的龟头贴在妃爱充分湿透的小穴上。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00175",
+		linknext = "block_00177",
+		line = 751,
+	},
+	block_00177 = {
+		{"se", stop=1, time=500, id=1},
+		{"bg", time=500, file="ev_hiy_h38_06", path=":ev/ev_hiy_h38/", set="ev_hiy_h38"},
+		{"flash", time=500},
+		{"se", file="seエロ_挿入、ヌメリ3", id=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01191", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「呀啊啊啊啊啊啊啊啊啊嗯！！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00176",
+		linknext = "block_00178",
+		line = 764,
+	},
+	block_00178 = {
+		{"se", stop=1, time=500, id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"然后我一口气插进了妃爱的最里面。全体重的插入，对焦急等待的妃爱来说似乎是忍受不了的快感，我耳边听到了她可爱的娇声。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00177",
+		linknext = "block_00179",
+		line = 768,
+	},
+	block_00179 = {
+		{"lvo", ch="hiy", file="fem_hiy_70533", loop=1},
+		{"bg", sync=0, face="1", file="ev_hiy_h38_05", time=400, path=":ev/ev_hiy_h38/", set="ev_hiy_h38"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01192", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「哥哥！啊，好舒服……！啊，啊啊，呀啊！哥哥，我喜欢哥哥！啊啊，呀，哥哥的欧金金！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00178",
+		linknext = "block_00180",
+		line = 775,
+	},
+	block_00180 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01193", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「哥哥这个笨蛋！我一直都希望你能插进去……呀，呀啊啊！呀啊，好舒服……哥哥的欧金金，实在太舒服了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00179",
+		linknext = "block_00181",
+		line = 778,
+	},
+	block_00181 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01194", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「呀啊，我一直都想要这个，舒服过头了……呀啊，声音，漏出来了……！忍不住了，声音要出来了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00180",
+		linknext = "block_00182",
+		line = 781,
+	},
+	block_00182 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"能在这样最近的距离里听到世界上最可爱的妹妹的声音，光是这种幸福感就要射了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00181",
+		linknext = "block_00183",
+		line = 783,
+	},
+	block_00183 = {
+		{"se", file="seエロ_ピストン：中", loop=1, id=1},
+		{"bg", sync=0, face="1", file="ev_hiy_h38_07", time=400, path=":ev/ev_hiy_h38/", set="ev_hiy_h38"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01195", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啊，呀啊嗯！呀，啊啊，嗯，呀……呀啊！好舒服，今天真的特别舒服……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00182",
+		linknext = "block_00184",
+		line = 790,
+	},
+	block_00184 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01196", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「呀，呀啊嗯！呀啊！呀，啊，呀啊嗯！呀啊，哥哥，呀！插到里面了，好厉害，插进最深的地方了……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00183",
+		linknext = "block_00185",
+		line = 793,
+	},
+	block_00185 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01197", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「我本来就希望哥哥的欧金金能一直插我的……哥哥你欺负我……！呀啊！呀，呀啊，啊，好舒服……哥哥，哥哥……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00184",
+		linknext = "block_00186",
+		line = 796,
+	},
+	block_00186 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01198", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「呀啊！啊，哈啊，好舒服啊！被哥哥吊着，被哥哥欺负……胸口一紧一紧地……哥哥……哥哥，我喜欢你……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00185",
+		linknext = "block_00187",
+		line = 799,
+	},
+	block_00187 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"妃爱的身体一边颤抖，一边紧紧地抱住了我。所以我也把这可人的身体，用力地压在自己的胸口上。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00186",
+		linknext = "block_00188",
+		line = 801,
+	},
+	block_00188 = {
+		{"bg", sync=0, face="1", file="ev_hiy_h38_05", time=400, path=":ev/ev_hiy_h38/", set="ev_hiy_h38"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01199", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啊啊，呀，哥哥！啊，喜欢，呀，啊嗯！呀啊，好舒服，啊，啊嗯！呀，啊，喜欢……呀，啊嗯！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00187",
+		linknext = "block_00189",
+		line = 806,
+	},
+	block_00189 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01200", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「还想要更多更多……呀，啊，可是，我马上就要去了……呀，啊，舒服过头了……真是的，都怪哥哥你挑逗我……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00188",
+		linknext = "block_00190",
+		line = 809,
+	},
+	block_00190 = {
+		{"lvo", ch="hiy", stop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01201", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「哥哥，最喜欢了……！呀，啊，啊嗯！啊，喜欢，喜欢喜欢！最喜欢了……想和你一直黏在一起……我最喜欢的哥哥……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00189",
+		linknext = "block_00191",
+		line = 814,
+	},
+	block_00191 = {
+		{"bg", x=-640, y=250, time=500, file="zev_hiy_h38_08", path=":ev/ev_hiy_h38/", set="ev_hiy_h38", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"从下面被激烈地顶了好多好多次，妃爱带着恍惚的神情仰视着我俩的身体。眼前妹妹摇晃的乳房充满了煽情的味道。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00190",
+		linknext = "block_00192",
+		line = 820,
+	},
+	block_00192 = {
+		{"lvo", ch="hiy", file="fem_hiy_70533", loop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01202", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「哥哥，啊，哥哥……哥哥的，被哥哥的手圈着，喜欢……被哥哥抱着也，太幸福了……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00191",
+		linknext = "block_00193",
+		line = 825,
+	},
+	block_00193 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01203", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「呀，哥哥……我想就这样高潮……！因为现在，妃爱非常的幸福……呀，啊嗯！非常幸福，非常舒服……这样下去，要变奇怪了……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00192",
+		linknext = "block_00194",
+		line = 828,
+	},
+	block_00194 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01204", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「哈，啊，呀啊……！啊，呀啊，啊，哈啊，啊嗯！啊，去了，啊啊，哥哥，啊，好舒服啊……呀啊啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00193",
+		linknext = "block_00195",
+		line = 831,
+	},
+	block_00195 = {
+		{"lvo", ch="hiy", stop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01205", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「要去了，啊，被哥哥的，要在哥哥的手里面……嗯，呀啊，要一边被哥哥抱着一边去了……！想被哥哥抱着然后高潮啊……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00194",
+		linknext = "block_00196",
+		line = 836,
+	},
+	block_00196 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"过于沉浸其中，我和妃爱接吻了。我们彼此都太爱眼前的对方了，一直交缠着舌头直到脸颊被唾液弄得黏糊糊的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00195",
+		linknext = "block_00197",
+		line = 838,
+	},
+	block_00197 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01206", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「嗯啾，嗯呣，啾，嗯，啊啊，喜欢……！和哥哥接吻，喜欢……！啊，呀啊，啊，啊嗯！啊，去了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00196",
+		linknext = "block_00198",
+		line = 841,
+	},
+	block_00198 = {
+		{"lvo", ch="hiy", file="fem_hiy_70534", loop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01207", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「哈啊，啊，哥哥的脸，哥哥的皮肤，哥哥的气息……全部都喜欢……我的，欧尼酱的，全部全部都喜欢……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00197",
+		linknext = "block_00199",
+		line = 846,
+	},
+	block_00199 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01208", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啊啊，呀，我想高潮！啊啊，哥哥，就这样，啊，呀啊！就这样，啊，去了！高潮了！让我高潮吧！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00198",
+		linknext = "block_00200",
+		line = 849,
+	},
+	block_00200 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"让妃爱高潮……我想就这样射进里面……可是，妃爱也说过素股比插入还要舒服。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00199",
+		linknext = "block_00201",
+		line = 851,
+	},
+	block_00201 = {
+		{"se", stop=1, id=1, time=500},
+		{"select", file="01_妃愛15_h04a", text="select"},
+		{"select", file="01_妃愛15_h04b", text="select"},
+		{"select", mode="sys", name="hiy_h04", auto=1},
+		{"text"},
+		select = {
+			ja = {
+				"中出让妃爱高潮",
+				"素股让妃爱高潮",
+			},
+		},
+		linkback = "block_00200",
+		linknext = "block_00202",
+		line = 861,
+	},
+	block_00202 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"　",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00201",
+		line = 865,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

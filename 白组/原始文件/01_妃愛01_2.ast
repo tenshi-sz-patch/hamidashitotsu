@@ -1,0 +1,2133 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"bg", file="bg002a", path=":bg/"},
+		{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_noa1000", ex05="hiy_noa0000", face="a0004", head="hiy_noa", x=230, lv=2.2, id=10},
+		{"bgm", file="bgm06"},
+		{"se", file="seドア(室内開き)", id=1},
+		{"fg", ch="里", size="no", mx=-40, mode=3, path=":fg/mir/no/", file="mir_noa0300", ex05="mir_noa0000", face="a0004", head="mir_noa", x=-230, lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0300", ex05="mir_noa0000", face="a0054", head="mir_noa", x=-230, lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00001", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「嗨，你们吃过午饭了吗？　我带了红豆饼来，你们一起吃吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 17,
+	},
+	block_00001 = {
+		{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_noa1000", ex05="hiy_noa0000", face="a0054", head="hiy_noa", x=230, lv=2.2, id=10},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_nob1010", ex05="hiy_nob0010", face="b0051", head="hiy_nob", x=230, lv=2.2, id=10},
+				{"fgact", ch="妃愛", act="ジャンプ", lv=2.2, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00020", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「虽然我们已经吃过午饭了，不过车轮饼我们还是收下了，非常感谢。哇～哥哥你看！　是芋头馅呢，芋头馅！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 24,
+	},
+	block_00002 = {
+		{"fg", ch="里", size="no", ex02="a0098", mode=3, path=":fg/mir/no/", file="mir_noa0310", ex05="mir_noa0010", face="a0055", head="mir_noa", x=-230, lv=2.2, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00002", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「应该是红豆饼啦」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 29,
+	},
+	block_00003 = {
+		{"se", stop=1, time=500, id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然妃爱根本吃不完，肯定会剩一半给我，但她看到甜食还是兴奋得不得了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 33,
+	},
+	block_00004 = {
+		{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_noa1000", ex05="hiy_noa0000", face="a0055", head="hiy_noa", x=230, lv=2.2, id=10},
+		{"fg", ch="里", size="no", ex02="a0098", mode=3, path=":fg/mir/no/", file="mir_noa0310", ex05="mir_noa0010", face="a0023", head="mir_noa", x=-230, lv=2.2, id=9},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过，这份开朗或许是为了掩饰对即将来临的现实的恐惧而在逞强。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 38,
+	},
+	block_00005 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=400, file="zbg002a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="里", size="z1", mode=3, resize=1, path=":fg/mir/z1/", file="mir_z1a0310", ex05="mir_z1a0010", face="a0053", head="mir_z1a", x=0, lv=2.3, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00003", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「那么事不宜迟……小智，这个给你」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 48,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊啊，不好意思，本来应该是我去拿的，还麻烦你特地送过来。搞得好像我在使唤你跑腿似的……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 51,
+	},
+	block_00007 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0300", ex05="mir_z1a0000", face="a0019", head="mir_z1a", x=0, lv=2.3, id=13},
+		{"fgact", ch="里", act="いいえ", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0300", ex05="mir_z1a0000", face="a0031", head="mir_z1a", x=0, lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0300", ex05="mir_z1a0000", face="a0023", head="mir_z1a", x=0, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00004", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「不，这也没办法嘛，毕竟叔叔住在北关东那边。说起来，我也好久没见到爸爸那边的亲戚了，还有点紧张呢。来，给你」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 59,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这里说的“爸爸”并不是指里姐的父亲，而是我和妃爱的父亲……以及他的亲戚。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 61,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"里姐将一个纸袋递给了我。这个印着连锁超市名字的纸袋看起来十分破旧，大概是因为一直放在仓库里吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 63,
+	},
+	block_00010 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0310", ex05="mir_z1a0010", face="a0053", head="mir_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0310", ex05="mir_z1a0010", face="a0022", head="mir_z1a", x=0, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00005", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「他们说这个可以留在你们家，还问了我很多次你们过得好不好，看起来他们很想向你们道歉呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 69,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「这个，他们已经道过很多次歉了……非常感谢你，我之后会再打电话去道谢的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 72,
+	},
+	block_00012 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0310", ex05="mir_z1a0010", face="a0031", head="mir_z1a", x=0, lv=2.3, id=13},
+		{"fgact", ch="里", act="うなづく", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0310", ex05="mir_z1a0010", face="a0001", head="mir_z1a", x=0, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00006", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「嗯，麻烦你了。这下我也算是顺利完成传话了。话说回来」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 79,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「是。有什么事吗」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 82,
+	},
+	block_00014 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0300", ex05="mir_z1a0000", face="a0003", head="mir_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00007", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「你们真的要听那个吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 87,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「是的，我们已经决定了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 90,
+	},
+	block_00016 = {
+		{"fg", mode=-2},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这个纸袋里装着我们双亲遭遇车祸时的行车记录仪。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 94,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我和妃爱都没有看过里面的内容。有哪个孩子会想听父母临死前的声音呢。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 96,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"警察为了确认身份将其收缴后，交给爸爸那边的亲戚确认内容，并在法院上作为证物使用，事情结束后就一直交由他们保管。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 98,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"官司是全程交给律师处理的，对方的保险公司也承认过失并全额支付了赔偿金，因此我们在法院上并没有机会听到里面的内容。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 100,
+	},
+	block_00020 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg002a", path=":bg/", sync=0},
+		{"fg", ch="里", size="no", mode=3, resize=1, path=":fg/mir/no/", file="mir_noa0310", ex05="mir_noa0010", face="a0038", head="mir_noa", x=0, lv=2.2, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0310", ex05="mir_noa0010", face="a0029", head="mir_noa", x=0, lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00008", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「这样啊……不过，其实我也没听过……话说，抱歉，我一个人根本没勇气听啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 112,
+	},
+	block_00021 = {
+		{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0310", ex05="mir_noa0010", face="a0022", head="mir_noa", x=0, lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0300", ex05="mir_noa0000", face="a0032", head="mir_noa", x=0, lv=2.2, id=13},
+				{"fgact", ch="里", act="うなづく", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00009", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「既然你们两个都觉得有必要这么做，那就没问题了吧。嗯，这也是为了你们两个的未来。云雀姐他们也会很开心的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 119,
+	},
+	block_00022 = {
+		{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0300", ex05="mir_noa0000", face="a0019", head="mir_noa", x=0, lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0300", ex05="mir_noa0000", face="a0053", head="mir_noa", x=0, lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00010", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「我也一起听会比较好吧。但抱歉，我实在没有这个勇气。不过，如果你们希望的话，我也可以留下来哦？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 125,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊，这个……我们想两个人一起听。不好意思，到头来只是麻烦你跑腿送了个东西」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 128,
+	},
+	block_00024 = {
+		{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0310", ex05="mir_noa0010", face="a0041", head="mir_noa", x=0, lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0310", ex05="mir_noa0010", face="a0019", head="mir_noa", x=0, lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00011", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「没事没事。抱歉，毕竟我没啥毅力嘛。额……用毅力这词好像也不太对啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 134,
+	},
+	block_00025 = {
+		{"bg", speed=80000, file="zbg002a", path=":bg/", x2=0, y2=-360, x=0, y=360, ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"里姐其实是很有胆识的人。她是为了让我们能独处，才特地用没有勇气当借口吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 138,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她还特地对我们说“我去附近兜兜风，听完后要是想去哪里的话就再联系我吧”。我们则是对这位亲切的表姐低头致谢，并目送她离开。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 140,
+	},
+	block_00027 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg002a", path=":bg/", sync=0},
+		{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_nob1000", ex05="hiy_nob0000", face="b0023", head="hiy_nob", x=0, lv=2.2, id=13, sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊，那我去拿平板过来……还是说在我房间听？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 150,
+	},
+	block_00028 = {
+		{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_nob1000", ex05="hiy_nob0000", face="b0032", head="hiy_nob", x=0, lv=2.2, id=13},
+		{"fgact", ch="妃愛", act="いいえ", lv=2.2, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00021", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「不，在这里听就好。这里有里姐买来的车轮饼……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 156,
+	},
+	block_00029 = {
+		{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_nob1000", ex05="hiy_nob0000", face="b0053", head="hiy_nob", x=0, lv=2.2, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00022", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「而且这个房间是我们以前最常听到爸爸妈妈声音的地方啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 161,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「好」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 164,
+	},
+	block_00031 = {
+		{"se", file="seドア(室内開き)", id=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="rule_001", wait=250, file="black", path=":bg/", vague=40},
+		{"bg", rule="rule_001", vague=40, file="bg004a", path=":bg/"},
+		{"se", file="seドア(室内閉じ)", id=2},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"把妃爱留在餐厅，我回到房间去拿平板电脑还有读卡机。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 176,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"一旦没了她的陪伴，不安就立刻涌了上来。但这是我们一起决定好的事，我这个当哥哥的得振作点啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 178,
+	},
+	block_00033 = {
+		{"se", stop=1, time=500, id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"至于为何突然想看行车记录仪，是因为妃爱一直觉得，那场造成父母死亡的车祸是对自己的惩罚。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 182,
+	},
+	block_00034 = {
+		{"se", stop=1, time=500, id=2},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我并没有奢求这样做就能改变她的想法。当然，能让她走出这件事的阴影是最好不过的了。但是，父母也有可能根本没有说话，所以还是不要太过期待为好。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 186,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我们兄妹所期盼的，是妃爱与双亲最后的对话。我希望在听了父母的留言后，可以洗刷那段令妃爱后悔至今的最后交谈。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 188,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"当然，我们无法与他们直接对话。但是，我还是期待听完后，至今仍会在妃爱梦里出现的“听到了自己口中说出的残忍话语的父母的表情”能够发生变化。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 190,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"“你们是彼此唯一的兄妹啊，要好好珍惜哥哥哦”。每当妃爱想起这句重要的话时，脑海中就会浮现出父母的悲伤表情，我希望能够改变这一状况。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 192,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"即使是无关紧要的对话也好，即使只有呼吸声也好。我不打算一直听到车祸发生的瞬间。总之只要让妃爱听到新的关于父母的声音就好。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 194,
+	},
+	block_00039 = {
+		{"se", file="seドア(室内開き)", id=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="rule_001", wait=250, file="black", path=":bg/", vague=40},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg002a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="妃愛", size="z1", mode=3, resize=1, path=":fg/hiy/z1/", file="hiy_z1a1000", ex05="hiy_z1a0000", face="a0048", head="hiy_z1a", x=0, lv=2.3, id=13, sync=0},
+		{"extrans", rule="rule_001", vague=40},
+		{"se", file="seドア(室内閉じ)", id=2},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"当我回到餐厅时，妃爱正摸着资正的头，并且已经吃完了一个车轮饼。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 212,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「你吃完了一整个？　不怕变胖吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 215,
+	},
+	block_00041 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1b1010", ex05="hiy_z1b0010", face="b0006", head="hiy_z1b", x=0, lv=2.3, id=13},
+		{"fgact", ch="妃愛", act="うなづく", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00023", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「吃饱肚子可以壮胆哦！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 221,
+	},
+	block_00042 = {
+		{"se", stop=1, time=500, id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这种说法我还是第一次听说。不过既然参加过好几个大型活动的人气声优这么说了，我就也一口吞下了车轮饼，试图填满肚子。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 225,
+	},
+	block_00043 = {
+		{"se", stop=1, time=500, id=2},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我想先测试一下，不过会不会一按就马上有声音啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 230,
+	},
+	block_00044 = {
+		{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a1000", ex05="hiy_z1a0000", face="a0012", head="hiy_z1a", x=0, lv=2.3, id=13},
+		{"fgact", ch="妃愛", act="いいえ", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z1", mode=3, path=":fg/hiy/z1/", file="hiy_z1a1000", ex05="hiy_z1a0000", face="a0038", head="hiy_z1a", x=0, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00024", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「咦，等一下等一下，我还没做好心理准备呢。抱歉，资正，你先回笼子吧，我想和哥哥牵着手」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 237,
+	},
+	block_00045 = {
+		{"fg", ch="資正", size="no", mode=1, path=":fg/suk/no/", file="suk_noa0000", face="a0002", head="suk_noa", lv=2.2, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="etc_suk_00001", ch="suk"},
+			},
+			ja = {
+				{
+					name = {"資正"},
+					"「呜～」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 242,
+	},
+	block_00046 = {
+		{"fg", mode=-2},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"把平板放到桌上后，我们在沙发上并肩而坐，并牢牢牵着彼此的手。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 248,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"妃爱身为演员，表情管理能力很强。但即便如此，她似乎还是没法控制身体上的反应。她的手心逐渐渗出汗水。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 250,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「那我开始播放了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 253,
+	},
+	block_00049 = {
+		{"bgm", stop=1},
+		{"bg", file="bg002a", path=":bg/"},
+		{"bg", lv=5, id=5, rule="cinema", file="cinema01", alpha=192, time=400, path=":sys/", vague=40},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"按下播放键后，画面里立刻就出现了道路，但还没有车辆行驶的声音。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 261,
+	},
+	block_00050 = {
+		{"se", file="se車のドア閉じる", id=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_tit_00001", ch="tit"},
+			},
+			ja = {
+				{
+					name = {"父"},
+					"「惹妃爱生气了啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 269,
+	},
+	block_00051 = {
+		{"bgm", file="bgm15"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"一直想听到的声音，就这么传入了耳中。是父亲那令人怀念的声音。是自记忆中渐渐淡去的至亲的声音。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 273,
+	},
+	block_00052 = {
+		{"se", stop=1, time=500, id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"妃爱曾经说过我和爸爸的声音有点像。虽然人对自己的声音不会有太大了解，但想到这令人怀念的声音如今正待在我的喉咙里，我还是挺高兴的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 277,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_tit_00002", ch="tit"},
+			},
+			ja = {
+				{
+					name = {"父"},
+					"「原本以为到早上就会消气了，没想到连一句话都不肯和我说啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 280,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hah_00001", ch="hah"},
+			},
+			ja = {
+				{
+					name = {"母"},
+					"「是你说话的方式不好吧……抱歉，我那时一下子也不知道该说什么才好」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 283,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"接着，妈妈的声音也出现了。那是令人朝思暮想的声音。尽管现在是放给妃爱听的，我的胸口也不禁跟着一热。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 285,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是，我也没想到能听到有关妃爱的对话……也就是朗诵剧的后续。我紧紧地握住了妃爱的手掌。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 287,
+	},
+	block_00057 = {
+		{"se", stop=1, time=500, id=1},
+		{"cgdel", lv=5, id=5, rule="cinema", time=400},
+		{"se", file="seエンジンをかける音", id=1},
+		{"ex", time=1000, func="wait"},
+		{"bg", speed=200000, file="zbg099a", path=":bg/", x2=640, y2=0, x=-640, y=0, ax=1280, ay=720, bx=-640, by=-360},
+		{"bg", lv=5, id=5, rule="cinema", file="cinema01", alpha=192, time=400, path=":sys/", vague=40},
+		{"se", stop=1, time=500, id=1},
+		{"se", file="se車の走行音", loop=1, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_tit_00003", ch="tit"},
+			},
+			ja = {
+				{
+					name = {"父"},
+					"「我也是一下子不知道该说些什么，实在没想到她会那么生气」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 305,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_tit_00004", ch="tit"},
+			},
+			ja = {
+				{
+					name = {"父"},
+					"「比起说话方式，主要还是顺序不对的问题吧……或许该先增加她和智宏相处的时间才对」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 309,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_tit_00005", ch="tit"},
+			},
+			ja = {
+				{
+					name = {"父"},
+					"「最近一直忙着工作，根本没有和家人相处的时间。经纪人小姐也在担心妃爱的精神会不会得不到充分的休息……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 313,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hah_00002", ch="hah"},
+			},
+			ja = {
+				{
+					name = {"母"},
+					"「我不喜欢那个经纪人。虽然嘴上说担心妃爱，但不管拜托她几次，就是完全不肯调整行程……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 316,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_tit_00006", ch="tit"},
+			},
+			ja = {
+				{
+					name = {"父"},
+					"「我也没想到妃爱会如此沉迷于演员的世界，而且还做得这么成功啊……恐怕事务所那边和妃爱自己也没想到吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 320,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_tit_00007", ch="tit"},
+			},
+			ja = {
+				{
+					name = {"父"},
+					"「虽然她说自己乐在其中，但我们在工作方面可能有点太放任她了。毕竟我听说过很多因为家长过分干涉导致被雪藏的演员」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 324,
+	},
+	block_00063 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_tit_00008", ch="tit"},
+			},
+			ja = {
+				{
+					name = {"父"},
+					"「但是考虑到工作量一直有增无减，最好先踩个刹车，认真讨论一下今后的规划吧。我会在这周内空出时间去找她谈谈」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 328,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hah_00003", ch="hah"},
+			},
+			ja = {
+				{
+					name = {"母"},
+					"「我也一起去吧。既然妃爱愿意，我当然也想尽量尊重她的意思，但我还是很担心她的身体状况啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 331,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"当时以童星身份活动的妃爱，知名度甚至比如今身为当红声优的她更高。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 333,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"电影和连续剧都争相邀请她。她也出演过ＮＨＫ大河时代剧和知名综艺节目。但正因如此，即使是周末，她也很少待在家里。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 335,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hah_00004", ch="hah"},
+			},
+			ja = {
+				{
+					name = {"母"},
+					"「要是强迫妃爱休息，说不定又会惹她生气了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 338,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_tit_00009", ch="tit"},
+			},
+			ja = {
+				{
+					name = {"父"},
+					"「就算这样，在妃爱还没离开这个家之前，我们都必须要保护好她」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 342,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hah_00005", ch="hah"},
+			},
+			ja = {
+				{
+					name = {"母"},
+					"「嗯……身为父母，一定要优先考虑妃爱的身体。这一点是不容置疑的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 345,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hah_00006", ch="hah"},
+			},
+			ja = {
+				{
+					name = {"母"},
+					"「但是，考虑到妃爱的意愿还有她的未来，我无法确定怎么做才是正确的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 348,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_tit_00010", ch="tit"},
+			},
+			ja = {
+				{
+					name = {"父"},
+					"「毕竟就算在全日本，也没有几对父母能有这么出名的女儿吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 352,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_tit_00011", ch="tit"},
+			},
+			ja = {
+				{
+					name = {"父"},
+					"「而且我们的工作都和演员没有任何关系，既不清楚演艺圈的常识和规则，也没有认识的人可以商量」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 356,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_tit_00012", ch="tit"},
+			},
+			ja = {
+				{
+					name = {"父"},
+					"「说不定……妃爱以后会变得比现在更有名，成为我们难以想象的超级女演员呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 360,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_tit_00013", ch="tit"},
+			},
+			ja = {
+				{
+					name = {"父"},
+					"「或许那孩子的成长早已超出了我们的认知，心智也比实际年龄要成熟得多啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 364,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"他的声音里带着骄傲，但也流露出一丝寂寞。或许是在想象宝贝女儿闪耀的未来，同时也预想到了她离家独立的景象吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 366,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_tit_00014", ch="tit"},
+			},
+			ja = {
+				{
+					name = {"父"},
+					"「大学毕业后立刻……不，就算比这更早离开家，开始独立生活也没什么好奇怪的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 370,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_tit_00015", ch="tit"},
+			},
+			ja = {
+				{
+					name = {"父"},
+					"「所以，趁着妃爱现在还住在家里，我想让她明白，无论何时，只要她回来，这里永远会有迎接她的家人」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 374,
+	},
+	block_00078 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_tit_00016", ch="tit"},
+			},
+			ja = {
+				{
+					name = {"父"},
+					"「当她拼命工作，努力向前奔跑，但偶尔停下脚步喘口气的时候，我想为她准备一个能够安稳度日的地方」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 378,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_tit_00017", ch="tit"},
+			},
+			ja = {
+				{
+					name = {"父"},
+					"「让我们一起努力，去做那个有着特别才华的孩子的普通父母吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 382,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"视频里和我身边，同时传来了吸鼻子的声音。我没有去看妃爱的表情。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 384,
+	},
+	block_00081 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_tit_00018", ch="tit"},
+			},
+			ja = {
+				{
+					name = {"父"},
+					"「即使如此，当妃爱无法再依靠我们的时候……倒也不是说我和你发生了什么意外这种严重的情况，只是像今天这样让她生气的时候」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 388,
+	},
+	block_00082 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_tit_00019", ch="tit"},
+			},
+			ja = {
+				{
+					name = {"父"},
+					"「那时，智宏也一定会帮助妃爱吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 392,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_tit_00020", ch="tit"},
+			},
+			ja = {
+				{
+					name = {"父"},
+					"「虽然智宏可能还没有意识到自己的妹妹有多出名，不了解社会大众是怎么看待她的……但他始终在以哥哥的身份对待妃爱」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 396,
+	},
+	block_00084 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hah_00007", ch="hah"},
+			},
+			ja = {
+				{
+					name = {"母"},
+					"「嗯……智宏不会因为妃爱是自己的妹妹而自傲，也不会向其他孩子炫耀，一直好好珍惜着她」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 401,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这是因为爸爸和妈妈从小就是这么教育我的。可以夸赞妃爱，但不能仗着她就骄傲自大，所以也不能对她有特别待遇。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 403,
+	},
+	block_00086 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_tit_00021", ch="tit"},
+			},
+			ja = {
+				{
+					name = {"父"},
+					"「妃爱这孩子很聪明，她以后一定会发现，身边有一个待自己始终如一的人，是件多么幸运的事」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 407,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hah_00008", ch="hah"},
+			},
+			ja = {
+				{
+					name = {"母"},
+					"「希望她不会在此之前就渐渐疏远智宏啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 410,
+	},
+	block_00088 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_tit_00022", ch="tit"},
+			},
+			ja = {
+				{
+					name = {"父"},
+					"「为了避免这种情况，就多给些时间让他们兄妹二人独处吧。我们主动向他们开口，增加家人间交谈的机会就好了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 414,
+	},
+	block_00089 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_tit_00023", ch="tit"},
+			},
+			ja = {
+				{
+					name = {"父"},
+					"「妃爱小时候一直很喜欢陪她玩的智宏。只要增加他们两个相处的时间，就一定能恢复到原本的关系的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 418,
+	},
+	block_00090 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hah_00009", ch="hah"},
+			},
+			ja = {
+				{
+					name = {"母"},
+					"「对了，现在妃爱会帮忙做家务了，那就叫智宏也来帮忙吧。让他们分工合作就能增加交流的机会，这样妃爱也能渐渐察觉到智宏的重要性了吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 421,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_tit_00024", ch="tit"},
+			},
+			ja = {
+				{
+					name = {"父"},
+					"「嗯，说得对，这个点子好！　我刚刚一直都在谈理想情况，完全想不到实际该怎么做。云雀，谢谢你」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 425,
+	},
+	block_00092 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hah_00010", ch="hah"},
+			},
+			ja = {
+				{
+					name = {"母"},
+					"「没这回事。我也因为惹她生气而有点沮丧，和你讨论了一阵他们的未来后终于觉得好点了，我才要说谢谢呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 428,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_tit_00025", ch="tit"},
+			},
+			ja = {
+				{
+					name = {"父"},
+					"「多抽空和家人相处，一起努力让妃爱理解兄妹的可贵吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 432,
+	},
+	block_00094 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hah_00011", ch="hah"},
+			},
+			ja = {
+				{
+					name = {"母"},
+					"「嗯……我也会多和智宏说说妃爱喜欢和感兴趣的东西。如果妃爱同意的话，下次也把智宏带去片场吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 435,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hah_00012", ch="hah"},
+			},
+			ja = {
+				{
+					name = {"母"},
+					"「希望智宏和妃爱无论是上学后还是出了社会后，都能一直珍惜彼此……一起待在这个养育他们的家里……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 438,
+	},
+	block_00096 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_tit_00026", ch="tit"},
+			},
+			ja = {
+				{
+					name = {"父"},
+					"「哈哈。虽然我也希望他们能珍惜彼此，不过所谓的兄妹，总有一天也会分开生活，建立彼此的家庭啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 442,
+	},
+	block_00097 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hah_00013", ch="hah"},
+			},
+			ja = {
+				{
+					name = {"母"},
+					"「嗯……可是，我希望他们将来不管变得多忙，还是能偶尔回到这个家见见面」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 445,
+	},
+	block_00098 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hah_00014", ch="hah"},
+			},
+			ja = {
+				{
+					name = {"母"},
+					"「希望他们能成长为一起见证彼此的幸福、一起展露笑颜的兄妹……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 448,
+	},
+	block_00099 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我们原本没有打算听这么久。只是想在听到父母的声音……可以的话最好是他们开朗的声音，洗刷妃爱的记忆后，立刻停止播放就好。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 450,
+	},
+	block_00100 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是因为父母一直在讨论我们，依恋的心情始终阻碍着我停止播放。因此，那个时刻就这么到来了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 452,
+	},
+	block_00101 = {
+		{"bgm", stop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_tit_00027", ch="tit"},
+			},
+			ja = {
+				{
+					name = {"父"},
+					"「啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 458,
+	},
+	block_00102 = {
+		{"se", stop=1, time=500, id=9},
+		{"se", file="seクラクション1", id=2},
+		{"se", stop=1, time=500, id=2},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"听到爸爸突然放大的声音，我原本想要站起来关掉屏幕，但妃爱紧紧地握着我的手，我直到最后都没能站起身来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 464,
+	},
+	block_00103 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_tit_00028", ch="tit"},
+			},
+			ja = {
+				{
+					name = {"父"},
+					"「智宏！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 468,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hah_00015", ch="hah"},
+			},
+			ja = {
+				{
+					name = {"母"},
+					"「妃爱！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 471,
+	},
+	block_00105 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我屏住呼吸。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 473,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"爸爸和妈妈在生命的最后，仍在惦念着自己生下的兄妹的未来。即使知道这是自己最后的话语，仍忍着恐惧大声呼唤着我们。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 475,
+	},
+	block_00107 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"画面至此便停止了，屏幕闪着绿灯的亮光。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 478,
+	},
+	block_00108 = {
+		{"cgdel", lv=5, id=5, rule="cinema", time=400},
+		{"bg", file="bg002a", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"视频结束后，我久久无法发出声音。光是强忍着哽咽，紧紧抱住依偎在怀中的妃爱，我就已经用尽了全力。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 485,
+	},
+	block_00109 = {
+		{"bgm", file="bgm27"},
+		{"fg", ch="妃愛", size="no", mode=1, resize=1, path=":fg/hiy/no/", file="hiy_nob1000", ex05="hiy_nob0000", face="b0029", head="hiy_nob", lv=2.2, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00025", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「……虽然这或许不是爸爸妈妈期望的样子」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 494,
+	},
+	block_00110 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"与咬牙苦撑的我不同，至今仍抽着鼻子的妃爱，被不断涌来的激烈情绪淹没，抽抽噎噎地开了口。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 496,
+	},
+	block_00111 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", zoom=120, file="zbg002a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="妃愛", size="z2", mode=3, resize=1, path=":fg/hiy/z2/", file="hiy_z2b1000", ex05="hiy_z2b0000", face="b0003", head="hiy_z2b", x=0, lv=2.4, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00026", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「但我一定会和哥哥一起变得幸福的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 508,
+	},
+	block_00112 = {
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1000", ex05="hiy_z2b0000", face="b0023", head="hiy_z2b", x=0, lv=2.4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00027", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「和哥哥一起生活，待在哥哥身边，让哥哥幸福，然后我也一起变得幸福」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 513,
+	},
+	block_00113 = {
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1000", ex05="hiy_z2b0000", face="b0005", head="hiy_z2b", x=0, lv=2.4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00028", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「我想和哥哥永远在一起」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 518,
+	},
+	block_00114 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我们是兄妹嘛，一直一起住在这个家里就好了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 521,
+	},
+	block_00115 = {
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1000", ex05="hiy_z2b0000", face="b0029", head="hiy_z2b", x=0, lv=2.4, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我们从出生到现在一直都是家人，没有必要分开生活，也没人规定一定要各自组建家庭啊。只要好好珍惜眼前的家人就好」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 526,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我也是，想一直和妃爱在一起啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 529,
+	},
+	block_00117 = {
+		{"fg", mode=-2},
+		{"se", file="se衣擦れ", id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"之后，我们再也没有说话，只是默默抱紧了彼此。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 534,
+	},
+	block_00118 = {
+		{"bgm", stop=1},
+		{"se", stop=1, time=500, id=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="rule_002", wait=500, file="black", path=":bg/", vague=40},
+		{"bg", rule="rule_002r", vague=40, file="bg002a", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我们就这样拥抱了大概三十分钟左右，然后被资正的叫声拉回了日常生活中。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 545,
+	},
+	block_00119 = {
+		{"bgm", file="bgm01"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"妃爱现在也是一脸无精打采的样子，但她还是说要带资正出门散步。大约一小时后，回到家中并嚷嚷着“拉了好大一坨”的妃爱已经恢复了平时的状态。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 549,
+	},
+	block_00120 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"“你拉的？”我这么问道。而她则是回了句“声优不会大便”。既然是声优就别把大便挂在嘴边啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 551,
+	},
+	block_00121 = {
+		{"bgm", stop=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="rule_002", wait=500, file="black", path=":bg/", vague=40},
+		{"excall", file="01_妃愛01_3"},
+		{"text"},
+		linkback = "block_00120",
+		line = 556,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

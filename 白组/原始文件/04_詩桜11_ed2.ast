@@ -1,0 +1,1094 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"bg", file="cutin_001", sync=0, time=0, id=1, lv=5, path=":cg/"},
+		{"bgm", file="bgm23"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00955", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『在京城的西边，再往西的深山里，住着一只会吃人的恶鬼。』",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 10,
+	},
+	block_00001 = {
+		{"se", file="se紙系_ページめくり早", id=1},
+		{"msgoff"},
+		{"cgdel", lv=5, sync=0},
+		{"bg", file="cutin_002", path=":cg/", sync=0},
+		{"extrans", rule="rule_001", time=1000},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00956", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『恶鬼一旦肚子饿了，就会下山去山脚的村子里，抓走一位年轻的姑娘。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 15,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00957", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『住在村子里的人们都很伤心，但恶鬼实在太可怕了，没有人敢反抗他。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 18,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"当初得知故事里会出现鬼的时候，我其实有些觉得「有点俗套啊」。但后来仔细想想，发觉连环画剧里并不需要有存在什么意外性。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 20,
+	},
+	block_00004 = {
+		{"se", file="se紙系_ページめくり早", id=1},
+		{"msgoff"},
+		{"cgdel", lv=5, sync=0},
+		{"bg", file="cutin_003", path=":cg/", sync=0},
+		{"extrans", rule="rule_001", time=1000},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00958", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『在那个村子里，有一位非常漂亮的少女。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 25,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00959", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『她是村长的独生女，村里的每个人都夸她很聪明。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 28,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00960", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『随着村里的姑娘越来越少，这名少女做好了觉悟，在恶鬼来的时候挺身而出，对恶鬼说，吃了我吧。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 31,
+	},
+	block_00007 = {
+		{"se", file="se紙系_ページめくり早", id=1},
+		{"msgoff"},
+		{"cgdel", lv=5, sync=0},
+		{"bg", file="cutin_004", path=":cg/", sync=0},
+		{"extrans", rule="rule_001", time=1000},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00961", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『恶鬼听了非常开心，将少女带了回去，但在到了恶鬼的家后，少女又说。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 38,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00962", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜", "むすめ"},
+					"『如果现在吃了我，村子里就没有年轻的姑娘了。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 42,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00963", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『恶鬼忍受不了肚子饿的感觉，不把吃少女的话就没力气。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 45,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00964", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『恶鬼很伤脑筋，他问少女，该怎么办才好。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 48,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00965", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜", "むすめ"},
+					"『让我嫁给你，帮你生女孩就行了。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 52,
+	},
+	block_00012 = {
+		{"se", file="se紙系_ページめくり早", id=1},
+		{"msgoff"},
+		{"cgdel", lv=5, sync=0},
+		{"bg", file="cutin_005", path=":cg/", sync=0},
+		{"extrans", rule="rule_001", time=1000},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00966", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『恶鬼觉得这提议非常棒，于是他开心地娶了少女，没有把少女吃掉。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 57,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然在小时候看的连环画剧里似乎有过这种展开，不过时至今日才发觉，要是真有这种对话，这不就成小黄油了吗。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 59,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00967", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『少女终于产下了两个孩子，但两个都是男孩子。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 62,
+	},
+	block_00015 = {
+		{"se", file="se紙系_ページめくり早", id=1},
+		{"msgoff"},
+		{"cgdel", lv=5, sync=0},
+		{"bg", file="cutin_006", path=":cg/", sync=0},
+		{"extrans", rule="rule_001", time=1000},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00968", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『第一个男孩子长得很健壮，他拉着牛去耕田，将房子修建得非常漂亮。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 67,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00969", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『第二个男孩子非常聪明，他靠着买卖赚到了很多钱，给母亲买了衣服。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 70,
+	},
+	block_00017 = {
+		{"se", file="se紙系_ページめくり早", id=1},
+		{"msgoff"},
+		{"cgdel", lv=5, sync=0},
+		{"bg", file="cutin_007", path=":cg/", sync=0},
+		{"extrans", rule="rule_001", time=1000},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00970", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『恶鬼的家里变得很有钱，但是恶鬼只有田里的蔬菜吃，一直都饿着肚子。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 75,
+	},
+	block_00018 = {
+		{"se", file="se紙系_ページめくり早", id=1},
+		{"msgoff"},
+		{"cgdel", lv=5, sync=0},
+		{"bg", file="cutin_008", path=":cg/", sync=0},
+		{"extrans", rule="rule_001", time=1000},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00971", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『某一天，少女终于生下了女孩子，于是恶鬼把自己的妻子吃掉了。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 80,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"听到这里，几位教职员皱起了眉头。大概是没想到这种面向小孩子的连环画剧中，会出现吃人的情节吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 82,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然我也有些在意地向学姐问了这样真的没问题吗，但她却说「想往童话故事里加些粗略的残酷场面进去」。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 84,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她还说「小孩子意外地对这些有抗性。比方说小红帽」。这么一说，小红帽里的老奶奶也被吃了。明明是面向女孩子的内容，却意外地很可怕呢。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 86,
+	},
+	block_00022 = {
+		{"se", file="se紙系_ページめくり早", id=1},
+		{"msgoff"},
+		{"cgdel", lv=5, sync=0},
+		{"bg", file="cutin_009", path=":cg/", sync=0},
+		{"extrans", rule="rule_001", time=1000},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00972", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『孩子们看见母亲被吃掉了，非常非常生气，扔下鬼、离开了家，到村子里去了。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 91,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00973", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『被留下的恶鬼想要去抚养女儿，但是他没办法跟妻子一样，不能喂女儿喝奶水。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 96,
+	},
+	block_00024 = {
+		{"se", file="se紙系_ページめくり早", id=1},
+		{"msgoff"},
+		{"cgdel", lv=5, sync=0},
+		{"bg", file="cutin_010", path=":cg/", sync=0},
+		{"extrans", rule="rule_001", time=1000},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00974", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『伤脑筋的恶鬼前往了村子，但儿子们站在村子入口，不让他进去。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 101,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00975", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『就连很厉害的恶鬼，也敌不过自己的两个儿子，被赶回了自己的家。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 104,
+	},
+	block_00026 = {
+		{"se", file="se紙系_ページめくり早", id=1},
+		{"msgoff"},
+		{"cgdel", lv=5, sync=0},
+		{"bg", file="cutin_012", path=":cg/", sync=0},
+		{"extrans", rule="rule_001", time=1000},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00976", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『回到家里的恶鬼，挤了牛奶给女儿喝，但女儿还是越来越瘦弱。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 109,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00977", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『最后，恶鬼向村子的人们低下头，拜托他们分些奶水给女儿喝。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 112,
+	},
+	block_00028 = {
+		{"se", file="se紙系_ページめくり早", id=1},
+		{"msgoff"},
+		{"cgdel", lv=5, sync=0},
+		{"bg", file="cutin_011", path=":cg/", sync=0},
+		{"extrans", rule="rule_001", time=1000},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00978", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜", "おに"},
+					"『请分我一些奶水吧。请分我一些奶水给女儿喝吧。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 118,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00979", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『村里的人非常烦恼，而恶鬼跟村里的人约好，不会再吃村里的少女，于是村里的人给女儿喂了奶水。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 121,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00980", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『在那之后，恶鬼好几次来到村子，拜托人们喂他女儿喝奶水。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 124,
+	},
+	block_00031 = {
+		{"se", file="se紙系_ページめくり早", id=1},
+		{"msgoff"},
+		{"cgdel", lv=5, sync=0},
+		{"bg", file="cutin_013", path=":cg/", sync=0},
+		{"extrans", rule="rule_001", time=1000},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00981", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『终于女儿长大了，只靠奶水的话，肚子很快就会饿了。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 129,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00982", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜", "むすめ"},
+					"『爸爸，好饿，肚子好饿哦。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 133,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00983", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『恶鬼用儿子的田种了菜，做了食物给女儿吃。吃了东西之后的女儿，很快地茁壮成长。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 136,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00984", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜", "むすめ"},
+					"『爸爸，好冷，身体好冷哦。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 140,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00985", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『女儿光着身子，哭着说好冷，于是恶鬼学着儿子，把蔬菜拿去卖，买了衣服给女儿穿。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 143,
+	},
+	block_00036 = {
+		{"se", file="se紙系_ページめくり早", id=1},
+		{"msgoff"},
+		{"cgdel", lv=5, sync=0},
+		{"bg", file="cutin_014", path=":cg/", sync=0},
+		{"extrans", rule="rule_001", time=1000},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00986", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『终于女儿十五岁了，和她的母亲一样，长得亭亭玉立。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 148,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00987", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『但是，恶鬼却和女儿相反，变得越来越瘦弱。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 151,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00988", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『恶鬼把自己的食物都给了女儿，也按照约定，没有吃村里的少女。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 154,
+	},
+	block_00039 = {
+		{"se", file="se紙系_ページめくり早", id=1},
+		{"msgoff"},
+		{"cgdel", lv=5, sync=0},
+		{"bg", file="cutin_015", path=":cg/", sync=0},
+		{"extrans", rule="rule_001", time=1000},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00989", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『看着变得非常瘦小的恶鬼，女儿十分悲伤，地说。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 159,
+	},
+	block_00040 = {
+		{"bgm", stop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00990", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜", "むすめ"},
+					"『爸爸，请把我吃了吧。谢谢你一直抚养我到今天。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 165,
+	},
+	block_00041 = {
+		{"se", file="se紙系_ページめくり早", id=1},
+		{"msgoff"},
+		{"cgdel", lv=5, sync=0},
+		{"bg", file="cutin_016", path=":cg/", sync=0},
+		{"extrans", rule="rule_001", time=1000},
+		{"ex", time=500, func="wait"},
+		{"bgm", file="bgm15"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00991", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『恶鬼听了女儿的话后，哇哇地大哭了起来。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 172,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00992", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜", "むすめ"},
+					"『爸爸，怎么了，为什么要哭呢。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 178,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00993", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜", "おに"},
+					"『这世上，根本没有会吃掉自己亲手养大的女儿的父母。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 182,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00994", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『不久后，停止哭泣的恶鬼发出了『啊啊』的声音，抬头看向了天空。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 185,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00995", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜", "おに"},
+					"『我至今为止吃掉的少女们，明明她们也有父母，我却还是做出了这种悲哀的事情。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 189,
+	},
+	block_00046 = {
+		{"se", file="se紙系_ページめくり早", id=1},
+		{"msgoff"},
+		{"cgdel", lv=5, sync=0},
+		{"bg", file="cutin_017", path=":cg/", sync=0},
+		{"extrans", rule="rule_001", time=1000},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00996", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜", "おに"},
+					"『然而村子里的母亲们，却仍然为了你分出了奶水。我必须得向她们赔罪才行。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 195,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00997", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『恶鬼说完后，拔掉了自己的角，在女儿『啊』地感到震惊时，恶鬼的身体变成了亮晶晶的沙粒，崩毁了。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 198,
+	},
+	block_00048 = {
+		{"se", file="se紙系_ページめくり早", id=1},
+		{"msgoff"},
+		{"cgdel", lv=5, sync=0},
+		{"bg", file="cutin_018", path=":cg/", sync=0},
+		{"extrans", rule="rule_001", time=1000},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00998", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『最后，在那堆沙粒中飞出了一只鹤，朝着村子的方向飞走了。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 203,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00999", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『在此之后，那个村子在1000年内都没有发生灾害，小孩子们也没有患上过严重的疾病。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 206,
+	},
+	block_00050 = {
+		{"se", file="se紙系_ページめくり早", id=1},
+		{"msgoff"},
+		{"cgdel", lv=5, sync=0},
+		{"bg", file="cutin_001", path=":cg/", sync=0},
+		{"extrans", rule="rule_001", time=1500},
+		{"ex", time=500, func="wait"},
+		{"bgm", stop=1, time=3000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01000", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"『结束。』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 216,
+	},
+	block_00051 = {
+		{"cgdel", id=-1},
+		{"bg", time=2000, wait=1000, file="black", path=":bg/"},
+		{"se", file="se歓声4", id=1},
+		{"msgoff"},
+		{"bg", x=0, y=100, file="zbg013_2a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="詩桜", size="z1", mode=3, resize=1, path=":fg/shi/z1/", file="shi_z1a0200", ex05="shi_z1a0000", face="a0053", head="shi_z1a", lv=2.3, id=13, sync=0},
+		{"extrans", time=2000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"诗樱学姐翻完最后一页后，重新盖上了连环画剧的封面，迟了一会才响起了啪啦啪啦的掌声。台下的反应显得有些平淡。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 228,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"果然还是有很多学生感到很无聊吧。虽说是畅销作家的作品，但诗樱学姐这次写的故事是儿童向的，对学生而言稍微有些无趣了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 230,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"即使如此，从中途便一直目不转睛地看着画剧的那一位女学生，表情无比认真地不停地鼓着掌。只要有命中目标，那就足够了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 232,
+	},
+	block_00054 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0200", ex05="shi_z1a0000", face="a0032", head="shi_z1a", lv=2.3, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在舞台上的诗樱学姐，介绍了听完这个连环画剧的老人与小孩子们的反应，最后简单地做了总结并道谢，就结束了学生会的节目。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 236,
+	},
+	block_00055 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="04_詩桜11_ed3"},
+		{"text"},
+		linkback = "block_00054",
+		line = 240,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

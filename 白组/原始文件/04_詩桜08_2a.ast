@@ -1,0 +1,64 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="回答篇・丙"},
+		{"bg", sync=0, time=0, file="ev_sio_34_01", path=":ev/ev_sio_34/", set="ev_sio_34"},
+		{"bgm", file="bgm29"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「是这个吗……？」",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 15,
+	},
+	block_00001 = {
+		{"bg", sync=0, face="1", file="ev_sio_34_03", time=400, path=":ev/ev_sio_34/", set="ev_sio_34"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00795", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「怎么会选这个。乱选的吧，你是。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 20,
+	},
+	block_00002 = {
+		{"se", file="seガガーン", id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「非常抱歉……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 25,
+	},
+	block_00003 = {
+		{"excall", file="04_詩桜08_2b"},
+		{"text"},
+		linkback = "block_00002",
+		line = 29,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

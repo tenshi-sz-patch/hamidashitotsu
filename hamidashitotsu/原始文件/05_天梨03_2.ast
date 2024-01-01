@@ -1,0 +1,2928 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"bg", file="black", path=":bg/", sync=0},
+		{"fg", ch="詩桜", size="z1", mode=3, resize=1, path=":fg/shi/z1/", file="shi_z1a0210", ex05="shi_z1a0010", face="a0001", head="shi_z1a", lv=2.3, id=13, sync=0},
+		{"extrans", time=500},
+		{"bgm", file="bgm15"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"将兴趣放在最优先的顺位，就好比诗樱学姐。她最害怕的便是无聊。只要有趣的话就算有参杂令她不快的要素(我)，也不担心会被排斥而参与进来。",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 12,
+	},
+	block_00001 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="black", path=":bg/", sync=0},
+		{"fg", ch="あすみ", size="z1", mode=3, resize=1, path=":fg/asu/z1/", file="asu_z1a0200", ex05="asu_z1a0000", face="a0001", head="asu_z1a", lv=2.3, id=13, sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"将道德观摆在最优先顺位，则是如锦一般。她害怕被他人伤害。尽管如此却仍期待与他人一起分享相似的兴趣，于是建造属于自己的箱庭。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 21,
+	},
+	block_00002 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="black", path=":bg/", sync=0},
+		{"fg", ch="華乃", size="z1", mode=3, resize=1, path=":fg/kan/z1/", file="kan_z1a0200", ex05="kan_z1a0000", face="a0001", head="kan_z1a", lv=2.3, id=13, sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"为了优先考虑道德观，而遵循自身的期望选择孤独，就如同我和常磐。我们不善于迎合周遭，也没有向他人公开自身兴趣的胆量，因此觉得孤身一人很轻松。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 30,
+	},
+	block_00003 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="black", path=":bg/", sync=0},
+		{"fg", ch="天梨", size="z1", mode=3, resize=1, path=":fg/ame/z1/", file="ame_z1a0200", ex05="ame_z1a0000", face="a0002", head="ame_z1a", lv=2.3, id=13, sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"而天梨最为害怕的便是孤独，其次是无聊。因此她选择忍受轧向自己的压力，却又坚守着自己的礼仪底线拼命挣扎。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 39,
+	},
+	block_00004 = {
+		{"bg", file="ev_ame_31_20", path=":ev/ev_ame_31/", set="ev_ame_31"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"听完刚才的对话，我认为天梨的道德观与自己十分相近。虽然兴趣不同，却是「能放松相处的对象」。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 45,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不要在电车上大声说话，或是讨厌在道路上并排走的感觉，我也很清楚。我也不喜欢那些行为」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 48,
+	},
+	block_00006 = {
+		{"bg", file="ev_ame_31_21", path=":ev/ev_ame_31/", set="ev_ame_31"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00254", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「对、对吧——！确实很令人反感呢——！会给周围的人添麻烦——！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 53,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不过我平常不怎么外出，所以可能自己都没发现有做过这些行为。如果天梨看到我做了些给人感觉不好的事，就麻烦你向我指出来吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 56,
+	},
+	block_00008 = {
+		{"bg", sync=0, face="1", file="ev_ame_31_26", time=400, path=":ev/ev_ame_31/", set="ev_ame_31"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00255", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「欸……可是我不记得会长有做出过那样的行为……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 61,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「注意到时再跟我说就可以了。你看我，基本不会外出跟人对话啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 64,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"网路上的常识一类的大多数我是很了解的，但对于在日常对话中成长的同世代之间的常识那些我却是非常生疏。毕竟这边是被妹妹包养。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 66,
+	},
+	block_00011 = {
+		{"bg", sync=0, face="1", file="ev_ame_31_22", time=400, path=":ev/ev_ame_31/", set="ev_ame_31"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00256", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「反倒是我有没有做出过踩到会长地雷的事情？我，之前有担心过是不是惹会长生气了，所以希望会长能告诉我」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 71,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然坐在我桌子上那次确实挺让我困扰的，但大家平常也经常坐在别人的椅子上，我自己偶尔也会（虽然不会坐在桌子上），所以没到生气的程度。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 73,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「虽然我自己没什么雷区，不过像刚才说过的，如果上传常磐的照片到Instagram的话，可能会被她讨厌」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 76,
+	},
+	block_00014 = {
+		{"bg", sync=0, face="1", file="ev_ame_31_20", time=400, path=":ev/ev_ame_31/", set="ev_ame_31"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00257", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「啊，是吗——！我得好好反省才行！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 81,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「嘛，但常磐也是，在听过天梨说想上传到Instagram后还让你拍的，所以也不完全是天梨的错」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 84,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「但我也很难分辨出常磐哪些时候是发自心底觉得不喜欢。不如说可能会根据情况有所变动」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 87,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"如果那时候常磐是真心不喜欢的话，照她的性格，之后的同人活动应该是不会带着天梨一起去才对。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 89,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但她羞于上传自己的照片也是事实，所以大概是有兴趣又有点困扰，这两者对半开吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 91,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「有些光景如果不被别人稍微强硬点拽出来的话是见不到的，基于这点上天梨没有踩到过学生会中其他人的地雷……我是这么想的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 94,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「这些充其量是我的看法……在这方面，里姐应该看得更清楚」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 97,
+	},
+	block_00021 = {
+		{"bg", sync=0, face="1", file="ev_ame_31_24", time=400, path=":ev/ev_ame_31/", set="ev_ame_31"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00258", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「嗯，嗯——但是，会长能跟我说说自己的看法就已经帮了大忙了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 102,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我也是，听到自己没干出过什么蠢事就放心了。并不只限于在学生会，之后在教室里要是我搞砸了什么的话，希望你别跟我客气」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 105,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我曾对天梨「阳角的作风会不会破坏学生会的氛围啊」感到担忧。现在我想为自己失礼的想法对她道歉，她是比我更具有常识的人。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 107,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"可是，现在道歉的话反而只会让天梨留下讨厌的回忆，从今以后我要去成为能让她放松交流的对象，与她一同抱持相近的价值观。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 109,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"本来要是能连兴趣的那部分都能与天梨共享的话，应该能成为她要好的朋友，但她喜欢的，像是服装以及美食的知识，我基本都不懂……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 111,
+	},
+	block_00026 = {
+		{"bgm", stop=1, time=1000},
+		{"msgoff"},
+		{"bg", file="zbg032a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1a0500", ex05="ame_z1a0000", face="a0023", head="ame_z1a", lv=2.3, id=13, sync=0},
+		{"extrans"},
+		{"bgm", file="bgm30"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「天梨能跟我说你的底线在哪也帮了我大忙哦。这种事情，要是等到搞砸后才知道就太晚了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 124,
+	},
+	block_00027 = {
+		{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1a0500", ex05="ame_z1a0000", face="a0009", head="ame_z1a", lv=2.3, id=13},
+		{"fgact", ch="天梨", act="いいえ", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00259", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「会、会长完全没做个那种事！我才是，一兴奋起来就会看不见周遭……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 130,
+	},
+	block_00028 = {
+		{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1a0500", ex05="ame_z1a0000", face="a0002", head="ame_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1a0500", ex05="ame_z1a0000", face="a0028", head="ame_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00260", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「之前找会长一起商量的时候就给你添过麻烦了，我才是，如果做了什么无法容忍的事情希望你能直接批评我」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 137,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「你说之前商量时……是在教室的那次？不会啦。那次从桌子上掉下来是意外，我没想过这是天梨造成的麻烦」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 140,
+	},
+	block_00030 = {
+		{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1a0500", ex05="ame_z1a0000", face="a0002", head="ame_z1a", lv=2.3, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「而且听完天梨的话后，我觉得你是个很乖的人呢。刚刚那些听上去，周围的人开始暴走时好像都是天梨负责踩刹车」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 145,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「虽然会想着『做这种事很奇怪啊』，但基本没几个人能做到提醒要好的朋友。我就是那种只会心里想想的人，会好好把话说出来的天梨很了不起哦」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 148,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「能做到这种事情的，肯定是因为自己有被严厉教导过，在天梨小时候有好好训斥这种行为的天梨爸爸很令人敬佩」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 151,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我的父亲很早就去世了，所以有些羡慕。我也想被父亲多加训斥教导。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 153,
+	},
+	block_00034 = {
+		{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1a0500", ex05="ame_z1a0000", face="a0029", head="ame_z1a", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00261", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「谢谢……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 158,
+	},
+	block_00035 = {
+		{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1a0500", ex05="ame_z1a0000", face="a0023", head="ame_z1a", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00262", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「最近，老是被其他人冷眼对待，所以会长能这么说我很开心……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 163,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「被冷眼对待……你是说，包括工作那边的朋友？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 166,
+	},
+	block_00037 = {
+		{"fg", ch="天梨", size="z1", ex03="a0097", mode=3, path=":fg/ame/z1/", file="ame_z1a0510", ex05="ame_z1a0010", face="a0008", head="ame_z1a", lv=2.3, id=13},
+		{"fgact", ch="天梨", act="びっくり", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="z1", ex03="a0097", mode=3, path=":fg/ame/z1/", file="ame_z1a0510", ex05="ame_z1a0010", face="a0053", head="ame_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00263", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「啊不是不是！非主业杂志模特的朋友，很多人平常就比我还要机灵……因为她们都有平时会被周围关注的意识」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 174,
+	},
+	block_00038 = {
+		{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1a0500", ex05="ame_z1a0000", face="a0034", head="ame_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="z1", ex03="a0097", mode=3, path=":fg/ame/z1/", file="ame_z1a0510", ex05="ame_z1a0010", face="a0020", head="ame_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00264", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「不过在人们看不见的地方骂的很狠就是了，啊哈哈……虽然姑且有说过别这样，但效果不怎么好……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 181,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"嘛。女性对于美丽与异性关系的嫉妒，可是在西元前就已经存在记录的永恒的坏毛病，这可不是天梨能把控住的思想。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 183,
+	},
+	block_00040 = {
+		{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1b0510", ex05="ame_z1b0010", face="b0053", head="ame_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1b0510", ex05="ame_z1b0010", face="b0055", head="ame_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00265", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「学生会的大家也是，不会在人前大声说话呢。虽然诗樱学姐是位很自由的人，但她的举止跟态度都很帅……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 190,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「毕竟大家都是出社会的人了啊……不过，在注意周围的眼光这个部分上，学生会的成员都是那个样子，还是来上上学比较好吧……大概」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 193,
+	},
+	block_00042 = {
+		{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1b0500", ex05="ame_z1b0000", face="b0012", head="ame_z1b", lv=2.3, id=13},
+		{"fgact", ch="天梨", act="いいえ", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1b0500", ex05="ame_z1b0000", face="b0003", head="ame_z1b", lv=2.3, id=13},
+				{"fgact", ch="天梨", act="ジャンプ", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00266", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「但、但大家都有工作要忙，和没事就请假不一样……我是这么想的！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 202,
+	},
+	block_00043 = {
+		{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1b0510", ex05="ame_z1b0010", face="b0018", head="ame_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1b0510", ex05="ame_z1b0010", face="b0053", head="ame_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00267", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「虽然没怎么和妃爱亲聊过这方面，但诗樱学姐好像有在准备报考学校，华乃亲和亚澄亲也有在考虑将来……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 209,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"嗯？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 211,
+	},
+	block_00045 = {
+		{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1b0510", ex05="ame_z1b0010", face="b0003", head="ame_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1b0510", ex05="ame_z1b0010", face="b0053", head="ame_z1b", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1b0500", ex05="ame_z1b0000", face="b0006", head="ame_z1b", lv=2.3, id=13},
+				{"fgact", ch="天梨", act="ジャンプ", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00268", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「决定自己将来要做什么，然后朝着目标努力，而这些又会跟工作有所关联，所以为此请假我认为……并没有错！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 221,
+	},
+	block_00046 = {
+		{"fg", ch="天梨", size="z1", ex03="a0097", mode=3, path=":fg/ame/z1/", file="ame_z1a0510", ex05="ame_z1a0010", face="a0022", head="ame_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="z1", ex03="a0097", mode=3, path=":fg/ame/z1/", file="ame_z1a0510", ex05="ame_z1a0010", face="a0035", head="ame_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00269", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「听完华乃亲的话，不管是工作还是金钱，她都非常认真地在考虑并且去学习，我真的打从心底佩服她哦——」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 228,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「欸，等等等等」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 231,
+	},
+	block_00048 = {
+		{"fg", ch="天梨", size="z1", ex03="a0097", mode=3, path=":fg/ame/z1/", file="ame_z1a0510", ex05="ame_z1a0010", face="a0001", head="ame_z1a", lv=2.3, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我也觉得常磐的专业意识令人刮目相看，她们两人说了些什么我也很感兴趣……但是，刚才的对话中有非常令我在意的部分。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 235,
+	},
+	block_00049 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg032a", path=":bg/", sync=0},
+		{"fg", ch="天梨", size="no", ex03="a0097", mode=3, resize=1, path=":fg/ame/no/", file="ame_noa0510", ex05="ame_noa0010", face="a0001", head="ame_noa", lv=2.2, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊咧？　天梨和常磐……还有锦跟诗樱学姐，那个，关系已经好到会去聊将来的话题……了？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 245,
+	},
+	block_00050 = {
+		{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_noa0500", ex05="ame_noa0000", face="a0052", head="ame_noa", lv=2.2, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00270", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「啊，对啊——。因为志愿者合宿的时候住在同一间房，最后一天的晚上聊了个通宵哦」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 250,
+	},
+	block_00051 = {
+		{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_noa0500", ex05="ame_noa0000", face="a0055", head="ame_noa", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_noa0500", ex05="ame_noa0000", face="a0031", head="ame_noa", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00271", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「因为在同一个地方进行活动，大家会互相帮忙，感觉好像萌生了连带意识之类的东西。有参加志愿者合宿真的太好了——」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 257,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「也就是说就算我不介入，天梨也能和大家普通地说上话？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 260,
+	},
+	block_00053 = {
+		{"fg", ch="天梨", size="no", ex03="a0097", mode=3, path=":fg/ame/no/", file="ame_noa0510", ex05="ame_noa0010", face="a0052", head="ame_noa", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="no", ex03="a0097", mode=3, path=":fg/ame/no/", file="ame_noa0510", ex05="ame_noa0010", face="a0034", head="ame_noa", lv=2.2, id=13},
+			},
+			vl02 = {
+				{"fg", ch="天梨", size="no", ex03="a0097", mode=3, path=":fg/ame/no/", file="ame_noa0510", ex05="ame_noa0010", face="a0053", head="ame_noa", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00272", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「啊，嗯！　妃爱亲和亚澄亲都很温柔……诗樱学姐一开始虽然很可怕，但学姐，对于服装的品牌非常了解，那方面聊着聊着关系就变好了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 269,
+	},
+	block_00054 = {
+		{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_nob0510", ex05="ame_nob0010", face="b0055", head="ame_nob", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_nob0500", ex05="ame_nob0000", face="b0052", head="ame_nob", lv=2.2, id=13},
+				{"fgact", ch="天梨", act="ジャンプ", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00273", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「和华乃亲在昨天的活动中也一直在聊天，我感觉已经跟她变得特别要好了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 277,
+	},
+	block_00055 = {
+		{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_nob0500", ex05="ame_nob0000", face="b0055", head="ame_nob", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_nob0500", ex05="ame_nob0000", face="b0010", head="ame_nob", lv=2.2, id=13},
+			},
+			vl02 = {
+				{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_nob0500", ex05="ame_nob0000", face="b0022", head="ame_nob", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00274", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「华乃亲说的话尽是些我过去不曾听过的事情，非常有趣，然后怎么说呢……意气相投？是这么说吗？还是要说波长很合得来呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 286,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"道德观方面两人是一致的吗。尽管兴趣不同，但两人对事物的容忍范围非常相近，常磐对天梨而言似乎也是「待在一起时很放松的对象」。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 288,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"只要不慌的话就不会给人添麻烦，只要不慌的话就很可靠呢，常磐她。嗯，只要不慌的话。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 290,
+	},
+	block_00058 = {
+		{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_nob0510", ex05="ame_nob0010", face="b0052", head="ame_nob", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_nob0510", ex05="ame_nob0010", face="b0054", head="ame_nob", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00275", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「昨天和华乃亲两人设法撑过了风波后，该说是友情发芽了吗，华乃亲非常感激呢——」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 297,
+	},
+	block_00059 = {
+		{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_noa0500", ex05="ame_noa0000", face="a0022", head="ame_noa", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="no", ex03="a0097", mode=3, path=":fg/ame/no/", file="ame_noa0510", ex05="ame_noa0010", face="a0035", head="ame_noa", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00276", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「虽然实际上真的很辛苦，但被别人如此感谢，说不定是我从出生以来第一次呢。被华乃亲道谢后，我真的非常开心哦——」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 304,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"毕竟常磐，很讲义理啊……然而在她那麻烦性格的反面，是只要受过一次恩情就会永生难忘的人。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 306,
+	},
+	block_00061 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg032a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="天梨", size="z1", mode=3, resize=1, path=":fg/ame/z1/", file="ame_z1a0500", ex05="ame_z1a0000", face="a0031", head="ame_z1a", lv=2.3, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="z1", ex03="a0097", mode=3, path=":fg/ame/z1/", file="ame_z1a0510", ex05="ame_z1a0010", face="a0002", head="ame_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00277", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「不管怎样，都是因为会长邀请我加入学生会的关系哦！我明明惹大家生气过，会长却帮我圆满地解决了——」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 318,
+	},
+	block_00062 = {
+		{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1a0500", ex05="ame_z1a0000", face="a0019", head="ame_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1a0500", ex05="ame_z1a0000", face="a0054", head="ame_z1a", lv=2.3, id=13},
+				{"fgact", ch="天梨", act="うんうん", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="天梨", size="z1", ex03="a0097", mode=3, path=":fg/ame/z1/", file="ame_z1a0510", ex05="ame_z1a0010", face="a0052", head="ame_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00278", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「我才该跟会长好好道谢！谢谢你——！真的非常感谢！已经不会再给会长添麻烦，能和大家好好相处了哦！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 328,
+	},
+	block_00063 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊，是吗……那真是太好了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 331,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这结果本身确实挺好的……不过，我的心境有些复杂。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 333,
+	},
+	block_00065 = {
+		{"bg", speed=120000, file="zbg032a", path=":bg/", x2=640, y2=100, x=-640, y=100, ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"天梨非常亲近我。像今天这样两人一起出来玩也是，通过接触我喜欢的「历史」，来思考如何拿出共通的话题……我是这么理解的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 337,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但我推测她这么做的原因，是为了取得自己的避难所，以及之前因为自己引发骚动而在「学生会」里寻找同伴。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 339,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"假使不用我出马也能和大家打好关系，那至今为止带着善意、积极向我搭话的天梨，是不是就不会再来找我聊天了呢。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 341,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"天梨是个善良的人，应该不会露骨地改变对我的态度吧。但是邀我出去玩的次数、接触我的兴趣的机会大概会减少吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 343,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"至今为止天梨意外地为我做了很多事。教室如果没人就会来跟我搭话，开始玩我喜欢的战誓……到了今天甚至还在学园外一起玩。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 345,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"今后会和常磐的关系越来越好，然后开始疏远我吧。呜呜，稍微感到寂寞。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 347,
+	},
+	block_00071 = {
+		{"msgoff"},
+		{"bg", file="zbg032a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1b0500", ex05="ame_z1b0000", face="b0039", head="ame_z1b", lv=2.3, id=13, sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00279", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「作为邀请我进学生会的谢礼，如果可以做些能让会长开心的事……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 356,
+	},
+	block_00072 = {
+		{"fg", ch="天梨", size="z1", ex03="a0097", mode=3, path=":fg/ame/z1/", file="ame_z1a0510", ex05="ame_z1a0010", face="a0052", head="ame_z1a", lv=2.3, id=13},
+		{"fgact", ch="天梨", act="びっくり", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="z1", hoho="h", ex03="a0097", mode=3, path=":fg/ame/z1/", file="ame_z1a0510", ex05="ame_z1a0010", face="a0019h", head="ame_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00280", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「啊！虽然不知道能不能算是回礼，但我想带些慰劳品去会长打工的地方，可……可以吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 366,
+	},
+	block_00073 = {
+		{"bg", lv=1, id=5, rule="cinema", file="cinema01", alpha=192, time=400, path=":sys/", vague=40},
+		{"fg", ch="天梨", size="z1", hoho="h", ex03="a0097", mode=3, path=":fg/ame/z1/", file="ame_z1a0510", ex05="ame_z1a0010", face="a0020h", head="ame_z1a", lv=2.3, id=13},
+		{"se", id=1, file="seコミ_胸を張る"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"什么！？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 373,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"本以为已经不会再积极与我扯上关系的天梨，只用1秒就打了我的脸。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 375,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不，不是，回礼……天梨刚才说了邀请她进学生会的回礼对吧，这么一说。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 377,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"肯定是被常磐感化，天梨也认为要尽到情义吧。如果能帮忙带瓶运动饮料给我当成报恩，我就很感谢了……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 379,
+	},
+	block_00077 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"cgdel", lv=1, id=5, rule="cinema", time=400, sync=0},
+		{"bg", zoom=120, file="zbg032a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="天梨", size="z2", ex03="a0097", mode=3, resize=1, path=":fg/ame/z2/", file="ame_z2a0510", ex05="ame_z2a0010", face="a0014", head="ame_z2a", lv=2.4, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00281", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「便、便当之类的，你觉得如何……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 390,
+	},
+	block_00078 = {
+		{"fg", ch="天梨", size="z2", hoho="h", ex03="a0097", mode=3, path=":fg/ame/z2/", file="ame_z2a0510", ex05="ame_z2a0010", face="a0020h", head="ame_z2a", lv=2.4, id=13},
+		{"fgact", ch="天梨", act="quake", lv=2.4, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"天梨照着前发、发尖、接着回到前发的顺序摆弄自己的头发，然后双手的食指、中指和无名指在胸前不断交互触碰的同时向我询问。视线也从我身上移开。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 395,
+	},
+	block_00079 = {
+		{"fg", ch="天梨", size="z2", ex03="a0097", mode=3, path=":fg/ame/z2/", file="ame_z2a0510", ex05="ame_z2a0010", face="a0055", head="ame_z2a", lv=2.4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00282", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「果、果然，妃爱亲会帮你准备、吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 400,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊，不是……你想想啊，现在几乎每天温度都在35度左右。我的工作现场又因当天状况，也会有把背包放在车上的情况，所以带便当不太妙」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 403,
+	},
+	block_00081 = {
+		{"fg", ch="天梨", size="z2", ex03="a0097", mode=3, path=":fg/ame/z2/", file="ame_z2a0510", ex05="ame_z2a0010", face="a0003", head="ame_z2a", lv=2.4, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「这点妃爱也有些烦恼过，但食物中毒的话很可怕。而且打工是不定期的，所以这次是我自己去买午餐吃」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 408,
+	},
+	block_00082 = {
+		{"fg", ch="天梨", size="z2", mode=3, path=":fg/ame/z2/", file="ame_z2b0510", ex05="ame_z2b0010", face="b0014", head="ame_z2b", lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="z2", hoho="h", mode=3, path=":fg/ame/z2/", file="ame_z2b0500", ex05="ame_z2b0000", face="b0006h", head="ame_z2b", lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00283", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「那、那么——……为了就算天气很热也不会白费，我、我做便当带过去吧！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 415,
+	},
+	block_00083 = {
+		{"fg", ch="天梨", size="z2", mode=3, path=":fg/ame/z2/", file="ame_z2b0500", ex05="ame_z2b0000", face="b0012", head="ame_z2b", lv=2.4, id=13},
+		{"fgact", ch="天梨", act="いいえ", lv=2.4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00284", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「啊亲手做的便当……会、会长如果不讨厌的话……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 421,
+	},
+	block_00084 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"亲、手……？在这热到让人快发疯的高温下，就为了给我送午餐而特意来到我工作的现场……？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 423,
+	},
+	block_00085 = {
+		{"fg", ch="天梨", size="z2", mode=3, path=":fg/ame/z2/", file="ame_z2b0500", ex05="ame_z2b0000", face="b0020", head="ame_z2b", lv=2.4, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"奇怪？咋回事啊？怎么感觉，作为邀请进学生会的报恩来说也太沉重了吧？天梨的态度是不是太奇怪啦？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 427,
+	},
+	block_00086 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg032a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="天梨", size="z1", ex03="a0097", mode=3, resize=1, path=":fg/ame/z1/", file="ame_z1a0510", ex05="ame_z1a0010", face="a0012", head="ame_z1a", lv=2.3, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00285", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「啊，对不起……难道说，会长……吓到了？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 439,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊不！我超开心的！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 442,
+	},
+	block_00088 = {
+		{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1a0500", ex05="ame_z1a0000", face="a0008", head="ame_z1a", lv=2.3, id=13},
+		{"fgact", ch="天梨", act="びっくり", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00286", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「呜哇！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 448,
+	},
+	block_00089 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然有在意的地方，但那部分之后再回去思考，现在该做的是不要让天梨感到不安。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 450,
+	},
+	block_00090 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「天梨居然要为我做便当送过来……怎、怎么可能不开心啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 453,
+	},
+	block_00091 = {
+		{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1a0500", ex05="ame_z1a0000", face="a0022", head="ame_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="z1", ex03="a0097", mode=3, path=":fg/ame/z1/", file="ame_z1a0510", ex05="ame_z1a0010", face="a0054", head="ame_z1a", lv=2.3, id=13},
+				{"fgact", ch="天梨", act="うなづく", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="天梨", size="z1", ex03="a0097", mode=3, path=":fg/ame/z1/", file="ame_z1a0510", ex05="ame_z1a0010", face="a0006", head="ame_z1a", lv=2.3, id=13},
+				{"fgact", ch="天梨", act="うんうん", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00287", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「是、是吗？嗯、嗯——！会长这么的话我会努力的——！超级努力去做！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 464,
+	},
+	block_00092 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然趁势说了很开心，但真的是这样吗？我？说实在我现在的心情，比起开心，更多的是动摇跟疑惑。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 466,
+	},
+	block_00093 = {
+		{"fg", ch="天梨", size="z1", ex03="a0097", mode=3, path=":fg/ame/z1/", file="ame_z1a0510", ex05="ame_z1a0010", face="a0023", head="ame_z1a", lv=2.3, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但动摇指的并不是不好的方面。比较倾向大脑太过兴奋而导致混乱。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 470,
+	},
+	block_00094 = {
+		{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1a0500", ex05="ame_z1a0000", face="a0047", head="ame_z1a", lv=2.3, id=13},
+		{"fgact", ch="天梨", act="おじぎ", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00288", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「太、太好了——会长刚刚沉思了一下，我，还以为自己做的太过了——！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 476,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊啊，那个……你看，刚才我也说过了，我并不是每天都有工作。所以没办法事前跟你说哪一天的哪个时间在什么地方工作」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 479,
+	},
+	block_00096 = {
+		{"fg", ch="天梨", size="z1", ex03="a0097", mode=3, path=":fg/ame/z1/", file="ame_z1a0510", ex05="ame_z1a0010", face="a0008", head="ame_z1a", lv=2.3, id=13},
+		{"fgact", ch="天梨", act="ジャンプ", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00289", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「啊，对耶——……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 485,
+	},
+	block_00097 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「还有，如果工作现场附近有可以吃便当的地方还好说，有时候也会在附近完全没有店面的住宅街工作」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 488,
+	},
+	block_00098 = {
+		{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1a0500", ex05="ame_z1a0000", face="a0001", head="ame_z1a", lv=2.3, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「在工地现场的建筑里不能吃东西，所以得在公园吃才行。但又不能让天梨在大热天下陪我在公园晒太阳……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 493,
+	},
+	block_00099 = {
+		{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1b0500", ex05="ame_z1b0000", face="b0052", head="ame_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1b0500", ex05="ame_z1b0000", face="b0051", head="ame_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00290", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「欸可是那个时候会长会绑着毛巾对吧？一起在公园吃饭，我完全OK的哦」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 500,
+	},
+	block_00100 = {
+		{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1b0510", ex05="ame_z1b0010", face="b0054", head="ame_z1b", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00291", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「如果不会添麻烦的话，就算很热也没关系，我想去看看会长工作的样子！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 505,
+	},
+	block_00101 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「现场的话大概……不行吧。带一个什么都不做就只是盯着看的女生过去的话，会被生气地骂说这里可不是给你来玩的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 508,
+	},
+	block_00102 = {
+		{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1b0510", ex05="ame_z1b0010", face="b0009", head="ame_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1b0510", ex05="ame_z1b0010", face="b0055", head="ame_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00292", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「这、这样啊——，也是呢。那一起走到工地现场前就行了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 515,
+	},
+	block_00103 = {
+		{"fg", ch="天梨", size="z1", ex03="a0097", mode=3, path=":fg/ame/z1/", file="ame_z1a0510", ex05="ame_z1a0010", face="a0052", head="ame_z1a", lv=2.3, id=13},
+		{"fgact", ch="天梨", act="びっくり", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00293", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「啊那么那么！我先把我没有安排的日子告诉会长，那之中如果有要工作再告诉我！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 521,
+	},
+	block_00104 = {
+		{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1a0500", ex05="ame_z1a0000", face="a0002", head="ame_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="z1", ex03="a0097", mode=3, path=":fg/ame/z1/", file="ame_z1a0510", ex05="ame_z1a0010", face="a0052", head="ame_z1a", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="天梨", size="z1", ex03="a0097", mode=3, path=":fg/ame/z1/", file="ame_z1a0510", ex05="ame_z1a0010", face="a0035", head="ame_z1a", lv=2.3, id=13},
+				{"fgact", ch="天梨", act="うんうん", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00294", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「如果是很难走的地方姑且就算了，但在千玉市内的话我会搭巴士过去！我想去！我想看会长绑毛巾！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 531,
+	},
+	block_00105 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「如果天梨觉得这样可以的话……啊，可是，天梨只是过来一起吃个便当就回去，这也太费力了吧！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 534,
+	},
+	block_00106 = {
+		{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1a0500", ex05="ame_z1a0000", face="a0012", head="ame_z1a", lv=2.3, id=13},
+		{"fgact", ch="天梨", act="おじぎ", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1a0500", ex05="ame_z1a0000", face="a0002", head="ame_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00295", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「不、不可以吗——。我是没觉得关系，但会长要是说不行那我就再考虑其他办法……但是真的不行吗。事先知道地点的话也有办法会合，不好吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 542,
+	},
+	block_00107 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不，我只是想说会给天梨造成很大的负担所以才想制止，如果天梨觉得这样就好的话……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 545,
+	},
+	block_00108 = {
+		{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1b0510", ex05="ame_z1b0010", face="b0051", head="ame_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1b0510", ex05="ame_z1b0010", face="b0054", head="ame_z1b", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="天梨", size="z1", ex03="a0097", mode=3, path=":fg/ame/z1/", file="ame_z1a0510", ex05="ame_z1a0010", face="a0022", head="ame_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00296", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「那就这么定了！欸嘿嘿好期待！如果有什么不能吃的东西，等一下再跟我说哦！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 554,
+	},
+	block_00109 = {
+		{"bg", lv=1, id=5, rule="cinema", file="cinema01", alpha=192, time=400, path=":sys/", vague=40},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"让天梨期待的要素是这的哪部分呢。我一边思考着这个问题，一边想着如果是5分钟前的我，大概会觉得是「为了适应学生会而勉强自己」而苦笑吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 558,
+	},
+	block_00110 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是现在的天梨不管怎么看，和学生会其他人的关系比我更来得亲密，NO沟通的会长大人就算不介入，她也能和大家搭上话。并没有需要照顾我的理由。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 560,
+	},
+	block_00111 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"更何况还是在大热天，为我做便当送过来的必要性根本不存在。但天梨却不管条件有多恶劣也坚持要过来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 562,
+	},
+	block_00112 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"怪了？骗人的吧？欸等等……难不成天梨她，有一点点……欸，真假？认真？难道说该不会？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 564,
+	},
+	block_00113 = {
+		{"se", id=1, file="seコミ_胸を張る"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"该不会天梨她有那么一丁点的可能，对我有了异性的意识！？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 568,
+	},
+	block_00114 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"cgdel", lv=1, id=5, rule="cinema", time=400, sync=0},
+		{"bg", file="bg032a", path=":bg/", sync=0},
+		{"fg", ch="天梨", size="no", mode=3, resize=1, path=":fg/ame/no/", file="ame_nob0500", ex05="ame_nob0000", face="b0001", head="ame_nob", lv=2.2, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_nob0510", ex05="ame_nob0010", face="b0039", head="ame_nob", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00297", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「啊，对了……话说刚刚，有说到我受了爸爸的影响……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 583,
+	},
+	block_00115 = {
+		{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_nob0510", ex05="ame_nob0010", face="b0019", head="ame_nob", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_nob0500", ex05="ame_nob0000", face="b0054", head="ame_nob", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00298", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「我、我爸爸，很喜欢看戏剧，因此小时候很常和爸爸一起看……大概是受到那个时候观赏的戏剧的影响」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 590,
+	},
+	block_00116 = {
+		{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_noa0500", ex05="ame_noa0000", face="a0004", head="ame_noa", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_noa0500", ex05="ame_noa0000", face="a0014", head="ame_noa", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00299", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「我、我啊，在恋爱中比起被对方追求，更倾向主动出击让对方喜欢上自己……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 597,
+	},
+	block_00117 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「嗯」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 600,
+	},
+	block_00118 = {
+		{"fg", ch="天梨", size="no", hoho="h", mode=3, path=":fg/ame/no/", file="ame_noa0500", ex05="ame_noa0000", face="a0020h", head="ame_noa", lv=2.2, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"天梨就说到这，也没有再继续说下去。不是，现在和我说这话是什么意思？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 604,
+	},
+	block_00119 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不不不不不不。不可能不可能不可能别睡了快醒醒。对方可是学园第一热门（妃爱的隐藏粉丝无法测量所以排除）的阳角女生哦！？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 606,
+	},
+	block_00120 = {
+		{"bg", speed=120000, file="zbg032a", path=":bg/", x2=-640, y2=100, x=640, y=100, ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"可是啊……对此我还是有些头绪的啊。给天梨准备了学生会这个归宿这件事，她真的非常感激。直到现在也是。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 610,
+	},
+	block_00121 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"感谢的心情太过膨胀，所以误认为是男女间的好感……？这个可能性比较大。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 612,
+	},
+	block_00122 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我也没有恋爱经验所以不敢确定。但是光是超商结账的大姐姐摆出柔和的微笑帮我把东西装进袋子里，就有好几次快要喜欢上人家了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 614,
+	},
+	block_00123 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"说到底不受欢迎的我和很有人气的天梨，这前提条件就不同了。就算这样，不管是谁都有机会被猝不及防的温柔融化心房不是吗？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 616,
+	},
+	block_00124 = {
+		{"msgoff"},
+		{"bg", file="zbg032a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"bg", lv=1, id=5, rule="cinema", file="cinema01", alpha=192, time=400, path=":sys/", vague=40, sync=0},
+		{"fg", ch="天梨", size="z1", hoho="h", mode=3, resize=1, path=":fg/ame/z1/", file="ame_z1a0500", ex05="ame_z1a0000", face="a0001h", head="ame_z1a", lv=2.3, id=13, sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"欸欸欸她难道喜欢我？学园最受欢迎的女孩子哦？明明这么可爱？喜、喜欢、我！？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 625,
+	},
+	block_00125 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"cgdel", lv=1, id=5, rule="cinema", time=400, sync=0},
+		{"bg", file="bg032a", path=":bg/", sync=0},
+		{"fg", ch="天梨", size="no", mode=3, resize=1, path=":fg/ame/no/", file="ame_nob0510", ex05="ame_nob0010", face="b0039", head="ame_nob", lv=2.2, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_nob0500", ex05="ame_nob0000", face="b0001", head="ame_nob", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00300", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「啊，会长——……来客好像慢慢变多了，我们差不多该走了？在那之后要做什么？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 638,
+	},
+	block_00126 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「欸？啊，是啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 641,
+	},
+	block_00127 = {
+		{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_nob0500", ex05="ame_nob0000", face="b0010", head="ame_nob", lv=2.2, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"抬起头后视线马上就从天梨身上移开了。我这举动，天梨一定察觉到了我现在非常在意她了吧。可是啊，就真的不敢对上眼啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 645,
+	},
+	block_00128 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"等等不行不行等一下真的不行。一注意到眼前的女孩子可能很在意我，天梨看起来就更可爱了，可爱到我几乎无法直视她。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 647,
+	},
+	block_00129 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"欸，我有机会跟这孩子交往吗？颜值太高了吧？外表太好看了吧？而且这孩子，性格超好的啊……？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 649,
+	},
+	block_00130 = {
+		{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_noa0500", ex05="ame_noa0000", face="a0001", head="ame_noa", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_noa0500", ex05="ame_noa0000", face="a0010", head="ame_noa", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00301", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「会长？如果要继续聊的话要不要找其他的店？还是说先回千玉一趟？还是说……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 656,
+	},
+	block_00131 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在我仍露骨地别开视线的时候，天梨做出像是在窥视我的动作。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 658,
+	},
+	block_00132 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg032a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="天梨", size="z1", ex03="a0097", mode=3, resize=1, path=":fg/ame/z1/", file="ame_z1a0510", ex05="ame_z1a0010", face="a0002", head="ame_z1a", lv=2.3, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00302", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「会、会长的耳朵，好红？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 668,
+	},
+	block_00133 = {
+		{"quake"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"咕啊啊暴露啦！　毕竟这么浅显易懂的态度，而且还直接表现在眼前，肯定会暴露的啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 672,
+	},
+	block_00134 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然这么说，但也不能直接说出「想到天梨可能在意我就心动不已」这种真心话，因此我必须立刻捏造出其他理由才行。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 674,
+	},
+	block_00135 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「一想到天梨要为我亲手做便当，就觉得很开心……有点害羞」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 677,
+	},
+	block_00136 = {
+		{"fg", ch="天梨", size="z1", ex03="a0097", mode=3, path=":fg/ame/z1/", file="ame_z1a0510", ex05="ame_z1a0010", face="a0008", head="ame_z1a", lv=2.3, id=13},
+		{"fgact", ch="天梨", act="びっくり", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00303", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「欸」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 683,
+	},
+	block_00137 = {
+		{"fg", ch="天梨", size="z1", hoho="h", ex03="a0097", mode=3, path=":fg/ame/z1/", file="ame_z1a0510", ex05="ame_z1a0010", face="a0008h", head="ame_z1a", lv=2.3, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"因为不想说谎，于是我选择勉强不会抵触事实的事当作理由，但天梨却有段时间没有回应。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 687,
+	},
+	block_00138 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我现在还没办法直视天梨。但是这个沉默实在有些太久了，于是我稍微让自己冷静下来后，提心吊胆地窥视眼前的脸。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 689,
+	},
+	block_00139 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"接着，虽然不知道我刚才耳朵究竟红成什么样子，但天梨刚才说的话就如同回击到自己身上，她的耳朵整个都红了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 691,
+	},
+	block_00140 = {
+		{"fg", ch="天梨", size="z1", hoho="h", mode=3, path=":fg/ame/z1/", file="ame_z1a0500", ex05="ame_z1a0000", face="a0029h", head="ame_z1a", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00304", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「还好有鼓起勇气说出来……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 696,
+	},
+	block_00141 = {
+		{"fg", ch="天梨", size="z1", hoho="h", mode=3, path=":fg/ame/z1/", file="ame_z1a0500", ex05="ame_z1a0000", face="a0034h", head="ame_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="z1", hoho="h", mode=3, path=":fg/ame/z1/", file="ame_z1a0500", ex05="ame_z1a0000", face="a0023h", head="ame_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00305", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「我还担心我是不是做的太过而吓到你了……好开心」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 703,
+	},
+	block_00142 = {
+		{"se", id=1, file="seガガーン"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这根本就是喜欢我了吧……！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 708,
+	},
+	block_00143 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"欸欸欸？天梨对我一直都是这样吗？虽然我平常就在想，她是个非常温柔的人啊！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 710,
+	},
+	block_00144 = {
+		{"msgoff"},
+		{"msgoff"},
+		{"bg", lv=8, id=7, file="white", time=1000, sync=0, path=":bg/"},
+		{"bg", lv=8, id=7, file="reco", time=1000, notone=1, path=":sys/", sync=0},
+		{"colortone", style="sepia"},
+		{"bg", file="bg009a", path=":bg/", sync=0},
+		{"fg", ch="天梨", size="no", hoho="h", mode=3, resize=1, path=":fg/ame/no/", file="ame_noa0200", ex05="ame_noa0000", face="a0012h", head="ame_noa", lv=2.2, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"哈！这么说来晚了一个月收到天梨送的生日礼物时，她还被团体的人戏弄了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 719,
+	},
+	block_00145 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我还以为选那个当作送给男性的礼物的理由是想靠男女情爱来纠缠住我，难不成是不带任何算计的本心？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 721,
+	},
+	block_00146 = {
+		{"msgoff"},
+		{"msgoff"},
+		{"colortone", style="reset"},
+		{"bg", lv=8, id=7, file="white", time=1000, sync=0, path=":bg/"},
+		{"cgdel", lv=8, id=7, time=1000, sync=0},
+		{"bg", file="zbg032a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"仔细回想就能发掘好几个线索，我那不知自身斤两的自恋渐渐有了真实感。等一下，我需要时间整理心情跟情报……！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00145",
+		linknext = "block_00147",
+		line = 729,
+	},
+	block_00147 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg032a", path=":bg/", sync=0},
+		{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_nob0500", ex05="ame_nob0000", face="b0018", head="ame_nob", lv=2.2, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_nob0500", ex05="ame_nob0000", face="b0053", head="ame_nob", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00306", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「啊，会长——……刚才进来的客人正坐在等待叫号的位置上。先决定接下来要去哪里吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00146",
+		linknext = "block_00148",
+		line = 741,
+	},
+	block_00148 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊，那就去其他的……不，先回千玉之后再找找要去哪间店吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00147",
+		linknext = "block_00149",
+		line = 744,
+	},
+	block_00149 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"其实等等要去的店也已经事先调查过了。但是对于现在的我来说，实在没自信能坐在天梨正对面，看着对方聊天。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00148",
+		linknext = "block_00150",
+		line = 746,
+	},
+	block_00150 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"搭电车的话就可以坐在旁边讲话。总之先想办法能出声说话，别看着脸还是能聊天的。到千玉大概30分钟，这段时间应该能稍微整理一下心情吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00149",
+		linknext = "block_00151",
+		line = 748,
+	},
+	block_00151 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"几分钟前还在用对常磐时的随意态度相处的对象，现在看上去却像是几乎没有交集的同级生。我，以前是怎么跟天梨讲话的啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00150",
+		linknext = "block_00152",
+		line = 750,
+	},
+	block_00152 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="rule_001", wait=250, file="black", path=":bg/", vague=40},
+		{"bg", speed=80000, rule="rule_001", vague=40, file="zbg099a", path=":bg/", x2=0, y2=-360, x=0, y=360, ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_krs_00001", ch="krs"},
+			},
+			ja = {
+				{
+					name = {"彼氏さん"},
+					"「谢谢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00151",
+		linknext = "block_00153",
+		line = 759,
+	},
+	block_00153 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"从店里出去的时候，坐在等待座的年轻男性向我说了句谢谢。他可能以为是我们在让位吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00152",
+		linknext = "block_00154",
+		line = 761,
+	},
+	block_00154 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"外表干净，看起来有很温柔，而且还是个五官端正的年轻男性。这种男生看起来才配得上天梨。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00153",
+		linknext = "block_00155",
+		line = 763,
+	},
+	block_00155 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我只能微微颔首，而天梨则是以平易近人的感觉回了句「不客气」。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00154",
+		linknext = "block_00156",
+		line = 765,
+	},
+	block_00156 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_knj_00001", ch="knj"},
+			},
+			ja = {
+				{
+					name = {"彼女さん"},
+					"「你看，学生情侣好可爱呀。看上去很般配呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00155",
+		linknext = "block_00157",
+		line = 768,
+	},
+	block_00157 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"接着在那位年轻男性身旁的女性，扔出一发不得了的核弹头。而且，还好巧不巧地选在我很在意天梨对我是什么想法的这个时间点上。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00156",
+		linknext = "block_00158",
+		line = 770,
+	},
+	block_00158 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"而我当然没有对那番话做出回应，然后就有如可疑人士般，快速地东张西望。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00157",
+		linknext = "block_00159",
+		line = 772,
+	},
+	block_00159 = {
+		{"fg", ch="天梨", size="z1", hoho="h", ex03="a0097", mode=1, resize=1, path=":fg/ame/z1/", file="ame_z1a0510", ex05="ame_z1a0010", face="a0020h", head="ame_z1a", lv=2.3, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00307", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00158",
+		linknext = "block_00160",
+		line = 779,
+	},
+	block_00160 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"接着从门上的玻璃映入眼帘的，是天梨红着脸紧紧咬着嘴唇的样子。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00159",
+		linknext = "block_00161",
+		line = 781,
+	},
+	block_00161 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"那个反应，是因为被人说和我是情侣吗？天梨，太纯情了吧……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00160",
+		linknext = "block_00162",
+		line = 783,
+	},
+	block_00162 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_krs_00002", ch="krs"},
+			},
+			ja = {
+				{
+					name = {"彼氏さん"},
+					"「好可爱的的小两口呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00161",
+		linknext = "block_00163",
+		line = 786,
+	},
+	block_00163 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是从年长者的两人看来，我和天梨的反应似乎非常相似。我们踩着笨拙的步伐，期间没怎么交谈，默默地往车站走去。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00162",
+		linknext = "block_00164",
+		line = 788,
+	},
+	block_00164 = {
+		{"bgm", stop=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="rule_001", wait=250, file="black", path=":bg/", vague=40},
+		{"excall", file="05_天梨04_1"},
+		{"text"},
+		linkback = "block_00163",
+		line = 798,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

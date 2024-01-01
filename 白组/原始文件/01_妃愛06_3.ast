@@ -1,0 +1,1489 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"bg", speed=80000, rule="rule_002r", vague=40, file="zbg099b", path=":bg/", x2=0, y2=-360, x=0, y=360, ax=1280, ay=720, bx=-640, by=-360},
+		{"se", id=1, file="se衣擦れ"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"即使预料到会变成这种情况了，我还是把里姐搬到床上，并把衬衫上的纽扣全部解开，并把裙子拉到膝盖的位置。躺在床上的这副模样，看上去比全裸更加色情。",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 11,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"如果没有和妃爱交往的话就糟了……我可能就会假借看护之名，摸一摸她的脚之类的地方了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 13,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"可就算是这样，我的身体还是非常诚实，在这一瞬间，马上就制造出了大量的精子，仿佛要喷涌而出似的。看这样子，回到家为止都会保持全勃的状态了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 15,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"今天虽然也想在家人的氛围下度过，可还是想妃爱用手或者嘴帮我解决一下。内心的欲求在躁动着，快要忍不住了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 17,
+	},
+	block_00004 = {
+		{"se", file="se外す、取る(ブラホックなど)", id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"给里姐盖上毛毯后，我留下一张字条便匆匆离开了房间。不愧是女性独居的公寓，有自动锁真是太好了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 21,
+	},
+	block_00005 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="rule_002", wait=500, file="black", path=":bg/", vague=40},
+		{"bg", rule="rule_002r", vague=40, file="bg002b", path=":bg/"},
+		{"bg", lv=5, id=5, rule="cinema", file="cinema01", alpha=192, time=400, path=":sys/", vague=40},
+		{"se", stop=1, time=500, id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在出租车到家之前，我总算是抹消了脑海中里姐的样子。这样的话这份内疚的心情应该就会消散了吧……应该。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 33,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"话虽如此，可毕竟还没吃晚饭，突然就想要那啥也太……这么想着，我偷偷往餐厅瞅了一眼，只见我可爱的妹妹不知道是不是因为等我回来等累了，躺在沙发上睡的正香。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 35,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然论年龄的话，妃爱只比我小一岁，但她那仍显稚气的睡脸，和小时候被摸头时那天真无邪的表情相比，并无二致。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 37,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"居然想要这么可爱的妹妹帮我冲，咬什么的，我是笨蛋吗。清醒了一点后，我轻轻地摇了摇妹妹的身体，在她的耳边低语。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 39,
+	},
+	block_00009 = {
+		{"cgdel", lv=5, id=5, rule="cinema", time=400},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「妃爱……我会把你抱回房间，如果把你弄醒了的话就抱歉了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 44,
+	},
+	block_00010 = {
+		{"fg", ch="妃愛", size="no", mode=1, path=":fg/hiy/no/", file="hiy_noa1000", ex05="hiy_noa0000", face="a0027", head="hiy_noa", lv=2.2, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00240", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「呼……嗯，呼……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 51,
+	},
+	block_00011 = {
+		{"se", file="se外す、取る(ブラホックなど)", id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"妃爱很轻，轻得让人觉得连40kg都没有。自夏天的志愿者活动以来，偷偷锻炼到能拿起三个沙袋的我，毫不费劲地把妃爱抱了起来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 55,
+	},
+	block_00012 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="rule_001", wait=250, file="black", path=":bg/", vague=40},
+		{"bg", rule="rule_001", vague=40, file="bg004b", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在上楼梯的时候本来想不要换成背的姿势来着，但妃爱不自觉地抱住了我，所以我也只好保持原样稳稳地抱着妹妹走向她的房间。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 64,
+	},
+	block_00013 = {
+		{"fg", ch="妃愛", size="no", mode=1, path=":fg/hiy/no/", file="hiy_nob1000", ex05="hiy_nob0000", face="b0032", head="hiy_nob", lv=2.2, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00241", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「嗯……哥哥，喜翻……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 69,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在上楼梯的途中，妃爱在我的耳边低声说着情话。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 71,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"梦话的话，也就是说这是真心话吧？啊，真可爱。我的这个妹妹也太可爱了吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 73,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我，我也……喜翻，哟。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 76,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"与可爱的妹妹的耳语相比，我的低语显得是那么地笨拙，可我还是不加思索地向妃爱说出了爱的告白。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 78,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"今晚一起睡觉的时候，就不断地用脸去蹭妃爱的小脸蛋吧。那是能够被容许的幸福。我内心暗暗发誓，一定要紧紧地抱住她。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 80,
+	},
+	block_00019 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="rule_001", wait=250, file="black", path=":bg/", vague=40},
+		{"bg", rule="rule_001", vague=40, file="bg005b", path=":bg/"},
+		{"se", file="se外す、取る(ブラホックなど)", id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我让妃爱横躺在床上，轻轻地给她盖上毛毯，生怕吵醒她。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 91,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"妃爱的枕边放了一个小鸡玩偶。这个玩偶是去年妃爱过生日给她送戒指时，本来被拜托的她想要的东西。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 96,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"看到我拼命打工的妃爱（大概）注意到了我想把钱花在她身上，于是选择了一个比较便宜的玩偶。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 98,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"由于我买了戒指，本来想拜托里姐去买玩偶的——但那样的话，如果被里姐问到我买了什么的话，就有些不好说出口了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 100,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"因此，作为挡箭牌，除了戒指之外，我还送了妃爱一个小鸡玩偶。这让妃爱非常开心，把它送给妃爱真是太好了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 102,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"只是由于平常总是睡在我的房间里，所以妃爱没什么机会能和这只小鸡一起睡觉。即使如此，她还是非常感谢我，很珍惜这个玩偶。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 104,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不知不觉间妃爱抱着那只小鸡玩偶，美美地睡着了，发出了“呼，呼”的呼吸声。照这样下去会一直睡到晚饭时间吧……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 110,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"晚饭的话，有年节菜所以没什么问题。实在不行煮点年糕吃也可以。等妃爱醒了再一起吃吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 112,
+	},
+	block_00027 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=400, y=-200, file="zbg005b", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="妃愛", size="z1", mode=3, resize=1, path=":fg/hiy/z1/", file="hiy_z1b1000", ex05="hiy_z1b0000", face="b0027", head="hiy_z1b", x=0, lv=2.3, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"就这样回房间吧……虽然离开了床边，但看到妹妹那副安详的睡脸，就感觉无比可爱。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 121,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"假如去年的我遇到现在这种情况的话，会涌现出什么样的感情呢？我试着去回忆，但已经想不起来了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 123,
+	},
+	block_00029 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=400, y=-200, zoom=120, file="zbg005b", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="妃愛", size="z2", mode=3, resize=1, path=":fg/hiy/z2/", file="hiy_z2b1000", ex05="hiy_z2b0000", face="b0027", head="hiy_z2b", x=0, lv=2.4, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"1年前的我顶多也就只会摸摸头吧。现在的话则是感受着心中的这一丝丝罪恶感，对着那稚嫩而又水灵的嘴唇亲了下去。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 132,
+	},
+	block_00030 = {
+		{"bgm", stop=1},
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1010", ex05="hiy_z2b0010", face="b0015", head="hiy_z2b", x=0, lv=2.4, id=13},
+		{"se", id=1, file="seコミ_眼光"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"就在这时，妃爱突然睁开了双眼，双臂缠在我的脖子上。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 140,
+	},
+	block_00031 = {
+		{"se", file="se抱きつく", id=1},
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1010", ex05="hiy_z2b0010", face="b0011", head="hiy_z2b", x=0, lv=2.4, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"实在在是太唐突了以至于完全没有防备，我向前倒下，跪倒在床边。在这期间内，虽然没能把舌头伸进去，但嘴唇被紧紧地压着。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 145,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"从缠在我脖子上的手臂中的力量里感觉不到那份可爱，我的脑袋被固定得前后左右连1毫米都动弹不得。这纤细的手臂怎么会有这么大的力量。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 147,
+	},
+	block_00033 = {
+		{"se", stop=1, time=500, id=1},
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1010", ex05="hiy_z2b0010", face="b0032", head="hiy_z2b", x=0, lv=2.4, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"没过多久，是知道了我丝毫没有反抗的意思吗，妃爱松开了双臂。然后轻轻地离开了我的嘴唇，将双手附我的脸颊上。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 152,
+	},
+	block_00034 = {
+		{"bgm", file="bgm12"},
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1010", ex05="hiy_z2b0010", face="b0051", head="hiy_z2b", x=0, lv=2.4, id=13},
+		{"bg", lv=8, id=8, file="line1", time=400, notone=1, path=":ani/"},
+		{"quake"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00242", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「合格————！！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 163,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"随即马上尖叫了起来。由于和发声源的距离比较短，我来不及捂住耳朵，耳膜传来了一丝悲鸣。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 165,
+	},
+	block_00036 = {
+		{"cgdel", lv=8, id=8, time=400},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「妃爱……？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 170,
+	},
+	block_00037 = {
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2a1010", ex05="hiy_z2a0010", face="a0054", head="hiy_z2a", x=0, lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2a1010", ex05="hiy_z2a0010", face="a0041", head="hiy_z2a", x=0, lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00243", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「合，合格————！　哥哥判定100分……不，今天的是120兆左右啊！这是！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 177,
+	},
+	block_00038 = {
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2a1000", ex05="hiy_z2a0000", face="a0048", head="hiy_z2a", x=0, lv=2.4, id=13},
+		{"fgact", ch="妃愛", act="うんうん", lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2a1000", ex05="hiy_z2a0000", face="a0051", head="hiy_z2a", x=0, lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00244", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「没想到大吉的效果有这么强啊……恋爱一栏上写着『爱情只要付出就会有回报』，我当时还有所怀疑，但没想到是真的！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 184,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「诶……？莫非妃爱看到大吉的签时之所以笑容满面，不是因为愿望那一栏而是因为看见了恋爱的结果吗……？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 187,
+	},
+	block_00040 = {
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1000", ex05="hiy_z2b0000", face="b0031", head="hiy_z2b", x=0, lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1000", ex05="hiy_z2b0000", face="b0041", head="hiy_z2b", x=0, lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00245", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「嘛，多年的愿望实现了也是事实，看见愿望一栏的时候虽然也很开心，但让脸上不由得浮现出笑容的，还是因为看见了恋爱的那一栏，吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 195,
+	},
+	block_00041 = {
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1010", ex05="hiy_z2b0010", face="b0048", head="hiy_z2b", x=0, lv=2.4, id=13},
+		{"fgact", ch="妃愛", act="いいえ", lv=2.4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00246", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啊哈————！一向腼腆的哥哥，居然对我说了『喜翻』！啊哈，不行了！没想到哥哥真的能这么直接地表达出自己的喜欢啊————！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 201,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「什！？难难难到妃爱，你在那个时候就已经醒了吗？还是说，从一开始就在装睡……？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 204,
+	},
+	block_00043 = {
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1010", ex05="hiy_z2b0010", face="b0015", head="hiy_z2b", x=0, lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1010", ex05="hiy_z2b0010", face="b0026", head="hiy_z2b", x=0, lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00247", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「你以为我的工作是什么。我可是女演员哦。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 210,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"被完美的骗过去了……没想到就连那个可爱的睡颜也是演技。更可怕的是，妃爱居然能够故意做出那种表情……？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 212,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"如果能把那副睡颜通过公共电波传播出去，一定会因为太过可爱以至于人们的内心都被融化，第二天开始谁都工作不了了。日本的经济也会受到重击……！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 214,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「为什么要那么做……？正常地撒娇不就可以了吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 217,
+	},
+	block_00047 = {
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2a1000", ex05="hiy_z2a0000", face="a0043", head="hiy_z2a", x=0, lv=2.4, id=13},
+		{"fgact", ch="妃愛", act="いいえ", lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2a1000", ex05="hiy_z2a0000", face="a0016", head="hiy_z2a", x=0, lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00248", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「那是因为，没有办法啊，都是因为哥哥说让里姐今晚住下来啦。虽然也没有其他办法了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 224,
+	},
+	block_00048 = {
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2a1000", ex05="hiy_z2a0000", face="a0002", head="hiy_z2a", x=0, lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2a1000", ex05="hiy_z2a0000", face="a0018", head="hiy_z2a", x=0, lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00249", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「在这一年的伊始，我想和哥哥一起在同一个被子里睡觉，打情骂俏，所以觉得非常寂寞。这也是没办法的嘛。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 230,
+	},
+	block_00049 = {
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1000", ex05="hiy_z2b0000", face="b0028", head="hiy_z2b", x=0, lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1000", ex05="hiy_z2b0000", face="b0017", head="hiy_z2b", x=0, lv=2.4, id=13},
+				{"fgact", ch="妃愛", act="おじぎ", lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00250", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「就在我这么想着的时候，哥哥正在温柔地照顾里姐送她回家，所以在一个人等待的时候，就变得更加的寂寞了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 237,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"没办法没办法没办法，妃爱像在念咒语一样重复着这句话。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 239,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"尽管如此，妃爱还是泡了热茶，准备好了被褥，甚至担心到向我发信息问里姐的情况，虽然内心很寂寞但头脑看上去还是很冷静的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 241,
+	},
+	block_00052 = {
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1000", ex05="hiy_z2b0000", face="b0043", head="hiy_z2b", x=0, lv=2.4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00251", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「因此……我在想，对里姐这么温柔的哥哥，在我睡觉的时候会不会对我也很温柔……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 246,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「你指的是装睡吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 249,
+	},
+	block_00054 = {
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1000", ex05="hiy_z2b0000", face="b0003", head="hiy_z2b", x=0, lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1010", ex05="hiy_z2b0010", face="b0051", head="hiy_z2b", x=0, lv=2.4, id=13},
+				{"fgact", ch="妃愛", act="ジャンプ", lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00252", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「稍微，我想着只要你也能稍微对我温柔一些，我就满足了。但你却给了我这么一个大惊喜！听好了，哥哥！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 256,
+	},
+	block_00055 = {
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2a1000", ex05="hiy_z2a0000", face="a0054", head="hiy_z2a", x=0, lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2a1000", ex05="hiy_z2a0000", face="a0006", head="hiy_z2a", x=0, lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00253", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「我优秀的哥哥真是的，不仅温柔地把睡着的我抱了起来，还就那样用公主抱的姿势把我抱回了房间哦！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 262,
+	},
+	block_00056 = {
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2a1000", ex05="hiy_z2a0000", face="a0035", head="hiy_z2a", x=0, lv=2.4, id=13},
+		{"fgact", ch="妃愛", act="いいえ", lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2a1000", ex05="hiy_z2a0000", face="a0048", head="hiy_z2a", x=0, lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00254", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「而且在途中，还不停地对我说着喜翻喜翻！我当时高兴地不得了，连止住脸上想要浮现出的笑意都非常困难了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 269,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"你当时连眉毛都没动一下哦，妃爱。一定是作为女演员的自尊心在支撑着你假睡呢。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 271,
+	},
+	block_00058 = {
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1000", ex05="hiy_z2b0000", face="b0023", head="hiy_z2b", x=0, lv=2.4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00255", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「送我到房间之后，也温柔地让我躺在床上，连毛毯都帮我盖上了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 276,
+	},
+	block_00059 = {
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1000", ex05="hiy_z2b0000", face="b0038", head="hiy_z2b", x=0, lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1000", ex05="hiy_z2b0000", face="b0015", head="hiy_z2b", x=0, lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00256", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「虽然在那时我就想出声了，可我还是有点，真的只有一点点，对哥哥接下来的行动产生了期待。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 282,
+	},
+	block_00060 = {
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1000", ex05="hiy_z2b0000", face="b0031", head="hiy_z2b", x=0, lv=2.4, id=13},
+		{"fgact", ch="妃愛", act="おじぎ", lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1000", ex05="hiy_z2b0000", face="b0031", head="hiy_z2b", x=0, lv=2.4, id=13},
+				{"fgact", ch="妃愛", act="いいえ", lv=2.4, id=13},
+			},
+			vl02 = {
+				{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1000", ex05="hiy_z2b0000", face="b0032", head="hiy_z2b", x=0, lv=2.4, id=13},
+			},
+			vl03 = {
+				{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1000", ex05="hiy_z2b0000", face="b0020", head="hiy_z2b", x=0, lv=2.4, id=13},
+			},
+			vl04 = {
+				{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1000", ex05="hiy_z2b0000", face="b0003", head="hiy_z2b", x=0, lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00257", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「想着要是能摸摸我的头就好了，要是能抚摸我的脸就好了，怀揣着这种程度的小小愿望……并且希望这个愿望能够实现。在心里由衷地祈求着」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 295,
+	},
+	block_00061 = {
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2a1010", ex05="hiy_z2a0010", face="a0051", head="hiy_z2a", x=0, lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fgact", ch="妃愛", act="うんうん", lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00258", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「然后呢！真是的，哥哥真的是，居然在我睡着的时候亲了我一口！那温柔的动作，就像王子一样完美地吻了下来！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 301,
+	},
+	block_00062 = {
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2a1010", ex05="hiy_z2a0010", face="a0048", head="hiy_z2a", x=0, lv=2.4, id=13},
+		{"fgact", ch="妃愛", act="いいえ", lv=2.4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00259", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啊哈——！不行啦——！要不行啦——！要融化啦——！融化得大脑都要变笨啦——！我家的哥哥太棒了，身为妹妹的我要变成废人啦——！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 307,
+	},
+	block_00063 = {
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2a1000", ex05="hiy_z2a0000", face="a0051", head="hiy_z2a", x=0, lv=2.4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00260", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「我也是哦！就算是对恋爱啊男性啥的都不感兴趣的我，也曾憧憬过和王子大人接吻哦！在我非常小的时候！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 312,
+	},
+	block_00064 = {
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1010", ex05="hiy_z2b0010", face="b0051", head="hiy_z2b", x=0, lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1010", ex05="hiy_z2b0010", face="b0054", head="hiy_z2b", x=0, lv=2.4, id=13},
+			},
+			vl02 = {
+				{"fgact", ch="妃愛", act="うんうん", lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00261", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「那份憧憬就在今天被实现了！是我最喜欢的哥哥给我实现的！我本已失去的少女心被唤醒，从此变成了一个女人啦——！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 319,
+	},
+	block_00065 = {
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1010", ex05="hiy_z2b0010", face="b0048", head="hiy_z2b", x=0, lv=2.4, id=13},
+		{"fgact", ch="妃愛", act="いいえ", lv=2.4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00262", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「我不行啦——！喜欢哥哥！超喜欢了！已经不知道多久没有这么心动过了。已经喜欢得无可救药了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 327,
+	},
+	block_00066 = {
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1010", ex05="hiy_z2b0010", face="b0047", head="hiy_z2b", x=0, lv=2.4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00263", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「哇啊————这份心情不能分享给别人也太难受了吧——！心脏一直在疯狂地跳动，根本没办法把这种兴奋的感觉憋在心里啊——！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 332,
+	},
+	block_00067 = {
+		{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2a1010", ex05="hiy_z2a0010", face="a0047", head="hiy_z2a", x=0, lv=2.4, id=13},
+		{"fgact", ch="妃愛", act="いいえ", lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2a1010", ex05="hiy_z2a0010", face="a0007", head="hiy_z2a", x=0, lv=2.4, id=13},
+			},
+			vl02 = {
+				{"fg", ch="妃愛", size="z2", mode=3, path=":fg/hiy/z2/", file="hiy_z2a1010", ex05="hiy_z2a0010", face="a0047", head="hiy_z2a", x=0, lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00264", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「有没有人能听我炫耀一下哥哥——！让我炫耀一下——！喂，小悠——！听得见吗小悠——！拜托了，听听我对哥哥的这份心意吧——！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 341,
+	},
+	block_00068 = {
+		{"fg", ch="妃愛", size="z2", hoho="h", mode=3, path=":fg/hiy/z2/", file="hiy_z2a1000", ex05="hiy_z2a0000", face="a0019h", head="hiy_z2a", x=0, lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z2", hoho="h", mode=3, path=":fg/hiy/z2/", file="hiy_z2a1000", ex05="hiy_z2a0000", face="a0028h", head="hiy_z2a", x=0, lv=2.4, id=13},
+			},
+			vl02 = {
+				{"fg", ch="妃愛", size="z2", hoho="h", mode=3, path=":fg/hiy/z2/", file="hiy_z2a1000", ex05="hiy_z2a0000", face="a0035h", head="hiy_z2a", x=0, lv=2.4, id=13},
+			},
+			vl03 = {
+				{"fg", ch="妃愛", size="z2", hoho="h", mode=3, path=":fg/hiy/z2/", file="hiy_z2a1000", ex05="hiy_z2a0000", face="a0022h", head="hiy_z2a", x=0, lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00265", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「我家的哥哥真的太棒了……真的……太棒了太激动了太喜欢了，我已经控制不住我自己了……能够生为哥哥的妹妹真是太好了……喜翻……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 349,
+	},
+	block_00069 = {
+		{"fg", ch="妃愛", mx=-40, mode=-1, lv=2.4, id=13},
+		{"se", file="se外す、取る(ブラホックなど)", id=1},
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在喧闹到那种程度之后，妃爱双手猛地把自己的脸遮住。像是有与平日不同闹腾了一番的自觉，她的肌肤一直红到了脖子。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 356,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这样说着的我，也是害羞得不敢看妃爱的脸……喜欢什么的，亲吻什么的，以为妃爱睡着了，就干了各种各样的事……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 358,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"与平时不同露出了少女一面的妹妹，和与平时不同的把爱情表露出来的哥哥。彼此都脸红得一句话都说不出来，就这样稍微僵持了一段时间。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 360,
+	},
+	block_00072 = {
+		{"fg", ch="妃愛", size="z2", hoho="h", my=40, mode=3, path=":fg/hiy/z2/", file="hiy_z2a1000", ex05="hiy_z2a0000", face="a0002h", head="hiy_z2a", lv=2.4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00266", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「哥哥」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 365,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"先出声的是妃爱。我只发出了“啊”，“哦”之类的，连话都算不上的单个音节。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 367,
+	},
+	block_00074 = {
+		{"fg", ch="妃愛", size="z2", hoho="h", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1000", ex05="hiy_z2b0000", face="b0028h", head="hiy_z2b", lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z2", hoho="h", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1000", ex05="hiy_z2b0000", face="b0020h", head="hiy_z2b", lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00267", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「今天小泉妃爱的营业到此结束。我现在的心情激动得不得了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 373,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我，我也是。现在，超——想抱住妃爱。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 376,
+	},
+	block_00076 = {
+		{"fg", ch="妃愛", size="z2", hoho="h", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1000", ex05="hiy_z2b0000", face="b0038h", head="hiy_z2b", lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="z2", hoho="h", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1000", ex05="hiy_z2b0000", face="b0014h", head="hiy_z2b", lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00268", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「我当然也很想被抱着……哥哥。可要是被抱住的话，一定会就那样一直做到最后的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 382,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"那，倒是。现在抱上去的话，肯定会开始亲吻，然后舌头相互交缠在一起，在满溢而出的爱情之中贪求着彼此的身体吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 384,
+	},
+	block_00078 = {
+		{"fg", ch="妃愛", size="z2", hoho="h", mode=3, path=":fg/hiy/z2/", file="hiy_z2b1000", ex05="hiy_z2b0000", face="b0055h", head="hiy_z2b", lv=2.4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_00269", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「新的一年，我想用嘴来做。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 389,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我也想在今年被妃爱用嘴多多关照。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 392,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"是察觉到我所渴望的行为了吗。说起来，抽签时愿望一栏上写着「会如愿以偿」来着。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 394,
+	},
+	block_00081 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这样啊，实现我的愿望的是妃爱吗。我的妹妹终于踏入神的领域了啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 396,
+	},
+	block_00082 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="white", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=0, func="wait"},
+		{"excall", file="01_妃愛06_h01"},
+		{"text"},
+		linkback = "block_00081",
+		line = 402,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

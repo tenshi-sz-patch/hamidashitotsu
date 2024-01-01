@@ -1,0 +1,2944 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"msgoff"},
+		{"bg", file="bg011a", path=":bg/", sync=0},
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0027", head="shi_nob", x=-230, lv=2.2, id=9, sync=0},
+		{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0002", head="rir_noa", x=230, lv=2.2, id=10, sync=0},
+		{"extrans", time=2000},
+		{"bgm", file="bgm34"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01001", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「很抱歉到现在才说出我的笔名。我只是在等一个合适的时机开口」",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 17,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这倒也不是假话。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 19,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"本以为在学生的表演结束后，圣会长会马上过来发表感想，结果她却一直呆呆地坐在观众席上。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 21,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"看着圣会长仿佛还有想看的节目一样歪着脑袋，我和诗樱学姐一起试着打了个招呼，她就突然像恢复了理智一样站了起来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 23,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"即使想聊一会儿，但观众席上的人实在太多了。何况我们还必须运营文化祭，所以就将场所转移到了学生会办公室。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 25,
+	},
+	block_00005 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0039", head="shi_nob", x=-230, lv=2.2, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01002", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「如果被问到的话，我倒也没打算隐瞒……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 30,
+	},
+	block_00006 = {
+		{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0009", head="rir_noa", x=230, lv=2.2, id=10},
+		{"fgact", ch="莉々子", act="いいえ", lv=2.2, id=10},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0038", head="rir_noa", x=230, lv=2.2, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rir_00033", ch="rir"},
+			},
+			ja = {
+				{
+					name = {"莉々子"},
+					"「没、没这事，隐瞒什么的……那是诗樱自己所做出的判断！完全不用向我道歉的……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 37,
+	},
+	block_00007 = {
+		{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0002", head="rir_noa", x=230, lv=2.2, id=10},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0007", head="rir_noa", x=230, lv=2.2, id=10},
+				{"fgact", ch="莉々子", act="うなづく", lv=2.2, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rir_00034", ch="rir"},
+			},
+			ja = {
+				{
+					name = {"莉々子"},
+					"「不、不过，如果我提前知道了的话，大概就会用不同的方式对待诗樱你了……对吧，大家也对诗樱重新认识了吧！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 44,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tza_00003", ch="tza"},
+			},
+			ja = {
+				{
+					name = {"他校の女子生徒Ａ"},
+					"「越来越喜欢镰仓会长了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 47,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tzb_00003", ch="tzb"},
+			},
+			ja = {
+				{
+					name = {"他校の女子生徒Ｂ"},
+					"「我们从一开始就是粉丝了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 50,
+	},
+	block_00010 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0053", head="shi_nob", x=-230, lv=2.2, id=9},
+		{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0036", head="rir_noa", x=230, lv=2.2, id=10},
+		{"fgact", ch="莉々子", act="ジャンプ", lv=2.2, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rir_00035", ch="rir"},
+			},
+			ja = {
+				{
+					name = {"莉々子"},
+					"「能不能不要用那种好像我也是诗樱的粉丝一样的说话方式！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 58,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tzb_00004", ch="tzb"},
+			},
+			ja = {
+				{
+					name = {"他校の女子生徒Ｂ"},
+					"「我认为就是这样的！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 63,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"自己的仇敌掌握着自己关注的账号，这种情况连做梦都想象不到吧。你是诗樱学姐的粉丝这件事早就暴露了哦。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 67,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"话虽如此，学姐也没有提到账号什么的，更没有去刻意取笑她，这对圣会长来说，正是去了解学姐本性的好时机啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 69,
+	},
+	block_00014 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0210", ex05="shi_noa0010", face="a0001", head="shi_noa", x=-230, lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0210", ex05="shi_noa0010", face="a0023", head="shi_noa", x=-230, lv=2.2, id=9},
+			},
+			vl02 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0210", ex05="shi_noa0010", face="a0031", head="shi_noa", x=-230, lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01003", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「那么，现在说说文化祭的话题吧……不知道莉莉子的评分是多少呢。我们的企划有让在坐的各位引起共鸣吗」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 76,
+	},
+	block_00015 = {
+		{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0029", head="rir_noa", x=230, lv=2.2, id=10},
+		{"fgact", ch="莉々子", act="うなづく", lv=2.2, id=10},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0020", head="rir_noa", x=230, lv=2.2, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rir_00036", ch="rir"},
+			},
+			ja = {
+				{
+					name = {"莉々子"},
+					"「咕……抛、抛开内容先不管，我怎会忘记这一年的懊恼呢……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 83,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"正如诗樱学姐所说，「莉莉子不会违背自己的感情」，她并没有去否定连环画剧的内容。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 85,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过，虽然她认可了画剧的内容，但似乎去年被骗的不甘更胜一筹。是不是应该在当时坦率地道歉比较好呢。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 87,
+	},
+	block_00018 = {
+		{"msgoff"},
+		{"bg", x=400, file="zbg011a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="詩桜", size="z1", mode=3, resize=1, path=":fg/shi/z1/", file="shi_z1a0210", ex05="shi_z1a0010", face="a0001", head="shi_z1a", lv=2.3, id=9, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0200", ex05="shi_z1a0000", face="a0039", head="shi_z1a", lv=2.3, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01004", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「连环画剧让你们感到无聊了吗。果然和去年相比还是不够精彩吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 98,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tza_00004", ch="tza"},
+			},
+			ja = {
+				{
+					name = {"他校の女子生徒Ａ"},
+					"「欸，并不是觉得无聊什么的……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 101,
+	},
+	block_00020 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0210", ex05="shi_z1b0010", face="b0028", head="shi_z1b", lv=2.3, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0210", ex05="shi_z1b0010", face="b0001", head="shi_z1b", lv=2.3, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01005", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「但是去年的出演者是专业的声优。和她那时相比，果然会觉得这次的是幼稚的画剧吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 107,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tzb_00005", ch="tzb"},
+			},
+			ja = {
+				{
+					name = {"他校の女子生徒Ｂ"},
+					"「那、那毕竟是在和专业的演技相比……但是即使这样，也不代表镰仓会长的连环画剧不好……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 110,
+	},
+	block_00022 = {
+		{"fg", ch="莉々子", size="no", mode=1, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0036", head="rir_noa", lv=2.2, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rir_00037", ch="rir"},
+			},
+			ja = {
+				{
+					name = {"莉々子"},
+					"「给我闭嘴！没有和去年比较的必要，今年的节目只根据今年的内容来评价！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 115,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tza_00005", ch="tza"},
+			},
+			ja = {
+				{
+					name = {"他校の女子生徒Ａ"},
+					"「明白了，真是非常抱歉！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 118,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tzb_00006", ch="tzb"},
+			},
+			ja = {
+				{
+					name = {"他校の女子生徒Ｂ"},
+					"「以后我会注意谨慎发言的！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 121,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"也许是内心的矛盾刺激到了她，圣会长斥责了身为同伴的随从们。对此我深表同情。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 123,
+	},
+	block_00026 = {
+		{"msgoff"},
+		{"bg", file="bg011a", path=":bg/", sync=0},
+		{"fg", ch="詩桜", size="no", mode=3, resize=1, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0001", head="shi_nob", x=-230, lv=2.2, id=9, sync=0},
+		{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0008", head="rir_noa", x=230, lv=2.2, id=10, sync=0},
+		{"extrans", time=500},
+		{"fgact", ch="莉々子", act="びっくり", lv=2.2, id=10},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0003", head="rir_noa", x=230, lv=2.2, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rir_00038", ch="rir"},
+			},
+			ja = {
+				{
+					name = {"莉々子"},
+					"「对、对了！这次的企划太过依赖诗樱的个人力量了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 136,
+	},
+	block_00027 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0200", ex05="shi_nob0000", face="b0046", head="shi_nob", x=-230, lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0200", ex05="shi_nob0000", face="b0016", head="shi_nob", x=-230, lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01006", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「什么？关于这点不是已经提前跟你明确过了吗。他作为学生会长主要致力于运营」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 142,
+	},
+	block_00028 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0003", head="shi_nob", x=-230, lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0027", head="shi_nob", x=-230, lv=2.2, id=9},
+			},
+			vl02 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0007", head="shi_nob", x=-230, lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01007", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「去年他负责话剧的剧本，我负责指挥。今年我写了连环画剧的故事，他负责运营。这两者都不认可是什么意思呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 149,
+	},
+	block_00029 = {
+		{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0018", head="rir_noa", x=230, lv=2.2, id=10},
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0210", ex05="shi_noa0010", face="a0003", head="shi_noa", x=-230, lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0210", ex05="shi_noa0010", face="a0027", head="shi_noa", x=-230, lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01008", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「从开始准备到正式出演当天，即使断定文化祭是全靠他的力量才能顺利进行，我也不会有任何怨言。这一点你也可以向其他学生会成员确认」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 157,
+	},
+	block_00030 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0200", ex05="shi_noa0000", face="a0003", head="shi_noa", x=-230, lv=2.2, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01009", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「保险起见我先说一下，5位部员中一位负责连环画剧的绘画，一位负责视频相关的事」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 162,
+	},
+	block_00031 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0200", ex05="shi_noa0000", face="a0027", head="shi_noa", x=-230, lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0200", ex05="shi_noa0000", face="a0003", head="shi_noa", x=-230, lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01010", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「另一位负责演出期间的运营，平时则和我一起在各个福利设施间奔波。不仅仅是我们两人，学生会的所有成员都参与了企划和运营」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 168,
+	},
+	block_00032 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0003", head="shi_nob", x=-230, lv=2.2, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01011", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「作为学生会的会长，你还想让他做什么？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 173,
+	},
+	block_00033 = {
+		{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0012", head="rir_noa", x=230, lv=2.2, id=10},
+		{"fgact", ch="莉々子", act="いいえ", lv=2.2, id=10},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0007", head="rir_noa", x=230, lv=2.2, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rir_00039", ch="rir"},
+			},
+			ja = {
+				{
+					name = {"莉々子"},
+					"「再、再怎么说是致力于运营，只听刚刚的发言，和泉会长和连环画剧本身毫无关系吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 180,
+	},
+	block_00034 = {
+		{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0015", head="rir_noa", x=230, lv=2.2, id=10},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0032", head="rir_noa", x=230, lv=2.2, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rir_00040", ch="rir"},
+			},
+			ja = {
+				{
+					name = {"莉々子"},
+					"「虽说是写了去年话剧的剧本，但那不是得到了诗樱你的协助吗？虽然不知道你做了多少修改，但一定不能说你与去年的剧本毫无关系吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 186,
+	},
+	block_00035 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0027", head="shi_nob", x=-230, lv=2.2, id=9},
+		{"fgact", ch="詩桜", act="うなづく", lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0016", head="shi_nob", x=-230, lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01012", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「诚然，我在检查了他的剧本后，和他吵完接着吵，争论比莉莉子想象还要严重10倍」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 193,
+	},
+	block_00036 = {
+		{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0052", head="rir_noa", x=230, lv=2.2, id=10},
+		{"fgact", ch="莉々子", act="びっくり", lv=2.2, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rir_00041", ch="rir"},
+			},
+			ja = {
+				{
+					name = {"莉々子"},
+					"「你看！但是这次的连环画剧，与和泉会长完全没有关系对吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 199,
+	},
+	block_00037 = {
+		{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0031", head="rir_noa", x=230, lv=2.2, id=10},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0015", head="rir_noa", x=230, lv=2.2, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rir_00042", ch="rir"},
+			},
+			ja = {
+				{
+					name = {"莉々子"},
+					"「虽说是参与了制作，最多也就是过了一眼然后批准这种程度吧。这样你还能自豪地说这是『和泉会长会给我们展示的有趣的东西』吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 205,
+	},
+	block_00038 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0028", head="shi_nob", x=-230, lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0053", head="shi_nob", x=-230, lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01013", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「嘛，当然能轻松地说出来就是了……话说莉莉子，还没有听到你对连环画剧的感想呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 211,
+	},
+	block_00039 = {
+		{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0010", head="rir_noa", x=230, lv=2.2, id=10},
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0200", ex05="shi_nob0000", face="b0015", head="shi_nob", x=-230, lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0200", ex05="shi_nob0000", face="b0055", head="shi_nob", x=-230, lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01014", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「首先，我想问你在看到那个连环画剧后有什么感想。希望你能如实描述你的感受」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 219,
+	},
+	block_00040 = {
+		{"bgm", stop=1},
+		{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0020", head="rir_noa", x=230, lv=2.2, id=10},
+		{"fgact", ch="莉々子", act="いいえ", lv=2.2, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rir_00043", ch="rir"},
+			},
+			ja = {
+				{
+					name = {"莉々子"},
+					"「那……那是……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 227,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"周围的孩子们都好奇地看着她，疑惑为什么圣会长正不甘心地咬着牙。她们可能连其中缘由的冰山一角都想不到吧。而至于这一原因——",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 229,
+	},
+	block_00042 = {
+		{"bgm", file="bgm27"},
+		{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0002", head="rir_noa", x=230, lv=2.2, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rir_00044", ch="rir"},
+			},
+			ja = {
+				{
+					name = {"莉々子"},
+					"「刚才故事的主角……那个恶鬼，是在影射诗樱你自己对吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 236,
+	},
+	block_00043 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0200", ex05="shi_nob0000", face="b0022", head="shi_nob", x=-230, lv=2.2, id=9},
+		{"fgact", ch="詩桜", act="うなづく", lv=2.2, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01015", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「没错。不愧是莉莉子，我就相信你会明白的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 242,
+	},
+	block_00044 = {
+		{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0028", head="rir_noa", x=230, lv=2.2, id=10},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0038", head="rir_noa", x=230, lv=2.2, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rir_00045", ch="rir"},
+			},
+			ja = {
+				{
+					name = {"莉々子"},
+					"「因为这不是太奇怪了吗。没错，我一直觉得很奇怪。你居然在别人的手下，担任副会长的职务」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 248,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"总之，就是这么一回事。所以也难怪其他孩子们不明白。如果不是像圣会长那样无数次和诗樱学姐产生冲突的话，是不可能察觉到诗樱学姐的真心的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 250,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"常磐也是一读故事马上就注意到了。那家伙可能意外地和圣会长很合得来。不，还是会处处产生争执的吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 252,
+	},
+	block_00047 = {
+		{"msgoff"},
+		{"bg", x=400, file="zbg011a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="詩桜", size="z1", mode=3, resize=1, path=":fg/shi/z1/", file="shi_z1b0210", ex05="shi_z1b0010", face="b0039", head="shi_z1b", lv=2.3, id=9, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01016", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「那个鬼，为了自己方便完全不去理会周围人的感受，他就是残酷而不自知的我啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 261,
+	},
+	block_00048 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0210", ex05="shi_z1b0010", face="b0028", head="shi_z1b", lv=2.3, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0210", ex05="shi_z1b0010", face="b0003", head="shi_z1b", lv=2.3, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01017", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「这么多年以来，我都是这样度过的。我并不期待自己能轻易改变本性。但是，只有一点也好，我想努力去试着掌握和别人交流的方法」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 269,
+	},
+	block_00049 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0200", ex05="shi_z1a0000", face="a0022", head="shi_z1a", lv=2.3, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0200", ex05="shi_z1a0000", face="a0053", head="shi_z1a", lv=2.3, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01018", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「我产生改变的契机，是与他，以及由他召集的学生会成员们的相遇。对于将学生会活动一个一个地踏实完成的他们，我很感兴趣」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 275,
+	},
+	block_00050 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0210", ex05="shi_z1a0010", face="a0038", head="shi_z1a", lv=2.3, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0210", ex05="shi_z1a0010", face="a0028", head="shi_z1a", lv=2.3, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01019", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「但是，这位会长是不会允许身为无关者的我，抱着好玩的心情而随意插嘴的。他当着我的面说出了『滚出去』」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 281,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"啊，果然还是要说那件事吗。对诗樱学姐来说，这大概是人生中第一次被拒绝。恐怕我的这句话会继续被唠一辈子吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 283,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过诗樱学姐提到这件事的时候，不是因嫉妒而浑身发热，就是对我喜欢得无可奈何的时候。所以我是完全不会讨厌被她唠的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 285,
+	},
+	block_00053 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0200", ex05="shi_z1a0000", face="a0018", head="shi_z1a", lv=2.3, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01020", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「被自己想要往来的人拒绝了，这使我深切地感受到了自己必须要去改变」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 290,
+	},
+	block_00054 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0200", ex05="shi_z1a0000", face="a0003", head="shi_z1a", lv=2.3, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01021", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「要问为什么的话，在去年的研讨会上我被他惊呆了。为了和周围的人打好交道，他自己做出了巨大的改变」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 295,
+	},
+	block_00055 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0210", ex05="shi_z1b0010", face="b0052", head="shi_z1b", lv=2.3, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01022", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「之前成绩一直处于平均水平的他，在这一年里以和我进同所学校作为目标，已经成长到了能在模拟考试中取得A的判定」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 300,
+	},
+	block_00056 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0210", ex05="shi_z1b0010", face="b0003", head="shi_z1b", lv=2.3, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0210", ex05="shi_z1b0010", face="b0023", head="shi_z1b", lv=2.3, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01023", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「行动就是意志，而意志就是一个人的生存方式。看着他用行动去把握自己的未来的身姿，我被他深深迷住了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 306,
+	},
+	block_00057 = {
+		{"msgoff"},
+		{"bg", file="bg011a", path=":bg/", sync=0},
+		{"fg", ch="詩桜", size="no", mode=3, resize=1, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0023", head="shi_nob", x=-230, lv=2.2, id=9, sync=0},
+		{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0038", head="rir_noa", x=230, lv=2.2, id=10, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0002", head="rir_noa", x=230, lv=2.2, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rir_00046", ch="rir"},
+			},
+			ja = {
+				{
+					name = {"莉々子"},
+					"「那个……从刚刚听到的话来看，难道说诗樱与和泉会长已经，那个……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 318,
+	},
+	block_00058 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0200", ex05="shi_nob0000", face="b0032", head="shi_nob", x=-230, lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0200", ex05="shi_nob0000", face="b0052", head="shi_nob", x=-230, lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01024", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「我很乐意将此生托付于他。如果他愿意的话，在他在成功考上志愿大学，从这所学校毕业之后，以学生的身份结婚也未尝不可」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 324,
+	},
+	block_00059 = {
+		{"fg", ch="莉々子", size="no", ex02="a0098", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0009", head="rir_noa", x=230, lv=2.2, id=10},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"想必是被这冲击性的事实震惊到了吧，圣会长顿时哑口无言。顺带一提我也觉得有些羞耻。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 328,
+	},
+	block_00060 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0001", head="shi_nob", x=-230, lv=2.2, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01025", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「但是即使我们是这样的关系，当我表现出自私的时候，他也会将我逐出自己的团队」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 333,
+	},
+	block_00061 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0022", head="shi_nob", x=-230, lv=2.2, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01026", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「尽管如此，当我向他道歉并提出希望和解时，他欣然接受了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 338,
+	},
+	block_00062 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0200", ex05="shi_noa0000", face="a0032", head="shi_noa", x=-230, lv=2.2, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01027", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「看到他如此真诚的举动，我注意到，如果我想继续与心爱之人同行的话，我自己也必须以真诚行事」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 343,
+	},
+	block_00063 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0200", ex05="shi_noa0000", face="a0003", head="shi_noa", x=-230, lv=2.2, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01028", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「人在孤身一人时也能改变。但是这种改变，仅局限于这个人所能想到的范围内」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 348,
+	},
+	block_00064 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0200", ex05="shi_noa0000", face="a0039", head="shi_noa", x=-230, lv=2.2, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01029", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「如果想要完成孤身一人无法做到的改变，那就只能强忍不便，投身于和他人的交流之中。正所谓交流就是财富啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 355,
+	},
+	block_00065 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0053", head="shi_nob", x=-230, lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0055", head="shi_nob", x=-230, lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01030", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「即使那可能不是成长而是一种退化，我们也应寻求改变而非停滞不前。在这次的连环画剧里，我就是想向孩子们讲述这一点」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 361,
+	},
+	block_00066 = {
+		{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0020", head="rir_noa", x=230, lv=2.2, id=10},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽说过程有些曲折，但她还是展示出了学生会所要表达的主题。圣会长顿时有些不知所措，应该是因我们「交往」的冲击而动摇了吧。趁着这个破绽，诗樱学姐乘胜追击。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 365,
+	},
+	block_00067 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0001", head="shi_nob", x=-230, lv=2.2, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01031", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「莉莉子说过『协调性』对吧。虽然我无法立刻做出改变，但我会尝试一点点地和周围的人保持步调一致」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 370,
+	},
+	block_00068 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0055", head="shi_nob", x=-230, lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0023", head="shi_nob", x=-230, lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01032", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「而带来这种变化的不是别人，正是和泉会长。既然知道了我正朝着莉莉子所期望的方向改变，你还执意认为他与这次的节目无关吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 376,
+	},
+	block_00069 = {
+		{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0012", head="rir_noa", x=230, lv=2.2, id=10},
+		{"fgact", ch="莉々子", act="いいえ", lv=2.2, id=10},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0029", head="rir_noa", x=230, lv=2.2, id=10},
+				{"fgact", ch="莉々子", act="うなづく", lv=2.2, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rir_00047", ch="rir"},
+			},
+			ja = {
+				{
+					name = {"莉々子"},
+					"「咕奴奴奴奴奴奴奴奴奴奴……咕呜呜」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 386,
+	},
+	block_00070 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0003", head="shi_nob", x=-230, lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0200", ex05="shi_nob0000", face="b0053", head="shi_nob", x=-230, lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01033", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「然后，除了作为学生会想要表达的主题之外，我最想把这次连环画剧去展示给的对象，莉莉子，就是你啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 394,
+	},
+	block_00071 = {
+		{"msgoff"},
+		{"bg", file="zbg011a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="莉々子", size="z1", mode=3, resize=1, path=":fg/rir/z1/", file="rir_z1a0200", ex05="rir_z1a0000", face="a0029", head="rir_z1a", x=280, lv=2.3, id=10, sync=0},
+		{"extrans", time=500},
+		{"se", file="se抱きつく", id=1},
+		{"fg", ch="詩桜", size="z1", mx=-40, mode=3, resize=1, path=":fg/shi/z1/", file="shi_z1b0200", ex05="shi_z1b0000", face="b0053", head="shi_z1b", x=-100, lv=2.3, id=13},
+		{"fg", ch="莉々子", size="z1", mode=3, path=":fg/rir/z1/", file="rir_z1a0200", ex05="rir_z1a0000", face="a0010", head="rir_z1a", x=280, lv=2.3, id=10},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"即使圣会长已经进入了代表认输的咬牙模式，学姐的攻势依旧没有放缓。她一瞬间拉近了二人的距离，握住了圣会长的手。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 409,
+	},
+	block_00072 = {
+		{"fg", ch="莉々子", size="z1", hoho="h", mode=3, path=":fg/rir/z1/", file="rir_z1a0200", ex05="rir_z1a0000", face="a0014h", head="rir_z1a", x=280, lv=2.3, id=10},
+		{"fgact", ch="莉々子", act="びっくり", lv=2.3, id=10},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"大概是以前从来没有像这样被热诚地握过手吧。圣会长变得双目无神，脸颊上泛起了红潮。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 414,
+	},
+	block_00073 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0200", ex05="shi_z1b0000", face="b0022", head="shi_z1b", x=-100, lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01034", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「不管和你在学生会的集会上发生过多少次冲突，不管说出多么尖酸刻薄的话语，莉莉子永远都愿意搭理我」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 419,
+	},
+	block_00074 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0200", ex05="shi_z1b0000", face="b0032", head="shi_z1b", x=-100, lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0200", ex05="shi_z1b0000", face="b0054", head="shi_z1b", x=-100, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01035", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「并不是想要疏远或者排挤我，而是试图从正面改变我。看到我的身影后，总是第一个打招呼」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 425,
+	},
+	block_00075 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0200", ex05="shi_z1b0000", face="b0022", head="shi_z1b", x=-100, lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0200", ex05="shi_z1b0000", face="b0003", head="shi_z1b", x=-100, lv=2.3, id=13},
+				{"fgact", ch="詩桜", act="うなづく", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0200", ex05="shi_z1b0000", face="b0038", head="shi_z1b", x=-100, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01036", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「在这一年里我才意识到，这是一件多么不容易的事啊。请听我说，我喜欢和莉莉子你聊天。虽然可能在你看来，那尽是些令人厌烦的日子吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 433,
+	},
+	block_00076 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0200", ex05="shi_z1b0000", face="b0055", head="shi_z1b", x=-100, lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0200", ex05="shi_z1b0000", face="b0053", head="shi_z1b", x=-100, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01037", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「对于比起其他任何人都要在意我的莉莉子，我最喜欢了。我为我过去的不成熟而道歉。然后，我希望今后能够与你好好相处」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 439,
+	},
+	block_00077 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0200", ex05="shi_z1b0000", face="b0022", head="shi_z1b", x=-100, lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0200", ex05="shi_z1b0000", face="b0038", head="shi_z1b", x=-100, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01038", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「一直以来都谢谢了，莉莉子。一边戏弄你，一边刁难你，真是对不起」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 445,
+	},
+	block_00078 = {
+		{"fg", ch="莉々子", size="z1", hoho="h", mode=3, path=":fg/rir/z1/", file="rir_z1a0200", ex05="rir_z1a0000", face="a0009h", head="rir_z1a", x=280, lv=2.3, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rir_00048", ch="rir"},
+			},
+			ja = {
+				{
+					name = {"莉々子"},
+					"「怎、怎么这样……这不是完全不像你了吗？请不要再道歉了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 450,
+	},
+	block_00079 = {
+		{"fg", ch="莉々子", size="z1", hoho="h", mode=3, path=":fg/rir/z1/", file="rir_z1a0200", ex05="rir_z1a0000", face="a0021h", head="rir_z1a", x=280, lv=2.3, id=10},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="莉々子", size="z1", hoho="h", mode=3, path=":fg/rir/z1/", file="rir_z1a0200", ex05="rir_z1a0000", face="a0030h", head="rir_z1a", x=280, lv=2.3, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rir_00049", ch="rir"},
+			},
+			ja = {
+				{
+					name = {"莉々子"},
+					"「我也是，每次有机会见到诗樱时，都会满怀期待地等待那一天的到来！所以说诗樱你不需要道歉！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 456,
+	},
+	block_00080 = {
+		{"bgm", stop=1, time=100},
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0210", ex05="shi_z1b0010", face="b0054", head="shi_z1b", x2=-100, x=-280, lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0210", ex05="shi_z1b0010", face="b0032", head="shi_z1b", x=-280, lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0210", ex05="shi_z1b0010", face="b0025", head="shi_z1b", x=-280, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01039", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「好的我明白了。我不需要道歉了对吧。也就是说，今天的谢罪全部打消。要说话算话哦，毕竟莉莉子都这样说了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 467,
+	},
+	block_00081 = {
+		{"fg", ch="莉々子", size="z1", hoho="h", mode=3, path=":fg/rir/z1/", file="rir_z1a0200", ex05="rir_z1a0000", face="a0008h", head="rir_z1a", x=280, lv=2.3, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rir_00050", ch="rir"},
+			},
+			ja = {
+				{
+					name = {"莉々子"},
+					"「哈？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 474,
+	},
+	block_00082 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"即使我事前已经听过了对全过程的解释，也不得不为这华丽的反转而苦笑。总感觉这一幕有种似曾相识的感觉啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 476,
+	},
+	block_00083 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0210", ex05="shi_z1b0010", face="b0031", head="shi_z1b", x=-280, lv=2.3, id=13},
+		{"bgm", file="bgm04"},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0210", ex05="shi_z1b0010", face="b0053", head="shi_z1b", x=-280, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01040", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「先别急着生气。我刚刚说的话绝不是谎言。我确实打算让自己变得多少能够适应周围的环境，也确实在反省过去的行为」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 484,
+	},
+	block_00084 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0200", ex05="shi_z1b0000", face="b0055", head="shi_z1b", x=-280, lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0200", ex05="shi_z1b0000", face="b0052", head="shi_z1b", x=-280, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01041", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「想和莉莉子搞好关系也是真心的，也很感谢长久以来的关照。我喜欢莉莉子，希望今后能结为好友」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 490,
+	},
+	block_00085 = {
+		{"fg", ch="莉々子", size="z1", hoho="h", mode=3, path=":fg/rir/z1/", file="rir_z1a0200", ex05="rir_z1a0000", face="a0012h", head="rir_z1a", x=280, lv=2.3, id=10},
+		{"fgact", ch="莉々子", act="びっくり", lv=2.3, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rir_00051", ch="rir"},
+			},
+			ja = {
+				{
+					name = {"莉々子"},
+					"「什……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 496,
+	},
+	block_00086 = {
+		{"msgoff"},
+		{"bg", file="bg011a", path=":bg/", sync=0},
+		{"fg", ch="詩桜", size="no", mode=3, resize=1, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0027", head="shi_nob", x=-230, lv=2.2, id=9, sync=0},
+		{"fg", ch="莉々子", size="no", hoho="h", mode=3, resize=1, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0012h", head="rir_noa", x=230, lv=2.2, id=10, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0015", head="shi_nob", x=-230, lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01042", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「只是，就像莉莉子你自己刚刚说的一样……好像也有人不希望看到我向他人道歉的样子。所以请让我收回谢罪」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 508,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在与圣会长一决胜负之际，诗樱学姐必须完成三个任务。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 510,
+	},
+	block_00088 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"一是「让他们认可学生会的节目」。二是「反思过去的行为，同时传达自己未来的想法」。然后三是「不在我的面前道歉」。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 512,
+	},
+	block_00089 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"想同时兼顾第二点和第三点是非常困难的。为了反省过去自己的任性与傲慢，向圣会长道歉是必不可少的。不过即使这样，学姐也不希望让我看到她道歉的样子。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 514,
+	},
+	block_00090 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"尽管条件是如此苛刻，但诗樱学姐还是克服万难做到了。采取这种弯弯绕绕的说法，也都是为了我。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 516,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"学姐并不讨厌圣会长，目前所说的话里也没有任何谎言，所以才会像现在这样向她说明情况。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 518,
+	},
+	block_00092 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0006", head="shi_nob", x=-230, lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0055", head="shi_nob", x=-230, lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01043", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「我相信如果是莉莉子的话，一定会和他一样说出『不想看到我道歉的样子』。所以说，我才会喜欢莉莉子」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 524,
+	},
+	block_00093 = {
+		{"fg", ch="莉々子", size="no", hoho="h", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0009h", head="rir_noa", x=230, lv=2.2, id=10},
+		{"fgact", ch="莉々子", act="いいえ", lv=2.2, id=10},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="莉々子", size="no", hoho="h", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0016h", head="rir_noa", x=230, lv=2.2, id=10},
+				{"fgact", ch="莉々子", act="びっくり", lv=2.2, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rir_00052", ch="rir"},
+			},
+			ja = {
+				{
+					name = {"莉々子"},
+					"「从、从刚才开始就一直喜欢喜欢的，简直和渣男一样轻浮……能、能不能不要这样说了！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 532,
+	},
+	block_00094 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0015", head="shi_nob", x=-230, lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0031", head="shi_nob", x=-230, lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01044", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「那么这样的话……在我已经答应了莉莉子的要求的当下，可以当做是和解了吧。我回应了莉莉子『不要道歉』的请求，将谢罪收回来了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 538,
+	},
+	block_00095 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0055", head="shi_nob", x=-230, lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0006", head="shi_nob", x=-230, lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01045", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「接下来不是该轮到莉莉子了吗？希望你能回应我的请求，与千玉学生会和解」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 544,
+	},
+	block_00096 = {
+		{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0020", head="rir_noa", x=230, lv=2.2, id=10},
+		{"fgact", ch="莉々子", act="いいえ", lv=2.2, id=10},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0009", head="rir_noa", x=230, lv=2.2, id=10},
+			},
+			vl02 = {
+				{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0012", head="rir_noa", x=230, lv=2.2, id=10},
+				{"fgact", ch="莉々子", act="うなづく", lv=2.2, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rir_00053", ch="rir"},
+			},
+			ja = {
+				{
+					name = {"莉々子"},
+					"「那、那种、事情……不、不是太狡猾了吗？这样的事不能接受吧！是吧大——」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 553,
+	},
+	block_00097 = {
+		{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0008", head="rir_noa", x=230, lv=2.2, id=10},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然被征求同意，但那些先前被圣会长发火的跟班们，一个个都闭上了嘴，没有人来附和她。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 557,
+	},
+	block_00098 = {
+		{"fg", ch="莉々子", size="no", mode=3, path=":fg/rir/no/", file="rir_noa0200", ex05="rir_noa0000", face="a0029", head="rir_noa", x=230, lv=2.2, id=10},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这也是诗樱学姐的策略，通过和跟班们对话引诱圣会长说出「给我闭嘴！」。简直完美得不像话。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 561,
+	},
+	block_00099 = {
+		{"msgoff"},
+		{"bg", file="zbg011a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="詩桜", size="z1", mode=3, resize=1, path=":fg/shi/z1/", file="shi_z1b0200", ex05="shi_z1b0000", face="b0054", head="shi_z1b", x=-280, lv=2.3, id=9, sync=0},
+		{"fg", ch="莉々子", size="z1", mode=3, resize=1, path=":fg/rir/z1/", file="rir_z1a0200", ex05="rir_z1a0000", face="a0029", head="rir_z1a", x=280, lv=2.3, id=10, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01046", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「好了，莉莉子。作为和解的证明，今天晚上和我们学生会的成员一起，举办个烤肉派对吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 573,
+	},
+	block_00100 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0200", ex05="shi_z1b0000", face="b0032", head="shi_z1b", x=-280, lv=2.3, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0200", ex05="shi_z1b0000", face="b0026", head="shi_z1b", x=-280, lv=2.3, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01047", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「在那之后你就来我房间吧。我会好好疼爱你一晚上的，呼呵呵」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 579,
+	},
+	block_00101 = {
+		{"fg", ch="莉々子", size="z1", hoho="h", mode=3, path=":fg/rir/z1/", file="rir_z1a0200", ex05="rir_z1a0000", face="a0014h", head="rir_z1a", x=280, lv=2.3, id=10},
+		{"fgact", ch="莉々子", act="びっくり", lv=2.3, id=10},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="莉々子", size="z1", hoho="h", mode=3, path=":fg/rir/z1/", file="rir_z1a0200", ex05="rir_z1a0000", face="a0038h", head="rir_z1a", x=280, lv=2.3, id=10},
+			},
+			vl02 = {
+				{"fg", ch="莉々子", size="z1", hoho="h", mode=3, path=":fg/rir/z1/", file="rir_z1a0200", ex05="rir_z1a0000", face="a0029h", head="rir_z1a", x=280, lv=2.3, id=10},
+			},
+			vl03 = {
+				{"fg", ch="莉々子", size="z1", hoho="h", mode=3, path=":fg/rir/z1/", file="rir_z1a0200", ex05="rir_z1a0000", face="a0036h", head="rir_z1a", x=280, lv=2.3, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rir_00054", ch="rir"},
+			},
+			ja = {
+				{
+					name = {"莉々子"},
+					"「明、明明比起我，你更喜欢和泉会长！诗樱你……诗樱你这种人，就是个花心大萝卜——」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 588,
+	},
+	block_00102 = {
+		{"fg", ch="莉々子", speed=1000, mode=3, path=":fg/rir/z1/", file="rir_z1a0200", face="a0036h", head="rir_z1a", x2=280, x=-520, lv=2.3, id=10, ex05="rir_z1a0000"},
+		{"fg", ch="莉々子", mode=-1, lv=2.3, id=10},
+		{"msgoff"},
+		{"se", file="se走る（コンクリ）", id=1},
+		{"se", stop=1, time=2000, id=1},
+		{"ex", time=250, func="wait"},
+		{"bg", file="bg011a", path=":bg/", sync=0},
+		{"fg", ch="詩桜", size="no", mode=3, resize=1, path=":fg/shi/no/", file="shi_nob0200", ex05="shi_nob0000", face="b0053", head="shi_nob", lv=2.2, id=9, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tza_00006", ch="tza"},
+			},
+			ja = {
+				{
+					name = {"他校の女子生徒Ａ"},
+					"「今天真是太感谢了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 642,
+	},
+	block_00103 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tzb_00007", ch="tzb"},
+			},
+			ja = {
+				{
+					name = {"他校の女子生徒Ｂ"},
+					"「真是太开心了！那我们就先告辞了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 645,
+	},
+	block_00104 = {
+		{"se", file="se扉開く(スライド)教室", id=2},
+		{"bgm", stop=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"圣会长一离开，她的跟班们也陆陆续续离开了房间。学生会室里只剩下我和诗樱学姐。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 650,
+	},
+	block_00105 = {
+		{"bgm", file="bgm34"},
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0200", ex05="shi_noa0000", face="a0001", head="shi_noa", lv=2.2, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01048", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「那么，这样在一年前让你们背负的重担，终于由我亲手解决了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 663,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「是啊。真是辛苦了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 666,
+	},
+	block_00107 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0200", ex05="shi_noa0000", face="a0032", head="shi_noa", lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0200", ex05="shi_noa0000", face="a0022", head="shi_noa", lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01049", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「在这之后又要忙起来了，至少先休息一下吧。我现在去泡茶」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 672,
+	},
+	block_00108 = {
+		{"bg", speed=120000, file="zbg011a", path=":bg/", x2=640, y2=100, x=-640, y=100, ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我什么都没做，诗樱学姐应该比我更累，却还是热心地准备了热饮。感觉真放松啊……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 676,
+	},
+	block_00109 = {
+		{"fg", ch="詩桜", size="z1", mode=1, resize=1, path=":fg/shi/z1/", file="shi_z1a0200", ex05="shi_z1a0000", face="a0034", head="shi_z1a", lv=2.3, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01050", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「简直一幅文化祭已经结束的样子啊。现在还只是上午哦」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 681,
+	},
+	block_00110 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「哎呀，实际上确实感觉绷紧的弦完全松下来了啊……毕竟这一年又三个月里，脑海中总挂念着『文化祭的节目怎么样了』……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 684,
+	},
+	block_00111 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「也很担心今天的连环画剧中会不会出什么问题……啊，我完全没想过诗樱学姐会出差错之类的，只是担心意料之外的事故」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 687,
+	},
+	block_00112 = {
+		{"fg", ch="詩桜", size="z1", mode=1, path=":fg/shi/z1/", file="shi_z1a0200", ex05="shi_z1a0000", face="a0038", head="shi_z1a", lv=2.3, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=1, path=":fg/shi/z1/", file="shi_z1a0200", ex05="shi_z1a0000", face="a0032", head="shi_z1a", lv=2.3, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01051", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「给你带来了许多麻烦呢。请原谅我的过错吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 693,
+	},
+	block_00113 = {
+		{"se", file="se抱きつく", id=1},
+		{"msgoff"},
+		{"bg", zoom=120, file="zbg011a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="詩桜", size="z2", mode=3, resize=1, path=":fg/shi/z2/", file="shi_z2a0200", ex05="shi_z2a0000", face="a0032", head="shi_z2a", lv=2.4, id=9, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"学姐一下子站了起来，走到了我身后，然后轻轻地伸出胳膊搂住了我的脖子。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 703,
+	},
+	block_00114 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我的后脑勺自然而然地被柔软的触感包围着。耳朵完全被乳房堵住了，诗樱学姐的声音也听不清楚。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 705,
+	},
+	block_00115 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「学、学、学姐？这里学生可是可以随意进出的哦！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 708,
+	},
+	block_00116 = {
+		{"fg", ch="詩桜", size="z2", mode=3, path=":fg/shi/z2/", file="shi_z2a0200", ex05="shi_z2a0000", face="a0052", head="shi_z2a", lv=2.4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01052", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「总部也是得有下达指令的人的吧。这可不是在怠慢工作」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 713,
+	},
+	block_00117 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不是说那个，这个样子被别人看到了的话不太妙吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 716,
+	},
+	block_00118 = {
+		{"fg", ch="詩桜", size="z2", mode=3, path=":fg/shi/z2/", file="shi_z2a0200", ex05="shi_z2a0000", face="a0017", head="shi_z2a", lv=2.4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z2", mode=3, path=":fg/shi/z2/", file="shi_z2a0200", ex05="shi_z2a0000", face="a0027", head="shi_z2a", lv=2.4, id=9},
+			},
+			vl02 = {
+				{"fg", ch="詩桜", size="z2", mode=3, path=":fg/shi/z2/", file="shi_z2a0200", ex05="shi_z2a0000", face="a0023", head="shi_z2a", lv=2.4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01053", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「我是你的恋人，有什么不好的。如果是过度的不纯异性交往确实会有问题，但这样看起来就像是我在照顾疲惫的你，只是这种程度的事而已」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 723,
+	},
+	block_00119 = {
+		{"fg", ch="詩桜", size="z2", mode=3, path=":fg/shi/z2/", file="shi_z2a0200", ex05="shi_z2a0000", face="a0001", head="shi_z2a", lv=2.4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z2", mode=3, path=":fg/shi/z2/", file="shi_z2a0200", ex05="shi_z2a0000", face="a0055", head="shi_z2a", lv=2.4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01054", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「至于我自己，也只是因为对你的疼爱才拥抱你，并没有催生出下流的欲望。即使你有那种想法，我也会在今天工作完成后直接回家，剩下的就保留到明天」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 729,
+	},
+	block_00120 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「能别突然说出说那种令人在意的话吗……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 732,
+	},
+	block_00121 = {
+		{"fg", ch="詩桜", size="z2", mode=3, path=":fg/shi/z2/", file="shi_z2a0200", ex05="shi_z2a0000", face="a0034", head="shi_z2a", lv=2.4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z2", mode=3, path=":fg/shi/z2/", file="shi_z2a0200", ex05="shi_z2a0000", face="a0019", head="shi_z2a", lv=2.4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01055", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「哈哈，抱歉。看起来与泄了气的你相反，我因为表演结束后的余热还感到有些兴奋」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 738,
+	},
+	block_00122 = {
+		{"fg", ch="詩桜", size="z2", mode=3, path=":fg/shi/z2/", file="shi_z2a0200", ex05="shi_z2a0000", face="a0032", head="shi_z2a", lv=2.4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z2", mode=3, path=":fg/shi/z2/", file="shi_z2a0200", ex05="shi_z2a0000", face="a0023", head="shi_z2a", lv=2.4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01056", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「与其说是照顾你，不如说我只是单纯地想抱抱你。这种时候，就原谅我吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 746,
+	},
+	block_00123 = {
+		{"se", file="se抱きつく", id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我被抱得更紧了，头渐渐被埋在了诗樱学姐的巨乳里。被妹妹或者其他的部员看到也无所谓了，就让我陶醉其中吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 750,
+	},
+	block_00124 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"msgoff"},
+		{"bg", speed=60000, file="zbg013_2a", path=":bg/", x2=0, y2=200, x=0, y=-360, ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"bg", file="reco", id=9, lv=9, path=":sys/", sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「那个，学姐。可以稍微聊几句吗」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 761,
+	},
+	block_00125 = {
+		{"fg", ch="詩桜", size="z2", mode=1, path=":fg/shi/z2/", file="shi_z2a0200", ex05="shi_z2a0000", face="a0022", head="shi_z2a", lv=2.4, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01057", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「你是我的恋人，不需要顾虑那么多」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 766,
+	},
+	block_00126 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「今天的文化祭的舞台，该说是我在研讨会结束后的下一个目标呢……还是说是成为学生会长后当务之急的任务好呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 769,
+	},
+	block_00127 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「但不知为何，那个任务就这样拖了一年都没有解决。虽说我是想继续推进的，却一直是怎么都推进不下去的状态，让我十分着急」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 772,
+	},
+	block_00128 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「无论是我作为学生会长的方针，还是我个人的心情上，都希望能为此画上一个句号，否则自己就好像永远无法有所改变……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 775,
+	},
+	block_00129 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「自己的周围聚集了很多人，有了喜欢的人，也定下了将来的目标，却有一个问题被一直留了下来，仿佛是留下了自己过去的阴影一样」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 778,
+	},
+	block_00130 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「如果不能以一个令自己满意的方式结束文化祭的企划，我害怕我总有一天会变回一事无成的自己」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 781,
+	},
+	block_00131 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「变回那个人际关系中只有妃爱和里姐、能做的事只有玩手游的自己……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 784,
+	},
+	block_00132 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"诗樱学姐紧紧地包裹着我。明明在说严肃的话题，我却满脑子都是胸部的柔软，都有些自我厌恶了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 786,
+	},
+	block_00133 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"bg", speed=120000, file="zbg011a", path=":bg/", x2=-640, y2=100, x=640, y=100, ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「明明还有许多事情要做，比如体育祭和下一届学生会的交接……但我却觉得这将近一年半学生会长的工作已经告一段落了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 797,
+	},
+	block_00134 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「明天休息一下转换心情之后，后天开始处理剩下的工作，之后就能专心集中在考试上了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 800,
+	},
+	block_00135 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「非常感谢您交接的工作，镰仓诗樱前会长。另外，今年一年您也辛苦了，镰仓诗樱副会长」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 803,
+	},
+	block_00136 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"为了不给学校和其他学生带来麻烦，我要认真把工作做好。在11月份的工作交接结束后，首先是考试，接着就是定下未来的目标。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 805,
+	},
+	block_00137 = {
+		{"fg", ch="詩桜", size="z2", mode=1, path=":fg/shi/z2/", file="shi_z2a0200", ex05="shi_z2a0000", face="a0053", head="shi_z2a", lv=2.4, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z2", mode=1, path=":fg/shi/z2/", file="shi_z2a0200", ex05="shi_z2a0000", face="a0055", head="shi_z2a", lv=2.4, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01058", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「辛苦了。如果想转换心情的话，不如就放空大脑度过明天一天。两个人一起悠闲地约会如何」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 811,
+	},
+	block_00138 = {
+		{"fg", ch="詩桜", size="z2", mode=1, path=":fg/shi/z2/", file="shi_z2a0200", ex05="shi_z2a0000", face="a0022", head="shi_z2a", lv=2.4, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z2", mode=1, path=":fg/shi/z2/", file="shi_z2a0200", ex05="shi_z2a0000", face="a0032", head="shi_z2a", lv=2.4, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01059", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「如果懒得走路，我们可以去公园或咖啡馆里，在慢慢流淌的时光中放松一下。无论如何都想撒娇的话，可以一天都烂在我的房间里」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 819,
+	},
+	block_00139 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"所以说，为什么要这样挑动年轻人的心呢。明明还有其他选择，我却除了包裹着后脑勺的柔软之外，没法去想任何别的事。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 821,
+	},
+	block_00140 = {
+		{"fg", ch="詩桜", size="z2", mode=1, path=":fg/shi/z2/", file="shi_z2a0200", ex05="shi_z2a0000", face="a0038", head="shi_z2a", lv=2.4, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01060", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「这一年半的时间里，给你添麻烦了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 826,
+	},
+	block_00141 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊，那个，虽然诗樱学姐总说给我添了麻烦什么的……不，实际上学生会的活动真的很辛苦。比如志愿活动什么的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 829,
+	},
+	block_00142 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「但是，我交到了朋友，也拿到了推荐名额，更重要的是有了一位很棒的恋人，这样一正一负算下来的结果可不是0，而是7兆哦」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 832,
+	},
+	block_00143 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我想更积极地看待和诗樱学姐的相遇，所以从今往后，抽签的事情也好研讨会的事情也好，就请全当做是为了我好吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 835,
+	},
+	block_00144 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「一开始的时候姑且不论，但这一年我是按照自己的意愿担任学生会长的。能进入学生会真是太好了。谢谢你，诗樱学姐」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 838,
+	},
+	block_00145 = {
+		{"fg", ch="詩桜", size="z2", mode=1, path=":fg/shi/z2/", file="shi_z2a0200", ex05="shi_z2a0000", face="a0055", head="shi_z2a", lv=2.4, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01061", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「我才该道谢呢，让我得到了救赎」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 843,
+	},
+	block_00146 = {
+		{"msgoff"},
+		{"bg", zoom=120, file="zbg011a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="詩桜", size="z2", mode=3, path=":fg/shi/z2/", file="shi_z2b0200", ex05="shi_z2b0000", face="b0011", head="shi_z2b", lv=2.4, id=9, sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我还在想诗樱学姐为什么一直趴在我的身上，没想到她突然把头转过来吻了我一下。嘛，反正现在也没人在看，不也挺好的吗。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00145",
+		linknext = "block_00147",
+		line = 851,
+	},
+	block_00147 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"bg", file="catch04", id=9, lv=9, time=500, path=":cg/"},
+		{"bgm", file="bgm94", loop=0},
+		{"ex", time=6000, func="wait"},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="04_詩桜11_ed4"},
+		{"text"},
+		linkback = "block_00146",
+		line = 857,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

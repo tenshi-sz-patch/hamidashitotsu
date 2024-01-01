@@ -1,0 +1,2147 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"bg", rule="rule_002r", vague=40, file="bg099c", path=":bg/"},
+		{"bgm", file="bgm23"},
+		{"fg", ch="華乃", size="z1", mode=1, resize=1, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0002", head="kan_z1b", lv=2.3, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", mode=1, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0020", head="kan_z1b", lv=2.3, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10269", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「才，才不是，对诗樱学姐的对抗心或者是羡慕什么的，只是觉得都去她的房间玩过了，不邀请她来自己的房间招待的话总感觉不太好」",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 15,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「嗯嗯。我懂我懂」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 18,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"一开始还是用简讯在对话的，但随着对话逐渐复杂起来，华乃便提出了视频通话。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 20,
+	},
+	block_00003 = {
+		{"msgoff"},
+		{"bg", file="zbg001c", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fgf", frame="frame_ctr", ch="華乃", bx=360, bgpx=":bg/", bg="bg036c", sync=0},
+		{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0038", head="kan_z1b", x=-480, lv=2.3, id=23, sync=0},
+		{"extrans"},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0002", head="kan_z1b", x=-480, lv=2.3, id=23},
+			},
+			vl02 = {
+				{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0012", head="kan_z1b", x=-480, lv=2.3, id=23},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10270", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「大家也都是知道我的房间就在诗樱学姐公寓的斜对面的，可是在那个场合是没法说『要来我家吗』的吧，这样会被大家觉得我只顾着自己的方便不？　你，你说是吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 33,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊呀这种问题呀。我也完全没有把朋友叫到家里来玩的经验啊，所以也不知道怎么做才是正确的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 36,
+	},
+	block_00005 = {
+		{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0028", head="kan_z1b", x=-480, lv=2.3, id=23},
+		{"fgact", ch="華乃", act="おじぎ", lv=2.3, id=23},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我和华乃同时「哈啊」地叹了口气。以「团体」来玩耍的经验我们都可以说是基本等同于无，完全没有足够的知识来应对这样的场合。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 41,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「在这群人面前，其实也不用在意太多吧……说到底，我们就是因为不用相互顾虑太多才聚到一起的。不用去想那么多……就好了吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 44,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「诗樱学姐也不是会有『我都做到这种地步了，周围的人也应该还给我相应的东西』这种想法的人，这种事情最近也已经知道了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 47,
+	},
+	block_00008 = {
+		{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0002", head="kan_z1b", x=-480, lv=2.3, id=23},
+		{"fgact", ch="華乃", act="うなづく", lv=2.3, id=23},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10271", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「嗯」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 53,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过，嗯。虽然说我们这群人中都不需要相互顾虑太多，可事实上，无非就是只有华乃很在意这一点。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 55,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「这种时候就试着换位思考吧……假设说华乃才是提供自己的房间作为放学后茶会场所的人」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 58,
+	},
+	block_00011 = {
+		{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0003", head="kan_z1a", x=-480, lv=2.3, id=23},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10272", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「嗯，嗯。假设是我？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 63,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊，说起来现在指的是在工作室那边吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 66,
+	},
+	block_00013 = {
+		{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0055", head="kan_z1a", x=-480, lv=2.3, id=23},
+		{"fgact", ch="華乃", act="うなづく", lv=2.3, id=23},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10273", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「嗯，我和你的房间」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 72,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"华乃喜欢把租来的这间房叫作是「两个人的房间」。我还是很害羞，便一直搪塞着说是华乃的工作室。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 74,
+	},
+	block_00015 = {
+		{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0001", head="kan_z1a", x=-480, lv=2.3, id=23},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「在我和华乃的房间举办了几次茶会之后，大家都熟悉起来了以后，诗樱学姐没有邀请我们到她自己的房间去，而只是毫无顾虑地坐在这里，如果是这样的话」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 79,
+	},
+	block_00016 = {
+		{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0038", head="kan_z1a", x=-480, lv=2.3, id=23},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10274", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「嗯。心里确实会有点想法呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 84,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「在此之上还一点也不顾忌地随意使用着房间里的家具」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 87,
+	},
+	block_00018 = {
+		{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0002", head="kan_z1a", x=-480, lv=2.3, id=23},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0028", head="kan_z1a", x=-480, lv=2.3, id=23},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10275", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「果然确实是这样呢。还是应该说『也来我家玩』呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 93,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「虽然这么说，我和妃爱是邀请别人来家里玩也没关系，可是锦应该对这种事情有点抵触的吧，到时候不要变成『那我也，也来我家』这种场面就好了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 96,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我是这么想的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 99,
+	},
+	block_00021 = {
+		{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0002", head="kan_z1b", x=-480, lv=2.3, id=23},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0038", head="kan_z1b", x=-480, lv=2.3, id=23},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10276", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「虽然这么说，但锦家是离车站距离太远了。可是我家离诗樱学姐的房间走路也用不上１分钟吧？　明明条件基本都差不多可却被大家直接无视了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 105,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"「我家」吗。已经完全觉得是自己家了啊。看来是特别中意新居的样子。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 107,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「那就『我家明明就离诗樱学姐家这么近，而我却一脸事不关己地坐在这里实在是太过意不去所以想招待大家来我家玩，锦你完全不用在意哦』」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 110,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「这样，一开始就说清楚怎么样」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 113,
+	},
+	block_00025 = {
+		{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0019", head="kan_z1b", x=-480, lv=2.3, id=23},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0055", head="kan_z1b", x=-480, lv=2.3, id=23},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10277", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「嗯，就这么做吧。谢谢你」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 119,
+	},
+	block_00026 = {
+		{"bg", speed=120000, file="zbg001c", path=":bg/", x2=640, y2=100, x=-640, y=100, ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"「真是麻烦啊　啊啊真是麻烦啊　真是麻烦啊（自由律俳句）」不过能够和感觉舒服的对象在舒适的环境中度过的话，些许的麻烦也是可以接受的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 123,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"大概就算不去操心到这种地步，诗樱学姐和锦她们应该也不会说什么的。——说到底可能她们本来就根本没有在意。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 125,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"可是对于我来说，我的恋人就是心思比较细腻敏感的女孩子，所以也想多多为她操心一些，想或多或少地为她做些这样的努力",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 127,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"就算我没有注意到刚才在想些这样的事情，现在的华乃也一定会笑着原谅我的。所以这样的想法，只是在心里想想就算了吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 129,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"想要成为能够对麻烦的部分也说可爱的男生。真是麻烦啊。啊啊真是麻烦啊。但是华乃好可爱。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 131,
+	},
+	block_00031 = {
+		{"fg", ch="華乃", size="z1", mode=1, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0002", head="kan_z1b", lv=2.3, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10278", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「……要说为什么没能在当时说出『也来我的房间里玩吧』这样的话呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 136,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过就在我还在心里咏唱俳句的时候，华乃又继续说了下去。看来这里就是我想得不够周到了，自顾自地就以为话题结束了然后自我满足了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 138,
+	},
+	block_00033 = {
+		{"fg", ch="華乃", size="z1", mode=1, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0002", head="kan_z1a", lv=2.3, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=1, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0038h", head="kan_z1a", lv=2.3, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10279", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「姑且，那个……虽然还只有我住着，可这也不是我一个人的房子……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 144,
+	},
+	block_00034 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=1, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0023h", head="kan_z1a", lv=2.3, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=1, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0035h", head="kan_z1a", lv=2.3, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10280", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「我还是想，不管什么事情都两个人商量之后再做决定呢……毕，毕竟这里，是我和你两个人的房子」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 150,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"刚才说的什么麻烦麻烦统统不算数。我的女友这不是超级讨人喜欢的吗。想现在马上就抱住她，真的超级可爱。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 152,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「超可爱」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 155,
+	},
+	block_00037 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=1, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0046h", head="kan_z1a", lv=2.3, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10281", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「诶这是突然干什么！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 160,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我把脑子里的话直接说出口了，结果太唐突把华乃吓了一跳。嘛也确实会这样吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 162,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「在和我商量之前一直沉默着什么也没说，实在是太惹人怜爱了。真想现在就马上抱住华乃」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 165,
+	},
+	block_00040 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=1, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0053h", head="kan_z1a", lv=2.3, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=1, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0022h", head="kan_z1a", lv=2.3, id=20},
+			},
+			vl02 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=1, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0055h", head="kan_z1a", lv=2.3, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10282", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「嗯，嗯，谢谢。说我惹人怜爱什么的，好开心……这种类型的女孩子，我自己也很喜欢的呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 172,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"华乃的说法好像是自己还不够惹人怜爱一样。明明我的意思是：现在的华乃就是华乃心目中完美可爱的女孩子了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 174,
+	},
+	block_00042 = {
+		{"fg", ch="華乃", size="z1", mode=1, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0032", head="kan_z1b", lv=2.3, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", mode=1, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0052", head="kan_z1b", lv=2.3, id=20},
+			},
+			vl02 = {
+				{"fg", ch="華乃", size="z1", mode=1, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0054", head="kan_z1b", lv=2.3, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10283", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「坦率的，惹人怜爱的，又努力的，但也不是头脑不太聪明的，自己心中有着明确的目标的，意志坚定、内心很坚强的女孩子，你的种种让我非常喜欢……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 181,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"要求还真多啊。不过周刊少年漫画的女主角，没什么黑点的才算少，被女性粉丝说这说那地批评的事情也时有发生。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 183,
+	},
+	block_00044 = {
+		{"fg", ch="華乃", size="z1", mode=1, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0023", head="kan_z1b", lv=2.3, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", mode=1, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0018", head="kan_z1b", lv=2.3, id=20},
+			},
+			vl02 = {
+				{"fg", ch="華乃", size="z1", mode=1, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0052", head="kan_z1b", lv=2.3, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10284", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「像锦那样的女孩子就是我非常喜欢的类型。妃爱也喜欢，不过是作为粉丝的憧憬的感觉更强烈一点吧……锦作为小式出道的时候我也有去互动过」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 194,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「那你直接去向本人告白不就好了吗。我感觉锦是不擅长拒绝的。强硬要求的话说不定还能交往噢！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 197,
+	},
+	block_00046 = {
+		{"fg", ch="華乃", size="z1", mode=1, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0010", head="kan_z1b", lv=2.3, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", mode=1, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0003", head="kan_z1b", lv=2.3, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10285", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「啊，这就说得不对了。我觉得那孩子，不管再怎么被强迫，决定不会让步的部分就坚决不会让步」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 203,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"——其实我也是这么想的。可要是我要是这么这么主张的话感觉事态就会变成华乃说「你喜欢锦吧」的情形吧可恶。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 205,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过华乃说的「自己想成为的样子」已经好好传达给我了。这样一来，我也可以用自己的方式好好疼爱华乃。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 207,
+	},
+	block_00049 = {
+		{"fg", ch="華乃", size="z1", mode=1, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0008", head="kan_z1b", lv=2.3, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", mode=1, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0023", head="kan_z1b", lv=2.3, id=20},
+			},
+			vl02 = {
+				{"fg", ch="華乃", size="z1", mode=1, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0054", head="kan_z1b", lv=2.3, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10286", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「抱歉话题扯远了。就是说，被你说了惹人怜爱什么的，稍微有点开——」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 214,
+	},
+	block_00050 = {
+		{"msgoff"},
+		{"bg", file="zbg001c", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fgf", frame="frame_ctr", ch="華乃", bx=360, bgpx=":bg/", bg="bg036c", sync=0},
+		{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0054", head="kan_z1b", x=-480, lv=2.3, id=23, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「现在超想抱紧华乃的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 224,
+	},
+	block_00051 = {
+		{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0008", head="kan_z1b", x=-480, lv=2.3, id=23},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10287", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「哈？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 229,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「虽然刚才已经说过了，我现在超想抱住华乃。这样让人想要疼爱的女孩子我也喜欢啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 232,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「有点成为了心目中的自己，能让我看到开心的样子的华乃真是我的最爱。我真的很喜欢华乃的各种可爱之处啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 235,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我说出口之后就更加忍耐不住了。现在就让我紧紧抱住你吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 238,
+	},
+	block_00055 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0002h", head="kan_z1b", x=-480, lv=2.3, id=23},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"华乃不说话了。华乃这时沉默的理由我也能明白——这是在分辨我说的可爱是在顾虑她的心情，还是确实是真心话。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 242,
+	},
+	block_00056 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0038h", head="kan_z1b", x=-480, lv=2.3, id=23},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0003", head="kan_z1b", x=-480, lv=2.3, id=23},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10288", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「就算你说现在就想抱紧我……可是你，没法现在马上就来这里吧。妃爱也在家里的吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 248,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「只要说去便利店的话，一会会还是……不过我也不想骗妃爱，直接诚实地说去见华乃了就是了。我现在就马上骑自行车过来……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 251,
+	},
+	block_00058 = {
+		{"fg", ch="華乃", size="z1", ex02="a0098", mode=3, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0009", head="kan_z1a", x=-480, lv=2.3, id=23},
+		{"fgact", ch="華乃", act="いいえ", lv=2.3, id=23},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0038", head="kan_z1a", x=-480, lv=2.3, id=23},
+			},
+			vl02 = {
+				{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0003", head="kan_z1a", x=-480, lv=2.3, id=23},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10289", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「不，不用了！　不用了！　都已经过了２２点别这样。我也很想见你……不过还是别为此特意骑着自行车过来了。要是出什么事故就不好了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 261,
+	},
+	block_00059 = {
+		{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0018", head="kan_z1a", x=-480, lv=2.3, id=23},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0012", head="kan_z1a", x=-480, lv=2.3, id=23},
+			},
+			vl02 = {
+				{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0002", head="kan_z1a", x=-480, lv=2.3, id=23},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10290", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「话说我也……一个人在房间里，说实话现在，我真的很想见到你啊。要是听不到你的声音只有文字可以看的话就要哭了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 268,
+	},
+	block_00060 = {
+		{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0038", head="kan_z1b", x=-480, lv=2.3, id=23},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0012", head="kan_z1b", x=-480, lv=2.3, id=23},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10291", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「我也有好多话想和你说……那个，休息时间的时候，看着你的背影一边笑着说话对不起呢。其实不是在觉得好笑……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 277,
+	},
+	block_00061 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0019h", head="kan_z1b", x=-480, lv=2.3, id=23},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0053h", head="kan_z1b", x=-480, lv=2.3, id=23},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10292", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「是太喜欢你了，才一直从后面看着你的。不管是呆着不动，还是去做什么事情的样子，都太让人喜爱了所以目光被你牢牢吸住了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 283,
+	},
+	block_00062 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0022h", head="kan_z1b", x=-480, lv=2.3, id=23},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0054h", head="kan_z1b", x=-480, lv=2.3, id=23},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10293", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「虽然在教室时没说过看你看入迷了，但是能一直看着喜欢的人，上课的时候也都一直很幸福哦」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 289,
+	},
+	block_00063 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0023h", head="kan_z1a", x=-480, lv=2.3, id=23},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0034h", head="kan_z1a", x=-480, lv=2.3, id=23},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10294", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「虽然有点对不起你，但是座位不是在你前面真是太好了。要是连你的背影都看不到的话，我可会哭的哦」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 295,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「没事的，我也没觉得华乃是因为把我当笨蛋什么的才笑出来的。我当时觉得大概是因为想我了才会看过来吧，我还期待着呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 298,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「明天要不妙了啊。感觉看到华乃脸的那一瞬间，甜蜜的爱意就要满溢出来了。我绝对会忍不住紧紧抱住你的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 301,
+	},
+	block_00066 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0046h", head="kan_z1a", x=-480, lv=2.3, id=23},
+		{"fgact", ch="華乃", act="quake", lv=2.3, id=23},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0014h", head="kan_z1a", x=-480, lv=2.3, id=23},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10295", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「真是的啊啊啊啊啊啊啊啊啊！　不要在我一个人寂寞的时候说这样的话啊！　这之后我不是要失落一辈子，睡都睡不着了吗！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 308,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我是认真地把想要抱华乃的心情传达给她了。华乃也到极限了，露出了一副热恋中的表情。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 310,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「华乃。现在的华乃，实在是太可爱了。再多说些我爱听的好不好」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 313,
+	},
+	block_00069 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0046h", head="kan_z1b", x=-480, lv=2.3, id=23},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0020h", head="kan_z1b", x=-480, lv=2.3, id=23},
+			},
+			vl02 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0002h", head="kan_z1b", x=-480, lv=2.3, id=23},
+			},
+			vl03 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0036h", head="kan_z1b", x=-480, lv=2.3, id=23},
+				{"fgact", ch="華乃", act="びっくり", lv=2.3, id=23},
+			},
+			vl04 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0035h", head="kan_z1b", x=-480, lv=2.3, id=23},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10296", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「真是的啊啊啊啊啊啊就说了我已经很寂寞了啊……笨蛋！不要再说我可爱了……我想见你啊，真是的……笨蛋！　不，不过，最喜欢你了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 323,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我也喜欢华乃」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 326,
+	},
+	block_00071 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0028h", head="kan_z1b", x=-480, lv=2.3, id=23},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"是迎来极限了吗，一时间只能听到急促的呼吸声。啊啊真是太可爱了啊，这么惹人怜爱的女孩子全世界再也找不出第二个来了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 330,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「今天真的……至少最后还是分到了同一个班，光是这样我就谢天谢地了。虽然可能看起来很冷静，但其实直到看到结果之前我都害怕得不行」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 333,
+	},
+	block_00073 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0019h", head="kan_z1b", x=-480, lv=2.3, id=23},
+		{"fgact", ch="華乃", act="うなづく", lv=2.3, id=23},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0018", head="kan_z1b", x=-480, lv=2.3, id=23},
+			},
+			vl02 = {
+				{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0054", head="kan_z1b", x=-480, lv=2.3, id=23},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10297", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「嗯，嗯真是太好了……知道在同一个班之后，我也安心不少……天梨也在。３个人都在一起呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 341,
+	},
+	block_00074 = {
+		{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0032", head="kan_z1b", x=-480, lv=2.3, id=23},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0019", head="kan_z1b", x=-480, lv=2.3, id=23},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10298", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「从明天开始每天都让我很期待去学校呢。虽然对于知道去年我宅家的样子的你来说，可能会笑着觉得我太单纯了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 347,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「一样一样。直到去年为止，我就算去了教室也跟人不在一样的。现在却每天都很开心」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 350,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊——好想快点和华乃见面。要等上一天……别说一天了，要等上半天也好痛苦」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 353,
+	},
+	block_00077 = {
+		{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0018", head="kan_z1b", x=-480, lv=2.3, id=23},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0023", head="kan_z1b", x=-480, lv=2.3, id=23},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10299", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「我也是光半天见不到就好痛苦……真想快点一起住到这个房间里来啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 359,
+	},
+	block_00078 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「果然还是现在过去吧。就算只去看看华乃的样子也好」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 362,
+	},
+	block_00079 = {
+		{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0003", head="kan_z1b", x=-480, lv=2.3, id=23},
+		{"fgact", ch="華乃", act="いいえ", lv=2.3, id=23},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0038", head="kan_z1b", x=-480, lv=2.3, id=23},
+			},
+			vl02 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0020h", head="kan_z1b", x=-480, lv=2.3, id=23},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10300", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「不，不行。时间和距离上的问题也有，而且还有……如果现在见了面，绝对会忍不住Ｈ的……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 370,
+	},
+	block_00080 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0002h", head="kan_z1a", x=-480, lv=2.3, id=23},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0028h", head="kan_z1a", x=-480, lv=2.3, id=23},
+			},
+			vl02 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0020h", head="kan_z1a", x=-480, lv=2.3, id=23},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10301", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「看到脸之后，绝对会忍不住想要亲亲吧……亲亲之后，当然会忍不住想要尽情撒娇吧……在，在这么做的时候，绝对会把舌头缠在一起……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 377,
+	},
+	block_00081 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0029h", head="kan_z1a", x=-480, lv=2.3, id=23},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0038h", head="kan_z1a", x=-480, lv=2.3, id=23},
+			},
+			vl02 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0012h", head="kan_z1a", x=-480, lv=2.3, id=23},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10302", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「舌头缠在一起之后，就绝对不行了……会变得想要做了……想要让鸡○鸡插进来了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 384,
+	},
+	block_00082 = {
+		{"bg", x=-600, y=-200, time=500, file="zbg001c", path=":bg/", ax=1280, ay=720, bx=-640, by=-360},
+		{"se", file="se倒れる(ベッド)", id=1},
+		{"quake"},
+		{"ex", time=0, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"本来坐在椅子上说话的我，被华乃扑面而来的可爱萌得实在是受不了了，整个人直接横着飞到了床上去——然后就像只虾一样缩成了一团。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 392,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「华乃……虽然已经说了好几次了，不过我啊，最喜欢又Ｈ又可爱的女孩子了……能和华乃交往实在是太好了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 395,
+	},
+	block_00084 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=1, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0034h", head="kan_z1a", lv=2.3, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=1, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0019h", head="kan_z1a", lv=2.3, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10303", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「谢，谢谢。我有时候还在不安，会不会因为成天只想着Ｈ的事情被你讨厌了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 401,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「真是萌到不行了。Ｈ什么的，嗯，真是萌到爆了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 404,
+	},
+	block_00086 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=1, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0012h", head="kan_z1a", lv=2.3, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=1, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0055h", head="kan_z1a", lv=2.3, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10304", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「是，是嘛……说的是呢。我在画女孩子的插画时也是，会觉得摆出稍微有点Ｈ的姿势比较萌呢……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 410,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「华乃自己也会把那些姿势都摆一次吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 413,
+	},
+	block_00088 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=1, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0017h", head="kan_z1b", lv=2.3, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=1, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0039h", head="kan_z1b", lv=2.3, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10305", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「笨蛋。不会每个都做啦。像是有些难画的姿势，或是没法很好画出某个部分来的时候，才会自己当模特之类的……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 419,
+	},
+	block_00089 = {
+		{"msgoff"},
+		{"bg", x=-400, file="zbg001c", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fgf", frame="frame_ctr", ch="華乃", bx=360, bgpx=":bg/", bg="bg036c", sync=0},
+		{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0039h", head="kan_z1b", x=-480, lv=2.3, id=23, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「那就是说，华乃的手机里，还有着摆出了又萌又Ｈ的姿势的华乃的相片吗。好想看」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 429,
+	},
+	block_00090 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0008h", head="kan_z1b", x=-480, lv=2.3, id=23},
+		{"fgact", ch="華乃", act="びっくり", lv=2.3, id=23},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0016h", head="kan_z1b", x=-480, lv=2.3, id=23},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10306", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「笨，笨蛋！　怎么可能给你看嘛，就算再怎么是喜欢的人也……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 436,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「男友特权也不行吗。就是想看嘛」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 439,
+	},
+	block_00092 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0009h", head="kan_z1b", x=-480, lv=2.3, id=23},
+		{"fgact", ch="華乃", act="いいえ", lv=2.3, id=23},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0020h", head="kan_z1b", x=-480, lv=2.3, id=23},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10307", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「不，不行！　我都没有化妆，而且内衣也……不是能给人看的东西」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 446,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"也就是说这世上竟然存在着穿着内衣摆出可爱姿势的华乃相片吗。想想就让人兴奋。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 448,
+	},
+	block_00094 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0010h", head="kan_z1b", x=-480, lv=2.3, id=23},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10308", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「话说现在，你的声音听上去好变态……呼吸声也好粗重」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 453,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊！　抱，抱歉，我太兴奋了。再怎么说是恋人，也太过分了吧……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 456,
+	},
+	block_00096 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0008h", head="kan_z1b", x=-480, lv=2.3, id=23},
+		{"fgact", ch="華乃", act="いいえ", lv=2.3, id=23},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0018h", head="kan_z1b", x=-480, lv=2.3, id=23},
+			},
+			vl02 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0019h", head="kan_z1b", x=-480, lv=2.3, id=23},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10309", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「没，没事啦。你也说，没因为我成天想着Ｈ的事就讨厌我吧。那我又怎么可能会因为这种事情生气或者讨厌你什么的呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 464,
+	},
+	block_00097 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0020h", head="kan_z1b", x=-480, lv=2.3, id=23},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0002h", head="kan_z1b", x=-480, lv=2.3, id=23},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10310", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「比，比起这个……现在，心情是不是变得有点Ｈ了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 470,
+	},
+	block_00098 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「都，都已经变得Ｈ到不行了吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 473,
+	},
+	block_00099 = {
+		{"bgm", stop=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"按照这个对话的流向，华乃很可能马上就要说出什么Ｈ的提案了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 477,
+	},
+	block_00100 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"期待的心情不断膨胀的我，丝毫没有克制自己的打算，而是就这样遵循不断攀升的性欲，展现出和年龄相符的男孩子的一面。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 479,
+	},
+	block_00101 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0028h", head="kan_z1a", x=-480, lv=2.3, id=23},
+		{"text"},
+		delay = {
+			vl02 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0020h", head="kan_z1a", x=-480, lv=2.3, id=23},
+			},
+			vl03 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0002h", head="kan_z1a", x=-480, lv=2.3, id=23},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10311", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「现在见面是不可能了……可是，已经变得想要Ｈ了……这之后想要忍耐也一定做不到了，大概会一个人做的吧……肯定会做吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 486,
+	},
+	block_00102 = {
+		{"excall", label="noscene", cond="s.scene==0"},
+		{"bg", x=-400, file="zbg001c", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fgf", frame="frame_ctr", ch="華乃", bx=360, bgpx=":bg/", bg="bg036c", sync=0},
+		{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0019h", head="kan_z1a", x=-480, lv=2.3, id=23, sync=0},
+		{"extrans"},
+		{"savetitle", text="花开绚烂，荼靡旖旎"},
+		{"bgm", file="bgm18"},
+		{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1a1100", ex05="kan_z1a0000", face="a0019h", head="kan_z1a", x=-480, lv=2.3, id=23},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10312", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「我，我做的样子……想看吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 508,
+	},
+	block_00103 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「想看！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 511,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"期待着「一边听着对方的声音来做吧」之类的我，听到了华乃比我想象得还要色情的提案，二话没说就答应了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 513,
+	},
+	block_00105 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0018h", head="kan_z1b", x=-480, lv=2.3, id=23},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0034h", head="kan_z1b", x=-480, lv=2.3, id=23},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10313", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「那，那个……就只有我，做吗？　你就只是看着吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 519,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「抱歉，我也满满都是想手冲的打算了。就算我本来没有想冲的打算，看到了华乃自慰的样子之后也肯定没法忍耐的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 522,
+	},
+	block_00107 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0022h", head="kan_z1b", x=-480, lv=2.3, id=23},
+		{"fgact", ch="華乃", act="うなづく", lv=2.3, id=23},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0053h", head="kan_z1b", x=-480, lv=2.3, id=23},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10314", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「这，这样啊，太好了！　你也有打算一起做啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 529,
+	},
+	block_00108 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1100", ex05="kan_z1b0000", face="b0023h", head="kan_z1b", x=-480, lv=2.3, id=23},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10315", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「那，那就，视频通话……把你在做的样子也放出来……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 534,
+	},
+	block_00109 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「抱歉……要是把手机放到远一点的位置，妃爱进来的话就……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 537,
+	},
+	block_00110 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0046h", head="kan_z1b", x=-480, lv=2.3, id=23},
+		{"fgact", ch="華乃", act="びっくり", lv=2.3, id=23},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b1110", ex05="kan_z1b0010", face="b0034h", head="kan_z1b", x=-480, lv=2.3, id=23},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10316", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「也是呢！　抱歉，别在意！　只是听到喜欢的人的声音就已经能萌起来了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 544,
+	},
+	block_00111 = {
+		{"se", file="se衣擦れ", id=1},
+		{"fgf", frame="frame_ctr", disp="消右", mode=-1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"华乃对我倾吐着专属于恋人间的甜蜜呢喃，一边说着无比为我着想的，满溢着温柔的话语，一边窸窸窣窣地开始准备。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 550,
+	},
+	block_00112 = {
+		{"bgm", stop=1},
+		{"bg", file="white", path=":bg/"},
+		{"excall", file="02_華乃06_3_h"},
+		{"text"},
+		linkback = "block_00111",
+		line = 555,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+		scene = { block="block_00102", label=1 },
+		noscene = { block="block_00102", label=6 },
+	},
+}

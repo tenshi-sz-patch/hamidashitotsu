@@ -1,0 +1,2467 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"se", stop=1, time=500, id=1},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg010a", path=":bg/", sync=0},
+		{"extrans", rule="rule_001", vague=40},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是，没准是我多虑了。刚从学生会室出来，天梨就一脸高兴地凑了过来。",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 13,
+	},
+	block_00001 = {
+		{"bgm", file="bgm30"},
+		{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_noa0200", ex05="ame_noa0000", face="a0052", head="ame_noa", lv=2.2, id=13},
+		{"fgact", ch="天梨", act="うんうん", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_noa0200", ex05="ame_noa0000", face="a0054", head="ame_noa", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00479", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「啊啊啊会长，谢谢你帮我想了各种办法。虽然只是一时想到就提出来的，但我挺希望文化祭能办时装秀」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 23,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不不，我才是被你帮助到的那一方。大家也开始变得有干劲起来，谢谢你能想出这么好的主意」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 26,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"实际上，我一开始还在想“cosplay是什么鬼主意啊”……得好好检讨一下了。也要感谢能认真听取提案的常磐。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 28,
+	},
+	block_00004 = {
+		{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_noa0200", ex05="ame_noa0000", face="a0053", head="ame_noa", lv=2.2, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不仅能处理学生们的意见，也能胜任学生会的主题，cosplay要是能成为文化祭的节目是挺不错的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 33,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「到时候若是能成的话，果然还是该我向天梨道谢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 36,
+	},
+	block_00006 = {
+		{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_nob0210", ex05="ame_nob0010", face="b0053", head="ame_nob", lv=2.2, id=13},
+		{"fgact", ch="天梨", act="うなづく", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_nob0200", ex05="ame_nob0000", face="b0054", head="ame_nob", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00480", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「嗯……我很开心，因为会长工作时履行职责收集大家意见的样子真的超帅的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 44,
+	},
+	block_00007 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg010a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="天梨", size="z1", mode=3, resize=1, path=":fg/ame/z1/", file="ame_z1a0200", ex05="ame_z1a0000", face="a0055", head="ame_z1a", lv=2.3, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1a0200", ex05="ame_z1a0000", face="a0022", head="ame_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00481", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「那个。谢谢你」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 56,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「嗯」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 59,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我在“嗯”什么啊。应该回答得更风趣一点吧。但是，我却因为害羞而连天梨的脸都没敢看。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 61,
+	},
+	block_00010 = {
+		{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1b0210", ex05="ame_z1b0010", face="b0008", head="ame_z1b", x2=0, x=230, lv=2.3, id=13},
+		{"fg", ch="里", size="z1", mx=-40, mode=3, resize=1, path=":fg/mir/z1/", file="mir_z1a0200", ex05="mir_z1a0000", face="a0026", head="mir_z1a", x=-230, lv=2.3, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0200", ex05="mir_z1a0000", face="a0035", head="mir_z1a", x=-230, lv=2.3, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00193", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「啊嘞～？你们两个关系好像很好的样子？这是怎么了呀～？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 69,
+	},
+	block_00011 = {
+		{"fg", ch="天梨", size="z1", hoho="h", mode=3, path=":fg/ame/z1/", file="ame_z1b0210", ex05="ame_z1b0010", face="b0020h", head="ame_z1b", x=230, lv=2.3, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"里姐毫不掩饰地挖苦着我，估计是看到锦不在，再加上认为天梨能够接受这种程度的玩笑吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 73,
+	},
+	block_00012 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0055", head="mir_z1a", x=-230, lv=2.3, id=9},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但我刚刚连好好回复天梨都做不到，现在又受到这样的挖苦，只能心情愉悦似的笑了笑。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 77,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"连旁人都能看出我跟天梨关系很好吗，那在学生会室的时候还是小心点吧。至少，认真工作的时候要克制一些。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 79,
+	},
+	block_00014 = {
+		{"bgm", stop=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="rule_001", wait=250, file="black", path=":bg/", vague=40},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"然而，一切世事都不可能一帆风顺。所谓“运势来了”，只不过是期待值过高的妄想罢了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 87,
+	},
+	block_00015 = {
+		{"msgoff"},
+		{"bg", file="bg030a", path=":bg/", sync=0},
+		{"bg", lv=5, id=5, rule="cinema", file="cinema01", alpha=192, time=400, path=":sys/", vague=40, sync=0},
+		{"extrans", rule="rule_001", vague=40},
+		{"bgm", file="bgm10"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sgb_00001", ch="sgb"},
+			},
+			ja = {
+				{
+					name = {"手芸部部長"},
+					"「制服的纸样啊……我们只不过是在做一些刺绣和编织的手工小作品，别的有点……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 101,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sgb_00002", ch="sgb"},
+			},
+			ja = {
+				{
+					name = {"手芸部部長"},
+					"「虽然也给玩偶做过衣服，但是做真人衣物的纸样实在是……抱歉」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 104,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不，我们才该道歉。在你们正忙的时候打扰到你们的社团活动了，非常抱歉！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 107,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"“缝纫”和“手工”虽然类似，但不能一概而论。我脑筋迟钝，连这一点都不知道，给别人添麻烦了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 109,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她们好像暑假也经常集合在一起，为了制作在文化祭上展示的作品，一周到头不停地工作着。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 111,
+	},
+	block_00020 = {
+		{"cgdel", lv=1, id=5, rule="cinema", time=400},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="rule_001", wait=250, file="black", path=":bg/", vague=40},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg010a", path=":bg/", sync=0},
+		{"extrans", rule="rule_001", vague=40},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她们每一天都在争分夺秒，那我们也不可能把常磐口中要花费数日的纸样委托给她们了，于是我和天梨回到了学生会室。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 124,
+	},
+	block_00021 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="rule_001", wait=250, file="black", path=":bg/", vague=40},
+		{"msgoff"},
+		{"bg", file="bg011a", path=":bg/", sync=0},
+		{"fg", ch="あすみ", size="no", mode=3, path=":fg/asu/no/", file="asu_nob0200", ex05="asu_nob0000", face="b0002", head="asu_nob", x=-250, lv=2.2, id=11, sync=0},
+		{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_noa0200", ex05="hiy_noa0000", face="a0002", head="hiy_noa", x=270, lv=2.2, id=12, sync=0},
+		{"fg", ch="天梨", size="no", mode=3, resize=1, path=":fg/ame/no/", file="ame_noa0200", ex05="ame_noa0000", face="a0002", head="ame_noa", x=0, lv=2.2, id=13, sync=0},
+		{"fg", ch="華乃", size="no", mode=3, path=":fg/kan/no/", file="kan_noa0210", ex05="kan_noa0010", face="a0002", head="kan_noa", x=-520, lv=2.2, id=5, sync=0},
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0210", ex05="shi_noa0010", face="a0001", head="shi_noa", x=520, lv=2.2, id=6, sync=0},
+		{"extrans", rule="rule_001", vague=40},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_00277", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「部分人确实是会给洋娃娃或宠物做衣服，但是会做自己平时穿的衣装的人还是太少了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 139,
+	},
+	block_00022 = {
+		{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_noa0200", ex05="hiy_noa0000", face="a0008", head="hiy_noa", x=270, lv=2.2, id=12},
+		{"fgact", ch="妃愛", act="おじぎ", lv=2.2, id=12},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_noa0210", ex05="hiy_noa0010", face="a0043", head="hiy_noa", x=270, lv=2.2, id=12},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01450", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「诶，因为工作关系我受托穿过好几次各种衣服，但是果然每件衣物的制作都不容易呀。学到了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 147,
+	},
+	block_00023 = {
+		{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_nob0210", ex05="ame_nob0010", face="b0009", head="ame_nob", x=0, lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_nob0200", ex05="ame_nob0000", face="b0047", head="ame_nob", x=0, lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00482", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「我也因为摄影工作不知不觉就穿了各种各样的衣服，从来没考虑过那些衣服是怎么制作出来的……居然想要自己做衣服，还是太天真了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 154,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"学生会室里弥漫起一种无计可施的氛围。也许是时候重新考虑一下别的企划了",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 156,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"只是如果是刚刚和天梨在走廊说话之前，我肯定会下定决心放弃。但现在的我在受到天梨道谢后，是真心想要支持那个企划。可在学生会的工作中加入私情……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 158,
+	},
+	block_00026 = {
+		{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_noa0200", ex05="ame_noa0000", face="a0002", head="ame_noa", x=0, lv=2.2, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我看到天梨向妃爱询问，心想这应该不是看出了我内心的想法吧",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 162,
+	},
+	block_00027 = {
+		{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_noa0210", ex05="ame_noa0010", face="a0001", head="ame_noa", x=0, lv=2.2, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00483", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「有想出别的主意么？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 167,
+	},
+	block_00028 = {
+		{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_noa0200", ex05="hiy_noa0000", face="a0040", head="hiy_noa", x=270, lv=2.2, id=12},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_noa0200", ex05="hiy_noa0000", face="a0034", head="hiy_noa", x=270, lv=2.2, id=12},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01451", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啊，对不起。刚才你们不在的时候，我们就聊了会天。因为大家都以为决定办时装秀了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 174,
+	},
+	block_00029 = {
+		{"fg", ch="あすみ", size="no", mode=3, path=":fg/asu/no/", file="asu_nob0210", ex05="asu_nob0010", face="b0052", head="asu_nob", x=-250, lv=2.2, id=11},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_00177", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「诗樱学姐对cosplay也格外感兴趣呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 179,
+	},
+	block_00030 = {
+		{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_nob0210", ex05="hiy_nob0010", face="b0001", head="hiy_nob", x=270, lv=2.2, id=12},
+		{"fg", ch="華乃", size="no", mode=3, path=":fg/kan/no/", file="kan_noa0200", ex05="kan_noa0000", face="a0001", head="kan_noa", x=-520, lv=2.2, id=5},
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0210", ex05="shi_noa0010", face="a0003", head="shi_noa", x=520, lv=2.2, id=6},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0200", ex05="shi_nob0000", face="b0028", head="shi_nob", x=520, lv=2.2, id=6},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01718", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「不是，你们想想。如果能自己做衣服的话，不就可以让妃爱亲穿上我喜欢角色的衣服了嘛。为什么我就没想到这点呀」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 188,
+	},
+	block_00031 = {
+		{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_nob0200", ex05="hiy_nob0000", face="b0034", head="hiy_nob", x=270, lv=2.2, id=12},
+		{"fg", ch="あすみ", size="no", mode=3, path=":fg/asu/no/", file="asu_nob0210", ex05="asu_nob0010", face="b0040", head="asu_nob", x=-250, lv=2.2, id=11},
+		{"fg", ch="天梨", size="no", ex03="a0097", mode=3, path=":fg/ame/no/", file="ame_noa0210", ex05="ame_noa0010", face="a0008", head="ame_noa", x=0, lv=2.2, id=13},
+		{"fgact", ch="天梨", act="びっくり", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="no", ex03="a0097", mode=3, path=":fg/ame/no/", file="ame_noa0210", ex05="ame_noa0010", face="a0009", head="ame_noa", x=0, lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_00484", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「你自己穿啊！诗樱学姐这么漂亮，不自己穿的话太可惜了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 198,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「如果看妃爱cosplay这件事泄露出去了，估计要被事务所索赔了吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 201,
+	},
+	block_00033 = {
+		{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_nob0210", ex05="hiy_nob0010", face="b0008", head="hiy_nob", x=270, lv=2.2, id=12},
+		{"fgact", ch="妃愛", act="ドッキリ", lv=2.2, id=12},
+		{"se", id=1, file="seコミ_察する"},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_nob0210", ex05="hiy_nob0010", face="b0026", head="hiy_nob", x=270, lv=2.2, id=12},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01452", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「哈！如果从现在的工作中引退的话，这或许也能当个新的收入来源……？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 211,
+	},
+	block_00034 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=600, file="zbg011a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="華乃", size="z1", mode=3, resize=1, path=":fg/kan/z1/", file="kan_z1a0200", ex05="kan_z1a0000", face="a0028", head="kan_z1a", x=-280, lv=2.3, id=9, sync=0},
+		{"fg", ch="詩桜", size="z1", mode=3, resize=1, path=":fg/shi/z1/", file="shi_z1b0200", ex05="shi_z1b0000", face="b0028", head="shi_z1b", x=280, lv=2.3, id=10, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1a0200", ex05="kan_z1a0000", face="a0018", head="kan_z1a", x=-280, lv=2.3, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_00278", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「话说回来，如果能更早想到这主意的话，那让诗樱学姐来画纸样就好了。诗樱学姐应该一下就能记住画纸样的方法吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 224,
+	},
+	block_00035 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0210", ex05="shi_z1a0010", face="a0003", head="shi_z1a", x=280, lv=2.3, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01719", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「要是能一下就记住的话我倒是想请教一下常磐……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 229,
+	},
+	block_00036 = {
+		{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1a0200", ex05="kan_z1a0000", face="a0055", head="kan_z1a", x=-280, lv=2.3, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1a0200", ex05="kan_z1a0000", face="a0046h", head="kan_z1a", x=-280, lv=2.3, id=9},
+				{"fgact", ch="華乃", act="縦揺れ", lv=2.3, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_00279", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「我也是自学的……而且，现在已经不做了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 237,
+	},
+	block_00037 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0200", ex05="shi_z1a0000", face="a0010", head="shi_z1a", x=280, lv=2.3, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01720", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「仅从你说的话来看，关于纸样的技术，光靠记是没用的，得专门学习才行，你自学就能学会还真是厉害啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 244,
+	},
+	block_00038 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1a0210", ex05="kan_z1a0010", face="a0050h", head="kan_z1a", x=-280, lv=2.3, id=9},
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0210", ex05="shi_z1b0010", face="b0031", head="shi_z1b", x=280, lv=2.3, id=10},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0210", ex05="shi_z1b0010", face="b0055", head="shi_z1b", x=280, lv=2.3, id=10},
+			},
+			vl02 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0210", ex05="shi_z1b0010", face="b0051", head="shi_z1b", x=280, lv=2.3, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01721", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「兴趣是最好的老师。人类这种生物一旦充满热情，便能提高进步。我就喜欢这样的热情和行动力。真是太棒了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 256,
+	},
+	block_00039 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1a0210", ex05="kan_z1a0010", face="a0042h", head="kan_z1a", x=-280, lv=2.3, id=9},
+		{"fgact", ch="華乃", act="縦揺れ", lv=2.3, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_00280", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「那衣服又不是我自己穿，并不是“兴趣是最好的老师”而是“迫不得已”吧！是因为我社团的看板娘想要啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 262,
+	},
+	block_00040 = {
+		{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b0210", ex05="kan_z1b0010", face="b0020", head="kan_z1b", x=-280, lv=2.3, id=9},
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0210", ex05="shi_z1a0010", face="a0055", head="shi_z1a", x=280, lv=2.3, id=10},
+		{"fgact", ch="華乃", act="おじぎ", lv=2.3, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b0210", ex05="kan_z1b0010", face="b0012", head="kan_z1b", x=-280, lv=2.3, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_00281", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「加上我自己没钱所以别无他法啊。不止是我，玩cosplay的学生一般也都是自己做衣服的吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 271,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"玩cosplay的学生……一般都是自己做衣服的……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 273,
+	},
+	block_00042 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"msgoff"},
+		{"bg", lv=8, id=7, file="white", time=1000, sync=0, path=":bg/"},
+		{"bg", lv=8, id=7, file="reco", time=1000, notone=1, path=":sys/", sync=0},
+		{"colortone", style="sepia"},
+		{"bg", file="sd_com_07a", time=400, lv=5, id=6, path=":sd/sd_com_07/", set="sd_com_07", tagreset="1", sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"啊，学生coser，正好有一个我认识的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 285,
+	},
+	block_00043 = {
+		{"msgoff"},
+		{"msgoff"},
+		{"colortone", style="reset"},
+		{"bg", lv=8, id=7, file="white", time=1000, sync=0, path=":bg/"},
+		{"cgdel", lv=8, id=7, time=1000, sync=0},
+		{"bg", speed=80000, file="zbg011a", path=":bg/", x2=0, y2=360, x=0, y=-360, ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"说起来，新川好像说过他在打工？难道他也会为了省钱而自己做衣服么？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 296,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"他好像也是位挺有名气的coser，应该会有人出服装费吧……感觉有必要去问一问。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 298,
+	},
+	block_00045 = {
+		{"msgoff"},
+		{"bg", file="bg011a", path=":bg/", sync=0},
+		{"fg", ch="あすみ", size="no", mode=3, path=":fg/asu/no/", file="asu_nob0200", ex05="asu_nob0000", face="b0001", head="asu_nob", x=-250, lv=2.2, id=11, sync=0},
+		{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_noa0200", ex05="hiy_noa0000", face="a0009", head="hiy_noa", x=270, lv=2.2, id=12, sync=0},
+		{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_nob0200", ex05="ame_nob0000", face="b0001", head="ame_nob", x=0, lv=2.2, id=13, sync=0},
+		{"fg", ch="華乃", size="no", mode=3, resize=1, path=":fg/kan/no/", file="kan_noa0210", ex05="kan_noa0010", face="a0043", head="kan_noa", x=-520, lv=2.2, id=5, sync=0},
+		{"fg", ch="詩桜", size="no", mode=3, resize=1, path=":fg/shi/no/", file="shi_noa0210", ex05="shi_noa0010", face="a0032", head="shi_noa", x=520, lv=2.2, id=6, sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01453", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啊，抱歉。差不多到工作时间了，我该走了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 311,
+	},
+	block_00046 = {
+		{"fg", ch="華乃", size="no", mode=3, path=":fg/kan/no/", file="kan_noa0210", ex05="kan_noa0010", face="a0001", head="kan_noa", x=-520, lv=2.2, id=5},
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0210", ex05="shi_noa0010", face="a0001", head="shi_noa", x=520, lv=2.2, id=6},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="no", mode=3, path=":fg/kan/no/", file="kan_noa0210", ex05="kan_noa0010", face="a0039", head="kan_noa", x=-520, lv=2.2, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_00282", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「妃爱亲走了的话，就算继续聊下去也想不出具体方案了。方案的可行性也不是我们可以判断的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 319,
+	},
+	block_00047 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0210", ex05="shi_noa0010", face="a0039", head="shi_noa", x=520, lv=2.2, id=6},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0210", ex05="shi_noa0010", face="a0027", head="shi_noa", x=520, lv=2.2, id=6},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01722", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「妃爱亲真的没法登台吗……只是露个面行吗？但这些都得由事务所来决定吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 326,
+	},
+	block_00048 = {
+		{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_noa0200", ex05="hiy_noa0000", face="a0028", head="hiy_noa", x=270, lv=2.2, id=12},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_nob0200", ex05="hiy_nob0000", face="b0049", head="hiy_nob", x=270, lv=2.2, id=12},
+				{"fgact", ch="妃愛", act="うんうん", lv=2.2, id=12},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01454", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「非常抱歉给大家添麻烦了。如果老朽的身体不是现在这副德行的话，咳咳」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 334,
+	},
+	block_00049 = {
+		{"fg", ch="華乃", size="no", mode=3, path=":fg/kan/no/", file="kan_noa0200", ex05="kan_noa0000", face="a0009", head="kan_noa", x=-520, lv=2.2, id=5},
+		{"fg", ch="あすみ", size="no", mode=3, path=":fg/asu/no/", file="asu_nob0200", ex05="asu_nob0000", face="b0009", head="asu_nob", x=-250, lv=2.2, id=11},
+		{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_nob0200", ex05="ame_nob0000", face="b0008", head="ame_nob", x=0, lv=2.2, id=13},
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0210", ex05="shi_noa0010", face="a0010", head="shi_noa", x=520, lv=2.2, id=6},
+		{"fgact", ch="華乃", act="いいえ", lv=2.2, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="no", mode=3, path=":fg/kan/no/", file="kan_noa0200", ex05="kan_noa0000", face="a0034", head="kan_noa", x=-520, lv=2.2, id=5},
+				{"fgact", ch="華乃", act="うなづく", lv=2.2, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_00283", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「啊啊抱歉，我们没有为难妃爱亲的意思。接下来的工作也要加油哦！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 346,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我们已经聊了两个小时了……再把大家都拴在这里，只会影响到各位的工作，今天就先解散吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 349,
+	},
+	block_00051 = {
+		{"fg", ch="華乃", size="no", mode=3, path=":fg/kan/no/", file="kan_noa0200", ex05="kan_noa0000", face="a0001", head="kan_noa", x=-520, lv=2.2, id=5},
+		{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_nob0200", ex05="hiy_nob0000", face="b0053", head="hiy_nob", x=270, lv=2.2, id=12},
+		{"fg", ch="あすみ", size="no", mode=3, path=":fg/asu/no/", file="asu_nob0200", ex05="asu_nob0000", face="b0053", head="asu_nob", x=-250, lv=2.2, id=11},
+		{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_noa0200", ex05="ame_noa0000", face="a0001", head="ame_noa", x=0, lv=2.2, id=13},
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0200", ex05="shi_noa0000", face="a0001", head="shi_noa", x=520, lv=2.2, id=6},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「虽然这次会议毫无实质性的进展，但没准过一天就有人能想到什么好的主意了。如果有人想到什么，希望能在学生会群或者在LINE上跟我说一下」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 358,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「只是，我这边想同时推进制服的制作。现在只剩下纸样的问题了。虽说是“只剩”，但却是个大麻烦……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 361,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「而且也没什么时间了，我希望常磐能马上开始画设计图。虽然要是决定更换企划的话，也就可能……用不到了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 364,
+	},
+	block_00054 = {
+		{"fg", ch="華乃", size="no", mode=3, path=":fg/kan/no/", file="kan_noa0200", ex05="kan_noa0000", face="a0053", head="kan_noa", x=-520, lv=2.2, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="no", mode=3, path=":fg/kan/no/", file="kan_noa0200", ex05="kan_noa0000", face="a0032", head="kan_noa", x=-520, lv=2.2, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_00284", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「没事。毕竟是我放鸽子在先，现在就先按你的要求画」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 371,
+	},
+	block_00055 = {
+		{"fg", ch="あすみ", size="no", mode=3, path=":fg/asu/no/", file="asu_noa0210", ex05="asu_noa0010", face="a0012", head="asu_noa", x=-250, lv=2.2, id=11},
+		{"fgact", ch="あすみ", act="いいえ", lv=2.2, id=11},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_00178", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「非、非常抱歉…我也用自己能做的工作，来弥补之前给你添的麻烦……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 377,
+	},
+	block_00056 = {
+		{"fg", ch="華乃", size="no", mode=3, path=":fg/kan/no/", file="kan_noa0200", ex05="kan_noa0000", face="a0009", head="kan_noa", x=-520, lv=2.2, id=5},
+		{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_nob0200", ex05="hiy_nob0000", face="b0009", head="hiy_nob", x=270, lv=2.2, id=12},
+		{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_nob0200", ex05="ame_nob0000", face="b0009", head="ame_nob", x=0, lv=2.2, id=13},
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0200", ex05="shi_noa0000", face="a0009", head="shi_noa", x=520, lv=2.2, id=6},
+		{"fgact", ch="華乃", act="いいえ", lv=2.2, id=5},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="no", mode=3, path=":fg/kan/no/", file="kan_noa0210", ex05="kan_noa0010", face="a0038", head="kan_noa", x=-520, lv=2.2, id=5},
+			},
+			vl02 = {
+				{"fg", ch="華乃", size="no", mode=3, path=":fg/kan/no/", file="kan_noa0210", ex05="kan_noa0010", face="a0006", head="kan_noa", x=-520, lv=2.2, id=5},
+				{"fgact", ch="華乃", act="うなづく", lv=2.2, id=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_00285", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「啊啊啊抱歉，锦不用在意，这是我个人的坚持而已！总、总之目前手头的工作中我会优先完成它的，从今天……明天开始！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 390,
+	},
+	block_00057 = {
+		{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_nob0200", ex05="hiy_nob0000", face="b0008", head="hiy_nob", x=270, lv=2.2, id=12},
+		{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_nob0200", ex05="ame_nob0000", face="b0008", head="ame_nob", x=0, lv=2.2, id=13},
+		{"fg", ch="あすみ", size="no", mode=3, path=":fg/asu/no/", file="asu_noa0210", ex05="asu_noa0010", face="a0008", head="asu_noa", x=-250, lv=2.2, id=11},
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0200", ex05="shi_noa0000", face="a0010", head="shi_noa", x=520, lv=2.2, id=6},
+		{"se", id=1, file="seコミ_胸を張る"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「明天！明天就能画了！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 400,
+	},
+	block_00058 = {
+		{"fg", mode=-2},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"常磐说明天就能开始画了，这样的话如果明天还不能提出别的企划，那就只能决定让常磐来画纸样了……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 404,
+	},
+	block_00059 = {
+		{"se", id=1, file="se扉開く(スライド)教室"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="rule_001", wait=250, file="black", path=":bg/", vague=40},
+		{"msgoff"},
+		{"bg", file="bg010a", path=":bg/", sync=0},
+		{"extrans", rule="rule_001", vague=40},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"常磐接下这个任务，负担相当大，而且制作期限也非常紧张。我把最后一缕希望寄托在了新川上，离开了学生会室。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 419,
+	},
+	block_00060 = {
+		{"bgm", stop=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="rule_001", wait=250, file="black", path=":bg/", vague=40},
+		{"se", stop=1, time=500, id=1},
+		{"msgoff"},
+		{"bg", file="bg014a", path=":bg/", sync=0},
+		{"fg", ch="里", size="no", mode=3, resize=1, path=":fg/mir/no/", file="mir_noa0300", ex05="mir_noa0000", face="a0010", head="mir_noa", lv=2.2, id=9, sync=0},
+		{"extrans", rule="rule_001", vague=40},
+		{"bgm", file="bgm06"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00194", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「嗯？你要找新川？话说你们没交换联系方式么？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 439,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊，嗯。我没找他要……但是，我今天之内一定要联系上他」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 442,
+	},
+	block_00062 = {
+		{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0310", ex05="mir_noa0010", face="a0031", head="mir_noa", lv=2.2, id=9},
+		{"fgact", ch="里", act="うなづく", lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0310", ex05="mir_noa0010", face="a0006", head="mir_noa", lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00195", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「好吧，我来帮你找他。但是之后，你要自己去问联系方式哦？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 452,
+	},
+	block_00063 = {
+		{"bg", speed=80000, file="zbg099a", path=":bg/", x2=0, y2=-360, x=0, y=360, ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"新川好像就在家里，爽快地答应了与我会面的请求。这么热的天还愿意到车站这边来真是帮大忙了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 456,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然可能带着制服设计师常磐或企划者天梨一起来会更好，但是新川不想让别人知道自己在做cosplay，我就一个人来到车站。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 458,
+	},
+	block_00065 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="rule_001", wait=250, file="black", path=":bg/", vague=40},
+		{"se", file="seドアベル1", id=1},
+		{"msgoff"},
+		{"bg", file="bg027a", path=":bg/", sync=0},
+		{"fg", ch="広夢", size="no", mode=3, path=":fg/hir/no/", file="hir_noa0500", face="a0010", head="hir_noa", lv=2.2, id=13, sync=0},
+		{"extrans", rule="rule_001", vague=40},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_00022", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「你们要做纸样？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 475,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我花了很长时间仔仔细细地把事情的经过说了一遍（说到cosplay的时候没有提到常磐的名字）后，新川自己发现了问题最关键的部分。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 477,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"毕竟还是要提到和cosplay有关的话题，我找到一个店内没人的角落坐了下来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 479,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「是啊。现在正烦没人来画纸样。之前去找手工部的部长，但她们也不行」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 482,
+	},
+	block_00069 = {
+		{"fg", ch="広夢", size="no", ex02="a0098", mode=3, path=":fg/hir/no/", file="hir_noa0500", face="a0039", head="hir_noa", lv=2.2, id=13},
+		{"fgact", ch="広夢", act="おじぎ", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="no", mode=3, path=":fg/hir/no/", file="hir_noa0500", face="a0053", head="hir_noa", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_00023", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「嗯……如果只是缝纫的话，那都应该在课堂上接触过了，像直线缝或者纤缝都只要照葫芦画瓢就能做到，但是纸样没有专业知识可是画不了的啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 490,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「诶，这样么？coser们也不会自己来画么？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 493,
+	},
+	block_00071 = {
+		{"fg", ch="広夢", size="no", mode=3, path=":fg/hir/no/", file="hir_noa0500", face="a0027", head="hir_noa", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="no", mode=3, path=":fg/hir/no/", file="hir_noa0500", face="a0053", head="hir_noa", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_00024", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「只能做到对已有的纸样进行修改吧。基础的纸样去布料店或网上就能买到。也有人会拆散衣服来做纸样」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 502,
+	},
+	block_00072 = {
+		{"fg", ch="広夢", size="no", mode=3, path=":fg/hir/no/", file="hir_noa0500", face="a0003", head="hir_noa", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="no", mode=3, path=":fg/hir/no/", file="hir_noa0500", face="a0001", head="hir_noa", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_00025", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「但是从头开始画纸样的话，我敢肯定，没有人教是绝对不行的。而且还需要一些专用的尺子」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 509,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「哦哦……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 512,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"那常磐是怎么做的纸样啊。她不是说是自学的么……和新川说得完全不一样。下次一定要问清楚。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 514,
+	},
+	block_00075 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg027a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="広夢", size="z1", mode=3, resize=1, path=":fg/hir/z1/", file="hir_z1a0500", face="a0001", head="hir_z1a", lv=2.3, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「顺便问一下，新川是怎么搞定纸样的呢？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 524,
+	},
+	block_00076 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0500", face="a0039", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0500", face="a0032", head="hir_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_00026", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「基本都是自己画的，忙的时候就交给服装店。我小时候有上过西式裁缝课」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 531,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「诶，好厉害。是课外班么？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 534,
+	},
+	block_00078 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0500", face="a0023", head="hir_z1a", lv=2.3, id=13},
+		{"fgact", ch="広夢", act="うなづく", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0500", face="a0001", head="hir_z1a", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0500", face="a0019", head="hir_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_00027", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「是啊，那是我自愿的……我有两个姐姐和一个妹妹，以前妹妹还哭闹过，她不想一直穿姐姐穿剩下的衣服」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 543,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「你也有妹妹啊？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 546,
+	},
+	block_00080 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0500", face="a0053", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0500", face="a0027", head="hir_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_00028", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「然后我就想，如果能在姐姐换下来的衣服上加入点创意图案就好了……然后我就和妈妈商量，去了妈妈朋友的西式裁缝课堂，学费还能便宜一些」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 553,
+	},
+	block_00081 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0500", face="a0038", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0500", face="a0023", head="hir_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_00029", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「妈妈要照顾我们姐弟四人，又是给全员做抹布，又是往体操服上缝名字贴，忙得不可开交……所以我就想我能不能帮上点忙」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 562,
+	},
+	block_00082 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg027a", path=":bg/", sync=0},
+		{"fg", ch="広夢", size="no", mode=3, resize=1, path=":fg/hir/no/", file="hir_noa0500", face="a0023", head="hir_noa", lv=2.2, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「诶，了不起，真的好了不起啊。我也是和妹妹两个人生活，所以对新川能为妹妹着想和帮忙做家务非常佩服。但我和新川不同的是，我根本就没为妹妹做过什么」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 572,
+	},
+	block_00083 = {
+		{"fg", ch="広夢", size="no", mode=3, path=":fg/hir/no/", file="hir_noa0500", face="a0031", head="hir_noa", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="no", mode=3, path=":fg/hir/no/", file="hir_noa0500", face="a0034", head="hir_noa", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_00030", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「我还是第一次听自己同学这么夸我。别人一听到我去学裁缝的时候，基本上都是“男孩子学什么裁缝”或“怎么跟女的一样”的反应」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 579,
+	},
+	block_00084 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「诶……啊啊，小时候可能是会这么想吧？但会像这样评价别人还是好过分啊。以我们现在这个年龄看，肯定会有不同的看法」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 582,
+	},
+	block_00085 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg027a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="広夢", size="z1", mode=3, resize=1, path=":fg/hir/z1/", file="hir_z1a0500", face="a0023", head="hir_z1a", lv=2.3, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_00031", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「你来找我，就是想画纸样吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 592,
+	},
+	block_00086 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"刚刚还一直在乱想新川小时候的事，现在一下子就被新川猜中了我来找他的目的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 594,
+	},
+	block_00087 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0500", face="a0039", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0500", face="a0019", head="hir_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_00032", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「联系我的人是里老师，你却没有带她一起来，而是自己一个人来找我，是为了帮我隐藏兴趣吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 601,
+	},
+	block_00088 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0500", face="a0032", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0500", face="a0052", head="hir_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_00033", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「我很感激你看到了我的兴趣也不随便抖露出来，对谁都守口如瓶。所以说我也想用某种方式报答和泉」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 608,
+	},
+	block_00089 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0500", face="a0003", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0500", face="a0055", head="hir_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_00034", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「而且这次正是和泉为我守口如瓶的cosplay相关的……虽然准确的来说也不是cosplay，但如果能借这次机会让我的裁缝知识派上用场的话就是最好的报恩了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 615,
+	},
+	block_00090 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0500", face="a0023", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_00035", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「需要在几天内完成呢？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 620,
+	},
+	block_00091 = {
+		{"bg", lv=8, id=8, file="line2", time=400, notone=1, path=":ani/"},
+		{"se", file="seコミ_目を輝かせる", id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"哇哦哦哦哦哦哦哦哦。还没等我开口就说要帮我了。真是太感谢他了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 626,
+	},
+	block_00092 = {
+		{"cgdel", lv=8, id=8, time=400},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「让学生会来做纸样的话估计需要两周时间……如此一来，缝制衣服的时间就只剩两周了，时间可能会不太够」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 631,
+	},
+	block_00093 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg027a", path=":bg/", sync=0},
+		{"fg", ch="広夢", size="no", mode=3, resize=1, path=":fg/hir/no/", file="hir_noa0500", face="a0001", head="hir_noa", lv=2.2, id=13, sync=0},
+		{"extrans", time=500},
+		{"se", stop=1, time=500, id=1},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="no", mode=3, path=":fg/hir/no/", file="hir_noa0500", face="a0032", head="hir_noa", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_00036", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「制作时间取决于设计的复杂程度，简单的话一周就能完成了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 645,
+	},
+	block_00094 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"哦哦哦哦哦哦哦哦哦。如果原本只有两周的缝制时间能变成三周的话，即使发生一些意外事件，也应该能赶上了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 647,
+	},
+	block_00095 = {
+		{"fg", ch="広夢", size="no", mode=3, path=":fg/hir/no/", file="hir_noa0500", face="a0039", head="hir_noa", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="no", mode=3, path=":fg/hir/no/", file="hir_noa0500", face="a0006", head="hir_noa", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_00037", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「加上我也能帮忙一起缝制，那完成时间应该还能再缩短哦。我已经有近十年的裁缝经验了，我想我应该能帮上忙」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 654,
+	},
+	block_00096 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「非常感谢……帮大忙了。但是你也不能无偿给我们帮忙吧？都用上积累了十年的知识和技术了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 657,
+	},
+	block_00097 = {
+		{"fg", ch="広夢", size="no", mode=3, path=":fg/hir/no/", file="hir_noa0500", face="a0001", head="hir_noa", lv=2.2, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「这种情况下，你需要多少报酬呢？你就按照业界标准，不用客气直接说就好了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 662,
+	},
+	block_00098 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我上周打工赚来的钱，现在也没剩多少了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 664,
+	},
+	block_00099 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"从我的存款中拿出一些个人费用来给予出于善意前来帮忙的同学，想必学生会的大家应该也会理解的吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 666,
+	},
+	block_00100 = {
+		{"fg", ch="広夢", size="no", mode=3, path=":fg/hir/no/", file="hir_noa0500", face="a0023", head="hir_noa", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="no", mode=3, path=":fg/hir/no/", file="hir_noa0500", face="a0027", head="hir_noa", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_00038", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「我本来就是来报答你帮我保守秘密的……就算不是这样，给文化祭帮忙也不可能要报酬的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 673,
+	},
+	block_00101 = {
+		{"fg", ch="広夢", size="no", mode=3, path=":fg/hir/no/", file="hir_noa0500", face="a0019", head="hir_noa", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="no", mode=3, path=":fg/hir/no/", file="hir_noa0500", face="a0009", head="hir_noa", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_00039", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「而且这又是学校的活动，最多也就是请一顿饭的事吧？要是出现金钱上的交易反而会出现问题」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 680,
+	},
+	block_00102 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不，不，但是」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 683,
+	},
+	block_00103 = {
+		{"fg", ch="広夢", size="no", mode=3, path=":fg/hir/no/", file="hir_noa0500", face="a0053", head="hir_noa", lv=2.2, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_00040", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「这就是我帮忙的条件」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 688,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「这、这样啊。好吧，我随时都可以请你」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 691,
+	},
+	block_00105 = {
+		{"fg", ch="広夢", size="no", mode=3, path=":fg/hir/no/", file="hir_noa0500", face="a0039", head="hir_noa", lv=2.2, id=13},
+		{"fgact", ch="広夢", act="おじぎ", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="no", mode=3, path=":fg/hir/no/", file="hir_noa0500", face="a0055", head="hir_noa", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_00041", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「我平时都是吃便当的。所以，一定要向我回礼的话，那就找个机会当一下我个摄的摄影师吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 701,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「个摄？那是什么？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 704,
+	},
+	block_00107 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg027a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="広夢", size="z1", mode=3, resize=1, path=":fg/hir/z1/", file="hir_z1a0500", face="a0053", head="hir_z1a", lv=2.3, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0500", face="a0039", head="hir_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_00042", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「在cosplay里，有时候要找到和角色设定相匹配的背景来拍摄。有时会在外面拍摄，有时会借用摄影棚拍摄……像战誓角色就需要在古城里拍摄」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 716,
+	},
+	block_00108 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊。我在推特上看到过一些在古城里拍摄的cosplay照片」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 719,
+	},
+	block_00109 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0500", face="a0019", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0500", face="a0053", head="hir_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_00043", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「当然这些都要事先得到许可。只是，虽然一个人也能申请，但摄影不能没有摄影师，所以都是拜托关系好的人来负责的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 726,
+	},
+	block_00110 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0500", face="a0022", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_00044", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「如果哪天突然想拍了，又找不到别人来当摄影师，到那时候就拜托和泉了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 731,
+	},
+	block_00111 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「OK，交给我吧，如果这样能算回礼的话。我现在工作都是日结，什么时候都能空出时间」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 734,
+	},
+	block_00112 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0500", face="a0055", head="hir_z1a", lv=2.3, id=13},
+		{"fgact", ch="広夢", act="うなづく", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_00045", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「嗯。那就拜托你了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 740,
+	},
+	block_00113 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「还有，太感谢你了，谢谢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 743,
+	},
+	block_00114 = {
+		{"bg", speed=80000, file="zbg027a", path=":bg/", x2=0, y2=360, x=0, y=-360, ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"问到还有有什么别的需要时，新川告诉我“需要模特的尺码”。那明天去问问天梨吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 747,
+	},
+	block_00115 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"然后就是聊了一些拍摄cosplay时的麻烦事，最后交换了一下联系方式便分别了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 749,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这还是第一次和学生成员以外的同学交换联系方式。这么麻烦他还受到了他的道谢，应该算是交了一个朋友了吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 751,
+	},
+	block_00117 = {
+		{"bgm", stop=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="rule_002", wait=500, file="black", path=":bg/", vague=40},
+		{"bg", speed=120000, rule="rule_002r", vague=40, file="zbg001c", path=":bg/", x2=640, y2=0, x=-640, y=0, ax=1280, ay=720, bx=-640, by=-360},
+		{"bgm", file="bgm08"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"回家以后，我把找到了能画纸样的人的消息用LINE告诉了学生会的大家，常磐稍微有点吃惊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 764,
+	},
+	block_00118 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"备受担心的纸样和缝制时间问题也得到了解决，学生会的节目就决定是“时装秀”了。常磐的设计，锦的选曲也都开始进行了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 766,
+	},
+	block_00119 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"负责设计的常磐必须要检查纸样，但是常磐却是想避免和同学产生关系的人，具体交接方式就明天再讨论吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 768,
+	},
+	block_00120 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"因为常磐很忙不能出来，只好明天去她家拜访一下了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 770,
+	},
+	block_00121 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"好像是要再商量一下衣服的样貌，所以天梨也要来常磐家。要在女孩子的房间里，同时和两个同班女生见面啊……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 772,
+	},
+	block_00122 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不对，天梨能来没准是好事。因为我现在喜欢的人是天梨，这种时候要是在常磐家里二个人独处的话。嗯。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 774,
+	},
+	block_00123 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过我也没在和天梨交往，所以和谁独处应该也不会有什么问题，但是总感觉常磐很可爱。而且很大。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 776,
+	},
+	block_00124 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"先不管常磐胸大不大，明天也能见到天梨了。不过，因为必须要一起准备文化祭，暑假也能再多见几次！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 778,
+	},
+	block_00125 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然我觉得像文化祭这样现充的活动，对学生会长来说只有不利的一面；但接下来每天都能见到天梨了，好像也还不错。之后工作会忙一些，我也要加油喽！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 780,
+	},
+	block_00126 = {
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=0, func="wait"},
+		{"movie", file="op"},
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=0, func="wait"},
+		{"excall", file="05_天梨07_1"},
+		{"text"},
+		linkback = "block_00125",
+		line = 788,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

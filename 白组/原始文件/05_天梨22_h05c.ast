@@ -1,0 +1,502 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", zoom=120, file="zbg034b", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="天梨", size="z2", hoho="h", mode=3, resize=1, path=":fg/ame/z2/", file="ame_z2a1100", ex05="ame_z2a0000", face="a0055h", head="ame_z2a", x=0, lv=2.4, id=13, sync=0},
+		{"extrans"},
+		{"bgm", file="bgm08"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"天梨洗完澡换好衣服后，还趴在我的膝盖上，一直用脸蹭我。我也继续抚摸她的脑袋。我们两人依偎在一起，直到离开房间。",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 16,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这么黏在一起，这么卿卿我我，也许是交往以来第一次吧……还好几次求着我要「饲养」她。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 18,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"真的，很想养啊……但是如果和天梨一起过日子的话，感觉每天都要做吧……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 20,
+	},
+	block_00003 = {
+		{"fg", ch="天梨", size="z2", mode=3, path=":fg/ame/z2/", file="ame_z2a1100", ex05="ame_z2a0000", face="a0052", head="ame_z2a", x=0, lv=2.4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_02004", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「快看快看。我查了一下好像也有手套什么的。很像狗吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 25,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「没必要这么认真追求这个吧……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 28,
+	},
+	block_00005 = {
+		{"fg", ch="天梨", size="z2", ex03="a0097", mode=3, path=":fg/ame/z2/", file="ame_z2a1110", ex05="ame_z2a0010", face="a0009", head="ame_z2a", x=0, lv=2.4, id=13},
+		{"fgact", ch="天梨", act="おじぎ", lv=2.4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_02005", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「欸？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 34,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"然而天梨是刚刚开始热衷于此的，我还是觉得应该只会到宠物play的程度吧。毫无疑问天梨是M，没想到还有外向的M……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 36,
+	},
+	block_00007 = {
+		{"bgm", stop=1, time=2000},
+		{"se", stop=1, id=-1, time=2000},
+		{"vostop", stop=1, time=2000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=2000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=-400, file="zbg011a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="華乃", size="z1", mode=3, resize=1, path=":fg/kan/z1/", file="kan_z1a0200", ex05="kan_z1a0000", face="a0002", head="kan_z1a", x=0, lv=2.3, id=13, sync=0},
+		{"extrans", time=2000},
+		{"bgm", file="bgm28"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_00550", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「那个啊。天梨最近的Instagram上面是不是小狗的照片太多了一点？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 54,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"从与天梨的小狗play那一天开始，已经过去了一个星期。我和常磐两个人在学生会室的时候，她问了起来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 56,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「嗯？啊~，这段时间去了犬咖。还挺不错的。常磐也可以和天梨一起去玩哦。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 59,
+	},
+	block_00010 = {
+		{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1a0200", ex05="kan_z1a0000", face="a0038", head="kan_z1a", x=0, lv=2.3, id=13},
+		{"fgact", ch="華乃", act="おじぎ", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1a0200", ex05="kan_z1a0000", face="a0029", head="kan_z1a", x=0, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_00551", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「啊，嗯，嘛，我也不讨厌小狗就……啊，还有就是。虽然我觉得这种事情不过问会比较好。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 66,
+	},
+	block_00011 = {
+		{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b0200", ex05="kan_z1b0000", face="b0050", head="kan_z1b", x=0, lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b0200", ex05="kan_z1b0000", face="b0012", head="kan_z1b", x=0, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_00552", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「但是自从天梨开始上传小狗照片的时候以来，就经常来问我关于屁股的事情……这两件事没有关系吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 72,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"糟糕。我一边在心里祈求着天梨没有暴露给她小团体里的女生，一边又想起天梨是那种完全不懂暗示的天然女，她应该没有防备吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 74,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不提那些事情就是帮我的大忙了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 77,
+	},
+	block_00014 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b0210", ex05="kan_z1b0010", face="b0029h", head="kan_z1b", x=0, lv=2.3, id=13},
+		{"fgact", ch="華乃", act="おじぎ", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b0210", ex05="kan_z1b0010", face="b0038h", head="kan_z1b", x=0, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_00553", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「抱，抱歉。但是我也，果然也会很尴尬的吧。如果你能让天梨稍微注意一点也是帮我的大忙。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 84,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊不，这边才是要道歉。我尽量委婉的传达……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 87,
+	},
+	block_00016 = {
+		{"fg", ch="華乃", size="z1", hoho="h", mode=3, path=":fg/kan/z1/", file="kan_z1b0200", ex05="kan_z1b0000", face="b0028h", head="kan_z1b", x=0, lv=2.3, id=13},
+		{"fgact", ch="華乃", act="おじぎ", lv=2.3, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是「委婉」的传达的话天梨也不懂吧。我和常磐同时叹起了气。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 92,
+	},
+	block_00017 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg011a", path=":bg/", sync=0},
+		{"fg", ch="華乃", size="no", mode=3, resize=1, path=":fg/kan/no/", file="kan_nob0200", ex05="kan_nob0000", face="b0028", head="kan_nob", x=230, lv=2.2, id=10, sync=0},
+		{"extrans", time=500},
+		{"fg", ch="天梨", size="no", mx=-40, mode=3, resize=1, path=":fg/ame/no/", file="ame_noa0200", ex05="ame_noa0000", face="a0054", head="ame_noa", x=-230, lv=2.2, id=9},
+		{"se", file="se扉開く(スライド)教室", id=1},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_noa0200", ex05="ame_noa0000", face="a0052", head="ame_noa", x=-230, lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_02006", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「早上好……啊，是会长和华乃亲！就你们俩？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 110,
+	},
+	block_00018 = {
+		{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_noa0200", ex05="ame_noa0000", face="a0054", head="ame_noa", x=-230, lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="no", ex03="a0097", mode=3, path=":fg/ame/no/", file="ame_noa0210", ex05="ame_noa0010", face="a0006", head="ame_noa", x=-230, lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_02007", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「正好！关于下次的同人展，华乃亲要不要和我两个人一起cos小狗？听说狗耳朵挺有人气的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 116,
+	},
+	block_00019 = {
+		{"fg", ch="華乃", size="no", mode=3, path=":fg/kan/no/", file="kan_nob0200", ex05="kan_nob0000", face="b0050", head="kan_nob", x=230, lv=2.2, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_00554", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「那会很冷的吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 121,
+	},
+	block_00020 = {
+		{"se", stop=1, time=500, id=1},
+		{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_noa0200", ex05="ame_noa0000", face="a0001", head="ame_noa", x=-230, lv=2.2, id=9},
+		{"fgact", ch="天梨", act="うなづく", lv=2.2, id=9},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不需多问，常磐一击就让天梨沉默了。她比我更会饲养小狗呢。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 127,
+	},
+	block_00021 = {
+		{"fg", ch="天梨", size="no", ex03="a0097", mode=3, path=":fg/ame/no/", file="ame_noa0210", ex05="ame_noa0010", face="a0052", head="ame_noa", x=-230, lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="no", ex03="a0097", mode=3, path=":fg/ame/no/", file="ame_noa0210", ex05="ame_noa0010", face="a0054", head="ame_noa", x=-230, lv=2.2, id=9},
+				{"fgact", ch="天梨", act="びっくり", lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_02008", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「啊，但是，华乃亲比起狗更像猫吧？感觉会很合适！那就等夏天吧！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 134,
+	},
+	block_00022 = {
+		{"fg", ch="華乃", size="no", mode=3, path=":fg/kan/no/", file="kan_nob0200", ex05="kan_nob0000", face="b0038", head="kan_nob", x=230, lv=2.2, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_00555", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「那个啊，和泉……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 139,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「加油！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 142,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"夏天的同人展就和我没有什么关系了呢，就交给她们两人解决吧。戴着狗耳的天梨、戴着猫耳的常磐，有点想看呢。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 144,
+	},
+	block_00025 = {
+		{"scene", file="scene22"},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="white", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=0, func="wait"},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"タイトル"},
+		{"text"},
+		linkback = "block_00024",
+		line = 155,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

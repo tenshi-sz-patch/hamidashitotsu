@@ -1,0 +1,3081 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="仿佛蒙马特的坡道一般"},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg018c", path=":bg/", sync=0},
+		{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_noa0200", ex05="ame_noa0000", face="a0054", head="ame_noa", x=0, lv=2.2, id=13, sync=0},
+		{"extrans"},
+		{"bgm", file="bgm08"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01138", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「送我到这里就好了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 21,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊，但已经这么晚了，我送你到大野站……啊不，还是送你到家附近吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 24,
+	},
+	block_00002 = {
+		{"fg", ch="天梨", size="no", mode=3, path=":fg/ame/no/", file="ame_noa0200", ex05="ame_noa0000", face="a0010", head="ame_noa", x=0, lv=2.2, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"如果是还没交往又或是刚交往还没多久的话，我是没法提出送女孩子到她家的请求的……但既然已经去过她家一次了，现在再提出应该也没什么问题吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 28,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「而且我也被里姐拜托了呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 31,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"而里姐本人，现在估计正在千玉市的某处，载着学生会的成员们飞驰。按照顺序，妃爱是最后一个。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 33,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"作为文化祭的庆祝会，里姐请我们吃了烤肉，还开车送我们回家。让您强忍着不喝酒真是非常抱歉。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 35,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但里姐的车里能坐的人数有限，常磐、锦、诗樱学姐，最后加上妃爱就满员了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 37,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"原本和妃爱一起回家应该是我的职责。但是妃爱和里姐却说让我送天梨回家，于是我们两人就这样来到了车站。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 39,
+	},
+	block_00008 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg018c", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="天梨", size="z1", mode=3, resize=1, path=":fg/ame/z1/", file="ame_z1a0200", ex05="ame_z1a0000", face="a0053", head="ame_z1a", x=0, lv=2.3, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「对了，我记得你家附近是有巴士的吧？不如我送你到乘巴士的地方……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 49,
+	},
+	block_00009 = {
+		{"fg", ch="天梨", size="z1", ex03="a0097", mode=3, path=":fg/ame/z1/", file="ame_z1a0210", ex05="ame_z1a0010", face="a0009", head="ame_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01139", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「抱歉，我跟爸爸说了让他开车来车站接我」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 56,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「好的，那我就送你到这里吧。今天辛苦了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 59,
+	},
+	block_00011 = {
+		{"fg", ch="天梨", size="z1", ex03="a0097", mode=3, path=":fg/ame/z1/", file="ame_z1a0210", ex05="ame_z1a0010", face="a0034", head="ame_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然说大野的车站，检票口和月台不在同一个楼层……但仔细想想，因为是本地的车站，说不定会有附近认识天梨的人目击到我和天梨在一起。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 63,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"分别的时候，在人前也不好提出接吻……但至少希望能握住她的手。为此，我挑了一个没什么的人的地方聊天。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 65,
+	},
+	block_00013 = {
+		{"fg", ch="天梨", size="z1", ex03="a0097", mode=3, path=":fg/ame/z1/", file="ame_z1a0210", ex05="ame_z1a0010", face="a0052", head="ame_z1a", x=0, lv=2.3, id=13},
+		{"fgact", ch="天梨", act="びっくり", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1a0200", ex05="ame_z1a0000", face="a0054", head="ame_z1a", x=0, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01140", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「对了！明天的集合地点，要不就定在这里吧！？明天早上是今天的延续，在同一个地方不是挺好的吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 72,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我不想让天梨站着等我，所以还是在汉堡店吧。除非你能答应我提前到集合地点不超过15分钟」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 75,
+	},
+	block_00015 = {
+		{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1b0200", ex05="ame_z1b0000", face="b0041", head="ame_z1b", x=0, lv=2.3, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"天梨一只手敲着自己的脑袋，眨了眨一边的眼睛，看来是不打算放弃比我早到了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 81,
+	},
+	block_00016 = {
+		{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1b0200", ex05="ame_z1b0000", face="b0052", head="ame_z1b", x=0, lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01141", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「到家后给你发短信哦」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 86,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「嗯，我到家了也会发给你的，不过大概天梨会先到吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 89,
+	},
+	block_00018 = {
+		{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1a0200", ex05="ame_z1a0000", face="a0054", head="ame_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01142", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「我会注意到时候不要聊太长时间的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 94,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「就算你这么说，也绝对会聊很久的吧。还是定个规则吧，过了十二点就打住，要狠心一点」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 97,
+	},
+	block_00020 = {
+		{"fg", ch="天梨", size="z1", ex03="a0097", mode=3, path=":fg/ame/z1/", file="ame_z1a0210", ex05="ame_z1a0010", face="a0038", head="ame_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="z1", ex03="a0097", mode=3, path=":fg/ame/z1/", file="ame_z1a0210", ex05="ame_z1a0010", face="a0002", head="ame_z1a", x=0, lv=2.3, id=13},
+				{"fgact", ch="天梨", act="おじぎ", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01143", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「嗯，但是……这样啊。如果你觉得这样比较好的话……嗯」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 104,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「唔？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 107,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"怎么回事，总感觉天梨话中有话。这对于她来说是真少见啊，以往她和我告别都是十分干脆利落的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 109,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「让天梨的父亲等久了也不太好，还是快点过去吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 112,
+	},
+	block_00024 = {
+		{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1a0200", ex05="ame_z1a0000", face="a0053", head="ame_z1a", x=0, lv=2.3, id=13},
+		{"fgact", ch="天梨", act="うなづく", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1b0210", ex05="ame_z1b0010", face="b0054", head="ame_z1b", x=0, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01144", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「嗯，不过有件东西，我想让会长在这里看一下会比较好，看一下就好」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 119,
+	},
+	block_00025 = {
+		{"fg", ch="天梨", size="z1", mode=3, path=":fg/ame/z1/", file="ame_z1b0210", ex05="ame_z1b0010", face="b0018", head="ame_z1b", x=0, lv=2.3, id=13},
+		{"fgact", ch="天梨", act="うんうん", lv=2.3, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"天梨看了看时间，稍微有点慌张地拿出手机，给我看了看手机画面。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 124,
+	},
+	block_00026 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", zoom=120, file="zbg018c", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="天梨", size="z2", mode=3, resize=1, path=":fg/ame/z2/", file="ame_z2a0200", ex05="ame_z2a0000", face="a0053", head="ame_z2a", x=0, lv=2.4, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01145", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「这是，刚刚上传到Instagram的照片……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 134,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「嗯」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 137,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"天梨把好几张文化祭的照片都上传到了Instagram。像这类学校活动，好像都特别受欢迎。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 139,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在这些照片中，还混有庆功会的烤肉店里拍的照片。好像写着「文化祭最棒了！和学生会的大家在一起努力准备的文化祭，真的太棒了！」。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 141,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在轻松获得了十五万点赞的照片里，有十分卖相非常好的五名女生加上一名女教师，还有一名让人觉得还不如不在的、毫不起眼的男学生。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 143,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这就还要追溯到在烤肉店里的时候了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 145,
+	},
+	block_00032 = {
+		{"bgm", stop=1},
+		{"cgdel", id=-1},
+		{"bg", time=1500, file="white", path=":bg/"},
+		{"fg", mode=-2},
+		{"ex", time=1000, func="wait"},
+		{"bg", file="sd_ame_32_01", time=400, lv=5, id=6, path=":sd/sd_ame_32/", set="sd_ame_32", tagreset="1"},
+		{"bgm", file="bgm17"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00260", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「冲啊，吃肉！我要吃肉！冲啊！吃肉！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 162,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01146", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「耶！是肉耶！耶！耶是肉！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 165,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01524", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「这个环节好像在哪里听过啊。诗樱学姐没有教过你们日语吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 168,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"为了庆祝文化祭的大获成功，里姐带我们去了在千玉市里评价特别高的烧肉店。而且还是定的的包间。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 170,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"每次路过这间店的时候，我都想着哪怕只是进去看看都好……没想到会以这种形式进来啊。稍微有点感慨。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 172,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但也就只有我在东张西望了，其他人都看上去都非常习惯这种高级餐馆。毕竟常磐也好，天梨也是，还有诗樱学姐，她们都可以称得上是名流啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 174,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"就算是每天和我吃着同样东西的妃爱，看上去也和平时没什么两样。嘛，哪怕只是和业内人士保持着最低限度的交往，妃爱也肯定去过更加高级的店吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 176,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00261", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「今天我请客，大家有什么想点的就尽管点哦。嘛不过下单的也是我，可不能保证你们想吃的肉一定会上来哦，这就全看我的心情了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 179,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01791", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「请来一份米饭」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 182,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_00519", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「一开始就点米饭吗……诗樱学姐，我还以为你是会细细品尝肉本身的滋味的那种人」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 185,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01792", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「常磐，你看看我们的人数。如果所有人都点肉都点到满意为止，在接下来的一个月里，和泉老师可能会沦落到要在这里洗盘子了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 188,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_00520", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「原、原来如此。诗樱学姐，挺会照顾别人的……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 191,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01793", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「只要吃了米饭，就算被问到要不要再来一份肉，也可以毫无顾虑地拒绝，这样也不会被认为是在客气，可以默不作声地把肚子填满」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 194,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00262", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「不想让我出丑的话，就一定要填饱肚子哦？会点和山一样多的肉的，点米饭肯定会后悔的哦？都说了不要客气了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 197,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01147", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「啊！呐呐呐会长快看这个，这一页上是A5等级的黑毛和牛！这种肉特别好吃，一定要尝一尝哦！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 200,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00263", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「你们那边还是稍微学学诗樱亲？点想吃的是可以，但吃的时候要从正面问心无愧地看着我的眼睛吃哦？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 203,
+	},
+	block_00048 = {
+		{"bg", file="sd_ame_32_02", sync=0, face="1", time=400, lv=5, id=6, path=":sd/sd_ame_32/", set="sd_ame_32"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_00215", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「我还是第一次和别人一起吃烤肉」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 210,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01525", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「欸，是吗？锦没和家人一起去吃过烤肉吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 213,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_00216", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「没怎么去过以肉类为主食的地方……妃爱教教我怎么吃吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 216,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01526", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「好的，那就利用教锦第一次次烤肉的这个名义，不管气氛礼仪之类的，尽情地开烤了哦！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 219,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01527", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「如果和大人物一起吃饭，他们往往会替我们烤的，我们只需要注意好聊天的时机，看到肉烤得差不多了就自己夹过来！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 222,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_00217", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「我明白了，老师」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 225,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01528", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「但是大人物里面，也有喜欢夹肉给别人的人，这种时候就不需要自己夹肉，心怀感激地吃下去就好了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 228,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_00218", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「我明白了，老师」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 231,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01529", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「但像今天这样，大家关系不错地一起吃饭的话，像我们这样的后辈要率先烤好肉，然后分发到大家的盘子之中！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 234,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_00219", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「我明白……啊，要夹肉才行。学学学学长，请用。今天辛苦您了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 237,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"还没习惯烤肉的锦，夹了一块彻底烤焦的黑色的肉放在我的盘子里。她似乎认为肉一定要烤得足够久才行。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 239,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「谢谢，锦。然后，既然大家今天都那么努力了……就不要管前辈后辈什么的，自己烤的肉就自己吃吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 242,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_00220", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「好、好的，谢谢学长」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 245,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我一边让学生会的大家都随意一些，一边默默把我盘子里的烤焦的肉放回到烤架上，趁着锦不注意让妃爱给我夹了一块没焦的肉。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 247,
+	},
+	block_00062 = {
+		{"bg", file="sd_ame_32_03", sync=0, face="1", time=400, lv=5, id=6, path=":sd/sd_ame_32/", set="sd_ame_32"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_00221", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「好吃！妃爱亲，这肉真好吃啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 252,
+	},
+	block_00063 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01530", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「对吧？呼呼呼，锦的眼睛在闪闪发光哦，看到你这么高兴的话我不就想喂你吃更多的肉了嘛。来，张嘴——啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 255,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_00222", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「啊——嚼啊嚼啊……好吃！我没想到烤肉竟然这么好吃!  谢谢，妃爱亲很会烤肉呢！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 258,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01531", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「嘛，就算是烤肉大师的我，也会有夹慢了把肉烤焦的时候。来，该轮到给哥哥吃了。请品尝这块烤焦的肉」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 261,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"看到这幅场景的常磐和天梨，也不断地把烤焦的肉夹到我的盘子中来。也行吧，毕竟小时候和家里人一起吃烤肉的时候，也是父亲吃掉焦了的烤肉的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 263,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01794", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「嗯，内脏的味道也很不错……即便不是专门做内脏的店也能有这种质量，挺厉害啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 266,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_00521", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「诗樱学姐，原来喜欢吃内脏的吗……我们应该都不吃内脏之类的，就交给学姐与和泉了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 269,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我还没有吃到自己烤的肉呢……虽然我也喜欢内脏，但我更喜欢肋骨肉啊……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 271,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01148", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「啊！你们看，稀有部位的拼盘来了哦！这个超级好吃的！大家一起尝一下吧！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 274,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_00522", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「诶，天梨点了拼盘吗？我和里老师商量后也点了肩胛板腱（稀有部位之一）……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 277,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01532", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啊。我也是，因为锦说名字很有趣，就点了牛肩里脊（日语里和坐垫一个发音）……也是稀有部位呢……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 280,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00264", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「你们在说什么啊——！现在才是正式开始呢，尽管点尽管点——！今天要吃到平时吃不到的好肉哦——！嗨起来！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 283,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"里姐你这人真的是……！妃爱悄悄地在桌子底下把一个装着钱的信封塞给里姐，里姐摇了摇头，坚决拒收。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 285,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01149", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「哇啊啊啊——里老师对不起！没多想就下意识地按照平时和编辑部的人一起吃饭的情况去点了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 288,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00265", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「你们不要再让我这个大人出丑了！干脆我也点一些稀有部位好了！店员，麻烦来一份这个夏多布里昂牛唔……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 291,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"因为里姐想要点这间店最贵的肉，我连忙捂住她的嘴，让她先冷静一下再考虑。这样下去可不行啊……！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 293,
+	},
+	block_00078 = {
+		{"bg", file="sd_ame_32_04", sync=0, face="1", time=400, lv=5, id=6, path=":sd/sd_ame_32/", set="sd_ame_32"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_00223", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「哇啊啊啊啊啊啊啊啊……妃爱亲，快看！虽然刚刚的肉也很好吃，但现在上来的肉烤了后居然在闪闪发光耶！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 300,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01533", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「呜哇啊，即便是阅肉无数的我，也不禁留下了口水啊。吞口水。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 303,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_00523", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「虽、虽然感觉很对不起里老师……我开动了。哈！完蛋，等一下这个肉的味道实在是太高贵了，我顶不住了……仿佛在口中融化开来……啊啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 306,
+	},
+	block_00081 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01795", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「仅仅是吃个烤肉，居然有能够发出如此下流声音的女性……可是，不得不说这牛里腹肉的味道也是绝品呢……唔姆」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 309,
+	},
+	block_00082 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00266", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「什么时候点的牛里腹肉啊？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 312,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01150", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「会、会长——来，张开嘴——！这个肉，超好吃的哦。文化祭真的辛苦了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 315,
+	},
+	block_00084 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"诶，在大家面前让天梨喂我吃吗？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 317,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然我这么想着，但又觉得如果拒绝了反而会被大家看出自己的害羞，就尽量装作毫无内心波澜地吃掉了天梨递过来的肉。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 319,
+	},
+	block_00086 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「呜啊啊啊啊真的好吃……！里姐，我还是人生第一次吃到这样的肉……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 322,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00267", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「哈哈哈，不错的反应嘛！看到小智高兴的脸，感觉我也要高兴起来了！既然这样，那就再来一盘吧！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 325,
+	},
+	block_00088 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我念念不忘的烤肉，要比胜利的美酒更加美味。不，不仅仅是美酒或是高级肉，它的味道甚至比肉本身的美味更胜一筹。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 327,
+	},
+	block_00089 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"听说即使美味如鲷鱼，一个人吃也是食之无味的。但如果是和共同克服困难的五个女孩子还有一名美女教师一起吃的话，那就不可能不好吃了，其美味会加倍加倍再加倍。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 329,
+	},
+	block_00090 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"而如果是心爱的恋人喂的烤肉的话……那估计比最高级的松阪牛的里脊肉还要好吃。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 331,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_00224", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「妃爱亲……肉，好好吃……如果用这个肉来做肉包，那一定能做成世界上最好吃的肉包……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 334,
+	},
+	block_00092 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_00524", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「不行了……要去了……这种肉，继续吃下去的话，我的……大脑要坏掉了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 337,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01796", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「哈啊……吃过这样肉就算变得不会说话，倒也能够理解了……竟然连我都感觉到身体热了起来……呼呼」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 340,
+	},
+	block_00094 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然氛围好像变得有点奇怪，但这也挺不错的！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 342,
+	},
+	block_00095 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="rule_002", wait=500, file="black", path=":bg/", vague=40},
+		{"bg", file="sd_ame_32_06", rule="rule_002r", vague=40, time=400, lv=5, id=6, path=":sd/sd_ame_32/", set="sd_ame_32", tagreset="1"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不久之后吃完主食烤肉的我们，一边点着作为饭后甜点的布丁，一边喝着茶轻松地聊起了天。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 351,
+	},
+	block_00096 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01151", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「里老师，多谢款待！这里的烤肉真的太好吃了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 354,
+	},
+	block_00097 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00268", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「是吧？很不错吧？好难受啊，只能喝些无酒精饮料！可恶，如果不是还要开车的话——」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 357,
+	},
+	block_00098 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01797", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「如果担心回程的话，走几步就能从这里到我家了，可以让大家住一晚上。不过吃都吃完了，现在说这话也有点晚了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 360,
+	},
+	block_00099 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00269", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「哈！？诗樱亲真是的，为啥不在饭前说啊！？诶——如果不用送大家回去的话，我不就能喝上了吗！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 363,
+	},
+	block_00100 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00270", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「诶，接下来咋办呢？去诗樱亲家里继续第二轮庆祝会吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 366,
+	},
+	block_00101 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「要是被学校知道了里姐在学生家里喝酒，可就不只是被警告了，你还是忍一下吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 369,
+	},
+	block_00102 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01152", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「诶，那接下来干嘛呢？大家一起去诗樱学姐家里，一直聊到早上？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 372,
+	},
+	block_00103 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01534", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「明天我还有工作，没法去留宿！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 375,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01798", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「如果妃爱亲来不了的话，我也没有理由提供我的住宅了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 378,
+	},
+	block_00105 = {
+		{"se", id=1, file="seコミ_胸を張る"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我就知道会是这样！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 383,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"诗樱学姐虽然那么说，但也好像乐在其中的样子。那个诗樱学姐居然还对我的吐槽微微地笑了一下。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 385,
+	},
+	block_00107 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"而情绪高涨起来的不仅仅是诗樱学姐，常磐点了饭后的章鱼小丸子，锦则点了肉包。为什么菜单里会有这些东西啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 387,
+	},
+	block_00108 = {
+		{"bg", file="sd_ame_32_05", sync=0, face="1", time=400, lv=5, id=6, path=":sd/sd_ame_32/", set="sd_ame_32"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00271", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「诶呀，话说回来，这次文化祭的企画能够热闹起来真的太好了。理事长也说，新校服外套相关的事项也在推进呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 392,
+	},
+	block_00109 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01153", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「诶——！真的吗！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 395,
+	},
+	block_00110 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00272", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「真的真的，只不过这不仅需要在校生的同意，还需要家长会和校友会的同意，不是一两年内就能决定下来的事情就是啦」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 398,
+	},
+	block_00111 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01799", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「我听说之前也有好几次提起换校服的提议，但都在不知不觉中就没声了。今后还是要想想该如何维持这个提议的热度才是」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 401,
+	},
+	block_00112 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01800", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「不过如果能实现这件事情的话，和泉也能成为在学园史上留下名字的学生会长吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 404,
+	},
+	block_00113 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01535", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「诶，我家的哥哥能在学园史上留下名字！那我会开心死的！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 407,
+	},
+	block_00114 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01801", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「话虽如此，和泉的任期也就只剩下一个半月了。你可以找一个能够继承你想法的接班人」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 410,
+	},
+	block_00115 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「更换学校制服可不是学生会的工作啊……而且，也肯定有喜欢现在的外套的学生」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 413,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"事实上，因为新校服已经在制作中了，我也就没发表自己的意见。但我其实在最开始听到这个企画的时候，就对设计新校服持反对意见。我还是喜欢朴素一点的校服。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 415,
+	},
+	block_00117 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是身为学生会会长，其他成员决定的企画就要全力去完成，多余的事实就藏在心里好了。当然在制作衣服的时候，我并没有偷工减料，也没有任何这种念头。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 417,
+	},
+	block_00118 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"而且作为天梨的恋人，我也想要喜欢上自己喜欢的人所喜欢的事物。所以当问到我对新制服企画的想法的时候，我都表示赞成。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 419,
+	},
+	block_00119 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这其实和全体学生做出的决定是一样的，即便有自己不认可的方针，只要是大家决定的事情，那就要积极地参与进去。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 421,
+	},
+	block_00120 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"至少在我还是学生会代表的期间，我就会这样去做。看来在天梨这样阳光积极的一面的影响下，我也稍微喜欢上了这所学校和这里的学生啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 423,
+	},
+	block_00121 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「虽然无法听取所有人的意见，但是只要有人发声，我还是想要尽可能地听取他们的意见，在最后的任期里尽我所能。不管是现在的工作，还是寻找继任者」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 426,
+	},
+	block_00122 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01802", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「喔，不仅是现在，连任期结束后学生会的事都考虑到了啊。看来你也成长了不少嘛。作为把学生会托付给你的前任学生会长，我实在是光荣至极」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 431,
+	},
+	block_00123 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「哪里是被托付啊，明明是被强制扔过来的！你就安静点好好地吃你的布丁吧，你这个一切的元凶」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 434,
+	},
+	block_00124 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01803", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「什、什么？让我吃掉妃爱亲那和布丁一样柔软嫩滑的身体吗！？不过既然哥哥都认可了的话就没办法了……我会让妃爱幸福的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 437,
+	},
+	block_00125 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01154", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「大家在舞台下也给我们加油了哦！甚至有不认识的学姐夸赞新的制服可爱呢——都是华乃亲的功劳呢！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 440,
+	},
+	block_00126 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_00525", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「也不是啦，我确实是认真设计了一种平时也可以穿出去的衣服款式啦。但这也就是为了在文化祭上穿的一次性服装，平时在实际生活中穿的衣服我还没考虑过」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 443,
+	},
+	block_00127 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01804", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「倒也不至于拿学生设计的衣服拿来做正式的校服吧……理事长应该也只是认可了学生的自发的『行动』而已」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 446,
+	},
+	block_00128 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01536", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啊，话说回来，虽然理事长认可了我们擅自设计了新的校服，但其他的老师没有说什么吗？毕竟也没有事先商量过」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 449,
+	},
+	block_00129 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00273", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「唔？这倒是个问题。确实有几个意见特别大的人。但就算事先和他们说了，估计也会产生其他的麻烦」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 452,
+	},
+	block_00130 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00274", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「不管被说什么，也是我让你们去做的，大家就不要在意，尽管去把想做的事情都做了吧。责任都算在我头上就行了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 455,
+	},
+	block_00131 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"里姐一幅满不在乎的样子，但实际上还是会被各种挖苦找茬的吧。但她完全不给我们看到她难办的样子，还表现得很开心，我发自真心地感激她。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 457,
+	},
+	block_00132 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01537", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「我作为主持人在解说的时候，也说了一些挑衅老师的话，真的非常抱歉，已经在反省了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 460,
+	},
+	block_00133 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「这么说起来，你个臭妹妹，竟然不事先和我说一声，突然让站在舞台上快要紧张死了的我发言，是想干什么？是在报复我吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 463,
+	},
+	block_00134 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01538", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「好啦好啦，从结果来看成功了就好了嘛。哥哥要吃蛋糕嘛？啊，菜单上有小鸡模样的蛋糕哦，好可爱的哦」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 466,
+	},
+	block_00135 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「吃这种可爱的蛋糕的时候会感到有点可怜呢，就像要用勺子削掉它的头一样。要不削一下你的头吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 469,
+	},
+	block_00136 = {
+		{"bg", file="sd_ame_32_07", sync=0, face="1", time=400, lv=5, id=6, path=":sd/sd_ame_32/", set="sd_ame_32"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_00225", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「对不起学长……看到学长困惑的样子，我却无法帮上忙……我实在是还做不到随机应变」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 474,
+	},
+	block_00137 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「谢啦，只要你有帮我的想法就足够了。如果是锦的话，我不管怎么困扰都会原谅你的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 477,
+	},
+	block_00138 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01539", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「奇了怪了？同样是学生会成员，哥哥的态度是不是有些双标啊？果然还是点一整个蛋糕吧。然后用来狠狠地砸在哥哥脸上」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 480,
+	},
+	block_00139 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01155", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「诶，话说回来，这次活动大家都很高兴的吧？有种一起实现了某个目标的感觉，这不是很棒吗？大家一起拍张照吧！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 485,
+	},
+	block_00140 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"一听到天梨的提议，常磐紧紧地抱住自己的上臂，颤抖了起来。不知道从什么时候开始，天梨和常磐的关系，已经变成了捕食者和被捕食者的关系。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 487,
+	},
+	block_00141 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01540", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「拍照NG哟！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 490,
+	},
+	block_00142 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_00226", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「对不起，要拍到脸的话实在不行」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 493,
+	},
+	block_00143 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01156", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「华乃亲～如果只是和诗樱学姐与里老师三人拍的话，就不像是学生会了啊——」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 496,
+	},
+	block_00144 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_00526", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「诶，如果不上传到Instagram的话也不是不行……诶要上传的吗？是要上传的吗？真的要上传的吗！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 499,
+	},
+	block_00145 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"天梨一边抓着诗樱学姐的手臂一边靠近常磐，常磐已经是一幅大彻大悟了的模样。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 501,
+	},
+	block_00146 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"倒也不像是真的讨厌……好吧看起来是挺讨厌的，但常磐本人好像也接受了，就这样吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00145",
+		linknext = "block_00147",
+		line = 503,
+	},
+	block_00147 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01157", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「会长也一起照吧！毕竟是会长的学生会呢！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00146",
+		linknext = "block_00148",
+		line = 506,
+	},
+	block_00148 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「好啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00147",
+		linknext = "block_00149",
+		line = 509,
+	},
+	block_00149 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01158", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「嗯也是啊，会长对于这种事……诶，可以吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00148",
+		linknext = "block_00150",
+		line = 512,
+	},
+	block_00150 = {
+		{"se", id=1, file="se倒れる(ベッド)"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01541", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「哈！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00149",
+		linknext = "block_00151",
+		line = 517,
+	},
+	block_00151 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"妃爱被吓得发出了声，常磐也震惊地瞪圆了眼睛。但最吃惊的还是天梨，她已经想好了会被我拒绝，并没有抱有什么期待地试着问了一句而已。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00150",
+		linknext = "block_00152",
+		line = 519,
+	},
+	block_00152 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01159", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「诶真的可以吗！？诶诶真的可以吗！？可是拍的照片是要上传到Instagram的……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00151",
+		linknext = "block_00153",
+		line = 522,
+	},
+	block_00153 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_00527", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「果然还是要上传的啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00152",
+		linknext = "block_00154",
+		line = 525,
+	},
+	block_00154 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「可以啊，如果能留下与大家的回忆的话。毕竟是难得的纪念嘛。啊，不过就我一个男的会不会不合适啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00153",
+		linknext = "block_00155",
+		line = 528,
+	},
+	block_00155 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01160", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「合、合适！完全合适！当然没问题的！我想和会长一起留下回忆！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00154",
+		linknext = "block_00156",
+		line = 531,
+	},
+	block_00156 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00275", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「嘿～什么啊小智，你不会是为了天梨才拍照的吧～这是不很温柔嘛，作为男友还挺不错的嘛？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00155",
+		linknext = "block_00157",
+		line = 534,
+	},
+	block_00157 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01805", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「哦，没想到和泉还有这种男子气概。话说回来，还没有和我确认愿不愿意拍照呢，为什么理所当然地把我算进了里面」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00156",
+		linknext = "block_00158",
+		line = 537,
+	},
+	block_00158 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01542", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「呃，等等，等等等等，你们等等，哥哥你要拍照嘛？穿着制服拍吗？是要露脸的哦？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00157",
+		linknext = "block_00159",
+		line = 540,
+	},
+	block_00159 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「今天的话拍一下也没关系啦。大家都这么努力了，也想为文化祭留些纪念啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00158",
+		linknext = "block_00160",
+		line = 543,
+	},
+	block_00160 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_00227", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「前辈，竟然对学生会……原来把我们看得这么重要」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00159",
+		linknext = "block_00161",
+		line = 546,
+	},
+	block_00161 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01543", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「啊，是爱宕小姐吗？这么晚了十分抱歉，我是和泉。明明今天是我的休息日，却打扰到您十分抱歉……那个，其实是我有想要确认的事情，我想在SNS上传照片」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00160",
+		linknext = "block_00162",
+		line = 551,
+	},
+	block_00162 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01544", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「嗯，要露脸的……衣服？衣服是，穿着校服呢。诶？先不提会在学校里暴露身份，至少要避免让外部的人知道所在的学校？确实是呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00161",
+		linknext = "block_00163",
+		line = 554,
+	},
+	block_00163 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01545", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「要明天之后，先和事务所确认之后……呜呜但是，要是不行的话就会后悔一辈子了啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00162",
+		linknext = "block_00164",
+		line = 559,
+	},
+	block_00164 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01546", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「但是，这次估计是和哥哥一起穿校服拍照的最后机会……！无论如何，无论如何都想要一起拍……和哥哥的纪念……啊！对了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00163",
+		linknext = "block_00165",
+		line = 562,
+	},
+	block_00165 = {
+		{"se", id=1, file="seコミ_察する"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"妃爱朝大厅的服务员搭话，好像在商量着什么。能看见她这么拼命的样子，真少见啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00164",
+		linknext = "block_00166",
+		line = 566,
+	},
+	block_00166 = {
+		{"bg", file="sd_ame_32_09", sync=0, face="1", time=400, lv=5, id=6, path=":sd/sd_ame_32/", set="sd_ame_32"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01547", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「准备好了，这样就不会露脸了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00165",
+		linknext = "block_00167",
+		line = 573,
+	},
+	block_00167 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01161", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「诶，妃爱亲，真的可以吗？就算等事务所有回音了也没关系的哦？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00166",
+		linknext = "block_00168",
+		line = 576,
+	},
+	block_00168 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01548", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「如果那边说不行的话，会给大家添麻烦的。毕竟这是和哥哥穿着校服拍照的最后机会了。如果不会给天梨学姐添麻烦的话就拜托了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00167",
+		linknext = "block_00169",
+		line = 579,
+	},
+	block_00169 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01162", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「我当然没问题啊！有人头上套着纸袋的话，绝对会火的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00168",
+		linknext = "block_00170",
+		line = 582,
+	},
+	block_00170 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"妃爱好像是认真地要这样拍。不过还是等下回家后，我还是穿着校服，用妃爱的手机普普通通地拍张两人合照吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00169",
+		linknext = "block_00171",
+		line = 584,
+	},
+	block_00171 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_00228", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「那、那个……我也……刚刚虽然也说了拍照不行，但如果用这个来遮住脸的话……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00170",
+		linknext = "block_00172",
+		line = 587,
+	},
+	block_00172 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_00528", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「诶，这个不如说反而更可爱了？害羞地用菜单来遮住脸的孩子，太萌了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00171",
+		linknext = "block_00173",
+		line = 590,
+	},
+	block_00173 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00276", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「哈哈你们太好笑了！不错嘛不错嘛，能看出大家的个性不也挺好的嘛？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00172",
+		linknext = "block_00174",
+		line = 593,
+	},
+	block_00174 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_00229", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「谢谢。那个，请让我也加入……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00173",
+		linknext = "block_00175",
+		line = 596,
+	},
+	block_00175 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00277", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「亚澄亲，能够主动提出加入进来，真是成长了呢。让你加入学生会真的太好了。能像现在这样与大家一起创造各种美好的回忆」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00174",
+		linknext = "block_00176",
+		line = 599,
+	},
+	block_00176 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00278", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「我是特别喜欢文化祭的庆功会的照片的呢。以前学生时代，和其他辣妹一起拍了不少照片，现在也经常拿出来看看呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00175",
+		linknext = "block_00177",
+		line = 602,
+	},
+	block_00177 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00279", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「我那时也像你这样一起加入了合照，毕竟等以后成了社会人就没什么一起拍照的机会了。现在你可能会有点不好意思，但以后肯定会把这个时候拍的照片当作宝物哦」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00176",
+		linknext = "block_00178",
+		line = 605,
+	},
+	block_00178 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_ame_01163", ch="ame"},
+			},
+			ja = {
+				{
+					name = {"天梨"},
+					"「我拜托了店员给我们拍照！想要自在己手机上也拍一张的人，把手机给店员吧！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00177",
+		linknext = "block_00179",
+		line = 608,
+	},
+	block_00179 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"你们怎么全员都把手机交出去了啊。就连诗樱学姐也把手机交了出去，看来她也觉得今天是个特别的日子。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00178",
+		linknext = "block_00180",
+		line = 610,
+	},
+	block_00180 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"当然我的也交了出去。虽然只需要拍一张然后分享到群里就好了，但大家都想拍一份只属于自己的回忆。要拍7人份给店员添麻烦了，真的十分抱歉。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00179",
+		linknext = "block_00181",
+		line = 612,
+	},
+	block_00181 = {
+		{"se", file="seスマホカメラ", id=1},
+		{"bgm", stop=1},
+		{"bg", time=1500, file="white", path=":bg/"},
+		{"se", stop=1, time=500, id=1},
+		{"excall", file="05_天梨19_ed2"},
+		{"text"},
+		linkback = "block_00180",
+		line = 626,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

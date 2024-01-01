@@ -1,0 +1,309 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"bg", speed=120000, time=2000, file="zbg025a", path=":bg/", x2=640, y2=100, x=-640, y=100, ax=1280, ay=720, bx=-640, by=-360},
+		{"bgm", file="bgm23"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在一个晴朗的夏日，我和诗樱学姐从大白天开始就像傻瓜一样亲热着——感觉有些许奢侈呢。",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 9,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"当我冲完澡回到卧室时，诗樱学姐还穿着女仆装。我本以为她会发火，没想到她温柔地摸了我的头，亲了上来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 11,
+	},
+	block_00002 = {
+		{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_nob0810", ex05="shi_nob0010", face="b0001", head="shi_nob", lv=2.2, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_nob0810", ex05="shi_nob0010", face="b0010", head="shi_nob", lv=2.2, id=20},
+			},
+			vl02 = {
+				{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_nob0810", ex05="shi_nob0010", face="b0055", head="shi_nob", lv=2.2, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01549", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「蜜柑咖啡店现在的生意也很好呢……哦，今天终于没排队了啊。是不是原料用完了啊？已经挂出了已售罄的牌子了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 18,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「今天没有出场的机会了呢。就算想去帮忙，现在这个状态应该也没法去了吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 21,
+	},
+	block_00004 = {
+		{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_noa0810", ex05="shi_noa0010", face="a0003", head="shi_noa", lv=2.2, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01550", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「不是哦，如果叫我去的话，即使后穴正被抽插着，我也会打断你，然后去店里帮忙。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 26,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「诶？我的话还好，诗樱学姐的话我怕你会体力不支的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 29,
+	},
+	block_00006 = {
+		{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_noa0800", ex05="shi_noa0000", face="a0032", head="shi_noa", lv=2.2, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_noa0800", ex05="shi_noa0000", face="a0038", head="shi_noa", lv=2.2, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01551", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「这点程度还不至于让我精疲力尽。只不过是做了不习惯的事，屁股有些不舒服罢了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 35,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这份不适感似乎持续了很长时间。坐公交回家时我也在帮她揉。如果是因为我做过头了的话非常抱歉。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 37,
+	},
+	block_00008 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"msgoff"},
+		{"bg", file="bg002c", path=":bg/", sync=0},
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0500", ex05="shi_noa0000", face="a0018", head="shi_noa", x=-230, lv=2.2, id=9, sync=0},
+		{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_noa0500", ex05="hiy_noa0000", face="a0010", head="hiy_noa", x=230, lv=2.2, id=10, sync=0},
+		{"extrans", time=2000},
+		{"bgm", file="bgm28"},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_noa0500", ex05="hiy_noa0000", face="a0002", head="hiy_noa", x=230, lv=2.2, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01388", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「诶？诗樱学姐哪里受伤了吗？感觉你有些站不稳喔。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 57,
+	},
+	block_00009 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0500", ex05="shi_nob0000", face="b0040", head="shi_nob", x=-230, lv=2.2, id=9},
+		{"fgact", ch="詩桜", act="びっくり", lv=2.2, id=9},
+		{"se", file="seコミ_眼光", id=1},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0500", ex05="shi_nob0000", face="b0020", head="shi_nob", x=-230, lv=2.2, id=9},
+				{"fgact", ch="詩桜", act="いいえ", lv=2.2, id=9},
+			},
+			vl02 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0510", ex05="shi_nob0010", face="b0019", head="shi_nob", x=-230, lv=2.2, id=9},
+			},
+			vl03 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0510", ex05="shi_nob0010", face="b0028", head="shi_nob", x=-230, lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01552", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「嗯！？啊、啊没什么，今天在蜜柑咖啡店里坐了太久了吧……久坐之后腰有点疼。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 68,
+	},
+	block_00010 = {
+		{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_nob0510", ex05="hiy_nob0010", face="b0008", head="hiy_nob", x=230, lv=2.2, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01389", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「这可不好，我去给你准备敷的毛巾。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 73,
+	},
+	block_00011 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0510", ex05="shi_nob0010", face="b0009", head="shi_nob", x=-230, lv=2.2, id=9},
+		{"fgact", ch="詩桜", act="いいえ", lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0510", ex05="shi_nob0010", face="b0019", head="shi_nob", x=-230, lv=2.2, id=9},
+			},
+			vl02 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0500", ex05="shi_nob0000", face="b0008", head="shi_nob", x=-230, lv=2.2, id=9},
+				{"fgact", ch="詩桜", act="びっくり", lv=2.2, id=9},
+			},
+			vl03 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0500", ex05="shi_nob0000", face="b0034", head="shi_nob", x=-230, lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_01553", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「那个，嗯……我觉得睡一觉应该就好了……算了，果然还是敷上比较好，麻烦你了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 83,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"学姐为了回家时也能隐藏这个不适感的真正原因，拿了没必要用的毛巾。如果是因为我做过头了的话真的非常抱歉……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 85,
+	},
+	block_00013 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"bg", file="catch04", id=9, lv=9, time=500, path=":cg/"},
+		{"bgm", file="bgm94", loop=0},
+		{"ex", time=6000, func="wait"},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="04_詩桜08_1"},
+		{"text"},
+		linkback = "block_00012",
+		line = 93,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

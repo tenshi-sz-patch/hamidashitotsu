@@ -1,0 +1,23 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"eval", exp="g.sysvo_hiy=1"},
+		{"eval", exp="g.sysvo_kan=1"},
+		{"eval", exp="g.sysvo_asu=1"},
+		{"eval", exp="g.sysvo_shi=1"},
+		{"keyskip", key="mwclick", label="label_skip"},
+		{"brandlogo", mode="white", time=1000, wait=2500},
+		{"brandlogo", file="logo", sysvo="brand", movie=1, cond="s.sp==0"},
+		{"brandlogo", file="logo", sysvo="brand", movie=1, cond="s.sp==1"},
+		{"brandlogo", file="caution"},
+		{"brandlogo", file="imel", cond="s.cs==1"},
+		{"keyskip"},
+		{"brandlogo"},
+		{"text"},
+		line = 33,
+	},
+	label = {
+		label_skip = { block="block_00000", label=12 },
+		top = { block="block_00000", label=1 },
+	},
+}

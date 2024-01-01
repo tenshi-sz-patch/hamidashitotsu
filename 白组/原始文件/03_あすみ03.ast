@@ -1,0 +1,2011 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="比起做了什么，参与其中更重要"},
+		{"bg", file="bg099a", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过，我这个人还是把上电视的影响想得太简单了。",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 12,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我从出生起就得到了妃爱这个超稀有的妹妹，所以要是能稍微预测一些未来就好了。不对，该说是我没有想到吗。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 14,
+	},
+	block_00002 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"bg", file="bg026a", path=":bg/"},
+		{"bgm", file="bgm21"},
+		{"fg", ch="雪景シキ", size="z1", my=40, mode=3, resize=1, path=":fg/yuk/z1/", file="yuk_z1a0200", face="a0023", head="yuk_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="雪景シキ", size="z1", mode=3, path=":fg/yuk/z1/", file="yuk_z1a0200", face="a0054", head="yuk_z1a", x=0, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10116", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"雪景シキ"},
+					"「大家精精神吗——？　活在当下吗——？　能好好看到明天的景色吗——？　年底来看我了吗？　感觉我的肩膀很上镜呢！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 31,
+	},
+	block_00003 = {
+		{"fg", ch="雪景シキ", size="z1", mode=3, path=":fg/yuk/z1/", file="yuk_z1a0200", face="a0008", head="yuk_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="雪景シキ", size="z1", mode=3, path=":fg/yuk/z1/", file="yuk_z1a0200", face="a0023", head="yuk_z1a", x=0, lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fgact", ch="雪景シキ", act="おじぎ", lv=2.3, id=13},
+			},
+			vl03 = {
+				{"fg", ch="雪景シキ", size="z1", mode=3, path=":fg/yuk/z1/", file="yuk_z1a0200", face="a0055", head="yuk_z1a", x=0, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10117", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"雪景シキ"},
+					"「啊——也有许多新观众呢！我叫雪景式，请多指教！我走在世界的路边就像虫子一样活着，但匹虫不可夺其志！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 43,
+	},
+	block_00004 = {
+		{"fg", ch="雪景シキ", size="z1", mode=3, path=":fg/yuk/z1/", file="yuk_z1a0200", face="a0010", head="yuk_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="雪景シキ", size="z1", mode=3, path=":fg/yuk/z1/", file="yuk_z1a0200", face="a0019", head="yuk_z1a", x=0, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10118", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"雪景シキ"},
+					"「那么，今天突然占用大家的时间是为了……那个，因为总是每一万人就庆祝一次，所以我自己都被吓到了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 49,
+	},
+	block_00005 = {
+		{"fg", ch="雪景シキ", size="z1", mode=3, path=":fg/yuk/z1/", file="yuk_z1a0200", face="a0054", head="yuk_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fgact", ch="雪景シキ", act="びっくり", loop=2, lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fgact", ch="雪景シキ", act="びっくり", loop=2, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10119", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"雪景シキ"},
+					"「多亏了大家，今天可喜可贺地达成了40万人关注数！　哇——！　谢——谢——大——家——！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 57,
+	},
+	block_00006 = {
+		{"fg", ch="雪景シキ", size="z1", mode=3, path=":fg/yuk/z1/", file="yuk_z1a0200", face="a0014", head="yuk_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="雪景シキ", size="z1", mode=3, path=":fg/yuk/z1/", file="yuk_z1a0200", face="a0016", head="yuk_z1a", x=0, lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="雪景シキ", size="z1", mode=3, path=":fg/yuk/z1/", file="yuk_z1a0200", face="a0006", head="yuk_z1a", x=0, lv=2.3, id=13},
+			},
+			vl03 = {
+				{"fg", ch="雪景シキ", size="z1", mode=3, path=":fg/yuk/z1/", file="yuk_z1a0200", face="a0055", head="yuk_z1a", x=0, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10120", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"雪景シキ"},
+					"「糟糕，刚才发出原声了。欸？　电子的存在也有原声哦！　因为我本来是雪之妖精，只是把雪的结晶和电子结合了而已。我才不懂什么科学呢！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 66,
+	},
+	block_00007 = {
+		{"fg", ch="雪景シキ", size="z1", mode=3, path=":fg/yuk/z1/", file="yuk_z1a0200", face="a0052", head="yuk_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10121", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"雪景シキ"},
+					"「实际上呢，因为昨晚关注数超过了35万人，所以我打算今天做庆祝直播的的，没想到才一天就……我自己都被吓到了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 72,
+	},
+	block_00008 = {
+		{"fg", ch="雪景シキ", size="z1", mode=3, path=":fg/yuk/z1/", file="yuk_z1a0200", face="a0055", head="yuk_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="雪景シキ", size="z1", mode=3, path=":fg/yuk/z1/", file="yuk_z1a0200", face="a0019", head="yuk_z1a", x=0, lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="雪景シキ", size="z1", mode=3, path=":fg/yuk/z1/", file="yuk_z1a0200", face="a0054", head="yuk_z1a", x=0, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10122", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"雪景シキ"},
+					"「今后也请多来捧场，我不会说什么，请你们最推我这种奢侈的话，就算记不住我的名字也没关系，只要我的歌声能留在你记忆的角落里就再好不过了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 80,
+	},
+	block_00009 = {
+		{"fg", ch="雪景シキ", size="z1", mode=3, path=":fg/yuk/z1/", file="yuk_z1a0200", face="a0019", head="yuk_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="雪景シキ", size="z1", mode=3, path=":fg/yuk/z1/", file="yuk_z1a0200", face="a0053", head="yuk_z1a", x=0, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10123", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"雪景シキ"},
+					"「平常我会啰啰嗦嗦地闲聊，偶尔也会唱歌——，话说我的视频主要是歌！请多听我的歌哦！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 87,
+	},
+	block_00010 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"bg", speed=160000, file="zbg007a", path=":bg/", x2=640, y2=0, x=-640, y=0, ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"即使是已经进入1月的第二个星期，我又回看了一遍过完年不久进行的40万人达成的直播。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 94,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"明明几个月前才刚刚进行恭喜30万人的直播……达到15万人花了将近1年，但企业出道后就20万人，之后的势头非常迅猛。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 96,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"顺便一提，里姐似乎并不理解「关注数４０万人」有多厉害，我告诉她「在国内的ＶＴｕｂｅｒ排名１５０位以内」。结果她仍歪头表示不解。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 98,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"嘛，这种东西只有同一个圈子里的人才能聊得起来……世界上也有人炫耀着自己上过的女性的数量。就像我也对这种事没兴趣一样。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 100,
+	},
+	block_00014 = {
+		{"bgm", stop=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过，要是说我能否和亚澄本人共享这份喜悦的话。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 107,
+	},
+	block_00015 = {
+		{"msgoff"},
+		{"bg", file="bg007a", path=":bg/", sync=0},
+		{"extrans"},
+		{"bgm", file="bgm03"},
+		{"se", file="seドア(室内開き)", id=1},
+		{"fg", ch="あすみ", size="no", mx=40, mode=3, path=":fg/asu/no/", file="asu_noa0200", ex05="asu_noa0000", face="a0023", head="asu_noa", x=0, lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="あすみ", size="no", mode=3, path=":fg/asu/no/", file="asu_noa0200", ex05="asu_noa0000", face="a0008", head="asu_noa", x=0, lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10124", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「学长，让你久等……啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 122,
+	},
+	block_00016 = {
+		{"fg", ch="あすみ", size="no", mode=3, path=":fg/asu/no/", file="asu_nob0210", ex05="asu_nob0010", face="b0002", head="asu_nob", x=0, lv=2.2, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我在亚澄的房间里看那个视频的时候，她露出了困惑的表情。当着她本人的面看视频，似乎现在还是会让她很不好意思。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 126,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊——，那个……总，总之我们去学校吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 129,
+	},
+	block_00018 = {
+		{"fg", ch="あすみ", size="no", mode=3, path=":fg/asu/no/", file="asu_nob0210", ex05="asu_nob0010", face="b0020", head="asu_nob", x=0, lv=2.2, id=13},
+		{"fgact", ch="あすみ", act="うなづく", lv=2.2, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10125", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「好……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 135,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她点了点头，说的话比平时还要少。明明是时隔许久的上学时间，果然还是不该来亚澄的房间看视频的吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 137,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"寒假结束后的第一天。她说有些害怕时隔多日的上学路，所以我便来她家接她。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 139,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"自亚澄从企业出道之后，她穿着校服的时候似乎就会回避ＶＴｕｂｅｒ的话题。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 141,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"私服与自己家是和电子世界相连的场所，而校服和学校则是活在现实世界中的场所，在亚澄的心里估计是这样区分的吧。我是这么认为的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 143,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她今早肯定说着「现实生活加油吧！」鼓足了干劲。然而这份干劲却在我这个男友这里受挫了……我都感觉抱歉到想哭了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 145,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"似乎在体贴失落的我，亚澄收起困惑的表情，露出明朗的笑容看向我。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 147,
+	},
+	block_00025 = {
+		{"msgoff"},
+		{"bg", file="zbg007a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="あすみ", size="z1", mode=3, resize=1, path=":fg/asu/z1/", file="asu_z1b0200", ex05="asu_z1b0000", face="b0013", head="asu_z1b", lv=2.3, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10126", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「跨、跨年和新年参拜，很开心呢！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 157,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「欸，啊啊……很开心哦。我一般不会像那样和一大群人去新年参拜……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 160,
+	},
+	block_00027 = {
+		{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a0200", ex05="asu_z1a0000", face="a0054", head="asu_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a0210", ex05="asu_z1a0010", face="a0019", head="asu_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10127", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「我，我也是。去年元旦的时候我整理了一天器材」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 166,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「器材？　视频用的？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 169,
+	},
+	block_00029 = {
+		{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a0210", ex05="asu_z1a0010", face="a0002", head="asu_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a0200", ex05="asu_z1a0000", face="a0020", head="asu_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10128", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「不是，水平仪——合成器出问题了。我正准备出道，当时只有自己一个人，也没法拜托别人」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 176,
+	},
+	block_00030 = {
+		{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1b0210", ex05="asu_z1b0010", face="b0019", head="asu_z1b", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10129", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「因为我第一次想准备『试着唱了一下』的视频，所以在测试模型的同时也要调整器材，可费劲了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 181,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「测试皮套的同时还要录音……欸，歌曲是可以一个人录音的吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 184,
+	},
+	block_00032 = {
+		{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1b0200", ex05="asu_z1b0000", face="b0012", head="asu_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1b0210", ex05="asu_z1b0010", face="b0023", head="asu_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10130", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「啊，要是像贩卖那种追求质量的情况是不行……我只是上传试着唱了一下的视频而已」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 190,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「当时一听我就流泪了，我觉得质量已经相当高了来着……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 193,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"相比自己一个人，果然有技术人员在的话，录音质量的差距会很大吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 195,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过就算如此，一个人使用器材完成录音也很厉害了。因为去年的元旦，是亚澄入学之前迎接考试的时期。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 197,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"事到如今，我才担心起当时的亚澄，不由得嗤嗤地笑了起来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 199,
+	},
+	block_00037 = {
+		{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a0200", ex05="asu_z1a0000", face="a0055", head="asu_z1a", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10131", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「『当时』，学长肯定在我上传『试着唱了一下』的视频之后立刻就听了吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 204,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊，嗯……不算立刻吧，不过我觉得挺早的。我打开视频的时候，播放量才300多……刷新一下就超过了1万，可吓到我了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 207,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"等下，我怎么还在本人面前装逼说「我很早就看视频了」。要说谁看小式的视频看得早，这个女孩才是最早的吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 209,
+	},
+	block_00040 = {
+		{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1b0210", ex05="asu_z1b0010", face="b0023", head="asu_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1b0200", ex05="asu_z1b0000", face="b0054", head="asu_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10132", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「『试着唱了一下』虽然是个无名的新人唱的，但听的人却很多呢。我记得看到数字时我开心地想着『我的歌被听了那么多遍啊』」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 215,
+	},
+	block_00041 = {
+		{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1b0200", ex05="asu_z1b0000", face="b0019", head="asu_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1b0210", ex05="asu_z1b0010", face="b0053", head="asu_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10133", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「虽然这个和关注数没有直接联系……那之后，在做出新曲之前，就算不擅长聊天，我也在很努力地去直播了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 221,
+	},
+	block_00042 = {
+		{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a0210", ex05="asu_z1a0010", face="a0053", head="asu_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a0210", ex05="asu_z1a0010", face="a0054", head="asu_z1a", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fgact", ch="あすみ", act="おじぎ", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10134", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「和那时相比，现在看视频的人多了很多。谢谢你一直以来对我的支持，学长」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 228,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「没，没什么，因为我最喜欢小式了……！我一直，今后也会，永远支持你的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 231,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「对了，虽然寒假里也说过很多次了，恭喜40万人达成！　由于太高兴，所以我刚才又看一遍视频了，哈哈」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 234,
+	},
+	block_00045 = {
+		{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1b0200", ex05="asu_z1b0000", face="b0054", head="asu_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1b0210", ex05="asu_z1b0010", face="b0019", head="asu_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10135", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「我很高兴。不过被当面对比，果然有点不好意思」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 240,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「抱歉，我会注意的。想看的时候我会先跟你说一声」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 243,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她也提及了我难以开口的错误，让我可以顺利道歉了。亚澄的这种体贴之处，真的是……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 245,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我虽然想抱住她，但是搞得亚澄不想上学了也不太好，现在就先忍着。到公交站之前牵着手走吧……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 247,
+	},
+	block_00049 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"bg", rule="rule_001", vague=40, file="bg009a", path=":bg/"},
+		{"se", file="se扉開く(スライド)教室", id=1},
+		{"fg", ch="広夢", size="no", mx=40, mode=3, path=":fg/hir/no/", file="hir_noa0200", face="a0053", head="hir_noa", x=0, lv=2.2, id=13},
+		{"ex", time=300, func="wait"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10014", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「早上好。恭喜４０万人达成」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 264,
+	},
+	block_00050 = {
+		{"bgm", file="bgm06"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊啊，谢谢……咦？　我来道谢好像不太对劲？　总，总之，早上好。以及新年快乐」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 269,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"教室里只来一位同学坐在那里。这个点对于上学来说相当早，就连社团来晨练的都不多。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 271,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"可能是教室里没有其他学生的原因，他便向我扔来了ＶＴｕｂｅｒ的话题。不过就算被别人听到了，能蒙混过去的方法也有的是。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 273,
+	},
+	block_00053 = {
+		{"msgoff"},
+		{"bg", file="zbg009a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="広夢", size="z1", mode=3, resize=1, path=":fg/hir/z1/", file="hir_z1a0200", face="a0053", head="hir_z1a", lv=2.3, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「话说今天巨蟹座是第一啊。谢谢你」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 283,
+	},
+	block_00054 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0012", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0008", head="hir_z1a", lv=2.3, id=13},
+				{"fgact", ch="広夢", act="びっくり", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0020", head="hir_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10015", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「只是占卜……话，话说，能不能别说这件事了？　本，本人就在这里」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 291,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"能聊ＶＴｕｂｅｒ的话题，但关于玲舞的话题他似乎想回避。他好像还有些不好意思，就和亚澄一样。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 293,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「那关注数的话题最好也别说了吧？　你说４０万人恭喜，但现在玲……都７０万人了。啊，我不是在挖苦你」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 296,
+	},
+	block_00057 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0002", head="hir_z1a", lv=2.3, id=13},
+		{"fgact", ch="広夢", act="うなづく", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0023", head="hir_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10016", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「啊啊，只要不是视频的内容就没关系……话说回来，你还在意我的关注数啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 303,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「当然了。哎呀，其实我也挺喜欢玲舞的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 306,
+	},
+	block_00059 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0039", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10017", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「这种话，你也会对锦说吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 311,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"还真是问了个令人害羞的事。我确实对她本人说过「我喜欢小式」……但是对新川来说，直接听到会有些害羞吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 313,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"和支持对象的中之人与灵魂，对话其本身，是很罕见的幸运。但在现实世界中接触ＶＴｕｂｅｒ果然是很难的。注意小细节也是很麻烦的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 315,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在视频中接近原本的说话方式估计也不会在意，但玲舞和小式都在某种程度上被附加了人设……所以正常情况下可能有些难。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 317,
+	},
+	block_00063 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"总之不要当面提角色名了吧……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 319,
+	},
+	block_00064 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0053", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10018", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「我做ＶＴｕｂｅｒ１周年的时候，因为拿到了３６５天全勤奖所以成了话题，关注数一下子就上来了……涨了大约５万人哦」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 324,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「这么多！？　咦，我记得当时我也在意关注数了，但不记得一下子涨了那么多……欸，虽然现在说已经晚了，但还是好厉害啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 327,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"１周里涨５万关注数，用妃爱来说的话大概是当期出演６部作品那么厉害。用常磐来说的话就是画得到了２０万点赞那么厉害。诗樱学姐行业的标准我就不太懂了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 329,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"最近比较关注的是同时观看观众数……但以前ＶＴｕｂｅｒ的规模看的是关注数。就像漫画的战斗力一样。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 331,
+	},
+	block_00068 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0054", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0022", head="hir_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10019", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「也有过一段时间切片师每天早上帮忙传播占卜视频，开始成为话题的时期，但『○○天挑战』系列达成时候的冲击性是很强的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 339,
+	},
+	block_00069 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0053", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10020", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「我没说过『１年无休直播！』，但从大约1个月前开始，天气组帮忙炒热，关注度上来了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 344,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"「天气组」是玲舞的「粉丝名」。粉丝名指的是支持特定的偶像、声优、ＶＴｕｂｅｒ的粉丝的通称，经常是由官方准备名字。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 346,
+	},
+	block_00071 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0052", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0032", head="hir_z1a", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0020", head="hir_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10021", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「我也是从中途开始注意到的，1年全勤已经成话题了。虽然我当时很开心。那之后立刻就被炎上，结果全勤奖停止了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 353,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「那时你可相当失落啊……咦？话说你为什么暴露身份了？　话说，女孩子是……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 356,
+	},
+	block_00073 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0002", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10022", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「我不是很想说这个话题，不过是和接受工商的公司商量之后的第二天开始……我觉得是被内部泄露的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 361,
+	},
+	block_00074 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0029", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10023", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「虽然不想怀疑对方公司，但完全没有其他线索了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 366,
+	},
+	block_00075 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0008", head="hir_z1a", lv=2.3, id=13},
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「这不是犯罪吗！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 373,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我气愤地站了起来后，新川反而用惊讶的表情抬头看着我。我回过了神来，总之先坐下了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 375,
+	},
+	block_00077 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0023", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fgact", ch="広夢", act="おじぎ", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0002", head="hir_z1a", lv=2.3, id=13},
+			},
+			vl03 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0034", head="hir_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10024", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「不算犯罪……吧。可能违反了保密合同，但应该不追究刑事责任……我虽然掌握了相关的文件，但仅靠那个是不够的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 383,
+	},
+	block_00078 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0001", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0019", head="hir_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10025", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「如果提出了决定性的证据还好，但『我看到玲舞了，是可爱的女孩子』靠这个文件的话，从保护个人情报的观点来看是很难的吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 389,
+	},
+	block_00079 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0038", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10026", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「更何况要打官司的话，头疼的是我不想被得知真实身份啊。就算找代理人，或者让事务所帮我，我的性别和相关文件上的也不一样」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 394,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"只能忍气吞声……过分，太过分了。就连我都这么气愤，当事人新川会多么伤心啊。只是想想就感到心痛。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 396,
+	},
+	block_00081 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0029", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0002", head="hir_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10027", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「我之所以会失落，真实身份引起骚动……也是一个很大的原因，但不得不怀疑对方公司是最关键的因素……吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 401,
+	},
+	block_00082 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0022", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0055", head="hir_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10028", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「但多谢和泉能替我生气，我感觉得到了救赎。我很喜欢你的这点哦。谢谢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 407,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「听了这种话谁都会生气……我觉得谁都会生气的。如果是企业中的人干的……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 410,
+	},
+	block_00084 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0020", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0028", head="hir_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10029", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「只是没有其他线索了，还不确定就是企业的人暴露的。就算想起来也只会觉得很难受，我就不去想了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 416,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"当时玲舞的工商发生了什么，我也就不调查了吧。感觉会讨厌那个公司。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 418,
+	},
+	block_00086 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0002", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10030", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「而且能确定的是，暴露我身份的不是来商量的负责人。毕竟那个人直接见到了我，知道我的性别」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 424,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「咦？　是真的啊。那为什么是『可爱的女孩子』……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 427,
+	},
+	block_00088 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0038", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0034", head="hir_z1a", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0019", head="hir_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10031", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「大概……从远处把我看成了女孩子吧……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 434,
+	},
+	block_00089 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"很有可能。然而如果我现在表示认同的话，新川不知会怎么想，于是我只是板着脸低下了头。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 436,
+	},
+	block_00090 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0002", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10032", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「自那以后，我和外部的接触就不稳定了起来。就算来的是难得的工商，远程会议以外的我也都拒绝了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 441,
+	},
+	block_00091 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0038", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0034", head="hir_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10033", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「话虽如此，由于录音必须去录音棚，因此没有不碰面的工商」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 447,
+	},
+	block_00092 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「哦哦，所以说……你的知名度和关注数那么多，联动和工商却不多啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 450,
+	},
+	block_00093 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0028", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0023", head="hir_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10034", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「对于有性别这个不稳定因素的我来说，能有这么多的关注数就像奇迹一样了，现在的环境我就很满足了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 456,
+	},
+	block_00094 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0020", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0013", head="hir_z1a", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0055", head="hir_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10035", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「我不期望更多的数字，如果能就这么长期……干下去就好了。谢谢你一直支持我」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 463,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我有「雪景式」这个特别的推了，所以不能说玲舞是最推，但我知道了她的粉丝天气组的大家有多么幸福。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 465,
+	},
+	block_00096 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「也就是说……从刚才的话来看，Vimpact的时候申请替角，是非常需要勇气的决断啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 468,
+	},
+	block_00097 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「让我把当时没说够的感谢补上吧。谢谢你看到困扰的我们，马上就做出了决断」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 471,
+	},
+	block_00098 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0001", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0019", head="hir_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10036", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「我的工商突然增加，是关注数超过４０万人的时候……我觉得锦之后也会很辛苦吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 477,
+	},
+	block_00099 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然我觉得自己说了句很不错的话，但是我的道谢被新川完全忽视，让我不禁感到有些悲伤。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 479,
+	},
+	block_00100 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0052", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0055", head="hir_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10037", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「有什么困扰的话随时来问我。如果是我能回答的问题，我都会帮忙的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 485,
+	},
+	block_00101 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「……谢啦！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 488,
+	},
+	block_00102 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"新川真帅气啊。如果新川是（可爱的）女孩子，在遇到亚澄之前聊了刚才的话题的话，我肯定会迷上他吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 490,
+	},
+	block_00103 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过如果新川是女孩子的话，我也没有和关注数７０万的大人气ＶＴｕｂｅｒ搞好关系的机会就是了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 492,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「话说我可以问一个和你有关的问题吗？那种声音，你都是怎么发出来的？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 495,
+	},
+	block_00105 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0022", head="hir_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0013", head="hir_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10038", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「因为到现在我的变声期都没有来……虽然做视频的时候稍微处理了一下，但也只是把原声弄尖了一些而已」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 501,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「欸，那是你的原声？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 504,
+	},
+	block_00107 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"bg", file="catch03", id=9, lv=9, time=500, path=":cg/"},
+		{"bgm", file="bgm93", loop=0},
+		{"ex", time=6000, func="wait"},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="03_あすみ04"},
+		{"text"},
+		linkback = "block_00106",
+		line = 510,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

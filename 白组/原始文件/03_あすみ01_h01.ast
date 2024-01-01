@@ -1,0 +1,3487 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="面红耳赤的圣诞老人"},
+		{"bg", rule="rule_001", vague=40, file="bg099c", path=":bg/"},
+		{"bgm", file="bgm20"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然房费很贵，但貌似有与这费用相称的价值，房间宽敞明亮，里面放着一张软绵绵的床。",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 14,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是我们并没有好好利用这宽敞的空间，亚澄在床沿上轻轻坐下，我把椅子拿到正面，弓着背坐了下来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 17,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我们把行李放在房间里，彼此坐在现在的位置，一段时间里都保持着沉默。我和亚澄都在选择措辞。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 20,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然房间里有一台超大的电视可以当做话题聊，但我曾从漫画里了解到，在这种房间里打开电视就会播放成人影片，所以就将其选择性无视了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 22,
+	},
+	block_00004 = {
+		{"fg", ch="あすみ", size="no", mode=1, path=":fg/asu/no/", file="asu_noa1101", ex05="asu_noa0001", face="a0010", head="asu_noa", lv=2.2, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10551", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「圣诞老人的帽子……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 30,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在这种情况下，亚澄注意到了房间里准备的cosplay服装。 圣诞节已经过去了，这是忘记撤掉了吗？ 还是说整个12月都有需求？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 32,
+	},
+	block_00006 = {
+		{"bg", time=500, file="white", path=":bg/"},
+		{"bg", file="ev_asu_h31_01", path=":ev/ev_asu_h31/", set="ev_asu_h31"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"亚澄不知怎么就戴上了那顶帽子，还戴上了圣诞披肩，端坐在原来的位置。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 39,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"怎么办，这应该吐槽一下吗？不，普通地夸夸可爱就好了，虽说实际上也确实很可爱，但是我和亚澄一时间陷入了沉默。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 41,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10552", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「现在，就好像我们刚见面的那会儿呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 44,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"越是这种时候就越是要由我这种前辈来打破尴尬……但是，却被亚澄抢先了一步。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 46,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"而且，不知怎么我非常清楚亚澄的话里所表达的含义。即使不做说明亚澄的想法也能清楚地传达给我，真是值得庆幸啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 48,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊啊，那时啊……是的呢，我因为想和亚澄说话，拼命地寻找话题呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 51,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「因为感觉当时要是不说点什么，亚澄就会走掉了什么的，我很是着急。不过也不能随便乱说啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 54,
+	},
+	block_00013 = {
+		{"bg", sync=0, face="1", file="ev_asu_h31_02", time=400, path=":ev/ev_asu_h31/", set="ev_asu_h31"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10553", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「我……我感觉到了你当时非常在意我。每一句话，都是深思熟虑后再说的……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 61,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「欸，啊咧！？深思熟虑……这么说的话，我的种种想法都暴露了吗！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 64,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10554", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「因为我比较胆小……所以知道是一边斟酌用词一边跟我搭话的人的话，就会觉得很安心了。而且前辈也很好说话」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 67,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「好说话……这可能是我人生中第一次被这么说。不，家人除外的话」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 70,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10555", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「我想，如果对方不愿意，或者为难的话就回去吧，然后就和前辈搭话了，但是前辈并没有表现出那种样子，只是默默地坐着」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 73,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10556", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「前辈你，有时候刚张开嘴，却又迷茫地盯着手边……然后又闭了起来。这些小动作让我感觉到前辈一定是非常重视对话的人」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 76,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10557", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「所以我也能安心的说话了。回想起那天的前辈，至今仍觉得心情舒畅」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 79,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不……那个时候，我就把亚澄当做女孩子看了。心里赞叹这真是个可爱的女孩子啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 82,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10558", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「但是完全没有给我带来可怕的回忆。也没有被粗暴地对待……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 85,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「是，是啊。毕竟没有理由，也没那个胆子……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 88,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10559", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「不会对我施压……也没有焦躁，更没有做强人所难的事情」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 91,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「嘛……嗯，是这样的。我完全没有这种想法。说是过于普通也不为过」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 94,
+	},
+	block_00025 = {
+		{"bg", sync=0, face="1", file="ev_asu_h31_01", time=400, path=":ev/ev_asu_h31/", set="ev_asu_h31"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10560", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「对当时的我来说，能进行那样过于普通的对话，实在是难能可贵」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 101,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"啊啊，我懂这种感觉！毕竟我不善言辞所以交不到朋友，我那咬文嚼字般的说话方式，也常常会让对方感到焦躁不安。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 103,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"和亚澄对话的时候，从斟酌用词到开口发声用的时间，也许差不多吧。和这孩子说话，最舒服的就是对话间的停顿有序。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 105,
+	},
+	block_00028 = {
+		{"bg", sync=0, face="1", file="ev_asu_h31_02", time=400, path=":ev/ev_asu_h31/", set="ev_asu_h31"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10561", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「只是待在前辈身边，就感觉很舒适……我觉得前辈温柔又体贴」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 112,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10562", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「想到现在能像这样与前辈交往，依偎在前辈身边……就十分感谢那一天的相遇」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 115,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10563", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「我们有点紧张地坐在一起，就像最初的那天一样。令我想起了那日长椅上的时光，我已经，无可救药的爱上前辈了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 118,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10564", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「所以今天，也请给我满满的温柔吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 121,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「别寻求太多就好了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 124,
+	},
+	block_00033 = {
+		{"bg", zoom=90, x=480, y=110, time=500, file="zev_asu_h31_03", path=":ev/ev_asu_h31/", set="ev_asu_h31", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"因为被寻求了温柔，所以只轻吻了嘴唇。亚澄便从身体开始完全脱力了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 131,
+	},
+	block_00034 = {
+		{"bg", sync=0, face="1", file="zev_asu_h31_02", time=400, path=":ev/ev_asu_h31/", zoom=90, set="ev_asu_h31", ax=1280, ay=720, bx=-640, by=-360, x=480, y=110},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10565", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「今天不坐在旁边吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 139,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「如果亚澄觉得坐旁边好的话，也可以那么做……那个，我觉得能这样抱着亚澄也很好」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 142,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「像现在这样，一边与亚澄对视一边接吻……在旁边和后面的话，脸怎么样都是看不到的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 145,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"因为亚澄比较小啊。一旦低头，连接吻都做不到了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 147,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10566", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「感觉有点……害羞呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 150,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「害……害羞的表情也想看」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 153,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10567", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「真是的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 156,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"困扰着的面庞露出了微笑。但是那个笑容，简直和那天吃肉包时的一样，于是我便毫不犹豫打算更进一步。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 158,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「那、那就……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 161,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10568", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「好」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 164,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我会把你当作人偶一样对待」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 167,
+	},
+	block_00045 = {
+		{"se", file="se衣擦れ", id=1},
+		{"bg", time=500, file="ev_asu_h31_04", path=":ev/ev_asu_h31/", set="ev_asu_h31"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10569", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 175,
+	},
+	block_00046 = {
+		{"se", stop=1, time=500, id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"从毛衣上摸到胸口，亚澄已经开始流露出甘甜的吐息了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 179,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然悠闲地交谈着，但还是在心里有这种意识的吧。这里可不是学生会室也不是亚澄的房间，而是专门做那种事情的地方。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 181,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10570", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「那个，慎重起见，我想问一下，妃爱亲……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 184,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					{"exfont", size="f2"},
+					"「妃爱说：“今天要和声优朋友举行晚两天的圣诞派对，要半夜才会回来”，这样的话。她还说会坐经纪人的车回家。（午前大人（午前様）：日语谐音御前様（对贵人的称呼），指午夜12点后回家的人，多用于日本人自嘲的场合）」",
+					{"rt2"},{"exfont"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 187,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10571", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「好、好的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 190,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然是兄妹，但是我们当然不会聊这种事。我们彼此都没有触及这个方面。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 192,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"亚澄似乎也放下心来，我像是在手中确认形状一般，轻揉那娇小的胸部。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 194,
+	},
+	block_00053 = {
+		{"bg", speed=10000, file="zev_asu_h31_04", path=":ev/ev_asu_h31/", x2=-70, y2=-90, x=300, y=120, set="ev_asu_h31", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10572", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「哈……唔，前辈……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 201,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「亚澄真的是……娇小而又可爱，像人偶一样呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 204,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10573", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「好，好的……如果能让前辈觉得可爱的话，我会一动不动，变成属于你的人偶的……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 208,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「想要把你带回去装饰在我的房间里……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 211,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10574", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「不要仅仅只是装饰，要是能跟我多说说话就更好了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 214,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不仅抚摸了胸口，还摸了摸手臂，亚澄的身体就剧烈地抖了一下。身体开始变得敏感起来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 216,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10575", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「哈，哈啊……对不起，人偶不小心动了。前辈的手太温柔了，已经忍耐不了了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 219,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10576", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「啊，啊！脖子，不行……哈，哈啊……对不起，声音……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 222,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10577", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「啊，呀啊……！前辈，耳朵……啊，哈啊……前……辈……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 225,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"亚澄的手焦急地攥紧了裙子。仿佛是在忍耐着自己的欲求。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 227,
+	},
+	block_00063 = {
+		{"bg", time=500, file="ev_asu_h31_04", path=":ev/ev_asu_h31/", set="ev_asu_h31"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「这……这件衣服该怎么脱呢。我也知道这样问出来有点尴尬……抱歉……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 233,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10578", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「啊……好，好的，请尽管问。对不起，确实很难脱呢……我现在就脱了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 236,
+	},
+	block_00065 = {
+		{"se", file="se衣擦れ", id=1},
+		{"bg", file="ev_asu_h31_05", path=":ev/ev_asu_h31/", set="ev_asu_h31"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"亚澄也许是察觉到了我的意图吧，她把裙子放宽，一下子就把毛衣脱了下来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 243,
+	},
+	block_00066 = {
+		{"se", stop=1, time=500, id=1},
+		{"lvo", ch="asu", file="fem_asu_70226", loop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10579", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「哈……！前，辈……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 249,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"用指尖玩弄着露出的乳头，我的女友绷紧身体忍受着快感呼出了炽热的吐息。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 251,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10580", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「哈，啊，啊啊，……前……辈……喜欢……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 254,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10581", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「嗯，啊，哈啊……前辈，触碰到我敏感的地方……我的心……仿佛被揪紧了一样……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 257,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10582", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「那揪心的苦闷……令我想起了过去还没有交往的时候……只能在一边凝视着前辈温柔的侧颜时的心情……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 260,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10583", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「因为前辈让我很安心......所以我放弃了那时曾经遥不可及的对你的憧憬.....我喜欢被前辈玩弄胸部。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 263,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10584", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「我想如果能与这个人在一起的话，一定能一直都很开心吧，因为我一直都很憧憬前辈……所以，我喜欢去回想那时悲伤的感觉……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 266,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10585", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「请用前辈的手……玩弄……我的胸……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 269,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"被说过自己不擅长下流的事情的亚澄所索求了，我的兴奋达到了最高潮。明明很想温柔相待，但是又害怕自己野兽的一面出现。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 271,
+	},
+	block_00075 = {
+		{"lvo", ch="asu", file="fem_asu_70227", loop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10586", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「啊，哈啊……！前，辈……啊，好舒服……前辈的手指，很结实……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 276,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10587", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「哈，啊啊，啊……嗯，呜呜，好难过……啊，我，变得，H了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 279,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10588", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「啊啊，前辈，喜欢……哈啊，啊，前辈，前辈的手，玩弄我……啊，说来羞耻，真的……很开心……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 282,
+	},
+	block_00078 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"难以忍受爱抚似地收紧着身体，每当传出喘息声时，亚澄便左右摇头，尽管如此，却依旧没有阻挡我双手的活动，亚澄的这份坚韧，使我的忍耐达到了极限。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 284,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"想粗暴着玩弄这孩子的身体。想让她的表情变得更下流。想玷污自己心中纯真无瑕的象征。于是我把毛衣连同胸罩一起给剥了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 286,
+	},
+	block_00080 = {
+		{"lvo", ch="asu", stop=1},
+		{"se", file="se衣擦れ", id=1},
+		{"bg", file="ev_asu_h31_07", path=":ev/ev_asu_h31/", set="ev_asu_h31"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10589", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「啊啊，前辈……！那个，我……对不起，我的身体非常贫瘠……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 295,
+	},
+	block_00081 = {
+		{"se", stop=1, time=500, id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不，不如说这才是亚澄所拥有的魅力……这娇小的身体非常可爱」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 300,
+	},
+	block_00082 = {
+		{"bg", sync=0, face="1", file="ev_asu_h31_06", time=400, path=":ev/ev_asu_h31/", set="ev_asu_h31"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10590", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「但，但是……H的心情……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 305,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「那我准备变成大变态了，行不？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 308,
+	},
+	block_00084 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"握住亚澄的手腕，抬起她的右臂，舔了舔腋下。也许会被讨厌，但我早就想试一次了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 312,
+	},
+	block_00085 = {
+		{"bg", speed=10000, file="zev_asu_h31_06", path=":ev/ev_asu_h31/", x2=-70, y2=-90, x=300, y=120, set="ev_asu_h31", ax=1280, ay=720, bx=-640, by=-360},
+		{"lvo", ch="asu", file="fem_asu_70228", loop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10591", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「哈，啊啊……！前辈，不知怎么感觉有点下流的说……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 319,
+	},
+	block_00086 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"大成功。接下来，一边用手指在背上反复摩挲，一边用舌头仔细舔着脖颈。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 321,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10592", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「啊啊，啊，啊啊啊啊……前辈……前辈……啊，啊啊，背、背上……非常的，奇怪……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 324,
+	},
+	block_00088 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10593", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「哈啊，啊，声音……忍不住了……！啊，啊啊，前辈……！哈啊，不行，有点……后背发凉……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 327,
+	},
+	block_00089 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我已经无法忍受爱意了，用手指抚摸着上臂，舌头慢慢在乳头周围移动。朝亚澄可爱的突起发起进攻来回滚动。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 329,
+	},
+	block_00090 = {
+		{"bg", sync=0, face="1", file="zev_asu_h31_07", time=400, path=":ev/ev_asu_h31/", set="ev_asu_h31", ax=1280, ay=720, bx=-640, by=-360, x=300, y=120},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10594", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「咿唔，啊，哈啊……！前，辈……！啊，啊啊，嗯，啊，前辈……前辈……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 336,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10595", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「哈啊，啊，不妙了……啊，呀，好有……感觉……啊啊，呀，前辈……！我现在……非常的……舒服……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 339,
+	},
+	block_00092 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10596", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「啊啊，前辈的手……被前辈玩弄……很喜欢……！哈啊，前辈，想前辈多做一些……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 342,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10597", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「喜欢……！如果是前辈的话，一切都可以展示给你看……我羞耻的样子，羞耻的声音，全都……！都展示给前辈……前辈！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 345,
+	},
+	block_00094 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「亚澄的身体让我现在非常兴奋，已经忍不住要做超H的事情了……我也超喜欢，亚澄的身体，亚澄的声音，亚澄的一切……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 348,
+	},
+	block_00095 = {
+		{"bg", time=500, file="ev_asu_h31_06", path=":ev/ev_asu_h31/", set="ev_asu_h31"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10598", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「好，好高兴……！请把我变成前辈的东西……请把我当做前辈的东西对待，啊，呀啊……已经……准备好了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 354,
+	},
+	block_00096 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10599", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「今天，想让前辈来做……我是这么打算的，我很期待……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 357,
+	},
+	block_00097 = {
+		{"lvo", ch="asu", stop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10600", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「那个，今天是……安全日哦……所以请……满满的……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 362,
+	},
+	block_00098 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我现在，就想拥抱亚澄」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 365,
+	},
+	block_00099 = {
+		{"quake"},
+		{"bg", time=50, rule=216, file="black", path=":bg/"},
+		{"se", file="se倒れる(ベッド)", id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我把亚澄推到床上。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 371,
+	},
+	block_00100 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10601", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「啊，但是……圣诞老人的话，应该是乘坐的一方吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 378,
+	},
+	block_00101 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我是驯鹿吗？！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 381,
+	},
+	block_00102 = {
+		{"se", file="se衣擦れ", id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"因为松了腰身，跨到我身上的时候，亚澄的裙子已经滑落了。也许是为了方便插入，下边已经光溜溜的了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 385,
+	},
+	block_00103 = {
+		{"se", stop=1, time=500, id=1},
+		{"bg", time=500, file="white", path=":bg/"},
+		{"bg", speed=8000, file="zev_asu_h32_01", path=":ev/ev_asu_h32/", x2=200, y2=200, x=-200, y=-200, set="ev_asu_h32", ax=1280, ay=720, bx=-640, by=-360},
+		{"ex", time=2000, func="wait"},
+		{"bg", file="ev_asu_h32_01", path=":ev/ev_asu_h32/", set="ev_asu_h32"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"现在我的女友身上除了内衣，就只有圣诞帽和袜子了。多么狂热的打扮。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 397,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10602", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「欸，那个……啊，那，那个……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 400,
+	},
+	block_00105 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"亚澄那狂热的打扮令我十分着迷其中，而她本人却手足无措不知如何是好。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 402,
+	},
+	block_00106 = {
+		{"bg", sync=0, face="1", file="ev_asu_h32_02", time=400, path=":ev/ev_asu_h32/", set="ev_asu_h32"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10603", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「那，那个……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 408,
+	},
+	block_00107 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"可能是想把我的东西放到自己的入口吧，亚澄的手在眼前“嗖嗖”地不断来回划动。做不到完全把握位置的话，不能直接看吗。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 410,
+	},
+	block_00108 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「你还知道这种体位啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 413,
+	},
+	block_00109 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10604", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「那什么！？啊，就，就是……在插画上见过几次……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 416,
+	},
+	block_00110 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"即使为了避开搜索使用SNS，只要在二次元的世界里贯彻萌的信仰，工口画也会一度进入视野。所以亚澄并没有害羞的必要。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 418,
+	},
+	block_00111 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10605", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「但，但是，一旦轮到自己来做，就不知道该怎么做了……那个」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 421,
+	},
+	block_00112 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「虽然我感觉还没有萎掉，但是努力着的亚澄很可爱，让人想要发出欣慰的微笑」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 424,
+	},
+	block_00113 = {
+		{"bg", zoom=90, x=240, y=80, time=500, file="zev_asu_h32_02", path=":ev/ev_asu_h32/", set="ev_asu_h32", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10606", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「欸欸！？那个。诶诶！？我，那个……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 433,
+	},
+	block_00114 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我想用涩涩来表现我现在的真实心情，可以稍微做一点小小的恶作剧吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 436,
+	},
+	block_00115 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10607", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「哈，好吧……都怪我慢吞吞的，让前辈等久了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 439,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"亚澄不安地皱着眉头看着我。其实我内心还是很兴奋的，只是想恶作剧才这样说的抱歉了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 441,
+	},
+	block_00117 = {
+		{"bg", file="ev_asu_h32_03", path=":ev/ev_asu_h32/", set="ev_asu_h32"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"从下面伸出手来玩弄乳头。虽然还是这个体位，但亚澄和刚才一样变成了任人摆布的人偶。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 448,
+	},
+	block_00118 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10608", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「啊，呼……嗯，前，辈，……啊，胸，胸部……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 452,
+	},
+	block_00119 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「胸部？怎么了？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 455,
+	},
+	block_00120 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10609", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「敏感，太敏感了……声音，要漏出来了……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 458,
+	},
+	block_00121 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我就想听这个。我希望你能不用忍耐！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 461,
+	},
+	block_00122 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10610", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「但，但是……好羞耻啊……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 464,
+	},
+	block_00123 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不要忍耐啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 467,
+	},
+	block_00124 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10611", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 470,
+	},
+	block_00125 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我用力但尽量温柔地玩弄着乳头，亚澄扭动着嘴了好一会儿。但她似乎下定了决心，张开了天真无邪的小嘴。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 472,
+	},
+	block_00126 = {
+		{"lvo", ch="asu", file="fem_asu_70228", loop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10612", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「啊！哈啊……啊，前，辈……！哈，啊，啊啊，那里……啊啊，太有感觉啊……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 478,
+	},
+	block_00127 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10613", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「哈啊，啊，啊啊……嗯！啊，呜……嗯，啊，啊啊，哈……嗯，前……辈……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 481,
+	},
+	block_00128 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10614", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「唔，呜呜，对不起，我忍不住了……那个，身体……躲开了……啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 484,
+	},
+	block_00129 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"可能是敏感的部分被揉捏而无法忍受吧，亚澄难受地扭动着身体。如果不是骑乘位，说不定她就不情愿地逃脱了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 486,
+	},
+	block_00130 = {
+		{"bg", zoom=90, x=240, y=80, time=500, file="zev_asu_h32_03", path=":ev/ev_asu_h32/", set="ev_asu_h32", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10615", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「前，辈……呜呜，嗯！啊，啊啊……哈，呜呜，啊……我……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 493,
+	},
+	block_00131 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10616", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「啊啊，嗯，呼……哈啊，那个，我……啊，啊啊，就这样……啊啊！前辈的，那个……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 496,
+	},
+	block_00132 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「变得超硬了。 就这样蹲下来的话好像就能进去了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 499,
+	},
+	block_00133 = {
+		{"lvo", ch="asu", stop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10617", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「真，真的吗……！那个，前辈，那就这样……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 504,
+	},
+	block_00134 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「嗯，准备好了，慢慢蹲下……亚澄按照自己的意愿插入的时候，好想看啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 507,
+	},
+	block_00135 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10618", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「是，是的……！和平时相反呢……这次……由我把前辈的东西放进里面……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 510,
+	},
+	block_00136 = {
+		{"se", id=1, file="seエロ_挿入、ヌメリ1"},
+		{"bg", time=500, file="ev_asu_h32_04", path=":ev/ev_asu_h32/", set="ev_asu_h32"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"受到充分的爱抚，完全湿透的亚澄的那里，温暖柔软地吞下了我的东西。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 518,
+	},
+	block_00137 = {
+		{"lvo", ch="asu", file="fem_asu_70236", loop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10619", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「嗯呼……！对，对不起，漏出来了，奇怪的声音……哈，嗯，呼呜……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 523,
+	},
+	block_00138 = {
+		{"bg", sync=0, face="1", file="ev_asu_h32_05", time=400, path=":ev/ev_asu_h32/", set="ev_asu_h32"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10620", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「啊，哈啊……前辈的进来了，我能感受到……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 529,
+	},
+	block_00139 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「嗯，嗯，好好的进去了……还有一半左右……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 532,
+	},
+	block_00140 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"实际上才刚埋过龟头，不过因为亚澄很努力，那就当做一半吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 534,
+	},
+	block_00141 = {
+		{"se", id=1, file="seエロ_挿入、ヌメリ1"},
+		{"bg", sync=0, face="1", file="ev_asu_h32_04", time=400, path=":ev/ev_asu_h32/", set="ev_asu_h32"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10621", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「哈，啊啊，呜……啊，啊啊，嗯……呼唔……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 541,
+	},
+	block_00142 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10622", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「哈啊，哈……嗯，咕呜……啊，呜呜……呼呜，呜……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 544,
+	},
+	block_00143 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"可是刚坐到一半，亚澄就突然不动了。纹丝不动。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 546,
+	},
+	block_00144 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"到底发生什么了呢……仔细观察了一下，发现亚澄为了把下沉的腰维持在现在的高度，不停地抖动着双腿。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 548,
+	},
+	block_00145 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊！腰放下来也没关系的！完全、不会重的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 551,
+	},
+	block_00146 = {
+		{"lvo", ch="asu", stop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10623", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「呜，呜呜……对不起……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00145",
+		linknext = "block_00147",
+		line = 556,
+	},
+	block_00147 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"坐在我的肚子上会感觉很失礼，但现在一站起来我的东西就会滑出来。上下都动不了，好像完全僵住了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00146",
+		linknext = "block_00148",
+		line = 558,
+	},
+	block_00148 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10624", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「前辈你……盖在我身上的时候，总是用手支撑着自己的身体……哇，我也不能，直接坐到前辈身上……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00147",
+		linknext = "block_00149",
+		line = 561,
+	},
+	block_00149 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「如果我骑在亚澄身上，可能会把亚澄压扁啊，坦白说亚澄很轻，反过来的话是完全没有问题的啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00148",
+		linknext = "block_00150",
+		line = 564,
+	},
+	block_00150 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「如果可以的话，我想让亚澄坐下来，用腹部感受你屁股的触感。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00149",
+		linknext = "block_00151",
+		line = 567,
+	},
+	block_00151 = {
+		{"bg", sync=0, face="1", file="ev_asu_h32_05", time=400, path=":ev/ev_asu_h32/", set="ev_asu_h32"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10625", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「好，好吧……那么，就听你的吧……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00150",
+		linknext = "block_00152",
+		line = 573,
+	},
+	block_00152 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"大概是把功夫都用在保持姿势上面了吧，完全没有提及我的低俗玩笑。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00151",
+		linknext = "block_00153",
+		line = 575,
+	},
+	block_00153 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"即便如此……虽然和马步不太一样，但从亚澄的运动能力来看，她能在与之相近的状态下忍耐，并且理由是“不能坐到我身上”，实在是太坚强了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00152",
+		linknext = "block_00154",
+		line = 577,
+	},
+	block_00154 = {
+		{"se", id=1, file="seエロ_挿入、ヌメリ1"},
+		{"bg", sync=0, face="1", file="ev_asu_h32_04", time=400, path=":ev/ev_asu_h32/", set="ev_asu_h32"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10626", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「呜呜……呜！呜呜，呜，啊，啊啊！前辈，进到了，最里面……啊啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00153",
+		linknext = "block_00155",
+		line = 584,
+	},
+	block_00155 = {
+		{"lvo", ch="asu", file="fem_asu_70236", loop=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"就像亚澄说的那样，我的东西进入了眼前这个小小的身体里。柔软的小屁股紧贴着自己的腹部。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00154",
+		linknext = "block_00156",
+		line = 589,
+	},
+	block_00156 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然只是开玩笑说想尝尝触感，但亚澄的屁股摸起来很令人怜爱，皮肤贴在一起很舒服。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00155",
+		linknext = "block_00157",
+		line = 591,
+	},
+	block_00157 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10627", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「对、对不起，我完全坐在前辈的身上了……那个，重量……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00156",
+		linknext = "block_00158",
+		line = 596,
+	},
+	block_00158 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「就像肚子上放了个雪人的感觉？感觉不到什么重量」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00157",
+		linknext = "block_00159",
+		line = 599,
+	},
+	block_00159 = {
+		{"bg", sync=0, face="1", file="ev_asu_h32_05", time=400, path=":ev/ev_asu_h32/", set="ev_asu_h32"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10628", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「好，好的,谢谢……那个，我知道很厚脸皮。但坐在前辈身上，让我觉得前辈很值得依靠……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00158",
+		linknext = "block_00160",
+		line = 605,
+	},
+	block_00160 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10629", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「而且，从这个位置看前辈的脸总感觉很新鲜……非常地，可爱……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00159",
+		linknext = "block_00161",
+		line = 608,
+	},
+	block_00161 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她抚摸着我胸脯的手法是如此温柔，让我觉得这句话没有半分虚假。这么薄的胸脯有这么可靠……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00160",
+		linknext = "block_00162",
+		line = 610,
+	},
+	block_00162 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"而且从我这边来看，从这个位置看亚澄也感觉很新鲜。我们相连的时候大多是正常位，侧位或背后位多一点，没有什么骑乘位的记忆。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00161",
+		linknext = "block_00163",
+		line = 612,
+	},
+	block_00163 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"只是和亚澄的感觉不同的是，从下往上看那张稚气未脱的脸，会有些许背德感。色情程度高于爱情了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00162",
+		linknext = "block_00164",
+		line = 614,
+	},
+	block_00164 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10630", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「那……个」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00163",
+		linknext = "block_00165",
+		line = 617,
+	},
+	block_00165 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「能自己动吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00164",
+		linknext = "block_00166",
+		line = 620,
+	},
+	block_00166 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10631", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「我试试……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00165",
+		linknext = "block_00167",
+		line = 623,
+	},
+	block_00167 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"让亚澄动起来，是我想看看几个月前还对这种行为很抗拒的少女，是如何主动追求性爱的。这是我卑鄙的目的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00166",
+		linknext = "block_00168",
+		line = 625,
+	},
+	block_00168 = {
+		{"bg", speed=15000, file="zev_asu_h32_06", path=":ev/ev_asu_h32/", x2=200, y2=200, x=-300, y=-260, set="ev_asu_h32", ax=1280, ay=720, bx=-640, by=-360},
+		{"lvo", ch="asu", file="fem_asu_70237", loop=1},
+		{"se", file="seエロ_ピストン：弱", loop=1, id=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10632", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「嗯，呼唔……嗯，嗯嗯」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00167",
+		linknext = "block_00169",
+		line = 636,
+	},
+	block_00169 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10633", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「啊，哈啊……哈，嗯，呜呜……！嗯，呼呜，啊，哈啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00168",
+		linknext = "block_00170",
+		line = 639,
+	},
+	block_00170 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不知道我那种下流的欲望，亚澄战战兢兢地上下腰肢。为了不让我的东西滑出来，亚澄一定小心翼翼的吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00169",
+		linknext = "block_00171",
+		line = 641,
+	},
+	block_00171 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10634", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「嗯！呜呜，哈啊，啊啊……嗯，哈啊……啊，舒服吗……？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00170",
+		linknext = "block_00172",
+		line = 644,
+	},
+	block_00172 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不如说……多亏了亚澄努力在动呢……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00171",
+		linknext = "block_00173",
+		line = 647,
+	},
+	block_00173 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10635", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「哈，啊啊，太好了……嗯！啊，啊啊，嗯。哈啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00172",
+		linknext = "block_00174",
+		line = 650,
+	},
+	block_00174 = {
+		{"bg", time=500, file="ev_asu_h32_06", path=":ev/ev_asu_h32/", set="ev_asu_h32"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10636", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「嗯，嗯……哈……前辈……啊啊……前，辈……喜欢……啊，能这样接触到我的皮肤……非常，喜欢，好……嗯！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00173",
+		linknext = "block_00175",
+		line = 655,
+	},
+	block_00175 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"坐下去的时候，亚澄为了不给我的身体造成压力，故意没有插到最深处。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00174",
+		linknext = "block_00176",
+		line = 657,
+	},
+	block_00176 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然我很喜欢亚澄这种好欺负的样子，但在肉体上的刺激，果然还是觉得不够。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00175",
+		linknext = "block_00177",
+		line = 659,
+	},
+	block_00177 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10637", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「哈，哈呜……嗯！咕呜，啊，啊啊，嗯，呜呜……啊，嗯！哈，啊啊……啊，呀！啊啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00176",
+		linknext = "block_00178",
+		line = 662,
+	},
+	block_00178 = {
+		{"lvo", ch="asu", file="fem_asu_70237", loop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10638", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「哈啊……啊，啊啊，呜……啊啊，不要，盯着……不，不，前辈的，眼睛……紧紧地……注视着我……我好幸福……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00177",
+		linknext = "block_00179",
+		line = 667,
+	},
+	block_00179 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10639", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「啊啊，前辈……前辈……哈，哈啊……和前辈，能感受到前辈的爱，这个时间……啊啊，啊，是我……啊啊，啊啊啊……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00178",
+		linknext = "block_00180",
+		line = 670,
+	},
+	block_00180 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"就像这个可爱的小女孩的腰肢活动一样感到无比兴奋，但我的忍耐也差不多到了极限。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00179",
+		linknext = "block_00181",
+		line = 672,
+	},
+	block_00181 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"只是单纯被抚摸着前端焦急的快感令人苦闷。握着亚澄两条纤细的大腿，让腰剧烈地上下移动。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00180",
+		linknext = "block_00182",
+		line = 674,
+	},
+	block_00182 = {
+		{"bg", sync=0, face="1", file="ev_asu_h32_07", time=400, path=":ev/ev_asu_h32/", set="ev_asu_h32"},
+		{"se", file="seエロ_ピストン：中", loop=1, id=1},
+		{"lvo", ch="asu", file="fem_asu_70238", loop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10640", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「啊啊！？前辈……啊，啊啊，啊唔！啊，哈啊，啊，啊，啊啊，咿呜……啊，嗯！前辈！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00181",
+		linknext = "block_00183",
+		line = 683,
+	},
+	block_00183 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10641", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「啊，呜呜，呼……好深……啊，啊啊，啊嗯，呀啊！哈，啊啊，嗯，呣呜……啊啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00182",
+		linknext = "block_00184",
+		line = 686,
+	},
+	block_00184 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「亚澄，也在努力动起来……让我感觉非常的舒服，很值得感谢……但是，我自己也想……动起来啊……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00183",
+		linknext = "block_00185",
+		line = 689,
+	},
+	block_00185 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10642", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「哈，好……那个，其实……那个，我……自己，不能像前辈做的时候一样……好好地动起来……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00184",
+		linknext = "block_00186",
+		line = 692,
+	},
+	block_00186 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10643", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「啊，哈啊……前辈，对我做的……完全，顶到最深处了……呜，咿呜，呀啊……好舒服……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00185",
+		linknext = "block_00187",
+		line = 695,
+	},
+	block_00187 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10644", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「前辈……啊，咿呀，呜，啊啊，啊啊啊……非常的……啊啊，舒服……！啊啊，前辈，在里面动，的话……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00186",
+		linknext = "block_00188",
+		line = 698,
+	},
+	block_00188 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"小小的身体，随着我的动作激烈地上下跳动的身姿非常吸引人。这是一种粗暴的心态吗？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00187",
+		linknext = "block_00189",
+		line = 700,
+	},
+	block_00189 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10645", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「前辈……啊啊，啊，呜呜，我……嗯，呜，自己，在圣诞节……和恋人一起……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00188",
+		linknext = "block_00190",
+		line = 703,
+	},
+	block_00190 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10646", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「想不到我能和像这样优秀的人一起，度过属于恋人的时间……真的非常感谢您，我……嗯」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00189",
+		linknext = "block_00191",
+		line = 706,
+	},
+	block_00191 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10647", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「再，教给我各种各样的东西吧，非常感谢……我和前辈相遇了，也经历了live……也重新回到了学校……也有了最喜欢的人……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00190",
+		linknext = "block_00192",
+		line = 709,
+	},
+	block_00192 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10648", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「喜欢，前辈……！啊啊，呀啊，和前辈这样，度过相亲相爱的时光……我，真的很幸福……感觉胸口被填满了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00191",
+		linknext = "block_00193",
+		line = 712,
+	},
+	block_00193 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10649", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「前辈……前辈……！喜欢，前辈……爱你，我爱你……啊啊，你能喜欢上我……真的是……太好了……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00192",
+		linknext = "block_00194",
+		line = 715,
+	},
+	block_00194 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"正是因为亚澄她是原本就对爱情很认真的孩子，所以当爱情融入到性欲中时，她就会有非同寻常的感觉。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00193",
+		linknext = "block_00195",
+		line = 717,
+	},
+	block_00195 = {
+		{"bg", speed=15000, file="zev_asu_h32_07", path=":ev/ev_asu_h32/", x2=-300, y2=-260, x=300, y=120, set="ev_asu_h32", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"混合的粘液在结合处发出了响亮的声音。不仅仅是我，亚澄也相当有感觉。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00194",
+		linknext = "block_00196",
+		line = 723,
+	},
+	block_00196 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10650", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「啊啊，啊，哈啊……！嗯，啊啊，前辈，啊，今天，啊，好厉害……！我……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00195",
+		linknext = "block_00197",
+		line = 726,
+	},
+	block_00197 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10651", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「嗯，咕，呜呜，啊，好舒服，的说……！啊，哈，前辈，啊，前辈，每次动……啊啊，呀，像这样……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00196",
+		linknext = "block_00198",
+		line = 729,
+	},
+	block_00198 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10652", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「啊啊，那里……好舒服，的说……！啊，拜托了，就那样……啊，对不起，啊啊，自己，总是……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00197",
+		linknext = "block_00199",
+		line = 732,
+	},
+	block_00199 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我现在超级舒服的……如果亚澄也很有感觉的话，就非常高兴了……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00198",
+		linknext = "block_00200",
+		line = 735,
+	},
+	block_00200 = {
+		{"bg", time=500, file="ev_asu_h32_07", path=":ev/ev_asu_h32/", set="ev_asu_h32"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10653", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「啊，哈，好……！我，现在，非常的……啊啊，声音抑制不住的……舒服……哦……呀啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00199",
+		linknext = "block_00201",
+		line = 741,
+	},
+	block_00201 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10654", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「呀呜，啊，啊啊，唔……！啊，呜呜，前辈……啊，呜呜,啊，哈……啊啊，前辈……喜欢……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00200",
+		linknext = "block_00202",
+		line = 744,
+	},
+	block_00202 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10655", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「哈，哈啊，啊，啊啊，嗯……啊，啊啊，啊啊啊啊……！前辈，啊啊，呀，啊啊……我……啊，嗯嗯，啊啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00201",
+		linknext = "block_00203",
+		line = 747,
+	},
+	block_00203 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我的情欲高亢到已经无法顾及亚澄的感受。明明喜欢的人发出了如此苦闷的声音，腰肢的扭动却依然停不下来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00202",
+		linknext = "block_00204",
+		line = 749,
+	},
+	block_00204 = {
+		{"se", file="seエロ_ピストン：強", loop=1, id=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10656", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「啊，啊啊，前辈，呜呜，啊，哈啊……！嗯！前辈，啊，啊啊，呀唔，我……啊，啊啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00203",
+		linknext = "block_00205",
+		line = 754,
+	},
+	block_00205 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10657", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「啊，呀啊，嗯，哈啊……唔咕，唔，啊啊，不要，前辈，啊啊……呜，嗯，啊啊，啊，呀啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00204",
+		linknext = "block_00206",
+		line = 757,
+	},
+	block_00206 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10658", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「前辈，啊，呀啊……现在，啊，呜呜，好，激烈……啊，啊啊，前辈！啊，啊啊，呜呜，喜欢……啊啊，啊啊啊啊啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00205",
+		linknext = "block_00207",
+		line = 760,
+	},
+	block_00207 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这样下去，用不了多久就要爆发了……但是这样下去的话，因为亚澄在上面，所以里面……！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00206",
+		linknext = "block_00208",
+		line = 762,
+	},
+	block_00208 = {
+		{"select", file="03_あすみ01_h01a", text="select"},
+		{"select", file="03_あすみ01_h01b", text="select"},
+		{"select", mode="sys", name="asu_h01", auto=1},
+		{"text"},
+		select = {
+			ja = {
+				"射在亚澄里面",
+				"射在亚澄身上",
+			},
+		},
+		linkback = "block_00207",
+		linknext = "block_00209",
+		line = 770,
+	},
+	block_00209 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"　",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00208",
+		line = 774,
+	},
+	label = {
+		scene = { block="block_00000", label=1 },
+		top = { block="block_00000", label=1 },
+	},
+}

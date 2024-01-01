@@ -1,0 +1,760 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"bg", speed=4000, file="zev_kan_32_01", path=":ev/ev_kan_32/", x2=450, y2=270, x=-360, y=-310, set="ev_kan_32", ax=1280, ay=720, bx=-640, by=-360},
+		{"ex", time=1000, func="wait"},
+		{"se", stop=1, time=1000, id=1},
+		{"bg", file="ev_kan_32_01", path=":ev/ev_kan_32/", set="ev_kan_32"},
+		{"bgm", file="bgm32"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10468", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「快、快拍啊……！快拍，快让这噩梦一样的时间结束掉……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 14,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"华乃的脑海里已经提前想好了构图，所以姿势还原得相当完美。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 16,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"只是，脸红到了人类皮肤极限的她实在是太可爱了……我根本止不住脸上的笑意。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 18,
+	},
+	block_00003 = {
+		{"bg", sync=0, face="1", file="ev_kan_32_02", time=400, path=":ev/ev_kan_32/", set="ev_kan_32"},
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10469", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「都说了给我快点弄完呀！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 27,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"就连生气时的声音都是软乎乎的。这个生物怎么能这么可爱，好想让她永远保持这个姿势一直摸她的头啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 29,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「华乃，喵一下喵一下。你喵一个我就拍」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 32,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10470", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「你到底想做什么，非要让我更害羞才开心么……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 35,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「哪有，我就是想夸你可爱」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 38,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10471", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「不要太欺负我了哦……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 41,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"华乃一开始还一脸不情愿地盯着我的膝盖，但过了一会儿，她还是怯生生地抬起头，看向我的眼睛。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 43,
+	},
+	block_00010 = {
+		{"bg", sync=0, face="1", file="ev_kan_32_03", time=400, path=":ev/ev_kan_32/", set="ev_kan_32"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10472", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「喵、喵……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 50,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「好可爱！华乃好可爱！超级无敌可爱，世界第一可爱！我的女朋友简直可爱到没天理了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 53,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10473", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「咪、喵……喵——」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 56,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不知是在掩盖害羞，还是干脆破罐子破摔了，她连续叫了好几声。好想把这只小猫带回家里养……不对！从明年起这儿不就是我家了么！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 58,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「可以摸摸吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 61,
+	},
+	block_00015 = {
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10474", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「快给我拍啦！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 66,
+	},
+	block_00016 = {
+		{"bg", x=570, y=200, time=500, file="zev_kan_32_04", path=":ev/ev_kan_32/", set="ev_kan_32", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"即使她发出近似于悲鸣般的声音，我也依旧按捺不住轻抚她脸颊的手。然后，这只小猫也主动将她的脸颊在我的手上蹭了起来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 73,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「好可爱……虽然没有比较的必要，但不管与什么相比都还是我的华乃更可爱……不管是作为女生还是作为萌宠都是最可爱的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 76,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10475", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「喂、喂？快点拍完，让我从这种羞耻的姿势中解放出来吧？我脑袋已经晕乎乎的了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 79,
+	},
+	block_00019 = {
+		{"bg", sync=0, face="1", file="zev_kan_32_03", time=400, path=":ev/ev_kan_32/", set="ev_kan_32", ax=1280, ay=720, bx=-640, by=-360, x=570, y=200},
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10476", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「呀啊啊唔！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 88,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我的手从她的脸颊滑过，摸了摸她的耳朵，然后她就发出了前所未有的娇声。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 90,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10477", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「耳朵不行、耳朵不行……！呀嗯，现在真的不行啊！要去了，光是摸摸耳朵我就要高潮了……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 93,
+	},
+	block_00022 = {
+		{"bg", sync=0, face="1", file="zev_kan_32_05", time=400, path=":ev/ev_kan_32/", set="ev_kan_32", ax=1280, ay=720, bx=-640, by=-360, x=570, y=200},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10478", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「咿啊、啊、啊啊、呀啊……这样子……比平时还要痒好多好多……咿、呀、啊、呀啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 98,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10479", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「要去了，抱歉真的要高潮了……求求你了，喂？喂？呀啊、要去了……呀！呀嗯！啊啊、呀、不行……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 101,
+	},
+	block_00024 = {
+		{"bg", time=500, file="ev_kan_32_06", path=":ev/ev_kan_32/", set="ev_kan_32"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在我吻过她的嘴唇，结束了对她耳朵的一番攻势后，华乃全身都没了力气，大口喘着粗气，就连趴着似乎都十分疲惫，下半身从大腿到膝盖都湿成了一片。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 107,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10480", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「求你了……再这样下去，连这个姿势我都要维持不住了……好吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 110,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「好的好的。对不起，是我得寸进尺了。因为华乃实在太可爱了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 113,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10481", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「嗯……我才该抱歉。虽然嘴上在拒绝，但被你这样挑逗着，我真的好兴奋……感觉好舒服」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 116,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10482", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「光是用耳朵就去了这还是第一次，要是可以的话好想一直做到最后……但我们还要完成摄影的工作，真是对不起」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 119,
+	},
+	block_00029 = {
+		{"bg", speed=90000, file="zev_kan_32_04", path=":ev/ev_kan_32/", x2=460, y2=190, x=-470, y=-40, set="ev_kan_32", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我也觉得有些过火了，所以赶快回到工作当中，从各个角度对扮猫的华乃进行了拍摄。中途还把我这位害羞的女友惹生气了，因为她觉得构图都定好了，只用拍一个角度就行了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 123,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"之后我还录了视频。这应该能成为今后很好的参考资料……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 125,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10483", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「等等！？为什么在用你的手机摄影而不是我的？你不会要拿这个当传家宝吧！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 128,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「当然是为了能随时观看……要是用你的手机录，说不定你就不会发给我了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 131,
+	},
+	block_00033 = {
+		{"se", file="se抱きつく", id=1},
+		{"msgoff"},
+		{"bg", zoom=120, file="zbg036a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="華乃", size="z2", hoho="h", mode=3, resize=1, path=":fg/kan/z2/", file="kan_z2a0200", ex05="kan_z2a0000", face="a0029h", head="kan_z2a", lv=2.4, id=13, sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"拍摄结束后，满腔抱怨的华乃从身后抱住了我，脖子和锁骨的地方被她撒娇般地轻咬了好几次。额头、鼻子和脸颊上也留下了不少吻痕。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 144,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「现在的华乃，超级无敌可爱哦」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 147,
+	},
+	block_00035 = {
+		{"fg", ch="華乃", size="z2", hoho="h", mode=3, path=":fg/kan/z2/", file="kan_z2a0200", ex05="kan_z2a0000", face="a0014h", head="kan_z2a", lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z2", hoho="h", mode=3, path=":fg/kan/z2/", file="kan_z2a0200", ex05="kan_z2a0000", face="a0018h", head="kan_z2a", lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10484", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「我可是非常害羞的啊……！但、但是，听到你说我可爱，我好开心……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 153,
+	},
+	block_00036 = {
+		{"fg", ch="華乃", size="z2", hoho="h", mode=3, path=":fg/kan/z2/", file="kan_z2b0210", ex05="kan_z2b0010", face="b0019h", head="kan_z2b", lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z2", hoho="h", mode=3, path=":fg/kan/z2/", file="kan_z2b0210", ex05="kan_z2b0010", face="b0055h", head="kan_z2b", lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10485", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「这种事也只能在喜欢的人面前体验了……谢谢你」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 159,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我才是要感谢你，能让我看到那么棒的表情。那么……这下插画能画了吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 162,
+	},
+	block_00038 = {
+		{"fg", ch="華乃", size="z2", hoho="h", mode=3, path=":fg/kan/z2/", file="kan_z2b0210", ex05="kan_z2b0010", face="b0036h", head="kan_z2b", lv=2.4, id=13},
+		{"fgact", ch="華乃", act="ジャンプ", lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="華乃", size="z2", hoho="h", mode=3, path=":fg/kan/z2/", file="kan_z2b0210", ex05="kan_z2b0010", face="b0042h", head="kan_z2b", lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kan_10486", ch="kan"},
+			},
+			ja = {
+				{
+					name = {"華乃"},
+					"「哈？你是……想让我在这个状态下去画画吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 169,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不不，截稿日……或者说时间不等人啊。你不是说想要尽快交上去嘛」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 172,
+	},
+	block_00040 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="rule_002", wait=500, file="black", path=":bg/", vague=40},
+		{"bg", rule="rule_002r", vague=40, file="bg099b", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在那之后，华乃一边继续画画，一边还在不停地哀叹好想做爱好想做爱。还说出了「为什么我画的女孩子都能做爱，我却不能做爱呢」这种名句。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 178,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"能来华乃家留宿的确机会难得，但要是过于纵欲，她的体力可就撑不住了，这周就先忍一会儿吧……就是可惜了这留宿的大好机会啊！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 180,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过忍耐最终还是有了回报，完成的插画让华乃相当满意。虽然她嘴上还在抱怨「为了这么一副画，我付出太多了……」就是了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 182,
+	},
+	block_00043 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"bg", file="catch02", id=9, lv=9, time=500, path=":cg/"},
+		{"bgm", file="bgm92", loop=0},
+		{"ex", time=6000, func="wait"},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="02_華乃08"},
+		{"text"},
+		linkback = "block_00042",
+		line = 188,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

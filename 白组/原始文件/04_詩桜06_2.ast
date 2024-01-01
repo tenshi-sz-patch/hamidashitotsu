@@ -1,0 +1,3498 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"bg", file="bg012a", path=":bg/", sync=0},
+		{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0200", ex05="mir_noa0000", face="a0015", head="mir_noa", lv=2.2, id=13, sync=0},
+		{"extrans", rule="rule_001", vague=40},
+		{"bgm", file="bgm07"},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0200", ex05="mir_noa0000", face="a0054", head="mir_noa", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00092", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「嘿嘿嘿，小智～期中考试的成绩很不错呀，我还得到了明石亲的赞扬哦。」",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 19,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我们一进房间便看到里姐手上拿着一串烤鸡肉串坐在那里等着我们。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 21,
+	},
+	block_00002 = {
+		{"se", file="se抱きつく", id=1},
+		{"msgoff"},
+		{"bg", zoom=120, file="zbg012a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="里", size="z2", mode=3, resize=1, path=":fg/mir/z2/", file="mir_z2a0200", ex05="mir_z2a0000", face="a0055", head="mir_z2a", lv=2.4, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然并不反感突然把我叫来这件事——不过在用胳膊搂过来前，先把烤串放下吧……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 31,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"顺带一提，里姐赞扬的明石亲，是我现在的班主任明石老师。可明石老师大概比里姐大五岁左右啊，她在学生面前这样称呼明石老师真的合适吗……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 33,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「为什么里姐会因为我的成绩好而被赞扬呢……？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 36,
+	},
+	block_00005 = {
+		{"fg", ch="里", size="z2", mode=3, path=":fg/mir/z2/", file="mir_z2a0200", ex05="mir_z2a0000", face="a0010", head="mir_z2a", lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="z2", mode=3, path=":fg/mir/z2/", file="mir_z2a0200", ex05="mir_z2a0000", face="a0053", head="mir_z2a", lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00093", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「那可能是大家都知道学生会长是我表弟的缘故？把班级交付给明石亲的时候也有『我会帮你照顾好他』、『请您多多关照』等寒暄语呢。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 42,
+	},
+	block_00006 = {
+		{"fg", ch="里", size="z2", mode=3, path=":fg/mir/z2/", file="mir_z2a0200", ex05="mir_z2a0000", face="a0052", head="mir_z2a", lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="z2", mode=3, path=":fg/mir/z2/", file="mir_z2a0200", ex05="mir_z2a0000", face="a0052", head="mir_z2a", lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00094", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「我和明石亲说你『有些担心考不上心仪的学校』，请好好关照你。名石亲则说『如果保持现在这个状态的话，完全不需要担心什么』。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 48,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"啊这……果然努力是有回报的啊。实际上这次期中考试，我在高考要考的三门科目中共得了297分。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 50,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"话虽如此，但从全国模拟考试看来还是我果然还是有所欠缺，只拿到了两次B级。经历同样考试的诗樱学姐则拿到了A级。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 52,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这次期中考试诗樱在这三门科目中也拿了300分。虽然本人说着「毕竟复读了一年高三啊。」不过，300分还是太厉害了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 54,
+	},
+	block_00010 = {
+		{"msgoff"},
+		{"bg", file="bg012a", path=":bg/", sync=0},
+		{"fg", ch="里", size="no", mode=3, resize=1, path=":fg/mir/no/", file="mir_noa0200", ex05="mir_noa0000", face="a0052", head="mir_noa", x=-230, lv=2.2, id=9, sync=0},
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0200", ex05="shi_noa0000", face="a0001", head="shi_noa", x=230, lv=2.2, id=10, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「这都要归功于诗樱学姐对我片刻不离的辅导。今年一年，直到最后一刻前我都会干劲满满，不懈努力的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 64,
+	},
+	block_00011 = {
+		{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0200", ex05="mir_noa0000", face="a0025", head="mir_noa", x=-230, lv=2.2, id=9},
+		{"fgact", ch="里", act="びっくり", lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0210", ex05="mir_noa0010", face="a0022", head="mir_noa", x=-230, lv=2.2, id=9},
+			},
+			vl02 = {
+				{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0210", ex05="mir_noa0010", face="a0006", head="mir_noa", x=-230, lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00095", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「哦！什么情况，连聊到和考试有关的话题都不忘秀恩爱是吧。嘛，我还只能称呼诗樱亲什么的啊。你们两人的感情没出什么问题吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 72,
+	},
+	block_00012 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0200", ex05="shi_noa0000", face="a0019", head="shi_noa", x=230, lv=2.2, id=10},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0200", ex05="shi_noa0000", face="a0053", head="shi_noa", x=230, lv=2.2, id=10},
+			},
+			vl02 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0210", ex05="shi_noa0010", face="a0039", head="shi_noa", x=230, lv=2.2, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00714", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「虽然在家休养的时候能寸步不离盯着他的学习进度，但我还在考虑之后如何保证学习的时间。是不是应该在暑假里把他监禁起来呢……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 79,
+	},
+	block_00013 = {
+		{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0210", ex05="mir_noa0010", face="a0040", head="mir_noa", x=-230, lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0210", ex05="mir_noa0010", face="a0010", head="mir_noa", x=-230, lv=2.2, id=9},
+			},
+			vl02 = {
+				{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0200", ex05="mir_noa0000", face="a0054", head="mir_noa", x=-230, lv=2.2, id=9},
+				{"fgact", ch="里", act="ジャンプ", lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00096", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「认真的吗……说起来当家里蹲，只有你们两个人在学习的话，真的可以集中精力吗？哼哼，还真是有趣呀！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 87,
+	},
+	block_00014 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0210", ex05="shi_noa0010", face="a0003", head="shi_noa", x=230, lv=2.2, id=10},
+		{"fgact", ch="詩桜", act="いいえ", lv=2.2, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00715", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「不会的，在学习时，我会把恋人的样子收起来，绝不心慈手软。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 93,
+	},
+	block_00015 = {
+		{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0200", ex05="mir_noa0000", face="a0041", head="mir_noa", x=-230, lv=2.2, id=9},
+		{"fgact", ch="里", act="うんうん", lv=2.2, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00097", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「这过于严格的一面也很有趣啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 99,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"里姐一边把烤串塞进嘴里一边放声大笑——这烤串就是里姐的午饭吗？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 101,
+	},
+	block_00017 = {
+		{"msgoff"},
+		{"bg", x=400, file="zbg012a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="里", size="z1", mode=3, resize=1, path=":fg/mir/z1/", file="mir_z1a0200", ex05="mir_z1a0000", face="a0041", head="mir_z1a", lv=2.3, id=9, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「嗯？所以今天把我们叫出来，就是为了传达明石老师的话吗？因为看到了期中考成绩，所以来鼓励我？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 110,
+	},
+	block_00018 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0002", head="mir_z1a", lv=2.3, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0018", head="mir_z1a", lv=2.3, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00098", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「啊，不是这个，今天要说的是别的事情。嘛，根据期中考的成绩来看——」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 116,
+	},
+	block_00019 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0052", head="mir_z1a", lv=2.3, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00099", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「小智，这个月月初向指定学校申请推优这件事就开始了，你应该知道吧。想必班会也已经传达过了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 121,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊，推优啊……是的，我心仪的学校也在指定学校内。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 124,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我心仪的学校是条件要求最高、申请推优人数最多的。不过千玉学园的等级与这样的名校推优有些不相称，可能是因为有某些关系，或是校领导祈求来的名额也说不定。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 126,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"比起通过高考，成为我们学园的第一名更加容易。因此，估计也有为了推优名额来千玉学园上学的学生。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 128,
+	},
+	block_00023 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0039", head="mir_z1a", lv=2.3, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0001", head="mir_z1a", lv=2.3, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00100", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「推优申请的截止时间还是9月。如果想申请的话，早点去准备会更好哦？这也是展现你干劲的一种方式嘛。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 134,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不过根据要求，高中三年总缺勤不能超过14天来着……而我因为去年那场事故在医院里住了快一个月……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 137,
+	},
+	block_00025 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0055", head="mir_z1a", lv=2.3, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00101", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「如果除去周六周日和文化祭调休的话，不正好是14天吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 142,
+	},
+	block_00026 = {
+		{"quake", mode="mw"},
+		{"se", file="seコミ_胸を張る", id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 148,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我忘了文化祭的调休了，真的吗，我的缺勤竟然没超过14天吗？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 150,
+	},
+	block_00028 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0041", head="mir_z1a", lv=2.3, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0019", head="mir_z1a", lv=2.3, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00102", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「而且当涉及到缺勤时，并不是严格的14天，而是要看缺勤的原因。因住院导致的缺勤与迟到累计的缺勤是不一样的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 156,
+	},
+	block_00029 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0200", ex05="mir_z1a0000", face="a0052", head="mir_z1a", lv=2.3, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0200", ex05="mir_z1a0000", face="a0006", head="mir_z1a", lv=2.3, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00103", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「他们也不是机器，会仔细阅读我们的推荐信的。即使一开始就从学校的推优选拔考试里落选了，也应该先提交申请试一试吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 162,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「好……悉听尊便……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 165,
+	},
+	block_00031 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0038", head="mir_z1a", lv=2.3, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0001", head="mir_z1a", lv=2.3, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00104", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「还有，我还问了明石亲。既然有心仪学校的推优名额，你的成绩也达到了要求，还做了两届学生会长的你，难道就不想试一下吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 171,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"看来是把第二届诗樱学姐担任学生会长的时间也看作是我的任期了啊。学姐自己肯定不会在意这事。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 173,
+	},
+	block_00033 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0053", head="mir_z1a", lv=2.3, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00105", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「所以，想好了吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 178,
+	},
+	block_00034 = {
+		{"msgoff"},
+		{"bg", file="bg012a", path=":bg/", sync=0},
+		{"fg", ch="里", size="no", mode=3, resize=1, path=":fg/mir/no/", file="mir_noa0210", ex05="mir_noa0010", face="a0053", head="mir_noa", x=-230, lv=2.2, id=9, sync=0},
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0200", ex05="shi_noa0000", face="a0010", head="shi_noa", x=230, lv=2.2, id=10, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「好吧……只是，考试并不是我一人之事，我和诗樱，诗樱学姐约定了考进同一所学校。所以还是在和诗樱学姐商量后再说吧……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 188,
+	},
+	block_00035 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0210", ex05="shi_noa0010", face="a0001", head="shi_noa", x=230, lv=2.2, id=10},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0210", ex05="shi_noa0010", face="a0050", head="shi_noa", x=230, lv=2.2, id=10},
+				{"fgact", ch="詩桜", act="うなづく", lv=2.2, id=10},
+			},
+			vl02 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0210", ex05="shi_noa0010", face="a0003", head="shi_noa", x=230, lv=2.2, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00716", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「如果你是抱着我还有7万亿分之1的可能性被推荐录取的前提下找我商量，那我还可以理解。不过你的考试终究只是你一人之事。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 196,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她虽然没发火，但听起来却有些生气，不过仍在尽力保持冷静。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 198,
+	},
+	block_00037 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0200", ex05="shi_noa0000", face="a0016", head="shi_noa", x=230, lv=2.2, id=10},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0200", ex05="shi_noa0000", face="a0027", head="shi_noa", x=230, lv=2.2, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00717", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「如果你真的想考进的话，就应该抓住一切能提高通过率的机会——我之所以不打算申请推优，只是因为我知道自己缺勤的时间太多罢了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 204,
+	},
+	block_00038 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0025", head="shi_nob", x=230, lv=2.2, id=10},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0054", head="shi_nob", x=230, lv=2.2, id=10},
+				{"fgact", ch="詩桜", act="ジャンプ", lv=2.2, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00718", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「还是说，难道比起推优入学，和我在同一天同一个考场考试的话通过的概率就会变高吗？哈哈哈，爱情的力量真是伟大啊。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 211,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「对不起，我刚刚是在说谎……我是想和学姐商量别的事……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 214,
+	},
+	block_00040 = {
+		{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0210", ex05="mir_noa0010", face="a0019", head="mir_noa", x=-230, lv=2.2, id=9},
+		{"fgact", ch="里", act="うなづく", lv=2.2, id=9},
+		{"bgm", stop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00106", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「嗯，也是。小智如果有什么担心的事情，和我说说也无妨。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 222,
+	},
+	block_00041 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0001", head="shi_nob", x=230, lv=2.2, id=10},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"或许里姐一开始就看穿了吧。她露出同往日一样的温柔笑容，向我寻求着答案。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 226,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我现在明白为什么不是我的班主任而是里姐来和我聊推优的事了，我也明白为什么还把诗樱学姐也叫过来了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 228,
+	},
+	block_00043 = {
+		{"msgoff"},
+		{"bg", x=400, file="zbg012a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="里", size="z1", mode=3, resize=1, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0019", head="mir_z1a", lv=2.3, id=9, sync=0},
+		{"extrans", time=500},
+		{"bgm", file="bgm23"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「怎么说呢……里姐不是我的亲戚么。啊下面内容都是我的胡思乱想。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 239,
+	},
+	block_00044 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0053", head="mir_z1a", lv=2.3, id=9},
+		{"fgact", ch="里", act="うなづく", lv=2.3, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00107", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「嗯。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 245,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「如果我取得了令周围人都认可的成绩的话倒是无妨……这样的话我自己不会内疚，也就不会在意他人的闲言碎语。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 248,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「说实话，正如诗樱学姐说的那样，比起别人的闲言碎语，通过考试才是更重要的事，我应该抓住一切能提高通过率的机会。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 251,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不过，即使我自身毫不内疚，自己本身也没有做过不正当的事情——但担任学生会长在申请推优有优势是显而易见的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 254,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「里姐既是我的亲戚，又作为学生会顾问——这很容易让别人怀疑那次抽签可能有什么黑幕。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 257,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「虽然那次抽签是为了别的目的，但毕竟还是发生了。关于这事的理由也告知了我，我也能接受，没有一点想怪里姐的意思。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 260,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「但是，还有其他人知道这件事的真相……这不仅是学园内部的问题，更是一个社会问题，所以应该没有人会主动泄露。不过——」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 263,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「如果不出意外，这件事永远不会曝光。但如果我因为拿到了推优，导致有人怀疑我的推优不正常从而揭露选举黑幕的话就太可怕了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 266,
+	},
+	block_00052 = {
+		{"bg", speed=80000, file="zbg012a", path=":bg/", x2=-200, y2=-360, x=-200, y=360, ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"如果事情被公开，很有可能成为妃爱的丑闻。尽管她本人并不知情，但为了保证出勤天数做的不正当手段也会被大家责难。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 270,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"目前只有五个人知道事实，我、诗樱学姐、里姐、妃爱的经纪人以及常磐。都是可以信赖的人。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 272,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"学园相关人员大概会认为，抽签只是为了选出学生会长。对于妃爱的出勤天数完全不知情。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 274,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"也就是说，如果不正当的抽签活动被曝光，亦或是学园相关人员泄露信息的话，为了不连累到妃爱，里姐大概会承担全部的责任。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 276,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「为了不给喜爱的里姐添麻烦，无论复读多少次，我都会以自己的能力参加考试。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 279,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"如果被发现的话，为了掩盖妃爱出勤天数这件事，里姐大概会用「亲戚当学生会长的话沟通起来会更加容易」来辩解。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 281,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"随即别人就会怀疑我的推优，一定会对我白眼相向——不仅如此，我还会失去别人的信任，甚至失去朋友。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 283,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「很抱歉，我算错了我的缺勤天数，以为我不能申请推优。如果我知道的话，我想我会和诗樱学姐商量后再决定的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 286,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我还得向学姐你道歉。为了考上心仪的院校，我本应该不惜一切代价去尝试推优，但我无论如何都不想让里姐受伤。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 289,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「在给出答案前，我想先和学姐聊一聊，尝试依赖一下她。对拖延了时间这件事，我感到抱歉，不过，嗯。我所想的就是这些。里姐对我来说非常重要。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 292,
+	},
+	block_00062 = {
+		{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_noa0210", ex05="shi_noa0010", face="a0054", head="shi_noa", lv=2.2, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_noa0210", ex05="shi_noa0010", face="a0053", head="shi_noa", lv=2.2, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00719", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「既然你已经做出决定了，我也不该唱反调了。嘛。我会尽力帮你的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 298,
+	},
+	block_00063 = {
+		{"msgoff"},
+		{"bg", x=400, file="zbg012a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0018", head="mir_z1a", lv=2.3, id=9, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00108", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「不过，因为我的原因让我喜爱的小智放弃了本能拿到手的推优资格，不也有些过分吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 307,
+	},
+	block_00064 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0001", head="mir_z1a", lv=2.3, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00109", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「和后来被卷进来的诗樱亲不同，我可是这件事的源头。我做的事情要是被曝光了的话，当然也应该由我来擦屁股。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 312,
+	},
+	block_00065 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0028", head="mir_z1a", lv=2.3, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00110", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「如果我将小智当道具一般使用，还影响小智升学的话，今后我还有什么脸面和小智说话呢？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 317,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不……虽说拿不到推优资格，但也不至于到影响我升学的程度……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 320,
+	},
+	block_00067 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0019", head="mir_z1a", lv=2.3, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00111", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「开始可能是被逼无奈，但在这一年里，通过认真学习提高成绩也好，第二届参加学生会长竞选也好，不都是小智凭借自己的力量做到的吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 325,
+	},
+	block_00068 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0200", ex05="mir_z1a0000", face="a0053", head="mir_z1a", lv=2.3, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00112", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「小智是实实在在地付出了努力啊，所以也请为你的未来，只为自己着想一次吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 330,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"里姐的声音温柔明朗，但内容却令人为难。余生中都会有喜爱之人如此温柔的声音陪伴，我或许也会坚持不下去。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 332,
+	},
+	block_00070 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0200", ex05="mir_z1a0000", face="a0041", head="mir_z1a", lv=2.3, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00113", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「拜托了嘛，小智。我又不是为了小智的推优才做了抽签这事，所以无论有多少人怀疑我都不会在意的，」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 337,
+	},
+	block_00071 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0019", head="mir_z1a", lv=2.3, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0002", head="mir_z1a", lv=2.3, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00114", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「欺骗了大家，将中奖的签装到了小智的竹筒里，这是事实。如果暴露的话，我一定低头认错承担责任的。不过妃爱的事情我一定会闭口不提。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 343,
+	},
+	block_00072 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0023", head="mir_z1a", lv=2.3, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0034", head="mir_z1a", lv=2.3, id=9},
+				{"fgact", ch="里", act="うなづく", lv=2.3, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00115", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「如果小智拿到推优的话，我就会觉得，骗你成为学生会长这事至少也对你有好处，因而也能好受些。所以啊，拜托了哦。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 350,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「……能让我再考虑一晚吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 353,
+	},
+	block_00074 = {
+		{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_noa0200", ex05="shi_noa0000", face="a0003", head="shi_noa", lv=2.2, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00720", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「反正现在你大概也想好怎么做了，再推迟一天，不也只是让和泉老师难做吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 358,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我会在询问玩明石老师具体细节以及和妃爱商量后，立刻提交推优申请。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 361,
+	},
+	block_00076 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0019", head="mir_z1a", lv=2.3, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00116", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「小智，谢谢你。给你带来这么大麻烦，真是抱歉。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 366,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"根本不是什么麻烦，如果我因此进入了心仪的学校的话，再怎么感谢里姐也不为过——我虽然想这样说，但我连申请都还没提交，便也只能忍住这份心情，保持沉默。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 368,
+	},
+	block_00078 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"正是现在这种情况才想抱住诗樱学姐撒娇啊。自己做的是对是错暂且不论，我只是想听一些鼓励的话语。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 370,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过，因为在学生会室里面对着亲戚（里姐），所以我还是忍住了。在亲人面前和恋人撒娇什么的……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 372,
+	},
+	block_00080 = {
+		{"msgoff"},
+		{"bg", x=-400, file="zbg012a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="詩桜", size="z1", mode=3, resize=1, path=":fg/shi/z1/", file="shi_z1a0210", ex05="shi_z1a0010", face="a0038", head="shi_z1a", lv=2.3, id=10, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0210", ex05="shi_z1a0010", face="a0001", head="shi_z1a", lv=2.3, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00721", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「……先不说别的，即使申请推优，首先也得通过学园的选拔考试。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 383,
+	},
+	block_00081 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0210", ex05="shi_z1a0010", face="a0039", head="shi_z1a", lv=2.3, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00722", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「如果通过了学园里的选拔考试，之后还有一个去目标学校的入学考试。虽然难度会相对低一些，不过如果那时没通过的话就太惨了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 388,
+	},
+	block_00082 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0210", ex05="shi_z1b0010", face="b0003", head="shi_z1b", lv=2.3, id=10},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0210", ex05="shi_z1b0010", face="b0027", head="shi_z1b", lv=2.3, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00723", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					{"exfont", size="f2"},
+					"「正好我也要准备考试。我打算对他进行全方位的训练，即使学校已经内部决定录取他（内定后也有不录取的可能性），我对他的训练也不会有一丝松懈，直到看到正式的录取通知为止。」",
+					{"rt2"},{"exfont"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 394,
+	},
+	block_00083 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0210", ex05="shi_z1b0010", face="b0055", head="shi_z1b", lv=2.3, id=10},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0210", ex05="shi_z1b0010", face="b0015", head="shi_z1b", lv=2.3, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00724", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「之后就看你的了。这件事的源头和我也脱不了干系。所以我会承担责任严格训练他的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 400,
+	},
+	block_00084 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「诶诶诶？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 403,
+	},
+	block_00085 = {
+		{"fg", ch="里", size="z1", mode=1, path=":fg/mir/z1/", file="mir_z1a0200", ex05="mir_z1a0000", face="a0006", head="mir_z1a", lv=2.3, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="z1", mode=1, path=":fg/mir/z1/", file="mir_z1a0200", ex05="mir_z1a0000", face="a0054", head="mir_z1a", lv=2.3, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00117", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「哦！不愧是诗樱亲，真是可靠啊！打着灯笼也很难找到这样好的女友吧，小智，你真是赚到了啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 409,
+	},
+	block_00086 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"多亏了诗樱学姐，将刚刚因为应试考试话题的阴郁气氛一扫而空。里姐也恢复到了平日里的样子。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 411,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"说起来即使是在刚刚的氛围里，对诗樱学姐话中的「严格训练」，我还是产生了误解。这样的我真应该是被学园推荐的学生吗？哎，我在想些什么呢。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 413,
+	},
+	block_00088 = {
+		{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0200", ex05="shi_z1a0000", face="a0022", head="shi_z1a", lv=2.3, id=10},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0200", ex05="shi_z1a0000", face="a0001", head="shi_z1a", lv=2.3, id=10},
+				{"fgact", ch="詩桜", act="うなづく", lv=2.3, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00725", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「结束得比我想象的要早啊，既然如此我们就快点解决午饭吧……如果大家还没吃完的话还可以和她们一起。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 420,
+	},
+	block_00089 = {
+		{"msgoff"},
+		{"bg", file="bg012a", path=":bg/", sync=0},
+		{"fg", ch="里", size="no", mode=3, resize=1, path=":fg/mir/no/", file="mir_noa0200", ex05="mir_noa0000", face="a0053", head="mir_noa", x=-230, lv=2.2, id=9, sync=0},
+		{"fg", ch="詩桜", size="no", mode=3, resize=1, path=":fg/shi/no/", file="shi_noa0200", ex05="shi_noa0000", face="a0001", head="shi_noa", x=230, lv=2.2, id=10, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊，学姐，抱歉。我还有些话想和里姐说，可以吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 430,
+	},
+	block_00090 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0200", ex05="shi_noa0000", face="a0010", head="shi_noa", x=230, lv=2.2, id=10},
+		{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0200", ex05="mir_noa0000", face="a0010", head="mir_noa", x=-230, lv=2.2, id=9},
+		{"fgact", ch="里", act="びっくり", lv=2.2, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00118", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「嗯？我？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 438,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"诗樱学姐手里拿着便当本打算走，听了我的话后顿了几秒，视线在我和里姐身上打转。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 440,
+	},
+	block_00092 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_noa0210", ex05="shi_noa0010", face="a0053", head="shi_noa", x=230, lv=2.2, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00726", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「我是不是不该打扰你呢？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 445,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不不不，怎么能说是打扰呢……只是听起来大概会无聊吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 448,
+	},
+	block_00094 = {
+		{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0052", head="shi_nob", x=230, lv=2.2, id=10},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0023", head="shi_nob", x=230, lv=2.2, id=10},
+			},
+			vl02 = {
+				{"fg", ch="詩桜", size="no", mode=3, path=":fg/shi/no/", file="shi_nob0210", ex05="shi_nob0010", face="b0055", head="shi_nob", x=230, lv=2.2, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00727", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「是一些往事吧。虽然我很感兴趣，但只有你们两人的话内容应该能更深入些。之后请告诉我详细的内容哦。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 455,
+	},
+	block_00095 = {
+		{"fg", ch="詩桜", mx=40, mode=-1, lv=2.2, id=10},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"诗樱学姐高高兴兴地走出了屋子，不知道她心里是何感想。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 460,
+	},
+	block_00096 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"说实在的，我也想和里姐单独聊聊。所以我很感激诗樱学姐。虽然看上去有些冷淡无情，但实际上还是很体贴的嘛。里姐说的对，这样好的女友真是打着灯笼也难找。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 462,
+	},
+	block_00097 = {
+		{"msgoff"},
+		{"bg", x=400, file="zbg012a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="里", size="z1", mode=3, resize=1, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0053", head="mir_z1a", lv=2.3, id=9, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00119", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「所以，要聊些什么呢？推优？还是学生会方面的事？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 471,
+	},
+	block_00098 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊不是，虽然刚刚聊了这些，和学园里的事情无关……我想问一个关于里姐的问题。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 474,
+	},
+	block_00099 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「里姐你这么重视我的事情……一直照顾着我的一切，还为我的未来着想。我想知道你这样做的原因。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 477,
+	},
+	block_00100 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0022", head="mir_z1a", lv=2.3, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00120", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「重视你的理由的话刚刚提到了吧，因为我很喜欢小智啊。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 482,
+	},
+	block_00101 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「虽然听到这个我非常开心，但我想问的不仅是现在……而是从我和里姐素未相识，里姐被指定当我监护人的时候开始。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 485,
+	},
+	block_00102 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0010", head="mir_z1a", lv=2.3, id=9},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「学生会长这事是为了妃爱，今天也是为了我关心这关心那……里姐总是竭尽手段想让我们快乐的生活下去，」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 490,
+	},
+	block_00103 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我真的很感激。我也想知道这份关爱我们的心境从何而起。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 493,
+	},
+	block_00104 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0200", ex05="mir_z1a0000", face="a0034", head="mir_z1a", lv=2.3, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00121", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「有些夸张了，不是吗？照顾好亲戚不是很正常嘛？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 498,
+	},
+	block_00105 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「而且，我被赋予和七十六亿分之一的妹妹对等的、独一无二的兄妹关系这事，也只能感谢神明了吧。不，或许应该是感谢父母。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 501,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「但今天……里姐宁愿自己背负污名也要劝我申请推优的理由里，或许也有对抽签那件事的愧疚之情吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 504,
+	},
+	block_00107 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0020", head="mir_z1a", lv=2.3, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00122", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 509,
+	},
+	block_00108 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「实际上，前一阵我还和诗樱学姐讨论过这样的话题。因为我的事故而赎罪什么的，从我的角度看这当然不是诗樱学姐的错。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 512,
+	},
+	block_00109 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「毕竟，今后也会承蒙里姐的关爱什么的……所以这次无论如何，我都想听听里姐的想法。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 515,
+	},
+	block_00110 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0028", head="mir_z1a", lv=2.3, id=9},
+		{"fgact", ch="里", act="おじぎ", lv=2.3, id=9},
+		{"bgm", stop=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00123", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「啊，这样啊。如果不搞清楚，今后再发生什么事都觉得我是因愧疚而做的话，不是疏远了我和小智的距离了吗……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 523,
+	},
+	block_00111 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不好意思啊，不过，那个，如果里姐不是因为愧疚而做的这些的话，那关于学生会长这事就到此为止了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 526,
+	},
+	block_00112 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不过，我从里姐那里得到的照顾，能察觉到的也好，没察觉到的也好，全部加起来的话难以计数。所以我还是想知道这份心境从何而起。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 529,
+	},
+	block_00113 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0002", head="mir_z1a", lv=2.3, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00124", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「嗯……嘛这也是我这次搞砸后该承担的责任呀。让小智对我产生了疑虑什么的……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 534,
+	},
+	block_00114 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我没有说疑虑这个词，因为我觉得这对笑颜如此温柔的里姐而言太过残酷。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 536,
+	},
+	block_00115 = {
+		{"bg", speed=120000, file="zbg012a", path=":bg/", x2=-640, y2=100, x=640, y=100, ax=1280, ay=720, bx=-640, by=-360},
+		{"bgm", file="bgm15"},
+		{"fg", ch="里", size="z1", mode=1, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0053", head="mir_z1a", lv=2.3, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00125", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「首先啊，我喜爱小智和妃爱亲并没有什么特别的理由……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 545,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「是这样，我也一样……没有任何理由地喜欢着里姐和妃爱。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 548,
+	},
+	block_00117 = {
+		{"fg", ch="里", size="z1", mode=1, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0055", head="mir_z1a", lv=2.3, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00126", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「不过虽然没有喜爱着的理由，但如果说喜爱上的理由的话，就是你们两人的故事了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 553,
+	},
+	block_00118 = {
+		{"msgoff"},
+		{"bg", lv=8, id=7, file="white", time=1000, sync=1, path=":bg/"},
+		{"bg", lv=8, id=7, file="reco", time=1000, notone=1, path=":sys/"},
+		{"colortone", style="sepia"},
+		{"bg", file="bg002a", path=":bg/"},
+		{"fg", ch="里", size="z1", mode=1, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0002", head="mir_z1a", lv=2.3, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00127", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「从父母亡故起，到决定监护人前，家里的种种事务不都是小智你自己处理的吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 561,
+	},
+	block_00119 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「诶？家庭的种种事务……啊，是说家务吗？扫除和洗衣服什么的？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 564,
+	},
+	block_00120 = {
+		{"fg", ch="里", size="z1", mode=1, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0019", head="mir_z1a", lv=2.3, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00128", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「这是一部分，还有那些繁文缛节，但身为孩子的你却在认真对待。比如葬礼的要求、各样的通知、金钱的管理、房子的继承等。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 569,
+	},
+	block_00121 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「那个，毕竟是连上网都不会的年纪，还是小孩子的我自然是什么都不懂。正因如此，连锅放在哪里我都不知道。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 572,
+	},
+	block_00122 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「本应该打电话问大人吧，想着什么都自己来，结果却乱成一团，最后什么都没干成。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 575,
+	},
+	block_00123 = {
+		{"fg", ch="里", size="z1", mode=1, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0054", head="mir_z1a", lv=2.3, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00129", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「这不也是想为妃爱做些什么的结果吗？很棒呀。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 580,
+	},
+	block_00124 = {
+		{"fg", ch="里", size="z1", mode=1, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0019", head="mir_z1a", lv=2.3, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00130", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「刚刚失去双亲，满怀悲伤难以自抑也无可厚非，换别人也很难做到你这种程度。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 585,
+	},
+	block_00125 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"鼻子有些酸，我用力咬住嘴唇。因为「很棒呀」这一句话，感觉那些日子做的所有都得到了回报。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 587,
+	},
+	block_00126 = {
+		{"msgoff"},
+		{"colortone", style="reset"},
+		{"bg", lv=8, id=7, file="white", time=1000, sync=1, path=":bg/"},
+		{"cgdel", lv=8, id=7, time=1000},
+		{"msgoff"},
+		{"bg", file="zbg012a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0028", head="mir_z1a", lv=2.3, id=9, sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00131", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「我们这些成年人，也不应该从小智那里夺走全部。即使把所有事情都安排好，也应该让你参与这个过程。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 598,
+	},
+	block_00127 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0002", head="mir_z1a", lv=2.3, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00132", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「哪怕是带你去市政厅，让你坐在那看着也好。你有必要知道我们为了你的父母做了什么，但小智连这样的机会都没有，对吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 603,
+	},
+	block_00128 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0019", head="mir_z1a", lv=2.3, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0053", head="mir_z1a", lv=2.3, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00133", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「即使这样，你也没成为一个性格乖僻的人，很厉害哦。作为长子也好，作为男人也好，不就该守护好妹妹吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 609,
+	},
+	block_00129 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0023", head="mir_z1a", lv=2.3, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0055", head="mir_z1a", lv=2.3, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00134", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「虽然当时没见到你，但之后听妃爱的描述，觉得小智是一个很帅气的哥哥。所以喜爱上小智了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 615,
+	},
+	block_00130 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"那天在屋子里惴惴不安的我，如果能早些遇到里姐的话，又会有什么变化呢？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 617,
+	},
+	block_00131 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"只是当时的里姐还是学生，忙于杂志封面模特的活动——果然现实也很复杂的啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 619,
+	},
+	block_00132 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0028", head="mir_z1a", lv=2.3, id=9},
+		{"fgact", ch="里", act="おじぎ", lv=2.3, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00135", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「对不起。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 625,
+	},
+	block_00133 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不，再怎么说也不应该由里姐道歉……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 628,
+	},
+	block_00134 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0002", head="mir_z1a", lv=2.3, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00136", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「不止为这些。为什么上一辈的大人们这么神经敏感，只顾自己呢？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 633,
+	},
+	block_00135 = {
+		{"msgoff"},
+		{"bg", lv=8, id=7, file="white", time=1000, sync=1, path=":bg/"},
+		{"bg", lv=8, id=7, file="reco", time=1000, notone=1, path=":sys/"},
+		{"colortone", style="sepia"},
+		{"bg", file="bg099a", path=":bg/"},
+		{"fg", ch="里", size="z1", mode=1, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0038", head="mir_z1a", lv=2.3, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00137", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「我也不想说我父母的坏话。不过那时大家表现都很奇怪是有原因的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 642,
+	},
+	block_00136 = {
+		{"fg", ch="里", size="z1", mode=1, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0002", head="mir_z1a", lv=2.3, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00138", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「我父母住在高级公寓里这事你应该知道吧，虽然是租房。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 647,
+	},
+	block_00137 = {
+		{"fg", ch="里", size="z1", mode=1, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0039", head="mir_z1a", lv=2.3, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00139", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「虽然小智还没有这份感觉吧，但对于成家的人来说，拥有自己的房子是件足以值得憧憬的事情了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 652,
+	},
+	block_00138 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「房子……我的房子，是吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 655,
+	},
+	block_00139 = {
+		{"fg", ch="里", size="z1", mode=1, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0028", head="mir_z1a", lv=2.3, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00140", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「嗯，如果能成为你们的监护人的话，就能和你们在一起生活。所以我爸爸很兴奋，想方设法在能成为监护人的亲戚中占据主动。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 660,
+	},
+	block_00140 = {
+		{"fg", ch="里", size="z1", mode=1, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0018", head="mir_z1a", lv=2.3, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00141", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「妈妈虽然责备了爸爸，但并没有阻止。我想她心里也渴望拥有自己的房子。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 667,
+	},
+	block_00141 = {
+		{"fg", ch="里", size="z1", mode=1, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0020", head="mir_z1a", lv=2.3, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="z1", mode=1, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0029", head="mir_z1a", lv=2.3, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00142", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「每次听到爸爸他们说关于这些的话，我总觉得哪里有些不对……表达自己的想法的话，马上就会大吵一架。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 673,
+	},
+	block_00142 = {
+		{"fg", ch="里", size="z1", mode=1, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0002", head="mir_z1a", lv=2.3, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00143", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「果然我也不想每次回家就吵架啊，所以我也不打算继续插手了，对不起啊。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 678,
+	},
+	block_00143 = {
+		{"fg", ch="里", size="z1", mode=1, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0012", head="mir_z1a", lv=2.3, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00144", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「而且。小智你本来就不怎么信任亲戚们吧。给你说了这些话，非常抱歉。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 683,
+	},
+	block_00144 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不，……不对！总之里姐不必道歉！绝对不行！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 686,
+	},
+	block_00145 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"因为是别人的家事，自然没有理由让我知晓。只是听到了预料之外的事情有些震惊。但并没有过于生气，亦或是过于悲伤什么的——仅仅是震惊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 688,
+	},
+	block_00146 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在选择我们监督人时竟然暗流汹涌……我又一次被震惊到了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00145",
+		linknext = "block_00147",
+		line = 690,
+	},
+	block_00147 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"当然，无论是谁都会对父母因事故离世这一事件感到悲伤吧。不过，活着的人们不得不为了明日的生计考虑，悲伤归悲伤，但提到财产就另当别论了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00146",
+		linknext = "block_00148",
+		line = 692,
+	},
+	block_00148 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然他们也有自己的生活，但却轮流来我家帮忙做事。比如做饭呀，扫除呀，洗衣服呀，办理一些政府机关需要的手续什么的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00147",
+		linknext = "block_00149",
+		line = 694,
+	},
+	block_00149 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"无论那时他们是抱着什么样的想法，仅靠两个小孩子自己是无法生活下去的，所以也不得不感谢他们。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00148",
+		linknext = "block_00150",
+		line = 696,
+	},
+	block_00150 = {
+		{"msgoff"},
+		{"colortone", style="reset"},
+		{"bg", lv=8, id=7, file="white", time=1000, sync=1, path=":bg/"},
+		{"cgdel", lv=8, id=7, time=1000},
+		{"msgoff"},
+		{"bg", file="bg012a", path=":bg/", sync=0},
+		{"fg", ch="里", size="no", mode=3, resize=1, path=":fg/mir/no/", file="mir_noa0210", ex05="mir_noa0010", face="a0002", head="mir_noa", lv=2.2, id=9, sync=0},
+		{"extrans"},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0210", ex05="mir_noa0010", face="a0028", head="mir_noa", lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00145", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「所以我什么都没做，只是时常听从妈妈说一些关于你们的话，不久后妃爱亲发火事件就发生了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00149",
+		linknext = "block_00151",
+		line = 709,
+	},
+	block_00151 = {
+		{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0210", ex05="mir_noa0010", face="a0038", head="mir_noa", lv=2.2, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00146", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「听说这事之后我就在想能不能为你们两人做些什么，不过我心里有数，还只是个学生的我几乎什么也做不了……只能自己苦恼着。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00150",
+		linknext = "block_00152",
+		line = 714,
+	},
+	block_00152 = {
+		{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0210", ex05="mir_noa0010", face="a0019", head="mir_noa", lv=2.2, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00147", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「之后，妃爱亲的经纪人就联系了我，说妃爱亲想让我做你们的监护人。我便马上答应了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00151",
+		linknext = "block_00153",
+		line = 719,
+	},
+	block_00153 = {
+		{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0200", ex05="mir_noa0000", face="a0053", head="mir_noa", lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0200", ex05="mir_noa0000", face="a0055", head="mir_noa", lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00148", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「虽然和你们两人只是一年见一次面程度的亲戚罢了。嘛，从那时起我就想做你们的全权监护人了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00152",
+		linknext = "block_00154",
+		line = 725,
+	},
+	block_00154 = {
+		{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0200", ex05="mir_noa0000", face="a0031", head="mir_noa", lv=2.2, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00149", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「我直到你们两人自立之前都会照顾你们。对于你们父母留下的财产，为保证你们二人继承，连庭院里的一粒沙我都不会让别人擅自动用。这就是我的决心。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00153",
+		linknext = "block_00155",
+		line = 732,
+	},
+	block_00155 = {
+		{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0210", ex05="mir_noa0010", face="a0002", head="mir_noa", lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0210", ex05="mir_noa0010", face="a0038", head="mir_noa", lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00150", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「嗯……所以，除了学生会长这事之外，一直以来我也想向小智道歉。如果当时能对爸爸强硬一点什么的，还有其他很多很多事。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00154",
+		linknext = "block_00156",
+		line = 738,
+	},
+	block_00156 = {
+		{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0210", ex05="mir_noa0010", face="a0022", head="mir_noa", lv=2.2, id=9},
+		{"fgact", ch="里", act="ジャンプ", lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0210", ex05="mir_noa0010", face="a0054", head="mir_noa", lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00151", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「嘛！现在看来，我因为照顾了这么久所以对你们二人满怀爱恋之情——也就是说，我超喜欢你们两个的哦。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00155",
+		linknext = "block_00157",
+		line = 745,
+	},
+	block_00157 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「嗯，我也超喜欢里姐的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00156",
+		linknext = "block_00158",
+		line = 748,
+	},
+	block_00158 = {
+		{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0210", ex05="mir_noa0010", face="a0023", head="mir_noa", lv=2.2, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00152", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「我也听他们说，小智也好妃爱亲也好，都是在为守护父母之物而战的人呀。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00157",
+		linknext = "block_00159",
+		line = 753,
+	},
+	block_00159 = {
+		{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0210", ex05="mir_noa0010", face="a0055", head="mir_noa", lv=2.2, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00153", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「如果有比我们小一辈、和我们处境类似的亲戚的话，我也会尽我所能去照顾，没问题吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00158",
+		linknext = "block_00160",
+		line = 758,
+	},
+	block_00160 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我本以为里姐照顾我们是有原因的，没想到没什么。只是就像我和妃爱一样，是被那七十六亿分之一的运气惠及的表兄妹罢了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00159",
+		linknext = "block_00161",
+		line = 760,
+	},
+	block_00161 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"里姐不求从我们这里得到回报，不过我们又能为里姐做些什么呢？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00160",
+		linknext = "block_00162",
+		line = 762,
+	},
+	block_00162 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我很快就想到了这个问题的答案。申请推优，然后考取目标院校。之后正式地向里姐道谢「能做学生会长真是太好了」。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00161",
+		linknext = "block_00163",
+		line = 764,
+	},
+	block_00163 = {
+		{"msgoff"},
+		{"bg", file="zbg012a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="里", size="z1", mode=3, resize=1, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0053", head="mir_z1a", lv=2.3, id=9, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00154", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「顺带一提，我成为监护人之后，第一次见到小智的会话内容还记得吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00162",
+		linknext = "block_00164",
+		line = 773,
+	},
+	block_00164 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊，不好意思，会话内容我已经记不起来了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00163",
+		linknext = "block_00165",
+		line = 776,
+	},
+	block_00165 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0034", head="mir_z1a", lv=2.3, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00155", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「嘛，小智可是扭扭捏捏，连我的名字都没记住呢。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00164",
+		linknext = "block_00166",
+		line = 781,
+	},
+	block_00166 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0015", head="mir_z1a", lv=2.3, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00156", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「当我问『还记得我是谁吗』时，你还记得你是怎么回答的吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00165",
+		linknext = "block_00167",
+		line = 786,
+	},
+	block_00167 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊这，当时的少年智宏回答了什么呢？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00166",
+		linknext = "block_00168",
+		line = 789,
+	},
+	block_00168 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"糟糕，完全没有印象了。里姐这样面带笑容的看着我，不难想象我肯定是说了什么很丢脸的话。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00167",
+		linknext = "block_00169",
+		line = 791,
+	},
+	block_00169 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0022", head="mir_z1a", lv=2.3, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00157", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「当时的小智面色通红，视线游离，对『还记得我是谁吗』这个问题的回答是……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00168",
+		linknext = "block_00170",
+		line = 796,
+	},
+	block_00170 = {
+		{"fg", ch="里", size="z1", mode=3, path=":fg/mir/z1/", file="mir_z1a0210", ex05="mir_z1a0010", face="a0006", head="mir_z1a", lv=2.3, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00158", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「『亲戚中最漂亮的大姐姐』。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00169",
+		linknext = "block_00171",
+		line = 801,
+	},
+	block_00171 = {
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"说过这样的话啊！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00170",
+		linknext = "block_00172",
+		line = 806,
+	},
+	block_00172 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我，说过这样的话啊。经里姐一提醒，我记忆中的薄雾涤荡开来——的确，我说过这样的话。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00171",
+		linknext = "block_00173",
+		line = 808,
+	},
+	block_00173 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过，当时的我是想说「亲戚当中最漂亮的大姐姐」还是「世界上最漂亮的大姐姐」呢？我想应该是后者吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00172",
+		linknext = "block_00174",
+		line = 810,
+	},
+	block_00174 = {
+		{"msgoff"},
+		{"bg", file="bg012a", path=":bg/", sync=0},
+		{"fg", ch="里", size="no", mode=3, resize=1, path=":fg/mir/no/", file="mir_noa0200", ex05="mir_noa0000", face="a0035", head="mir_noa", lv=2.2, id=9, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0200", ex05="mir_noa0000", face="a0025", head="mir_noa", lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00159", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「呀，怎么脸红了呀。和以前一样很可爱的反应呢，怎么啦？害羞了呀！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00173",
+		linknext = "block_00175",
+		line = 821,
+	},
+	block_00175 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「害……害羞……当然会害羞的吧。虽说当时小孩子，但说里姐漂亮什么的，还是在妹妹的面前……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00174",
+		linknext = "block_00176",
+		line = 824,
+	},
+	block_00176 = {
+		{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0200", ex05="mir_noa0000", face="a0034", head="mir_noa", lv=2.2, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00160", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「妃爱亲的神色非常不满哦。直到我回家时还在闹别扭。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00175",
+		linknext = "block_00177",
+		line = 829,
+	},
+	block_00177 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"啊！难道说志愿者合宿，我说里姐是我喜欢的类型时，妃爱回我「还在说这样的话吗？」，原来是指这个啊……啊啊！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00176",
+		linknext = "block_00178",
+		line = 831,
+	},
+	block_00178 = {
+		{"fg", ch="里", size="no", hoho="h", mode=3, path=":fg/mir/no/", file="mir_noa0210", ex05="mir_noa0010", face="a0019h", head="mir_noa", lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="no", hoho="h", mode=3, path=":fg/mir/no/", file="mir_noa0210", ex05="mir_noa0010", face="a0035h", head="mir_noa", lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00161", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「说起来我也是小智小时候的伙伴呢。想想还有些小激动。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00177",
+		linknext = "block_00179",
+		line = 837,
+	},
+	block_00179 = {
+		{"fg", ch="里", size="no", hoho="h", mode=3, path=":fg/mir/no/", file="mir_noa0210", ex05="mir_noa0010", face="a0025h", head="mir_noa", lv=2.2, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="里", size="no", mode=3, path=":fg/mir/no/", file="mir_noa0200", ex05="mir_noa0000", face="a0054", head="mir_noa", lv=2.2, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mir_00162", ch="mir"},
+			},
+			ja = {
+				{
+					name = {"里"},
+					"「如果现在你直视我的眼睛说同样的话，或许我会心动哦？嘛，因为有了诗樱亲所以不能这么做哟！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00178",
+		linknext = "block_00180",
+		line = 843,
+	},
+	block_00180 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"有诗樱学姐这样的恋人真是太好了……如果我没有女友的话，听到里姐说这些，说不定我会当真。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00179",
+		linknext = "block_00181",
+		line = 845,
+	},
+	block_00181 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"能避免踏上近亲结婚的路真是太好了……虽说表姐弟确实也能结婚什么的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00180",
+		linknext = "block_00182",
+		line = 847,
+	},
+	block_00182 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="rule_002", wait=500, file="black", path=":bg/", vague=40},
+		{"bg", rule="rule_002r", vague=40, file="bg014a", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"和里姐聊完后，我向负责推优的老师传达了我想申请推优的意愿。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00181",
+		linknext = "block_00183",
+		line = 855,
+	},
+	block_00183 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"接下来的九月和十月正值学生会事情繁忙的时期，如果考试难度能降低的话对我着实是个大帮助。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00182",
+		linknext = "block_00184",
+		line = 857,
+	},
+	block_00184 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过学园的选拔考试也是在九月截至，所以暑假应该是要度过一段埋头苦读的时光了。也就是说，自称是拔了牙的老虎的诗樱学姐再次长出獠牙的时候到了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00183",
+		linknext = "block_00185",
+		line = 859,
+	},
+	block_00185 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"bg", speed=120000, file="zbg001a", path=":bg/", x2=640, y2=100, x=-640, y=100, ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"bg", lv=5, id=5, rule="cinema", file="cinema01", alpha=192, time=400, path=":sys/", vague=40, sync=0},
+		{"extrans", time=2000},
+		{"bgm", file="bgm25"},
+		{"fg", ch="妃愛", size="no", mode=1, path=":fg/hiy/no/", file="hiy_nob0200", ex05="hiy_nob0000", face="b0003", head="hiy_nob", lv=2.2, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="no", mode=1, path=":fg/hiy/no/", file="hiy_nob0210", ex05="hiy_nob0010", face="b0054", head="hiy_nob", lv=2.2, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01272", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「是我的话，会预先留出缓冲时间来哥哥的房间叫他——或许是宠爱他？再过五分钟后起床也可以哦，迷迷糊糊的很可爱哦。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00184",
+		linknext = "block_00186",
+		line = 879,
+	},
+	block_00186 = {
+		{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_noa0210", ex05="shi_noa0010", face="a0032", head="shi_noa", lv=2.2, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_noa0210", ex05="shi_noa0010", face="a0022", head="shi_noa", lv=2.2, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00728", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「明白了，我会参考的……在宠爱他这一方面，果然无人能出妃爱其右啊。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00185",
+		linknext = "block_00187",
+		line = 885,
+	},
+	block_00187 = {
+		{"fg", ch="妃愛", size="no", mode=1, path=":fg/hiy/no/", file="hiy_noa0210", ex05="hiy_noa0010", face="a0032", head="hiy_noa", lv=2.2, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="no", mode=1, path=":fg/hiy/no/", file="hiy_noa0210", ex05="hiy_noa0010", face="a0006", head="hiy_noa", lv=2.2, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01273", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「『宠爱哥哥之王』这一称号，对和泉妃爱来说是至高无上的荣誉……以后我也要宠爱诗樱学姐，怎么样。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00186",
+		linknext = "block_00188",
+		line = 891,
+	},
+	block_00188 = {
+		{"fg", ch="詩桜", size="no", ex02="a0098", mode=1, path=":fg/shi/no/", file="shi_noa0210", ex05="shi_noa0010", face="a0040", head="shi_noa", lv=2.2, id=20},
+		{"quake", mode="mw"},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_nob0200", ex05="shi_nob0000", face="b0036", head="shi_nob", lv=2.2, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00729", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「什……什么！？妃爱说要宠爱我……？好了赶紧起床，妃爱说要宠爱我啊。快起来见证这一历史性的一刻吧！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00187",
+		linknext = "block_00189",
+		line = 899,
+	},
+	block_00189 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"有着理想妹妹、漂亮表姐以及无上恋人的我实在是幸运啊。所以让我再睡五分钟吧——我嘟囔着。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00188",
+		linknext = "block_00190",
+		line = 901,
+	},
+	block_00190 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"bg", file="catch04", id=9, lv=9, time=500, path=":cg/"},
+		{"bgm", file="bgm94", loop=0},
+		{"ex", time=6000, func="wait"},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="04_詩桜07"},
+		{"text"},
+		linkback = "block_00189",
+		line = 907,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

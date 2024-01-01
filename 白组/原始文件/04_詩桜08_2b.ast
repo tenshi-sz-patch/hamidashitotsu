@@ -1,0 +1,431 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="回答編・乙"},
+		{"bgm", file="bgm29"},
+		{"bg", sync=0, face="1", file="ev_sio_34_02", time=400, path=":ev/ev_sio_34/", set="ev_sio_34"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00796", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「先写出正确的句子吧，就是这样。」",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 17,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"That she has succeeded to get a promotion is of importance for our company.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 19,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00797", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「这个文章用形式主语It开头来写，就是这个样子。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 22,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"It is of importance for our company that she succeeded to get a promotion．",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 26,
+	},
+	block_00004 = {
+		{"bg", sync=0, face="1", file="ev_sio_34_01", time=400, path=":ev/ev_sio_34/", set="ev_sio_34"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00798", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「这道题虽然很难，但有一条线索。就是选项中的名词都是单数。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 31,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00799", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「因此可以确定，选项中的get是一个特殊用法……to不定式或者原型不定式。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 34,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在那之后，学姐教了我「succeeded的后面接的是to＋动词原型」、「形容词可以用『of＋名词』来替换」。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 36,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"「to因为已经用过了，所以『of importance』的后面就是是for了」，但我的脑子全是「欧派」而没能听进去。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 38,
+	},
+	block_00008 = {
+		{"bg", sync=0, face="1", file="ev_sio_34_04", time=400, path=":ev/ev_sio_34/", set="ev_sio_34"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00800", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「那么，约定就是约定。虽然很可惜，但今天的特别授课就到此为止。谢谢你陪着我。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 45,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「没有，这是我应该说的……为了我准备了这些问题，甚至为了让我鼓起干劲激励我，真的非常感谢你。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 48,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00801", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「要是在这里让你尝到甜头的话以后就不好办了啊。虽然很可惜，但是我什么都不会给的哦。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 51,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00802", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「但是如果你想的话，特别授课倒是可以继续下去。那你觉得下次什么时候好呢？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 54,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「明天吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 57,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00803", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「那么接下来，我会根据你学习的集中力来决定。如果我认为你有好好努力了……明天就穿中国旗袍吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 60,
+	},
+	block_00014 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="rule_002", wait=500, file="black", path=":bg/", vague=40},
+		{"bg", rule="rule_002r", vague=40, file="bg099b", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在这之后的学习中我心无旁骛，甚至诗樱学姐搭话我都没听到，一直学到了晚上。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 68,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"即使是和学姐喝茶的时间，也心痒难耐地想要学习。要是没被学姐说「不要勉强自己」，我估计会废寝忘食地学习吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 70,
+	},
+	block_00016 = {
+		{"bgm", stop=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="rule_002", wait=500, file="black", path=":bg/", vague=40},
+		{"msgoff"},
+		{"bg", file="bg002c", path=":bg/", sync=0},
+		{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_nob0500", ex05="hiy_nob0000", face="b0002", head="hiy_nob", lv=2.2, id=13, sync=0},
+		{"extrans", rule="rule_002r", vague=40},
+		{"bgm", file="bgm28"},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_nob0500", ex05="hiy_nob0000", face="b0020", head="hiy_nob", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01343", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「哥哥，虽然我知道你很努力，但吃饭的时候还是别学了吧。我想在吃饭的时候和哥哥聊聊天呢。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 89,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊！　啊，啊啊对不起。今天实在是太有干劲了……是我错了，那今天就学到这里吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 92,
+	},
+	block_00018 = {
+		{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_nob0500", ex05="hiy_nob0000", face="b0019", head="hiy_nob", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_nob0500", ex05="hiy_nob0000", face="b0010", head="hiy_nob", lv=2.2, id=13},
+			},
+			vl02 = {
+				{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_nob0500", ex05="hiy_nob0000", face="b0051", head="hiy_nob", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01344", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「我才是，打扰了哥哥的学习，对不起呢。但是，哥哥从来没有这么努力地学习过吧。今天是怎么了？　难道是受了姐姐的影响？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 99,
+	},
+	block_00019 = {
+		{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_noa0500", ex05="hiy_noa0000", face="a0035", head="hiy_noa", lv=2.2, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="妃愛", size="no", mode=3, path=":fg/hiy/no/", file="hiy_noa0500", ex05="hiy_noa0000", face="a0053", head="hiy_noa", lv=2.2, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_hiy_01345", ch="hiy"},
+			},
+			ja = {
+				{
+					name = {"妃愛"},
+					"「能让哥哥使出这种干劲的姐姐真的好厉害啊。等考试结束后我可要好好感谢你呐！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 105,
+	},
+	block_00020 = {
+		{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_noa0510", ex05="shi_noa0010", face="a0031", head="shi_noa", lv=2.2, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="詩桜", size="no", mode=1, path=":fg/shi/no/", file="shi_noa0510", ex05="shi_noa0010", face="a0001", head="shi_noa", lv=2.2, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00804", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"詩桜"},
+					"「没有，到头来学习的劲头和这般集中的注意力都是他自己的实力。话说明天的晚饭我想试试做中国菜……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 111,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"穿上泳装就是鱼料理，穿上旗袍就是中华料理。那么穿兔女郎的衣服的那天会是什么菜呢？那我可想都不敢想了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 113,
+	},
+	block_00022 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"bg", file="catch04", id=9, lv=9, time=500, path=":cg/"},
+		{"bgm", file="bgm94", loop=0},
+		{"ex", time=6000, func="wait"},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="04_詩桜09_1"},
+		{"text"},
+		linkback = "block_00021",
+		line = 121,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

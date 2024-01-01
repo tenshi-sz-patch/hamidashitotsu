@@ -1,0 +1,2028 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="有话直说，这就是我的忍道"},
+		{"msgoff"},
+		{"bg", file="sd_com_99d", time=400, lv=5, id=6, path=":sd/sd_com_99/", set="sd_com_99", tagreset="1", sync=0},
+		{"extrans"},
+		{"bgm", file="bgm22"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10039", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢", "雨野葉レマ"},
+					"「周一快乐呀～！　昨天的情人节，大家过得怎么样啊？　要是情人节刚好被反季节的台风直击，给毁灭掉就好了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 19,
+	},
+	block_00001 = {
+		{"bg", file="sd_com_99g", sync=0, face="1", time=400, lv=5, id=6, path=":sd/sd_com_99/", set="sd_com_99"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10040", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢", "雨野葉レマ"},
+					"「从今天起的一周内，即使是平常比较贵的巧克力也可能会有打折，所以大家可以试试去平时买不起的店里买一个巧克力蛋糕哦！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 25,
+	},
+	block_00002 = {
+		{"bg", file="sd_com_99a", sync=0, face="1", time=400, lv=5, id=6, path=":sd/sd_com_99/", set="sd_com_99"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10041", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢", "雨野葉レマ"},
+					"「还有情人节音声『V sign』，虽然过了14号就没有折扣了，但目前还在火热出售中，希望大家多多购买支持哦～！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 31,
+	},
+	block_00003 = {
+		{"bg", file="sd_com_99d", sync=0, face="1", time=400, lv=5, id=6, path=":sd/sd_com_99/", set="sd_com_99"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10042", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢", "雨野葉レマ"},
+					"「接下来是今天的幸运占卜，第一名，白羊座！　幸运色是桑紫色！　有点像巧克力的颜色呢！　第二名是射手座！　脑袋要被刺穿――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 37,
+	},
+	block_00004 = {
+		{"bgm", stop=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="rule_002", wait=500, file="black", path=":bg/", vague=40},
+		{"bg", rule="rule_002r", vague=40, file="bg009a", path=":bg/"},
+		{"fg", ch="広夢", size="no", mx=40, mode=3, path=":fg/hir/no/", file="hir_noa0200", face="a0052", head="hir_noa", x=0, lv=2.2, id=13},
+		{"bgm", file="bgm06"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10043", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「早上好啊。恭喜你上镜『Ｖ５』」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 54,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「谢谢……话说，现在才提这个？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 57,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"久违地七点多就来到教室，没想到距文化祭已经过了一个月，还能听到有人对我说「恭喜」，我便苦笑着回应。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 59,
+	},
+	block_00007 = {
+		{"fg", ch="広夢", size="no", mode=3, path=":fg/hir/no/", file="hir_noa0200", face="a0023", head="hir_noa", x=0, lv=2.2, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10044", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「好久没见和泉这个时间到教室了嘛。最近早上总感觉有些无聊。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 64,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 67,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"早晚上下学的时间是和亚澄聊天的宝贵机会，所以我一直都会配合着她到校。亚澄有时作曲会作到早上五点，七点多的时候她还在犯困呢。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 69,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过，为什么新川这么清楚地记得我到校的时间？　而且一直都比我先到校呢？　还是说只有恰巧最近来得比我早？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 71,
+	},
+	block_00011 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg009a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="広夢", size="z1", mode=3, resize=1, path=":fg/hir/z1/", file="hir_z1a0200", face="a0010", head="hir_z1a", x=0, lv=2.3, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10045", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「和泉？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 81,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊，嗯，因为今天我是一个人来学校的，早上突然收到了消息。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 84,
+	},
+	block_00013 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0052", head="hir_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10046", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「诶？　难道说？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 89,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「没错没错，V5的歌曲已经完成了。音源好像也在今天早交付了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 92,
+	},
+	block_00015 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0054", head="hir_z1a", x=0, lv=2.3, id=13},
+		{"fgact", ch="広夢", act="ジャンプ", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10047", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「太好了！　恭喜你啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 98,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然总感觉对我表示祝贺有些奇怪，但是新川还是直率地向我表示高兴。一如既往，真是个好人啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 100,
+	},
+	block_00017 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0013", head="hir_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0022", head="hir_z1a", x=0, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10048", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「锦同学真厉害啊。或许以后会经常受到演唱会活动的邀请吧……还是说已经有不少邀请了？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 106,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「没有，演唱会类型的活动到现在也就三次……不过，要是能有更多这样的活动邀请就好了啊。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 109,
+	},
+	block_00019 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0015", head="hir_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10049", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「不试试在今年内举办个人演唱会吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 114,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"其实我心里是很想看见雪景式的个人演唱会，但因为担心被误解为这是在偏袒女朋友，所以就没有说出来。鸣门小姐应该也是这么想的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 116,
+	},
+	block_00021 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0038", head="hir_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0035", head="hir_z1a", x=0, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10050", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「我们社没有什么能在线下活动活跃的主播，高层的人应该会挺高兴吧。我还是想以本社的活动为主。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 122,
+	},
+	block_00022 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0004", head="hir_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0019", head="hir_z1a", x=0, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10051", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「事务所能把预算拨到VTuber项目上的话，对我们来说也是件好事。我也想参加本社的活动试试呢……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 128,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然新川表现出一副放弃了线下活动的样子，但他心里对此还是很感兴趣的。毕竟现在他的眼神看上去有些寂寞呢。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 130,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在V sign社……也就是玲舞所属的事务所里，他的粉丝数位列第一。他在唱歌的直播里，也就所谓歌回，也有很多观众，而且他还很擅长和大家聊天。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 132,
+	},
+	block_00025 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0001", head="hir_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"为什么会顾忌到这种程度呢，我有些在意地望向新川。新川则对我的视线有点诧异。一想到自己总是考虑得不够多，就感觉多少有点对不起他了……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 136,
+	},
+	block_00026 = {
+		{"bg", speed=150000, file="zbg009a", path=":bg/", x2=640, y2=100, x=-640, y=100, ax=1280, ay=720, bx=-640, by=-360},
+		{"fg", ch="広夢", size="no", mode=1, resize=1, path=":fg/hir/no/", file="hir_noa0200", face="a0010", head="hir_noa", lv=2.2, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="no", mode=1, path=":fg/hir/no/", file="hir_noa0200", face="a0002", head="hir_noa", lv=2.2, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10052", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「……话说明明今早才交付，还挺早就来学校了呢。难道锦同学没补觉就来了吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 144,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊，不是，不回去睡觉的话她会撑不住的，所以上午她就不来了。因为平时我都会去她家接她上学，但是今天不用去，所以就来得比较早。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 147,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"妃爱因为工作早早就出门了。亚澄今天休息，但我还是感觉有些寂寞，所以我就和她一起去了车站，在检票口送走她后才去上学，等到学校时发现才七点多。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 149,
+	},
+	block_00029 = {
+		{"fg", ch="広夢", size="no", mode=1, path=":fg/hir/no/", file="hir_noa0200", face="a0038", head="hir_noa", lv=2.2, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="no", mode=1, path=":fg/hir/no/", file="hir_noa0200", face="a0012", head="hir_noa", lv=2.2, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10053", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「我不会作曲，所以不知道作曲需要多么集中……不过锦同学昨晚也有直播吧。明明每天都在作曲应该很累才对吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 155,
+	},
+	block_00030 = {
+		{"fg", ch="広夢", size="no", mode=1, path=":fg/hir/no/", file="hir_noa0200", face="a0003", head="hir_noa", lv=2.2, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="no", mode=1, path=":fg/hir/no/", file="hir_noa0200", face="a0022", head="hir_noa", lv=2.2, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10054", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					{"exfont", size="f2"},
+					"「虽然当时我有想过为什么只播了30分钟就结束了……但听完你的话后我便恍然大悟了。话虽如此，昨晚直播时从她的声音里完全听不出来有疲劳的感觉呢，亚澄体力真好啊。」",
+					{"rt2"},{"exfont"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 161,
+	},
+	block_00031 = {
+		{"fg", ch="広夢", size="no", mode=1, path=":fg/hir/no/", file="hir_noa0200", face="a0007", head="hir_noa", lv=2.2, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="no", mode=1, path=":fg/hir/no/", file="hir_noa0200", face="a0003", head="hir_noa", lv=2.2, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10055", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「我自己也有过亲身经历，所以可以肯定地说每天直播真的是一件很辛苦的事。虽然很辛苦，但只要坚持下去，观众就能不断增加。这是毋庸置疑的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 167,
+	},
+	block_00032 = {
+		{"fg", ch="広夢", size="no", mode=1, path=":fg/hir/no/", file="hir_noa0200", face="a0023", head="hir_noa", lv=2.2, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10056", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					{"exfont", size="f2"},
+					"「『每天都能在固定时间相见』的话，主播就能和观众们的生活紧密联系在一起。发生了好事是托了主播的福，发生了倒霉事也能通过直播得到安慰。」",
+					{"rt2"},{"exfont"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 172,
+	},
+	block_00033 = {
+		{"fg", ch="広夢", size="no", mode=1, path=":fg/hir/no/", file="hir_noa0200", face="a0019", head="hir_noa", lv=2.2, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10057", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					{"exfont", size="f2"},
+					"「不过“持之以恒”这种事，虽然做的是任何人都能做到的小事，但真的能够坚持下去才是最难的。大家也都知道这个道理。如果有人能连续坚持一周的话我就觉得已经很厉害了。」",
+					{"rt2"},{"exfont"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 177,
+	},
+	block_00034 = {
+		{"fg", ch="広夢", size="no", mode=1, path=":fg/hir/no/", file="hir_noa0200", face="a0015", head="hir_noa", lv=2.2, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="no", mode=1, path=":fg/hir/no/", file="hir_noa0200", face="a0034", head="hir_noa", lv=2.2, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10058", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					{"exfont", size="f2"},
+					"「锦同学好好地扮演着她的角色，在每天的直播中从来也不会把对私生活的抱怨挂在嘴边。如果不是喜欢直播的话是做不到这样的。我在了解到她的情况之后就更加坚信这点了。」",
+					{"rt2"},{"exfont"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 185,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"因为从亚澄口中听过她的真心话，所以我知道她其实并没那么喜欢聊天。相反，她并不擅长和人交谈。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 187,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"亚澄接触了形形色色的人，研究对话的技巧，一直努力至今才达到现在的高度。听了新川的话后，我再次意识到她到底有多么努力。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 189,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"真是个认真的人啊，亚澄……她每天都是带着什么样的表情一边说着「大家好～」一边和观众们打招呼的呢？说来倒也惭愧，我至今仍对此一无所知。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 191,
+	},
+	block_00038 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg009a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="広夢", size="z1", mode=3, resize=1, path=":fg/hir/z1/", file="hir_z1a0200", face="a0004", head="hir_z1a", x=0, lv=2.3, id=13, sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「新川也看亚澄的直播吗？　而且看上去很了解的样子……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 201,
+	},
+	block_00039 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0022", head="hir_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10059", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「毕竟是同一家公司的人气新人啊。虽然我并不打算把她当作竞争对手，但还是会去看那些有能力的人的。这不仅限于锦同学哦。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 206,
+	},
+	block_00040 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0003", head="hir_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0020", head="hir_z1a", x=0, lv=2.3, id=13},
+				{"fgact", ch="広夢", act="おじぎ", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0013", head="hir_z1a", x=0, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10060", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「既然是企业势，那就不可能不注重收益，但如果太看重收益的话也不是件好事。锦同学在这方面平衡得很好呢。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 214,
+	},
+	block_00041 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0031", head="hir_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0013", head="hir_z1a", x=0, lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0022", head="hir_z1a", x=0, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10061", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「只有在心情好的时候才会提及粉丝数的事情，就算提到了也没有表现得太在意。至少表面上是这样。这种宠辱不惊的态度也是一种才能呢。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 221,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"回想起平时与新川的对话就会发现他其实也是个认真的人。想必他的努力程度也丝毫不输于亚澄吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 223,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"从目前最大的主播那里听说了这么多身历其境的辛苦之处，我便不由得想去了解更多的东西了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 225,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「对了，你之前说过要是我有困难的话可以找你商量吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 228,
+	},
+	block_00045 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0010", head="hir_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10062", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「嗯，什么事？　还有什么别的事情吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 233,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「别的事？　大概吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 236,
+	},
+	block_00047 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0019", head="hir_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10063", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「Ｖ impact、红白歌会、Ｖ５，以这些为话题绝对够分量了吧。作为局外人，我倒是觉得这些都挺有趣的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 241,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这种情况下的「有趣」，本来应该是对亚澄而言的吧，但为什么现在的新川正用一副很开心的眼神看着我呢？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 243,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"可恶，不管怎么看都像是想要捉弄「和名人交往的同学」的眼神。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 245,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「……你之前好像说过，粉丝数超过40万之后就要开始忙碌起来了吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 248,
+	},
+	block_00051 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0002", head="hir_z1a", x=0, lv=2.3, id=13},
+		{"fgact", ch="広夢", act="おじぎ", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0038", head="hir_z1a", x=0, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10064", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「根据当前的流行趋势和事务所的状况，每个人的情况多少会有些差异吧……我的话差不多就是在那个时候开始忙起来的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 255,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「具体来说是哪些地方忙呢？　是企划增加了吗？　还是因为压力之类的？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 258,
+	},
+	block_00053 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", zoom=120, file="zbg009a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="広夢", size="z2", mode=3, resize=1, path=":fg/hir/z2/", file="hir_z2a0200", face="a0007", head="hir_z2a", x=0, lv=2.4, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10065", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「确认。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 268,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「诶？　什么？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 271,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我以为新川是想说「有事情要确认一下」的意思，但没想到他是在回答我的问题。我有好一段时间都露出了白痴一般的表情。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 273,
+	},
+	block_00056 = {
+		{"fg", ch="広夢", size="z2", mode=3, path=":fg/hir/z2/", file="hir_z2a0200", face="a0028", head="hir_z2a", x=0, lv=2.4, id=13},
+		{"fgact", ch="広夢", act="おじぎ", lv=2.4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10066", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「来自事务所的确认邮件变多了。多到不管怎么回复都回复不完。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 279,
+	},
+	block_00057 = {
+		{"fg", ch="広夢", size="z2", mode=3, path=":fg/hir/z2/", file="hir_z2a0200", face="a0002", head="hir_z2a", x=0, lv=2.4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10067", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「比如歌曲PV，虽然动画方面的制作交给了别人……但最终的确认都得亲自出马。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 284,
+	},
+	block_00058 = {
+		{"fg", ch="広夢", size="z2", mode=3, path=":fg/hir/z2/", file="hir_z2a0200", face="a0038", head="hir_z2a", x=0, lv=2.4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10068", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「事务所在一定程度上会打回去重做来提高质量，但最后拍板定案的终究是我。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 289,
+	},
+	block_00059 = {
+		{"fg", ch="広夢", size="z2", mode=3, path=":fg/hir/z2/", file="hir_z2a0200", face="a0006", head="hir_z2a", x=0, lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fgact", ch="広夢", act="うんうん", lv=2.4, id=13},
+			},
+			vl02 = {
+				{"fg", ch="広夢", size="z2", mode=3, path=":fg/hir/z2/", file="hir_z2a0200", face="a0020", head="hir_z2a", x=0, lv=2.4, id=13},
+			},
+			vl03 = {
+				{"fg", ch="広夢", size="z2", mode=3, path=":fg/hir/z2/", file="hir_z2a0200", face="a0022", head="hir_z2a", x=0, lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10069", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「虽然会有第一版就觉得『做得很好！』的情况发生，但大多数情况下都是『这里想要再修改一下』……之后就看你想精益求精到什么程度了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 297,
+	},
+	block_00060 = {
+		{"fg", ch="広夢", size="z2", mode=3, path=":fg/hir/z2/", file="hir_z2a0200", face="a0029", head="hir_z2a", x=0, lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z2", mode=3, path=":fg/hir/z2/", file="hir_z2a0200", face="a0007", head="hir_z2a", x=0, lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10070", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「如果出现想要改进却没有改进的部分，那这部分肯定会被观众指出来。对此我非常确信。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 303,
+	},
+	block_00061 = {
+		{"fg", ch="広夢", size="z2", mode=3, path=":fg/hir/z2/", file="hir_z2a0200", face="a0012", head="hir_z2a", x=0, lv=2.4, id=13},
+		{"fgact", ch="広夢", act="いいえ", lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z2", mode=3, path=":fg/hir/z2/", file="hir_z2a0200", face="a0029", head="hir_z2a", x=0, lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10071", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					{"exfont", size="f2"},
+					"「不过，如果由我提出修改方案的话，就需要借助中间的事务所才能把我的方案送到实际修改的人手上，这样就很费工夫。重复太多次的话，制作组的热情也会渐渐冷却下去。」",
+					{"rt2"},{"exfont"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 310,
+	},
+	block_00062 = {
+		{"fg", ch="広夢", size="z2", mode=3, path=":fg/hir/z2/", file="hir_z2a0200", face="a0003", head="hir_z2a", x=0, lv=2.4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10072", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「还有就是期限的问题……如果双方都拖拖拉拉的导致作品公开晚了，就会严重损害主播和事务所的信用。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 315,
+	},
+	block_00063 = {
+		{"fg", ch="広夢", size="z2", mode=3, path=":fg/hir/z2/", file="hir_z2a0200", face="a0002", head="hir_z2a", x=0, lv=2.4, id=13},
+		{"fgact", ch="広夢", act="おじぎ", lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z2", mode=3, path=":fg/hir/z2/", file="hir_z2a0200", face="a0038", head="hir_z2a", x=0, lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10073", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「不过在这件事上事务所也并没有什么大错。不管怎么说公开日期也不会变，合作方的制作公司也不是单单为我一个人工作的，更何况事务所还有其他的主播。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 322,
+	},
+	block_00064 = {
+		{"fg", ch="広夢", size="z2", mode=3, path=":fg/hir/z2/", file="hir_z2a0200", face="a0023", head="hir_z2a", x=0, lv=2.4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10074", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「不过我们这些主播光是应付自己的工作就已经忙得不可开交了，如果还要顾虑太多事务所方面的事情的话，最后也只会降低自己的人气吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 327,
+	},
+	block_00065 = {
+		{"fg", ch="広夢", size="z2", mode=3, path=":fg/hir/z2/", file="hir_z2a0200", face="a0038", head="hir_z2a", x=0, lv=2.4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z2", mode=3, path=":fg/hir/z2/", file="hir_z2a0200", face="a0002", head="hir_z2a", x=0, lv=2.4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10075", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「总而言之……越是努力的人，就越会觉得这种事情很没道理。除非你被事务所特别优待。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 333,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"自己的女朋友正面临着同样的问题，所以我在认真聆听新川的讲解。至今为止，亚澄又是怎样制作PV之类的东西的呢？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 335,
+	},
+	block_00067 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg009a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="広夢", size="z1", mode=3, resize=1, path=":fg/hir/z1/", file="hir_z1a0200", face="a0007", head="hir_z1a", x=0, lv=2.3, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0020", head="hir_z1a", x=0, lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0029", head="hir_z1a", x=0, lv=2.3, id=13},
+				{"fgact", ch="広夢", act="おじぎ", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10076", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「虽然各行各业都有这种问题，但由于VTuber的人气在很大程度上取决于主播的个性，所以因此变得自负而纠结作品质量的人不在少数。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 349,
+	},
+	block_00068 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0003", head="hir_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10077", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「虽然我认为提高作品质量是好事，但除了PV，还会有周边，游戏体验的委托等等。一旦纠结起高质量来就没完没了了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 356,
+	},
+	block_00069 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0038", head="hir_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0015", head="hir_z1a", x=0, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10078", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「虽然我很佩服那些能最大限度地利用自己的时间、提高所有商品质量的同行，但意外的是我在这方面比较随便。改进什么的最多也只有一次。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 362,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「你是怎么像这样想明白的？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 365,
+	},
+	block_00071 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0034", head="hir_z1a", x=0, lv=2.3, id=13},
+		{"fgact", ch="広夢", act="おじぎ", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10079", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「大概是意识到自己一旦原形毕露就彻底完蛋了吧。毕竟就我现在所处的立场而言是没办法谈什么条件的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 371,
+	},
+	block_00072 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0019", head="hir_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0013", head="hir_z1a", x=0, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10080", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「我在事务所里大概算得上是优等生，但我却对各种事情都会同意。在注重高质量的人看来这样很商业主义吧，但我也没法要求太多。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 377,
+	},
+	block_00073 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0006", head="hir_z1a", x=0, lv=2.3, id=13},
+		{"fgact", ch="広夢", act="うなづく", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10081", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「但相对的，我会一丝不苟地直播。我认为直播是主播的基础，也是我应该投入全部精力的地方，所以一直都没有放松。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 383,
+	},
+	block_00074 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0038", head="hir_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10082", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「但是果不其然，如果只有自己没有被邀请参加活动就会觉得很寂寞，如果周边评价不好的话也会消沉。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 388,
+	},
+	block_00075 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0013", head="hir_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0019", head="hir_z1a", x=0, lv=2.3, id=13},
+				{"fgact", ch="広夢", act="おじぎ", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10083", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「看到发出『我会努力专心直播的』这种宣言的主播，就会觉得他很强大，对他的尊敬之心也会油然而生。不过现在的我还处于在事务所和观众之间摇摆不定的阶段。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 395,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我一边感慨着实际参加工作的人真的很辛苦，一边又在担心着自己的女朋友，因此难以集中精力去听新川说话。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 397,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"亚澄自己又是怎么想的呢？和她自己有关的事情……特别是和歌曲品质挂钩的部分，她会非常注重这方面的细节。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 399,
+	},
+	block_00078 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"话虽如此，我也很难开口向她提起这方面的事情，只能自己一个人在背后默默地担心她。总感觉有点后悔问新川工作上的事情了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 401,
+	},
+	block_00079 = {
+		{"bg", speed=80000, file="zbg009a", path=":bg/", x2=0, y2=-360, x=0, y=360, ax=1280, ay=720, bx=-640, by=-360},
+		{"fg", ch="広夢", size="no", mode=1, resize=1, path=":fg/hir/no/", file="hir_noa0200", face="a0001", head="hir_noa", lv=2.2, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="no", mode=1, path=":fg/hir/no/", file="hir_noa0200", face="a0019", head="hir_noa", lv=2.2, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10084", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「还有……要花很多时间和外部工作人员讨论相关事宜。如果接下了某个企划，那这些时间就是必不可少的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 409,
+	},
+	block_00080 = {
+		{"fg", ch="広夢", size="no", mode=1, path=":fg/hir/no/", file="hir_noa0200", face="a0002", head="hir_noa", lv=2.2, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="no", mode=1, path=":fg/hir/no/", file="hir_noa0200", face="a0028", head="hir_noa", lv=2.2, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10085", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「虽然我基本上只在网上互动，但其实很多人更愿意直接和主播本人见面吧。即使是一线员工也会有这样的想法。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 415,
+	},
+	block_00081 = {
+		{"fg", ch="広夢", size="no", mode=1, path=":fg/hir/no/", file="hir_noa0200", face="a0038", head="hir_noa", lv=2.2, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10086", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「只谈工作倒还好，但有些人会在谈话间插入闲聊，还有些看似是大人物的家伙会邀请你去喝酒。现实中就是会有这种人啊。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 420,
+	},
+	block_00082 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「真的会有人这么干啊？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 423,
+	},
+	block_00083 = {
+		{"fg", ch="広夢", size="no", mode=1, path=":fg/hir/no/", file="hir_noa0200", face="a0019", head="hir_noa", lv=2.2, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="no", mode=1, path=":fg/hir/no/", file="hir_noa0200", face="a0055", head="hir_noa", lv=2.2, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10087", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「不过换个角度来看这也并非只有不好的一面，毕竟这样可以和工作伙伴互相了解。不过，实际上有人会借机在酒场上推销自己，也确实有人因此接到了工作。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 429,
+	},
+	block_00084 = {
+		{"fg", ch="広夢", size="no", mode=1, path=":fg/hir/no/", file="hir_noa0200", face="a0020", head="hir_noa", lv=2.2, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="no", mode=1, path=":fg/hir/no/", file="hir_noa0200", face="a0029", head="hir_noa", lv=2.2, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10088", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「不过Vtuber就比较特殊……因为中之人都是保密的，所以想一睹中之人真面目的人就会比较多。这种人最让我头疼了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 435,
+	},
+	block_00085 = {
+		{"fg", ch="広夢", size="no", mode=1, path=":fg/hir/no/", file="hir_noa0200", face="a0023", head="hir_noa", lv=2.2, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10089", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「不过，锦同学有点社恐，鸣门小姐应该也能理解吧，我们或许不用太担心她。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 440,
+	},
+	block_00086 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「是，是吗？　理解的话，会给她特别关照吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 443,
+	},
+	block_00087 = {
+		{"fg", ch="広夢", size="z1", mode=1, resize=1, path=":fg/hir/z1/", file="hir_z1a0200", face="a0022", head="hir_z1a", lv=2.3, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=1, path=":fg/hir/z1/", file="hir_z1a0200", face="a0023", head="hir_z1a", lv=2.3, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10090", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「鸣门小姐对锦同学的重视程度非同寻常。那个，要是后面的话你听了后会觉得不高兴的话我先道个歉……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 449,
+	},
+	block_00088 = {
+		{"fg", ch="広夢", size="no", mode=1, resize=1, path=":fg/hir/no/", file="hir_noa0200", face="a0039", head="hir_noa", lv=2.2, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=1, resize=1, path=":fg/hir/z1/", file="hir_z1a0200", face="a0008", head="hir_z1a", lv=2.3, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10091", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「事务所的部长说过『要不要试试让雪景式的中之人去尝试做下声优？』，当时我刚好在现场。啊，不过他是在锦同学不在的时候说的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 455,
+	},
+	block_00089 = {
+		{"fg", ch="広夢", size="no", mode=1, resize=1, path=":fg/hir/no/", file="hir_noa0200", face="a0019", head="hir_noa", lv=2.2, id=20},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=1, resize=1, path=":fg/hir/z1/", file="hir_z1a0200", face="a0035", head="hir_z1a", lv=2.3, id=20},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10092", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					{"exfont", size="f2"},
+					"「听到这句话后鸣门小姐可是发狂了哦，她把刚刚还在吃的拉面里的鱼板（火影里木叶的标志）贴在额头上，大喊『土遁之术！』，然后跪下来恳求部长说『千万不要这样』」",
+					{"rt2"},{"exfont"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 461,
+	},
+	block_00090 = {
+		{"fg", ch="広夢", size="z1", mode=1, path=":fg/hir/z1/", file="hir_z1a0200", face="a0023", head="hir_z1a", lv=2.3, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10093", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「那时她眼睛里面充满血丝，给人一种再说同样的话真的就会被砍的感觉。所以从那之后事务所内就达成了共识，再也没人提真人出道的事了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 466,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"鸣门小姐真厉害……看样子，这件事大概是在告知我们红白歌会或V5之后发生的吧。多少带点那时候的热血了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 468,
+	},
+	block_00092 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg009a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0039", head="hir_z1a", x=0, lv=2.3, id=13, sync=0},
+		{"extrans"},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0015", head="hir_z1a", x=0, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10094", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「锦同学自己想去做的话就另当别论了……对她来说，鸣门小姐就是会拼了命的防波堤。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 480,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「谢谢，听你这么说我就放心多了。真是帮大忙了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 483,
+	},
+	block_00094 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不仅有鸣门小姐这样的经纪人，还有新川这位同一事务所的可靠同伴。我由此了解到了亚澄当前的处境。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 485,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"新川是事务所里粉丝量最多的人。如果发生了什么事的时候他能站在亚澄这边，也能让亚澄的话语变得更有分量一些。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 487,
+	},
+	block_00096 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"真的很感谢新川……就算我们之后毕业了，我也想主动和他保持联系。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 489,
+	},
+	block_00097 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「话说，昨天巨蟹座又是最后一名……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 492,
+	},
+	block_00098 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0009", head="hir_z1a", x=0, lv=2.3, id=13},
+		{"fgact", ch="広夢", act="うなづく", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10095", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「唔……占卜的结果嘛……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 498,
+	},
+	block_00099 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"难得今天早上说了不少话，没想到占卜的结果却惨不忍睹。虽然很感谢新川，但我身为最后一名还是感到很悲伤……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 500,
+	},
+	block_00100 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊，对了……玲舞的情人节音声，我昨天也下载了。哎呀，那真的好棒――」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 503,
+	},
+	block_00101 = {
+		{"fg", ch="広夢", size="z1", hoho="h", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0036h", head="hir_z1a", x=0, lv=2.3, id=13},
+		{"fgact", ch="広夢", act="びっくり", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10096", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「我说过不要在本人面前谈论和工作相关的话题吧！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 509,
+	},
+	block_00102 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我本以为他会高兴，所以就把自己的感想说了出来，没想到他红着脸朝我发火了。大概是因为不想被同年级的人听到甜腻腻的声音吧……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 511,
+	},
+	block_00103 = {
+		{"fg", ch="広夢", size="z1", hoho="h", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0029h", head="hir_z1a", x=0, lv=2.3, id=13},
+		{"fgact", ch="広夢", act="おじぎ", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0002", head="hir_z1a", x=0, lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10097", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「……不过锦同学没能赶上这次的活动真是太遗憾了。鸣门小姐好像也在烦恼要不要把她往软萌的方向上推广呢。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 519,
+	},
+	block_00104 = {
+		{"fg", ch="広夢", size="z1", mode=3, path=":fg/hir/z1/", file="hir_z1a0200", face="a0033", head="hir_z1a", x=0, lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_hir_10098", ch="hir"},
+			},
+			ja = {
+				{
+					name = {"広夢"},
+					"「啊，不过和泉能从本人那里直接听到真是太好了呢。情人节的音声。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 524,
+	},
+	block_00105 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这是对我做出多余汇报的复仇吗，被捉弄了啊。算了，这次本就是我不好就是了……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 526,
+	},
+	block_00106 = {
+		{"bgm", stop=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="rule_002", wait=500, file="black", path=":bg/", vague=40},
+		{"excall", file="03_あすみ09_1"},
+		{"text"},
+		linkback = "block_00105",
+		line = 532,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

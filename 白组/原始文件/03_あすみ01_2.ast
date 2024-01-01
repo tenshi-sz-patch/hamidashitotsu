@@ -1,0 +1,2126 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"bg", speed=80000, rule="rule_001", vague=40, file="zbg099b", path=":bg/", x2=0, y2=-360, x=0, y=360, ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这样的亚澄坐电车时也开心地与我交谈着，仿佛早就迫不及待地要和我一同外出一样。",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 8,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我在心中默默祈愿，希望她在到达目的地后也能够继续保持着这样的笑容。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 10,
+	},
+	block_00002 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"bgm", file="bgm33"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"bg", zoom=150, x=1280, y=720, time=500, file="zev_asu_31_01", path=":ev/ev_asu_31/", set="ev_asu_31", ax=1280, ay=720, bx=-640, by=-360},
+		{"ex", func="wait", time=1000},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"bg", zoom=150, x=1280, y=-720, time=500, file="zev_asu_31_01", path=":ev/ev_asu_31/", set="ev_asu_31", ax=1280, ay=720, bx=-640, by=-360},
+		{"ex", func="wait", time=1000},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"bg", zoom=150, x=-960, y=540, time=500, file="zev_asu_31_01", path=":ev/ev_asu_31/", set="ev_asu_31", ax=1280, ay=720, bx=-640, by=-360},
+		{"ex", func="wait", time=2000},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"bg", zoom=80, speed=2000, file="zev_asu_31_01", path=":ev/ev_asu_31/", x2=-384, y2=-216, x=320, y=180, set="ev_asu_31", ax=1280, ay=720, bx=-640, by=-360},
+		{"flash", time=1000},
+		{"ex", func="wait", time=1000},
+		{"bg", zoom=100, time=1500, file="ev_asu_31_01", path=":ev/ev_asu_31/", z2=120, set="ev_asu_31"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10041", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「哇……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 53,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"那是湛蓝无垠的世界。一颗又一颗的彩灯点缀在街道两旁的榉树上，亚澄站在蓝色洞窟的入口处，发出激动的声音。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 57,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"而在她的身旁的我，这个把她带到这里的主谋也不禁发出一声感叹。没想到场面会是如此震撼。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 59,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我是想看到这样的景色，才决定要在此地度过圣诞节。因为我在TL上看到了这里的照片，觉得亚澄应该会喜欢。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 61,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"所以说，我并不是感动于树上的彩灯……当然，现场确实会与照片有所不同，但我没想到今天会收到这么一份意外的礼物。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 63,
+	},
+	block_00007 = {
+		{"bg", zoom=150, speed=100000, file="zev_asu_31_01", path=":ev/ev_asu_31/", x2=1280, y2=720, x=640, y=-720, set="ev_asu_31", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"今天居然还下起了雪。当我们到达这个最近的车站时天上就开始下小雪，而现在，清晰可见的雪花正一片又一片地在夜空中飘舞。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 67,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"哇，这也太震撼了吧？这梦幻般的场景让我这个准备惊喜的一方也惊叹万分，真的，要感谢圣诞老人的馈赠。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 69,
+	},
+	block_00009 = {
+		{"bg", zoom=100, time=1500, file="ev_asu_31_01", path=":ev/ev_asu_31/", z2=120, set="ev_asu_31"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10042", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「这让我想起，小时候在香榭丽舍大道时看到的彩灯」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 77,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在我感谢圣诞老人的时候，亚澄回想起我好像曾听她讲过的国外风景。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 79,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"说起来，亚澄出生于艺术世家。或许早已见识过世界上那些充满魅力的圣诞风景。这么一来，眼前这副景色真的能让她满意吗。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 81,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10043", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「真漂亮啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 84,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊啊，嗯……我也没想到会那么好看。但我的运气一直很差，这应该是托亚澄的福吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 87,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10044", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「但今天的运势排名是巨蟹座第一哦？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 90,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"难道新川知道我今天会跟亚澄在一起……不对，他说过自己的占卜不会掺杂个人情感在里面。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 92,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10045", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「前辈，你经常来这一带买东西吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 95,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「没有没有没有！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 98,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这条由蓝色彩灯装饰的街道是代表我国的时尚景点。我好像跟里姐来过这，如果记忆模糊的幼年时期没来过，那这回就是我人生第二次来到这里。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 100,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我在网上看到照片，当时觉得真是好看就查了一下地方在哪里。正好他们会开到31日，哪怕26日也能赶上圣诞节」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 103,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「而且彩灯颜色也是亚澄喜欢的蓝色……只是没想到下雪会让这景色添上一抹雪白。蓝色和白色，正好就是亚澄的应援色」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 106,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然这也是雪景式的代表颜色，但还是避免在人群中提到她的名字。因为我害怕一不小心说出她和亚澄的联系。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 108,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"然而，虽然我害怕做出暴露雪景式中之人的发言，但也同样害怕沉浸在这个气氛中的自己会说出什么令人作呕的话。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 110,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我几乎就要蹦出「呼呼，是白色圣诞节呢……」。幸好还留有些许理性。如果说出来，说不定会让亚澄恶心到昏过去。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 112,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10046", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「好漂亮……湛蓝世界的白色圣诞节……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 115,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这话让我来说怎么想都很恶心，但为什么同样的话出自亚澄口中却是如此悦耳呢？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 117,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"果然，我和亚澄完全不是同一物种。确实，毕竟我的女友，是天使啊……在我这样想着的时候，亚澄大胆地握住了我的手。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 119,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「哦……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 122,
+	},
+	block_00028 = {
+		{"bg", zoom=100, speed=2000, file="zev_asu_31_02", path=":ev/ev_asu_31/", z2=80, x2=-320, y2=-180, x=-160, y=180, set="ev_asu_31", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10047", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「我……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 130,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"亚澄的身体在颤抖，但这并不是因为天气寒冷，而是因为她感动万分，对此难以言表所产生的颤抖。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 132,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"证据便是她脸上醒目的潮红。但这并不是因为害羞，而是兴奋于眼前白雪点缀的景色。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 134,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10048", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「今天我本来想和前辈……在暖和的房间里聊聊天，随便过过就好了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 137,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「诶！　啊，哎！？　你不想出门吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 140,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10049", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「不是！在我知道前辈为我准备了圣诞惊喜后，我真切地感受到前辈一直在珍视作为恋人的我……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 143,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10050", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「我觉得非常开心！　谢谢前辈」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 146,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「来，这是你的圣诞礼物」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 149,
+	},
+	block_00036 = {
+		{"bg", x=-160, y=180, sync=0, face="1", file="zev_asu_31_03", time=400, path=":ev/ev_asu_31/", set="ev_asu_31", ax=1280, ay=720, bx=-640, by=-360, zoom=100},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"一想到这样的机会没有下次，我就情不自禁地伸出了手。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 157,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"那是我为今天准备的，鼓足干劲托人帮忙包装的水蓝色盒子。亚澄看到盒子后，瞪大了双眼。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 159,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「这个圣诞礼物，当然也是身为男友的我送给你的。是之前来这里调查时相中买的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 162,
+	},
+	block_00039 = {
+		{"bg", zoom=100, time=500, file="ev_asu_31_02", path=":ev/ev_asu_31/", z2=120, set="ev_asu_31"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10051", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「前辈~~~~~~~……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 169,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"亚澄眼角含泪，表情混乱的同时也在努力笑着。亚澄即便是表情走样，也依然那么可爱，真是拥有一副端秀的容貌啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 171,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然周围人多，让我有些不好意思，但好在基本都是情侣，都在微笑着看着我们。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 173,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10052", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「前辈真是太狡猾了。明明只是待在我身旁就能让我感到舒适，明明已经是这么棒的人了……但现在还能扮演这么帅气的男友」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 178,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10053", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「我总是想不到恋人之间应该做什么……总是在一切结束后，才意识到刚才要是这样做就好了，要是那样做就好了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 181,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10054", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「今天也是，我想的不是『想和你一起共度圣诞节』而是『因为是圣诞节，所以必须要和你一起过』从未想过我到底是为何要和前辈共度圣诞节……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 184,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10055", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「我原本觉得，只要能在前辈的身旁，度过比惬意的日常稍加开心的一天就够了，但是」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 187,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我看着眼前拼命述说自己想法的恋人，心生怜爱，便摸了摸她的头。抱歉，这次不是站在男友的角度，而是监护人的角度。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 189,
+	},
+	block_00047 = {
+		{"bg", x=-200, y=200, time=500, file="zev_asu_31_04", path=":ev/ev_asu_31/", set="ev_asu_31", ax=1280, ay=720, bx=-640, by=-360, zoom=100},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10056", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「因为心情能变得如此高兴与心动，所以大家才希望能和自己喜欢的人共度圣诞节吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 196,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10057", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「谢谢前辈的礼物。现在的我和表白当时一样心动。原来除演唱会和活动以外，也能如此激动啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 199,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10058", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「我喜欢你」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 202,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"眼前的这个孩子，原以为会是那难以触及的遥远世界中，那颗最为闪耀的星，却没想到她会在这么近距离的地方被小小的感动所深深触动。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 204,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这一点便是亚澄的魅力。头脑聪明却非常纯粹，在知晓世间的污秽下还能茁壮成长。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 206,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我也喜欢亚澄哦。现在大概也和你一样心动」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 209,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"呀，现在可是在大街上啊。但在这雪夜中无论是谁都格外温柔。周围的路人路过时都向我这边报以微笑。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 211,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但大家再怎么温柔，我们也不能一直占着路不走。亚澄已经停止思考了，于是我出声道。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 213,
+	},
+	block_00055 = {
+		{"bg", file="ev_asu_31_04", path=":ev/ev_asu_31/", set="ev_asu_31"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「诶ー……那个，我们要不要找个咖啡店之类的坐坐？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 220,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10059", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「啊，好……那个，前辈」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 223,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「虽然现在我也想要阔步向前，但自己对这一带实在是不熟，你有没有想要去的店」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 226,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10060", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「对不起，我不太熟悉这附近的店。那个，前辈。如果进了咖啡店，我能拆开礼物看看吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 230,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10061", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「我很期待里面到底是什么，感觉忍不到回家再打开了……现在激动的心情就与小时候相信有圣诞老人时一样」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 234,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「当然可以啊。我很期待亚澄的反应哦」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 237,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10062", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「敬请期待。我觉得应该会是一副不得体的表情」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 241,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"实际上，我本想说「希望不会辜负你的期待」，但马上就咽了回去。圣诞老人可不会说这种话。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 243,
+	},
+	block_00063 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="rule_002", wait=500, file="black", path=":bg/", vague=40},
+		{"bg", zoom=160, speed=1500, file="zev_asu_31_05", path=":ev/ev_asu_31/", x2=-520, y2=790, x=-300, y=790, set="ev_asu_31", ax=1280, ay=720, bx=-640, by=-360},
+		{"ex", time=1500, func="wait"},
+		{"bg", x=-200, y=200, file="zev_asu_31_05", path=":ev/ev_asu_31/", set="ev_asu_31", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10063", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「合适吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 258,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「非常合适。看起来稍微有点文静，像是与雪交融的文学少女」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 261,
+	},
+	block_00065 = {
+		{"bg", sync=0, face="1", file="zev_asu_31_06", time=400, path=":ev/ev_asu_31/", set="ev_asu_31", ax=1280, ay=720, bx=-640, by=-360, x=-200, y=200},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10064", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「我很开心！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 270,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这哪是什么不得体的表情，明明就是在世天使纯洁无暇的笑容。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 272,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"激动到忘乎所以的亚澄居然会笑得这么开心……她可爱的笑容实在令人着迷。我到底迷上这个孩子多少次了啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 274,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"礼物是带有雪花形状的发饰。我看到这款可能会联想到小式的设计时，便决定「就是这个！」。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 276,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"学生会长任期结束后的一个月内。每天18时到22时的时薪是1050日元，每周工作三天再削减约会费用才勉勉强强买下了这个礼物。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 278,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我买下后在网上搜了同款，并询问妃爱「怎么样？」，得到了她的表扬。过了几天我再问她「这礼物真的好吗？」时，她生气地回复我「拿出自信来！」。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 280,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"实际上，礼物送出去后我也是紧张得不行。我没有自信保证进入咖啡店后，亚澄打开盒子时也会保持着笑容。但我的天使会始终向我露出笑容。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 282,
+	},
+	block_00072 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"msgoff"},
+		{"bg", file="zbg027a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="あすみ", size="z1", mode=3, resize=1, path=":fg/asu/z1/", file="asu_z1b1100", ex05="asu_z1b0000", face="b0052", head="asu_z1b", lv=2.3, id=13, sync=0},
+		{"bg", file="reco", id=9, lv=9, path=":sys/", sync=0},
+		{"extrans"},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1b1100", ex05="asu_z1b0000", face="b0054", head="asu_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10065", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"『这个盒子，好漂亮啊！　我很喜欢这样的水蓝色，因为我很喜欢爱丽丝蓝……我自己购物时也经常选择这种颜色。这个盒子我也会珍重保存的』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 296,
+	},
+	block_00073 = {
+		{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a1100", ex05="asu_z1a0000", face="a0010", head="asu_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a1100", ex05="asu_z1a0000", face="a0008", head="asu_z1a", lv=2.3, id=13},
+				{"fgact", ch="あすみ", act="びっくり", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a1100", ex05="asu_z1a0000", face="a0012", head="asu_z1a", lv=2.3, id=13},
+			},
+			vl03 = {
+				{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a1100", ex05="asu_z1a0000", face="a0052", head="asu_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10066", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"『诶？　哇，这个是……啊，抱歉『这个』该说是什么呢……这个形状，象征着雪？　好可爱……』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 304,
+	},
+	block_00074 = {
+		{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a1110", ex05="asu_z1a0010", face="a0008", head="asu_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a1110", ex05="asu_z1a0010", face="a0019", head="asu_z1a", lv=2.3, id=13},
+			},
+			vl02 = {
+				{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a1110", ex05="asu_z1a0010", face="a0055", head="asu_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10067", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"『我，我非常喜欢水蓝色和雪……啊，你知道的吧。那个，所以……我有很多喜欢的东西……非常开心能收到这个礼物！』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 311,
+	},
+	block_00075 = {
+		{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1b1100", ex05="asu_z1b0000", face="b0054", head="asu_z1b", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10068", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"『前辈送我的礼物，我一定珍惜使用的』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 316,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"送礼居然是件这么开心的事，我在之前有过这样感动的经历吗?好像是自上次在给我家妹妹做炒饭以来了。诶，好像还挺近的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 318,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"之前和亚澄去买耳机的时候，我就发誓在学生会长任期结束后，一定要打工用自己的钱买个礼物送给她。现在，这个愿望实现了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 320,
+	},
+	block_00078 = {
+		{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1b1110", ex05="asu_z1b0010", face="b0013", head="asu_z1b", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10069", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"『那个，我也……有个礼物要送给前辈……』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 325,
+	},
+	block_00079 = {
+		{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1b1100", ex05="asu_z1b0000", face="b0022", head="asu_z1b", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1b1100", ex05="asu_z1b0000", face="b0023", head="asu_z1b", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10070", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"『之前，和前辈一起买耳机的时候，得到了前辈的极力夸赞……买下来后，好几次我在房间里用着耳机时，前辈也觉得『音质不错』』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 330,
+	},
+	block_00080 = {
+		{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a1100", ex05="asu_z1a0000", face="a0055", head="asu_z1a", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a1100", ex05="asu_z1a0000", face="a0013", head="asu_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10071", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"『我知道耳机的爱好分为好多种类，但看到前辈好像非常喜欢那款耳机……所以，我就买了个同款送给前辈』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 335,
+	},
+	block_00081 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"呜～嗯，猫耳耳机……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 337,
+	},
+	block_00082 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这是亚澄送给我的礼物。而且，还是绞尽脑汁下选择的礼物。所以我也想开心得和亚澄一样笑容满面。但是，猫耳耳机啊……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 339,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"结果无论怎样都变成了假笑。我要是有我家妹妹百分之一的演技水平就好了。但是，亚澄说我戴着『非常合适！』，也行吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 341,
+	},
+	block_00084 = {
+		{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1b1110", ex05="asu_z1b0010", face="b0052", head="asu_z1b", lv=2.3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10072", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"『那个，我能现在就戴上前辈送的……礼物吗？　我会尽快弄好的……』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 345,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"『可以。我只要有手机在等多长时间都没问题，只要化妆间人不多的话就慢慢来。不用太着急』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 348,
+	},
+	block_00086 = {
+		{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1b1110", ex05="asu_z1b0010", face="b0055", head="asu_z1b", lv=2.3, id=13},
+		{"fgact", ch="あすみ", act="うなづく", lv=2.3, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="あすみ", size="z1", mode=3, path=":fg/asu/z1/", file="asu_z1a1110", ex05="asu_z1a0010", face="a0054", head="asu_z1a", lv=2.3, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10073", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"『好的！　那就听前辈的……这是前辈送给我的礼物，我会做好准备自信满满地展示自己的！』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 354,
+	},
+	block_00087 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"bg", x=-200, y=200, file="zev_asu_31_06", path=":ev/ev_asu_31/", set="ev_asu_31", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"此次对话的结果造就了眼前的天使。我的恋人自信地展示自己，真是世界第一可爱。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 361,
+	},
+	block_00088 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10074", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「今天是我最想在前辈面前变可爱的一天，感谢前辈的礼物让我如愿以偿。虽然变可爱的只是戴有发饰的头发，我还是平常的我」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 364,
+	},
+	block_00089 = {
+		{"bg", time=500, file="ev_asu_31_06", path=":ev/ev_asu_31/", set="ev_asu_31"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「不，从头发到脚全部都很可爱。就像雪妖精一样」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 370,
+	},
+	block_00090 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我的嘴巴不受控制地说出了这句话，属实是有些不知羞耻。但亚澄却满脸通红地用手遮住了嘴巴。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 372,
+	},
+	block_00091 = {
+		{"bg", sync=0, face="1", file="ev_asu_31_05", time=400, path=":ev/ev_asu_31/", set="ev_asu_31"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10075", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「谢谢。我很高兴，只要前辈眼中的我看起来很可爱就足够了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 377,
+	},
+	block_00092 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我也很高兴哦。能在圣诞节和这么可爱的女友一起，今天是我人生中最幸福的一天」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 380,
+	},
+	block_00093 = {
+		{"bg", sync=0, face="1", file="ev_asu_31_08", time=400, path=":ev/ev_asu_31/", set="ev_asu_31"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10076", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「没想到还下了雪……我，感觉从今往后每逢圣诞节都会回忆起今天的景色吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 385,
+	},
+	block_00094 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10077", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「如果我没和前辈交往的话，那今天，我会疲于前天的演唱会，作曲和直播都不会做，在房间里游手好闲吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 388,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在房间里什么都不做，就这么混过一天也是我向往的生活啊。虽然现在的我独自一人时可能会感到些许寂寞。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 390,
+	},
+	block_00096 = {
+		{"bg", x=-200, y=200, time=500, file="zev_asu_31_07", path=":ev/ev_asu_31/", set="ev_asu_31", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10078", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「我能牵起你的手吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 396,
+	},
+	block_00097 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「我也是想牵起亚澄的手，才把你带到这条街道」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 399,
+	},
+	block_00098 = {
+		{"bg", x=-200, y=200, sync=0, face="1", file="zev_asu_31_08", time=400, path=":ev/ev_asu_31/", set="ev_asu_31", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10079", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「因为我是雪妖精，所以手可能会很冷哦」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 404,
+	},
+	block_00099 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"直到牵起手，我都没有发觉那是亚澄为缓解我刚才羞耻发言而开的玩笑。还故作帅气地说「亚澄的手很暖和哦」。想哭。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 406,
+	},
+	block_00100 = {
+		{"bg", time=500, file="ev_asu_31_08", path=":ev/ev_asu_31/", set="ev_asu_31"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"刚开始没走多久，因为亚澄满脸笑意地低下头，所以我们两人几乎没有说话。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 410,
+	},
+	block_00101 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但亚澄或许注意到如果低着头就看不到街道的景色了吧，便抬起头来夸赞景色「好漂亮啊」，因此，我们两人也能笑着享受湛蓝世界的光亮洞窟。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 412,
+	},
+	block_00102 = {
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=0, func="wait"},
+		{"movie", file="op"},
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=0, func="wait"},
+		{"bg", speed=160000, file="zbg099c", path=":bg/", x2=640, y2=0, x=-640, y=0, ax=1280, ay=720, bx=-640, by=-360},
+		{"bgm", file="bgm23"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过，到欣赏彩灯的时候还好，但不知什么时候走错了路，在穿过通往号泣百货商店的路时，这一带的情况变得诡异起来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 423,
+	},
+	block_00103 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"情侣的数量变多了，不对，彩灯街上也有情侣，准确来说是充满情热的男女变多了，酒吧和livehouse也开始映入眼帘了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 425,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在这时候折回又会搞错路吧，亚澄看到酒吧和livehouse后眼中发亮，甚至兴高采烈地拉着我的手往前走。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 427,
+	},
+	block_00105 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然亚澄从来没有去过酒吧，但却饶有兴趣地望着门口，好像对人们沐浴在电子音乐下，摇晃身躯的地方颇为在意。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 429,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"甚至，在这附近就有好几个大型livehouse、好像能够容纳500多人。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 431,
+	},
+	block_00107 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"其中甚至有连我都有所耳闻的知名livehouse，亚澄应该会想进去吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 433,
+	},
+	block_00108 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"Vtuber和亚澄进行「Ｐ」的「柏依特」活动曾数次在此地举办，这个地方也用过亚澄制作的曲目。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 435,
+	},
+	block_00109 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"于是，亚澄主动向着道路深处走去，让我们得以窥视到这条街道的黑暗面。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 437,
+	},
+	block_00110 = {
+		{"bg", speed=80000, file="zbg099c", path=":bg/", x2=0, y2=-360, x=0, y=360, ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"回过神来的亚澄不禁哑然。对，这个地方存在酒吧和知名livehouse的同时，还大量存在另一种「场所」。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 442,
+	},
+	block_00111 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"荧光灯照射下的板子上，价格高昂的数字光彩耀目。这是日本为数不多的粉色地带，情侣酒店的街道。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 444,
+	},
+	block_00112 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我和亚澄从没去过情侣酒店。之前和她做过的地方也不过是在她的房间和学生会室而已。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 446,
+	},
+	block_00113 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我甚至认为不能把亚澄带入到这种地方。亚澄是天使，是美丽的生物。不能把她带进这样的色情场所。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 448,
+	},
+	block_00114 = {
+		{"fg", ch="あすみ", size="z1", hoho="h", mode=1, path=":fg/asu/z1/", file="asu_z1b1001", ex05="asu_z1b0001", face="b0014h", head="asu_z1b", lv=2.3, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10080", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「……那个」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 455,
+	},
+	block_00115 = {
+		{"fg", ch="あすみ", size="z1", hoho="h", mode=1, path=":fg/asu/z1/", file="asu_z1a1001", ex05="asu_z1a0001", face="a0014h", head="asu_z1a", lv=2.3, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10081", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「只要前辈愿意的话……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 459,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"然而，是天使主动邀请我前去那种地方，令人难以置信。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 461,
+	},
+	block_00117 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"哎呀，还是别装了吧。其实从亚澄牵着我的手起，我就已经在努力地搜寻着空房了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 463,
+	},
+	block_00118 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然今天不是圣诞节当天，但因为是星期六的夜晚，所以情侣数量也非常多。在市中心这个地段以及这个时间段，不用等就能进去已经算是非常好了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 465,
+	},
+	block_00119 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"观赏彩灯，交换礼物，牵手共行，在合适的氛围中，恋人之间的情热已经增长到极限了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 467,
+	},
+	block_00120 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"既然在这种情况下被女孩子邀请，我也不打算继续坚持说是天使或美丽的生物了。我想要抱住她，亲吻她，想要炽热地和她连结在一起。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 469,
+	},
+	block_00121 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"对啊。今天的亚澄是雪妖精。妖精是会诱惑人的，与天使不同，应该也会做一些色色的事情吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 471,
+	},
+	block_00122 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"智宏"},
+					"「啊，那家……还有空房。其他地方都已经满房了，没有选择的余地了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 474,
+	},
+	block_00123 = {
+		{"fg", ch="あすみ", size="z1", hoho="h", mode=1, path=":fg/asu/z1/", file="asu_z1a1001", ex05="asu_z1a0001", face="a0046h", head="asu_z1a", lv=2.3, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10082", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「嗯……我只要能和前辈在一起，然后」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 479,
+	},
+	block_00124 = {
+		{"fg", ch="あすみ", size="z1", hoho="h", mode=1, path=":fg/asu/z1/", file="asu_z1b1001", ex05="asu_z1b0001", face="b0032h", head="asu_z1b", lv=2.3, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_asu_10083", ch="asu"},
+			},
+			ja = {
+				{
+					name = {"あすみ"},
+					"「能被前辈抱……就很开心了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 483,
+	},
+	block_00125 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我们没有时间紧张和犹豫，直接来到还有空房的旅馆，按下亮着灯的房间按钮。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 485,
+	},
+	block_00126 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我们在电梯内沉默不语。下了电梯来回找了好久才好不容易找到房间，结果没有注意到房间卡插反了，就这样插了十来回。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 487,
+	},
+	block_00127 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"好不容易进入房间，之后才看见房间费用是两小时15800日元。啊啊啊啊啊啊，我剩下的血汗钱啊啊啊啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 489,
+	},
+	block_00128 = {
+		{"bgm", stop=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="rule_001", wait=250, file="black", path=":bg/", vague=40},
+		{"excall", file="03_あすみ01_h01"},
+		{"text"},
+		linkback = "block_00127",
+		line = 496,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}
